@@ -1,0 +1,7 @@
+@startuml
+actor Abstracto
+Abstracto-up-(ver\nofertas)
+Clientes-left->Abstracto
+Clientes--(Llevar a cabo\nconsultas)
+(Visualizar foto)<-up-(Llevar a cabo\nconsultas)
+
