@@ -1,0 +1,17 @@
+@startuml
+
+(Dar alta estudiantes)
+(Modificar horarios)
+(Verificar datos estudiantes)
+(Buscar en listas de clase)
+
+Estudiante->(Consultar horarios)
+PersonalPDI-->(Proponer cambios en el horario)
+PersonalPDI-->(Dar alta esudiantes PDI)
+PersonalPAS-->(Modificar horarios)
+PersonalPAS-->(Dar alta estudiantes)
+(Dar alta estudiantes PDI)--|>(Dar alta estudiantes)
+
+PersonalPDI--|>Estudiante
+PersonalPAS--|>Estudiante
+@enduml
