@@ -1,0 +1,28 @@
+@startuml
+
+
+:Vendedor:---> Abstracto
+:Proveedor: --> Abstracto
+:Administrador: --> Abstracto
+:Comprador: --> Abstracto
+:Vendedor: -- (realizar)
+:Comprador: -- (realizar)
+"Realizar venta" as (realizar)
+
+:Comprador: -- (finalizar)
+"Finalizar venta" as (finalizar)
+
+:Abstracto: -- (ConsultarO)
+"Consultar ofertas" as (ConsultarO)
+
+:Abstracto: -- (ConsultarP)
+"Consultar precios" as (ConsultarP)
+
+
+:Administrador: -- (EliminarP)
+"Eliminar producto" as (EliminarP)
+
+:Comprador: --> Vendedor
+
+
+@enduml
