@@ -1,0 +1,19 @@
+@startuml
+
+(Mostrar calendario) as (UC1)
+(Buscar elementos) as (UC2)
+usecase (Consultar disponibilidad) as (UC3)
+actor Cliente 
+:Cliente: -> (UC3)
+usecase Consultar as UC4
+usecase (Gestionar peticiones) as UC7
+usecase (Realizar ofertas) as UC8
+actor Administrador
+:Administrador: -> (UC4)   
+:Administrador: --> (UC7) 
+:Administrador: ---> (UC8) 
+usecase (Visualizar ofertas) as UC5
+usecase (Consultar reservas) as UC6
+usecase (Gestionar nuevas reservas) as UC9
+usecase UC10 as "Realizar ofertas (vista comercial) -- extension points Bloqueo temporal de reserva"
+@enduml
