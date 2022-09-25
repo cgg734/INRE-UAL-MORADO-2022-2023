@@ -1,4 +1,4 @@
-@startuml
+@startuml FotografiaOnline
 actor Abstracto
 Abstracto-up-(ver\nofertas)
 Clientes-left-|>Abstracto
