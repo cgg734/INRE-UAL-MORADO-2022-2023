@@ -4,4 +4,8 @@
  Ayoub
  Sarai
  Pedro
+ Fotografia online:
+ image.png
+
+ Gestion de incidencias
  image.png

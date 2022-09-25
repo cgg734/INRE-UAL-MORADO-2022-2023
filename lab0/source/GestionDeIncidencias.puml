@@ -1,0 +1,58 @@
+@startuml GestionDeIncidencias
+actor Tecnico
+actor Abstracto
+Tecnico--(Realizar \ninformes)
+Tecnico--|>Abstracto
+usecase DA as "Dar de alta 
+incidencias
+--
+extension points
+Enviar correo"
+Abstracto--DA
+(Enviar correo)..>DA : <<extend>>
+actor SG as "Sistema de gestion de correos"
+(Enviar correo)--SG
+usecase ALVT as "Atender llamadas (vista Tecnico)"
+Tecnico--(ALVT)
+(ALVT)--|>(Atender llamadas)
+(ALVT)..>(Comprobar datos de incidencia) : <<include>>
+actor Actor
+Actor<|--Tecnico
+usecase CI as "Consultar incidencias
+--
+extension points
+Editar datos de incidencia"
+CI--Actor
+CI<..(Editar datos de incidencia) : <<extend>>
+usecase CIVU as "Consultar incidencias \n(vista de usuario invitado)"
+CI<|--(CIVU)
+actor UI as "Usuario invitado"
+UI--(CIVU)
+usecase AH as "Acceder a histórico\nde notificaciones"
+UI--AH
+UI--(Registrarse)
+usecase II as "Informar incidencia"
+UI--II
+(Subida de foto)<..(II) : <<include>>
+usecase DAL as "Dar de alta localización"
+(DAL)<..(II) : <<include>>
+usecase EC as "Explicación completa \nen formato textual"
+(EC)<..(II) : <<include>>
+actor Operador
+Operador--|>Actor
+usecase ALVO as "Atender llamadas (vista operador)"
+Operador--(ALVO)
+(ALVO)--|>(Atender llamadas)
+(ALVO)..>(Introducir nuevos datos) : <<include>>
+Operador--(Marcar incidencias)
+Operador-up-(Ordenar incidencias)
+actor Administrador
+Administrador--|>Actor
+usecase OI as "Ordenar incidencias (vista Administrador)"
+Administrador--(OI)
+(OI)--|>(Ordenar incidencias)
+usecase AC as "Adición de comentario"
+(OI)..>(AC) : <<include>>
+usecase GCI as "Gestión de \ncategoría de incidencia"
+Administrador--(GCI)
+@enduml
