@@ -1,7 +1,44 @@
 @startuml
 actor Abstracto
 Abstracto-up-(ver\nofertas)
-Clientes-left->Abstracto
+Clientes-left-|>Abstracto
 Clientes--(Llevar a cabo\nconsultas)
-(Visualizar foto)<-up-(Llevar a cabo\nconsultas)
-
+usecase Vfoto as "Visualizar foto
+--
+extension points
+Denunciar foto "
+Vfoto-up-(Llevar a cabo\nconsultas)
+(Denunciar foto).up.>Vfoto : <<extend>>
+(Denunciar foto)..>(Introducir \nexplicacion) : <<include>>
+actor Gestores 
+Gestores-right-|>Abstracto
+Gestores-up-(Bloquear ofertas)
+Gestores--(Emitir \nfacturas)
+Gestores-down-(Editar facturas)
+(Editar facturas)--|>(Editar)
+actor "Software de facturacion" as SF
+SF-up-(Emitir \nfacturas)
+actor Administrador
+Administrador-right-|>Gestores
+Administrador--(Editar usuario)
+(Editar usuario)--|>(Editar)
+Administrador-up-(Crear usuarios)
+Administrador--(Enviar correo)
+(Crear usuarios).left.>(Enviar correo) : <<include>>
+actor "Gestor de correo" as GC 
+GC-up-(Enviar correo)
+(Denunciar foto)-right-|>(Indicar revision \nde foto)
+actor Controladores
+Controladores-left-(Indicar revision \nde foto)
+Controladores--(Editar informacion \nde foto)
+actor Vendedor
+Vendedor--(Buscar detalles \nen la foto)
+Vfoto<|-right-(Buscar detalles \nen la foto)
+(Buscar detalles \nen la foto)..>(Verificar datos) : <<include>>
+usecase HF as "Hacer oferta
+--
+extension points
+Reducir precio"
+Vendedor-right-HF
+(Reducir precio)..>HF : <<extend>>
+@enduml
