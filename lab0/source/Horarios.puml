@@ -2,15 +2,25 @@
 
 (Dar alta estudiantes)
 (Modificar horarios)
-(Verificar datos estudiantes)
+
 (Buscar en listas de clase)
 
-Estudiante->(Consultar horarios)
-PersonalPDI-->(Proponer cambios en el horario)
-PersonalPDI-->(Dar alta esudiantes PDI)
-PersonalPAS-->(Modificar horarios)
-PersonalPAS-->(Dar alta estudiantes)
+usecase AltaPDI as "Dar alta estudiantes PDI
+--
+extension points
+Buscar en listas de clase
+"
+Estudiante-(Consultar horarios)
+PersonalPDI--(Proponer cambios en el horario)
+PersonalPDI--(AltaPDI)
+PersonalPAS--(Modificar horarios)
+PersonalPAS--(Dar alta estudiantes)
+
 (Dar alta estudiantes PDI)--|>(Dar alta estudiantes)
+
+(Dar alta estudiantes).>(Verificar datos estudiantes): <<include>>
+(Buscar en listas de clase)..>(AltaPDI): <<extends>>
+
 
 PersonalPDI--|>Estudiante
 PersonalPAS--|>Estudiante
