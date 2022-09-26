@@ -1,4 +1,4 @@
-@startuml
+@startuml CompaniaHotelera
 
 (Mostrar calendario) as (UC1)
 (Buscar elementos) as (UC2)
