@@ -1,10 +1,5 @@
 @startuml
 
-(Dar alta estudiantes)
-(Modificar horarios)
-
-(Buscar en listas de clase)
-
 usecase AltaPDI as "Dar alta estudiantes PDI
 --
 extension points
