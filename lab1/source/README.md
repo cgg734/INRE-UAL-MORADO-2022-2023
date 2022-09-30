@@ -1,4 +1,5 @@
 # Horarios
+En una universidad, el personal del PDI, el personal del PAS y los estudiantes pueden consultar horarios. Por su parte, el personal del PAS puede modificar horarios y dar de alta estudiantes. El personal de PDI puede proponer cambios en los horarios y dar de alta estudiantes. La funcionalidad de dar de alta estudiantes del PAS realiza una verificación de los datos del estudiante. Sin embargo, la funcionalidad de dar de alta estudiantes del PDI, además de verificar los datos también permite de forma excepcional realizar la búsqueda en las listas de clase de sus asignaturas.
 
 | ***UC-01*** |  |
 | --- | --- |
@@ -17,9 +18,9 @@
 | ***Nombre:***  | Modificar horarios. |
 | ***Autor:***  | FehriGilFernandezBesada |
 | ***Fecha:***  | 30/09/22 |
-| ***Descripcion:*** <br> El personal PAS puede modificar los horarios. |
-| ***Actores:***  <br>  PersonalPAS. |
-| ***Precondicion:***  <br>  El personal PAS debe estar registrado como PAS. |
-| ***Flujo Normal:***  <br>  1. El personal PAS debe pulsar un boton para modificar el horario. <br> 2. El actor rellena un formulario con cajas de texto para los nuevos cambios realizados. <br> 3. El actor pulsa un botón para confirmar los cambios. |
-|***Flujo Alternativo:*** <br> 2A. El sistema comprueba los datos del formulario y si no son correctos pide corrección |
-| ***Poscondiciones :*** <br> Los cambios han sido almacenados en el sistema y se actualizan para el resto de usuarios |
+| ***Descripcion:*** | <br> El personal PAS puede modificar los horarios. |
+| ***Actores:***  | <br>  PersonalPAS. |
+| ***Precondicion:*** | <br>  El personal PAS debe estar registrado como PAS. |
+| ***Flujo Normal:*** | <br>  1. El personal PAS debe pulsar un boton para modificar el horario. <br> 2. El actor rellena un formulario con cajas de texto para los nuevos cambios realizados. <br> 3. El actor pulsa un botón para confirmar los cambios. |
+|***Flujo Alternativo:*** | <br> 2A. El sistema comprueba los datos del formulario y si no son correctos pide corrección |
+| ***Poscondiciones :*** | <br> Los cambios han sido almacenados en el sistema y se actualizan para el resto de usuarios |
