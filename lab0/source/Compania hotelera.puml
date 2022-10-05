@@ -1,19 +1,50 @@
 @startuml CompaniaHotelera
 
-(Mostrar calendario) as (UC1)
-(Buscar elementos) as (UC2)
-usecase (Consultar disponibilidad) as (UC3)
-actor Cliente 
-:Cliente: -> (UC3)
-usecase Consultar as UC4
-usecase (Gestionar peticiones) as UC7
-usecase (Realizar ofertas) as UC8
+usecase (Visualizar ofertas) as VisualOf
+"Consultar disponibilidades" as (ConsultDisponib)
+
+actor Cliente
+Cliente-up-(ConsultDisponib)
+Cliente-up-(VisualOf)
+
+usecase (Gestionar peticiones) as GestPet
+usecase (Realizar ofertas) as RealOf
+usecase (Consultar reservas) as ConsultRes
+
 actor Administrador
-:Administrador: -> (UC4)   
-:Administrador: --> (UC7) 
-:Administrador: ---> (UC8) 
-usecase (Visualizar ofertas) as UC5
-usecase (Consultar reservas) as UC6
-usecase (Gestionar nuevas reservas) as UC9
-usecase UC10 as "Realizar ofertas (vista comercial) -- extension points Bloqueo temporal de reserva"
+Administrador-up-(ConsultRes)
+Administrador--(GestPet) 
+Administrador-down-(RealOf) 
+
+Administrador-right->Cliente
+
+(Mostrar calendario) as (MCalenda)
+(ConsultDisponib).up.>(MCalenda)
+
+(Consultar)<--(ConsultDisponib): <<include>>
+(Consultar)<--(ConsultRes)
+
+(Buscar elementos) as (BuscaElem)
+(Consultar).up.>(BuscaElem): <<include>>
+
+actor Comercial
+
+Comercial-up-> :Gestor de reservas:
+Comercial-right-> Administrador
+
+usecase (Gestionar nuevas reservas) as GestNReser
+:Gestor de reservas:-up-(GestNReser)
+
+usecase ROfComercial as "Realizar ofertas {vista comercial}
+--
+extension points
+Bloqueo temporal de reserva "
+
+Comercial--(ROfComercial)
+(ROfComercial)-->(RealOf)
+usecase (Bloqueo temporal de reserva) as (Bloq)
+(Bloq)..>(ROfComercial): <<extend>>
+(Recalculo de precios)<..(ROfComercial): <<include>>
+
+
 @enduml
