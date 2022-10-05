@@ -6,7 +6,6 @@ En una universidad, el personal del PDI, el personal del PAS y los estudiantes p
 | ***Nombre:***  | Proponer cambios en el horario. |
 | ***Autor:***  | Fehri Gil Fernandez Besada |
 | ***Fecha:***  | 30/09/22 |
-<<<<<<< HEAD
 | ***Descripcion:*** | <br> El personal PDI puede proponer cambios en el horario. |
 | ***Actores:***  | <br>  PersonalPDI. |
 | ***Precondicion:*** |  <br>  El personal PDI debe estar registrado. |
@@ -37,14 +36,6 @@ En una universidad, el personal del PDI, el personal del PAS y los estudiantes p
 
 
 
-=======
-| ***Descripcion:*** <br> El personal PDI puede proponer cambios en el horario. |
-| ***Actores:*** | <br> PersonalPDI. |
-| ***Precondicion:*** | <br>  El personal PDI debe estar registrado. |
-| ***Flujo Normal:*** | <br>  1. El personal PDI debe pulsar un botón para proponer cambios en el horario. <br> 2. El actor rellena un formulario con los cambios solicitados. <br> 3. El actor pulsa un botón para confirmar la solicitud. |
-| ***Flujo Alternativo:*** | <br>  1. Si al confirmar no se actualiza el horario vuelve a mostrar el formulario. <br> 2. Si no se rellena el formulario se mostrará un mensaje de error. |
-| ***Poscondiciones***  <br>  La solicitud se ha realizado correctamente. |
->>>>>>> 8637d28108a2e0d73a771ec0f67a1cf235e1e098
 
 | ***UC-03*** |  |
 | --- | --- |

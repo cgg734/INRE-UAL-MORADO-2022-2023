@@ -1,4 +1,4 @@
-@startuml
+@startuml Horarios
 
 usecase AltaPDI as "Dar alta estudiantes PDI
 --
