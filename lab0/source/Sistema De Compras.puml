@@ -1,5 +1,4 @@
-@startuml
-
+@startuml Sistema de compras 
 :Vendedor:---|> Abstracto
 :Proveedor: --|> Abstracto
 :Administrador: --|> Abstracto
