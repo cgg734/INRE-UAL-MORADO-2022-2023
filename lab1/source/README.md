@@ -177,4 +177,20 @@ En un sistema de compra, existen cuatro tipos de usuarios: comprador, vendedor, 
 | ***Flujo Normal:*** | <br>  1. El comprador realiza la busqueda del producto a consultar. <br> 2. El sistema comprueba la disponibilad del producto <br> 3. El sistema ofrece informacion del producto consultado |
 |***Flujo Alternativo:*** | <br> 3A. Si el producto no esta disponible, se muestra un mensaje advirtiendo de esto el comprador. |
 | ***Poscondiciones :*** | <br>  |
+<<<<<<< HEAD
 >>>>>>> eabea36851886b115a8307c6e6de58fe90ef2962
+=======
+
+| ***UC-07*** |  |
+| --- | --- |
+| ***Nombre:***  | Marcar productos bloqueados |
+| ***Autor:***  | FehriGilFernandezBesada |
+| ***Fecha:***  | 30/09/22 |
+| ***Descripcion:*** | <br> El sistema comprueba la disponibilidad de los productos consultados. |
+| ***Relaciones*** | UC-02, UC-03 |
+| ***Actores:***  | <br>  Comprador. |
+| ***Precondicion:*** | <br>  Un producto debe estar disponible |
+| ***Flujo Normal:*** | <br>  1. El comprador puede seleccionar un producto clickando sobre el. <br> 2. El producto se agrega a la cesta de productos de la compra. <br> 3. El producto se bloquea. |
+|***Flujo Alternativo:*** | <br> 2A. El producto no esta disponible e informa al comprador. |
+| ***Poscondiciones :*** | <br> Los cambios han sido almacenados en el sistema y el producto bloqueado para el comprador. |
+>>>>>>> 98c671146223892d580625887e1bb15a675fdc27
