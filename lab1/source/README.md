@@ -11,7 +11,7 @@ En una universidad, el personal del PDI, el personal del PAS y los estudiantes p
 | ***Precondicion:*** | <br>  El personal PDI debe estar registrado. |
 | ***Flujo Normal:*** | <br>  1. El personal PDI debe pulsar un botón para proponer cambios en el horario. <br> 2. El actor rellena un formulario con los cambios solicitados. <br> 3. El actor pulsa un botón para confirmar la solicitud. |
 | ***Flujo Alternativo:*** | <br>  1. Si al confirmar no se actualiza el horario vuelve a mostrar el formulario. <br> 2. Si no se rellena el formulario se mostrará un mensaje de error. |
-| ***Poscondiciones***  <br>  La solicitud se ha realizado correctamente. |
+| ***Poscondiciones*** | <br>  La solicitud se ha realizado correctamente. |
 
 | ***UC-03*** |  |
 | --- | --- |
