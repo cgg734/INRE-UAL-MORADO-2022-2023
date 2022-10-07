@@ -7,6 +7,7 @@ En una universidad, el personal del PDI, el personal del PAS y los estudiantes p
 | ***Autor:***  | Fehri Gil Fernandez Besada |
 | ***Fecha:***  | 30/09/22 |
 | ***Descripcion:*** | <br> El personal PDI puede proponer cambios en el horario. |
+| ***Relaciones*** | IF |
 | ***Actores:***  | <br>  PersonalPDI. |
 | ***Precondicion:*** |  <br>  El personal PDI debe estar registrado. |
 | ***Flujo Normal:***  | <br>  1. El personal PDI debe pulsar un boton para modificar el horario. <br> 2. El actor rellena un formulario con los cambios realizados. <br> 3. El actor pulsa un botón para confirmar los cambios. |
@@ -21,6 +22,7 @@ En una universidad, el personal del PDI, el personal del PAS y los estudiantes p
 | ***Autor:***  | Fehri Gil Fernandez Besada |
 | ***Fecha:***  | 30/09/22 |
 | ***Descripcion:*** | <br> El usuario puede comprobar el horario correspondiente |
+| ***Relaciones*** | IF |
 | ***Actores:***  | <br>  Estudiantes. |
 | ***Precondicion:*** |  <br>  El estudiante debe de tener sus datos personales en la universidad y por tanto estar dado de alta. |
 | ***Flujo Normal:***  | <br>  1. El estudiante accede a la pestaña de horario. <br> 2. El estudiante debe de elegir el dia y el mes. <br> 3. El actor pulsa un botón para el envio del formulario. <br> 4. El sistema comprueba que los datos introducidos. <br> 5. Visualizacion del horario. |
@@ -36,6 +38,7 @@ En una universidad, el personal del PDI, el personal del PAS y los estudiantes p
 | ***Descripcion:*** | <br> El personal PAS puede modificar los horarios. |
 | ***Actores:***  | <br>  PersonalPAS. |
 | ***Precondicion:*** | <br>  El personal PAS debe estar registrado como PAS. |
+| ***Relaciones*** | IF |
 | ***Flujo Normal:*** | <br>  1. El personal PAS debe pulsar un boton para modificar el horario. <br> 2. El actor rellena un formulario con cajas de texto para los nuevos cambios realizados. <br> 3. El actor pulsa un botón para confirmar los cambios. |
 |***Flujo Alternativo:*** | <br> 2A. El sistema comprueba los datos del formulario y si no son correctos pide corrección |
 | ***Poscondiciones :*** | <br> Los cambios han sido almacenados en el sistema y se actualizan para el resto de usuarios |
@@ -46,10 +49,11 @@ En una universidad, el personal del PDI, el personal del PAS y los estudiantes p
 | ***Autor:***  | FehriGilFernandezBesada |
 | ***Fecha:***  | 30/09/22 |
 | ***Descripcion:*** | <br> El personal PDI puede dar de alta a estudiantes. |
+| ***Relaciones*** | UC-05,UC-06 |
 | ***Actores:***  | <br>  PersonalPDI. |
 | ***Precondicion:*** | <br>  El personal PDI debe estar registrado como PDI. |
-| ***Flujo Normal:*** | <br>  1. El personal PDI debe interactuar con un boton para dar de alta a un usuario. <br> 2. El actor rellena un formulario con cajas de texto para los datos del alumno. <br> 3. El actor pulsa un botón para confirmar los cambios. |
-|***Flujo Alternativo:*** | <br> 2A. Si el los datos del alumno ya estan registrados en el sistema el personal PDI puede buscar al alumno en las listas de clase |
+| ***Flujo Normal:*** | <br>  1. El personal PDI debe pulsar un boton para elegir la opcion de dar alta a un estudiante. <br> 2. El actor rellena un formulario con cajas de texto para los datos del estudiante que se va a dar de alta. <br> 3. El actor pulsa un botón para confirmar los cambios. <br> 4. Los datos de los estudiantes deberan ser verificados por el sistema. |
+|***Flujo Alternativo:*** | <br> 2A. Si en los datos existen correlacion con un alumno el personal puede buscar en las listas de clase. <br> 2B. El sistema comprueba los datos del formulario y si no son correctos pide corrección |
 | ***Poscondiciones :*** | <br> Los cambios han sido almacenados en el sistema y se actualizan para el resto de usuarios |
 <br>
 
@@ -59,9 +63,10 @@ En una universidad, el personal del PDI, el personal del PAS y los estudiantes p
 | ***Autor:***  | FehriGilFernandezBesada |
 | ***Fecha:***  | 30/09/22 |
 | ***Descripcion:*** | <br> El personal PDI de manera opcional puede buscar en las listas de clase. |
+| ***Relaciones*** | UC-04 |
 | ***Actores:***  | <br>  PersonalPDI. |
-| ***Precondicion:*** | <br>  El personal PDI debera estar dando de alta a estudiantes PDI. |
-| ***Flujo Normal:*** | <br>  1. El personal PDI debe entrar en la opcion de alumno existente dando de alta a un alumno PDI. <br> 2. El personal PDI debe escoger el alumno ya existente en las listas de clase <br> 3. El actor pulsa un botón para confirmar los cambios. |
+| ***Precondicion:*** | <br>  El personal debe estar registrado como PDI |
+| ***Flujo Normal:*** | <br>  1. El personal PDI debe dar de alta a un alumno. <br> 2. El personal PDI puede utilizar la opcion en las listas si existen correlaciones con los datos de los alumnos <br> 3. El actor pulsa un botón para confirmar los cambios. |
 |***Flujo Alternativo:*** | <br> 2A. El sistema comprueba los datos del formulario y si no son correctos pide corrección |
 | ***Poscondiciones :*** | <br> Los cambios han sido almacenados en el sistema y se actualizan para el resto de usuarios |
 <br>
@@ -72,6 +77,7 @@ En una universidad, el personal del PDI, el personal del PAS y los estudiantes p
 | ***Autor:***  | FehriGilFernandezBesada |
 | ***Fecha:***  | 30/09/22 |
 | ***Descripcion:*** | <br> El personal PAS puede dar de alta a estudiantes. |
+| ***Relaciones*** | UC-04 |
 | ***Actores:***  | <br>  PersonalPAS. |
 | ***Precondicion:*** | <br>  El personal PAS debe estar registrado como PAS. |
 | ***Flujo Normal:*** | <br>  1. El personal PAS debe pulsar un boton para elegir la opcion de dar alta a un estudiante. <br> 2. El actor rellena un formulario con cajas de texto para los datos del estudiante que se va a dar de alta. <br> 3. El actor pulsa un botón para confirmar los cambios. <br> 4. Los datos de los estudiantes deberan ser verificados por el sistema. |
