@@ -119,10 +119,10 @@ En un sistema de compra, existen cuatro tipos de usuarios: comprador, vendedor, 
 | ***Autor:***  | FehriGilFernandezBesada |
 | ***Fecha:***  | 30/09/22 |
 | ***Descripcion:*** | <br> El comprador puede consultar algunos productos |
-| ***Relaciones*** | UC-06 |
+| ***Relaciones*** | UC-04, UC-06 |
 | ***Actores:***  | <br>  Comprador. |
 | ***Precondicion:*** | <br>  El producto tiene que estar disponible. |
-| ***Flujo Normal:*** | <br>  1. El comprador realiza la busqueda del producto a consultar. <br> 2. El sistema comprueba la disponibilad del producto <br> 3. El sistema ofrece informacion del producto consultado |
+| ***Flujo Normal:*** | <br>  1. Los actores deben introducir la id o palabra clave en el motor de busqueda. <br> 2. El sistema muestra informacin relacionada con los datos introducidos en el buscador. <br> 2. El sistema comprueba la disponibilad del producto <br> 3. El sistema ofrece informacion del producto consultado |
 |***Flujo Alternativo:*** | <br> 3A. Si el producto no esta disponible, se muestra un mensaje advirtiendo de esto el comprador. |
 | ***Poscondiciones :*** | <br>  |
 <br>
