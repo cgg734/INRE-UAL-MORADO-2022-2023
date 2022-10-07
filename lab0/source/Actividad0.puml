@@ -1,0 +1,34 @@
+@startuml Actividad0
+actor Gestor
+actor Usuario
+actor Abstracto
+(Elaborar listas)--Gestor
+(Elaborar estadisticas)--Gestor
+usecase EC as "Elaborar calendario 
+--
+ extension ponts: 
+ Organizar jornadas"
+ (EC)--Gestor
+ (Organizar jornadas)..>(EC) : <<extend>>
+ usecase Reg as "Registrarse
+ --
+ extension points:
+ Enviar notificaciones
+ Ver notificaciones"
+ usecase RegG as "Registrarse (vista gestor)
+ --
+ extension points:
+ Subir archivos
+ Acceder a reports"
+ Gestor--|>Abstracto
+ Usuario--|>Abstracto
+ (Ver listas)--Abstracto
+ (Ver calendario)--Abstracto
+ (Descargar archivos)--Abstracto
+ (Reg)--Usuario
+ (RegG)--Gestor
+ (Subir archivos)..>RegG : <<extend>>
+ (Acceder a reports)..>RegG : <<extend>>
+(RegG)--|>(Reg)
+(Enviar notificaciones)..>(Reg) : <<extend>>
+(Ver notificacines)..>(Reg) : <<extend>>

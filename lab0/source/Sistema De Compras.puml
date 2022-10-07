@@ -1,28 +1,41 @@
-@startuml
-
-
-:Vendedor:---> Abstracto
-:Proveedor: --> Abstracto
-:Administrador: --> Abstracto
-:Comprador: --> Abstracto
+@startuml Sistema de compras 
+:Vendedor:---|> Abstracto
+:Proveedor: --|> Abstracto
+:Administrador: --|> Abstracto
+:Comprador: --|> Abstracto
 :Vendedor: -- (realizar)
 :Comprador: -- (realizar)
 "Realizar venta" as (realizar)
 
-:Comprador: -- (finalizar)
-"Finalizar venta" as (finalizar)
+:Comprador: -- (finalizarC)
+"Finalizar compra" as (finalizarC)
+
+:Comprador: -- (AgregarP)
+"Agregar productos" as (AgregarP)
+
+:Comprador: -- (ConsultarProd)
+"Consultar Productos" as (ConsultarProd)
+
+ConsultarProd --|> (BuscarProd)
+"Buscar Productos" as (BuscarProd)
 
 :Abstracto: -- (ConsultarO)
 "Consultar ofertas" as (ConsultarO)
 
-:Abstracto: -- (ConsultarP)
-"Consultar precios" as (ConsultarP)
+:Abstracto: -- (ConsultarPrec)
+"Consultar precios" as (ConsultarPrec)
 
 
 :Administrador: -- (EliminarP)
 "Eliminar producto" as (EliminarP)
 
-:Comprador: --> Vendedor
+:Comprador: --|> Vendedor
+
+:Proveedor: -- (AvisarFin)
+"Avisar fin de oferta" as (AvisarFin)
+
+AvisarFin --|> (Avisar)
+"Avisar" as (Avisar)
 
 
 @enduml
