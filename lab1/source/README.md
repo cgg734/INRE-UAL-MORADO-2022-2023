@@ -42,10 +42,10 @@ En una universidad, el personal del PDI, el personal del PAS y los estudiantes p
 
 | ***UC-04*** |  |
 | --- | --- |
-| ***Nombre:***  | Dar alta estudiantes PDI |
+| ***Nombre:***  | Dar alta estudiantes (PDI) |
 | ***Autor:***  | FehriGilFernandezBesada |
 | ***Fecha:***  | 30/09/22 |
-| ***Descripcion:*** | <br> El personal PDI puede dar de alta a estudiantes PDI. |
+| ***Descripcion:*** | <br> El personal PDI puede dar de alta a estudiantes. |
 | ***Actores:***  | <br>  PersonalPDI. |
 | ***Precondicion:*** | <br>  El personal PDI debe estar registrado como PDI. |
 | ***Flujo Normal:*** | <br>  1. El personal PDI debe interactuar con un boton para dar de alta a un usuario. <br> 2. El actor rellena un formulario con cajas de texto para los datos del alumno. <br> 3. El actor pulsa un botón para confirmar los cambios. |
@@ -126,6 +126,19 @@ En un sistema de compra, existen cuatro tipos de usuarios: comprador, vendedor, 
 | ***Descripcion:*** | <br> El personal PAS puede modificar los horarios. |
 | ***Actores:***  | <br>  Comprador, Abstracto. |
 | ***Precondicion:*** | <br>  El producto debe existir en el sistema. |
+| ***Flujo Normal:*** | <br>  1. Los actores deben introducir la id o palabra clave en el motor de busqueda. <br> 2. El sistema muestra informacin relacionada con los datos introducidos en el buscador. |
+|***Flujo Alternativo:*** | <br> 2A. El sistema no encuentra correlaciones con los datos introducidos e informa al usuario |
+| ***Poscondiciones :*** | <br> El sistema ha mostrado un mensaje al usuario. |
+<br>
+
+| ***UC-05*** |  |
+| --- | --- |
+| ***Nombre:***  | Realizar venta. |
+| ***Autor:***  | FehriGilFernandezBesada |
+| ***Fecha:***  | 30/09/22 |
+| ***Descripcion:*** | <br> El comprador y el vendedor pueden realizar una venta simultaneamente. |
+| ***Actores:***  | <br>  Comprador, Vendedor. |
+| ***Precondicion:*** | <br>  El comprador y el vendedor necesitan realizar esta funcion simultaneamente. |
 | ***Flujo Normal:*** | <br>  1. Los actores deben introducir la id o palabra clave en el motor de busqueda. <br> 2. El sistema muestra informacin relacionada con los datos introducidos en el buscador. |
 |***Flujo Alternativo:*** | <br> 2A. El sistema no encuentra correlaciones con los datos introducidos e informa al usuario |
 | ***Poscondiciones :*** | <br> El sistema ha mostrado un mensaje al usuario. |
