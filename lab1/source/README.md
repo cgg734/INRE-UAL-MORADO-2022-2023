@@ -177,4 +177,4 @@ En un sistema de compra, existen cuatro tipos de usuarios: comprador, vendedor, 
 | ***Precondicion:*** | <br>  Un producto debe estar disponible |
 | ***Flujo Normal:*** | <br>  1. El comprador puede seleccionar un producto clickando sobre el. <br> 2. El producto se agrega a la cesta de productos de la compra. <br> 3. El producto se bloquea. |
 |***Flujo Alternativo:*** | <br> 2A. El producto no esta disponible e informa al comprador. |
-| ***Poscondiciones :*** | <br> Los cambios han sido almacenados en el sistema y el producto bloqueado para el comprador. |
+| ***Poscondiciones :*** | <br> Los cambios han sido almacenados en el sistema y el producto bloqueado para el comprador.|
