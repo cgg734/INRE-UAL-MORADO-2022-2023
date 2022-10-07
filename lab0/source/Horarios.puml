@@ -11,9 +11,9 @@ PersonalPDI--(AltaPDI)
 PersonalPAS--(Modificar horarios)
 PersonalPAS--(Dar alta estudiantes)
 
-(Dar alta estudiantes PDI)--|>(Dar alta estudiantes)
+(AltaPDI)--|>(Dar alta estudiantes)
 
-(Dar alta estudiantes).>(Verificar datos estudiantes): <<include>>
+(Dar alta estudiantes)..>(Verificar datos estudiantes): <<include>>
 (Buscar en listas de clase)..>(AltaPDI): <<extends>>
 
 
