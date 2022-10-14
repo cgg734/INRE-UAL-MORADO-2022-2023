@@ -7,6 +7,7 @@ En una universidad, el personal del PDI, el personal del PAS y los estudiantes p
 | ***Autor:***  | Fehri Gil Fernandez Besada |
 | ***Fecha:***  | 30/09/22 |
 | ***Descripcion:*** | <br> El personal PDI puede proponer cambios en el horario. |
+| ***Relaciones*** | IF |
 | ***Actores:***  | <br>  PersonalPDI. |
 | ***Precondicion:*** |  <br>  El personal PDI debe estar registrado. |
 | ***Flujo Normal:***  | <br>  1. El personal PDI debe pulsar un boton para modificar el horario. <br> 2. El actor rellena un formulario con los cambios realizados. <br> 3. El actor pulsa un botón para confirmar los cambios. |
@@ -20,6 +21,7 @@ En una universidad, el personal del PDI, el personal del PAS y los estudiantes p
 | ***Autor:***  | Fehri Gil Fernandez Besada |
 | ***Fecha:***  | 30/09/22 |
 | ***Descripcion:*** | <br> El usuario puede comprobar el horario correspondiente |
+| ***Relaciones*** | IF |
 | ***Actores:***  | <br>  Estudiantes. |
 | ***Precondicion:*** |  <br>  El estudiante debe de tener sus datos personales en la universidad y por tanto estar dado de alta. |
 | ***Flujo Normal:***  | <br>  1. El estudiante accede a la pestaña de horario. <br> 2. El estudiante debe de elegir el dia y el mes. <br> 3. El actor pulsa un botón para el envio del formulario. <br> 4. El sistema comprueba que los datos introducidos. <br> 5. Visualizacion del horario. |
@@ -35,6 +37,7 @@ En una universidad, el personal del PDI, el personal del PAS y los estudiantes p
 | ***Descripcion:*** | <br> El personal PAS puede modificar los horarios. |
 | ***Actores:***  | <br>  PersonalPAS. |
 | ***Precondicion:*** | <br>  El personal PAS debe estar registrado como PAS. |
+| ***Relaciones*** | IF |
 | ***Flujo Normal:*** | <br>  1. El personal PAS debe pulsar un boton para modificar el horario. <br> 2. El actor rellena un formulario con cajas de texto para los nuevos cambios realizados. <br> 3. El actor pulsa un botón para confirmar los cambios. |
 |***Flujo Alternativo:*** | <br> 2A. El sistema comprueba los datos del formulario y si no son correctos pide corrección |
 | ***Poscondiciones :*** | <br> Los cambios han sido almacenados en el sistema y se actualizan para el resto de usuarios |
@@ -45,10 +48,11 @@ En una universidad, el personal del PDI, el personal del PAS y los estudiantes p
 | ***Autor:***  | FehriGilFernandezBesada |
 | ***Fecha:***  | 30/09/22 |
 | ***Descripcion:*** | <br> El personal PDI puede dar de alta a estudiantes. |
+| ***Relaciones*** | UC-05,UC-06 |
 | ***Actores:***  | <br>  PersonalPDI. |
 | ***Precondicion:*** | <br>  El personal PDI debe estar registrado como PDI. |
-| ***Flujo Normal:*** | <br>  1. El personal PDI debe interactuar con un boton para dar de alta a un usuario. <br> 2. El actor rellena un formulario con cajas de texto para los datos del alumno. <br> 3. El actor pulsa un botón para confirmar los cambios. |
-|***Flujo Alternativo:*** | <br> 2A. Si el los datos del alumno ya estan registrados en el sistema el personal PDI puede buscar al alumno en las listas de clase |
+| ***Flujo Normal:*** | <br>  1. El personal PDI debe pulsar un boton para elegir la opcion de dar alta a un estudiante. <br> 2. El actor rellena un formulario con cajas de texto para los datos del estudiante que se va a dar de alta. <br> 3. El actor pulsa un botón para confirmar los cambios. <br> 4. Los datos de los estudiantes deberan ser verificados por el sistema. |
+|***Flujo Alternativo:*** | <br> 2A. Si en los datos existen correlacion con un alumno el personal puede buscar en las listas de clase. <br> 2B. El sistema comprueba los datos del formulario y si no son correctos pide corrección |
 | ***Poscondiciones :*** | <br> Los cambios han sido almacenados en el sistema y se actualizan para el resto de usuarios |
 <br>
 
@@ -58,9 +62,10 @@ En una universidad, el personal del PDI, el personal del PAS y los estudiantes p
 | ***Autor:***  | FehriGilFernandezBesada |
 | ***Fecha:***  | 30/09/22 |
 | ***Descripcion:*** | <br> El personal PDI de manera opcional puede buscar en las listas de clase. |
+| ***Relaciones*** | UC-04 |
 | ***Actores:***  | <br>  PersonalPDI. |
-| ***Precondicion:*** | <br>  El personal PDI debera estar dando de alta a estudiantes PDI. |
-| ***Flujo Normal:*** | <br>  1. El personal PDI debe entrar en la opcion de alumno existente dando de alta a un alumno PDI. <br> 2. El personal PDI debe escoger el alumno ya existente en las listas de clase <br> 3. El actor pulsa un botón para confirmar los cambios. |
+| ***Precondicion:*** | <br>  El personal debe estar registrado como PDI |
+| ***Flujo Normal:*** | <br>  1. El personal PDI debe dar de alta a un alumno. <br> 2. El personal PDI puede utilizar la opcion en las listas si existen correlaciones con los datos de los alumnos <br> 3. El actor pulsa un botón para confirmar los cambios. |
 |***Flujo Alternativo:*** | <br> 2A. El sistema comprueba los datos del formulario y si no son correctos pide corrección |
 | ***Poscondiciones :*** | <br> Los cambios han sido almacenados en el sistema y se actualizan para el resto de usuarios |
 <br>
@@ -71,6 +76,7 @@ En una universidad, el personal del PDI, el personal del PAS y los estudiantes p
 | ***Autor:***  | FehriGilFernandezBesada |
 | ***Fecha:***  | 30/09/22 |
 | ***Descripcion:*** | <br> El personal PAS puede dar de alta a estudiantes. |
+| ***Relaciones*** | UC-04 |
 | ***Actores:***  | <br>  PersonalPAS. |
 | ***Precondicion:*** | <br>  El personal PAS debe estar registrado como PAS. |
 | ***Flujo Normal:*** | <br>  1. El personal PAS debe pulsar un boton para elegir la opcion de dar alta a un estudiante. <br> 2. El actor rellena un formulario con cajas de texto para los datos del estudiante que se va a dar de alta. <br> 3. El actor pulsa un botón para confirmar los cambios. <br> 4. Los datos de los estudiantes deberan ser verificados por el sistema. |
@@ -98,6 +104,7 @@ En un sistema de compra, existen cuatro tipos de usuarios: comprador, vendedor, 
 | ***Autor:***  | FehriGilFernandezBesada |
 | ***Fecha:***  | 30/09/22 |
 | ***Descripcion:*** | <br> El comprador puede finalizar una compra. |
+| ***Relaciones*** | IF |
 | ***Actores:***  | <br>  Comprador |
 | ***Precondicion:*** | <br>  El comprador debera haber agredado productos |
 | ***Flujo Normal:*** | <br>  1. El comprador debera introducir la opcion de finalizar la compra. <br> 2. Se procesan los datos de los artículos selecionados y se pasa a las opciones de pago <br> 3. Se rellenan los formularios de las opciones de pago. <br> 4. Se comprueba la informacion de pago. <br> 5. Se realiza la transaccion.  |
@@ -111,6 +118,7 @@ En un sistema de compra, existen cuatro tipos de usuarios: comprador, vendedor, 
 | ***Autor:***  | FehriGilFernandezBesada |
 | ***Fecha:***  | 30/09/22 |
 | ***Descripcion:*** | <br> El comprador puede agregar productos de su compra. |
+| ***Relaciones*** | If |
 | ***Actores:***  | <br>  Comprador. |
 | ***Precondicion:*** | <br>  Los productos deben mostrarse disponibles. |
 | ***Flujo Normal:*** | <br>  1. El comprador puede seleccionar un producto clickando sobre el. <br> 2. El producto se agrega a la cesta de productos de la compra. <br> 3. El producto se bloquea. |
@@ -124,9 +132,10 @@ En un sistema de compra, existen cuatro tipos de usuarios: comprador, vendedor, 
 | ***Autor:***  | FehriGilFernandezBesada |
 | ***Fecha:***  | 30/09/22 |
 | ***Descripcion:*** | <br> El comprador puede consultar algunos productos |
+| ***Relaciones*** | UC-04, UC-06 |
 | ***Actores:***  | <br>  Comprador. |
 | ***Precondicion:*** | <br>  El producto tiene que estar disponible. |
-| ***Flujo Normal:*** | <br>  1. El comprador realiza la busqueda del producto a consultar. <br> 2. El sistema comprueba la disponibilad del producto <br> 3. El sistema ofrece informacion del producto consultado |
+| ***Flujo Normal:*** | <br>  1. Los actores deben introducir la id o palabra clave en el motor de busqueda. <br> 2. El sistema muestra informacin relacionada con los datos introducidos en el buscador. <br> 2. El sistema comprueba la disponibilad del producto <br> 3. El sistema ofrece informacion del producto consultado |
 |***Flujo Alternativo:*** | <br> 3A. Si el producto no esta disponible, se muestra un mensaje advirtiendo de esto el comprador. |
 | ***Poscondiciones :*** | <br>  |
 <br>
@@ -150,8 +159,35 @@ En un sistema de compra, existen cuatro tipos de usuarios: comprador, vendedor, 
 | ***Autor:***  | FehriGilFernandezBesada |
 | ***Fecha:***  | 30/09/22 |
 | ***Descripcion:*** | <br> El comprador y el vendedor pueden realizar una venta simultaneamente. |
+| ***Relaciones*** |   |
 | ***Actores:***  | <br>  Comprador, Vendedor. |
 | ***Precondicion:*** | <br>  El comprador y el vendedor necesitan realizar esta funcion simultaneamente. |
 | ***Flujo Normal:*** | <br>  1. Los actores deben introducir la id o palabra clave en el motor de busqueda. <br> 2. El sistema muestra informacin relacionada con los datos introducidos en el buscador. |
 |***Flujo Alternativo:*** | <br> 2A. El sistema no encuentra correlaciones con los datos introducidos e informa al usuario |
 | ***Poscondiciones :*** | <br> El sistema ha mostrado un mensaje al usuario. |
+
+| ***UC-06*** |  |
+| --- | --- |
+| ***Nombre:***  | Verificar disponibilidad |
+| ***Autor:***  | FehriGilFernandezBesada |
+| ***Fecha:***  | 30/09/22 |
+| ***Descripcion:*** | <br> El sistema comprueba la disponibilidad de los productos consultados. |
+| ***Relaciones*** | UC-03 |
+| ***Actores:***  | <br>  Comprador. |
+| ***Precondicion:*** | <br>  El comprador consulta productos. |
+| ***Flujo Normal:*** | <br>  1. El comprador realiza la busqueda del producto a consultar. <br> 2. El sistema comprueba la disponibilad del producto <br> 3. El sistema ofrece informacion del producto consultado |
+|***Flujo Alternativo:*** | <br> 3A. Si el producto no esta disponible, se muestra un mensaje advirtiendo de esto el comprador. |
+| ***Poscondiciones :*** | <br>  |
+
+| ***UC-07*** |  |
+| --- | --- |
+| ***Nombre:***  | Marcar productos bloqueados |
+| ***Autor:***  | FehriGilFernandezBesada |
+| ***Fecha:***  | 30/09/22 |
+| ***Descripcion:*** | <br> El sistema comprueba la disponibilidad de los productos consultados. |
+| ***Relaciones*** | UC-02, UC-03 |
+| ***Actores:***  | <br>  Comprador. |
+| ***Precondicion:*** | <br>  Un producto debe estar disponible |
+| ***Flujo Normal:*** | <br>  1. El comprador puede seleccionar un producto clickando sobre el. <br> 2. El producto se agrega a la cesta de productos de la compra. <br> 3. El producto se bloquea. |
+|***Flujo Alternativo:*** | <br> 2A. El producto no esta disponible e informa al comprador. |
+| ***Poscondiciones :*** | <br> Los cambios han sido almacenados en el sistema y el producto bloqueado para el comprador.|
