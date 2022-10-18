@@ -35,6 +35,7 @@ En una universidad, el personal del PDI, el personal del PAS y los estudiantes p
 4.B.- El sistema comprueba que los datos in
 troducidos son correctos, en caso de que los datos no lo sean, se avisara al usuario que los corrija.<br>
 |***Postcondiciones*** | <br> El sistema ha comprobado que los datos introducidos son correctos y el horario se muestra satisfactoriamente
+<br>
 
 | ***UC-03*** |  |
 | --- | --- |
@@ -189,24 +190,14 @@ En un sistema de compra, existen cuatro tipos de usuarios: comprador, vendedor, 
 | ***Poscondiciones :*** | <br> El sistema ha mostrado un mensaje al usuario. |
 <br>
 
-| ***UC-05*** |  |
-| --- | --- |
-| ***Nombre:***  | Realizar venta. |
-| ***Autor:***  | FehriGilFernandezBesada |
-| ***Fecha:***  | 30/09/22 |
-| ***Descripcion:*** | <br> El comprador puede realizar la compra tras hablar . |
-| ***Actores:***  | <br>  Comprador, Vendedor. |
-| ***Precondicion:*** | <br>  Vendedor y comprador deben haber acordado un precio. |
-| ***Flujo Normal:*** | <br>  1. El comprador debe tener sus productos agregados. <br> 2. El vendedor y el comprador acuerdan el precio.  <br> 3. Llegan a un acuerdo para poder finalizar la compra. |
-|***Flujo Alternativo:*** | <br> 3A. Si el comprador no acepta el precio no se llegaria a realizar la compra. |
-| ***Poscondiciones :*** | <br>  |
-<br>
-=======
+| ***UC-05*** | |
+|--- | --- |
+| ***Nombre*** | Realizar venta |
 | ***Descripcion:*** | <br> El comprador y el vendedor pueden realizar una venta simultaneamente. |
-| ***Relaciones*** |   |
+| ***Relaciones*** | UC-08  |
 | ***Actores:***  | <br>  Comprador, Vendedor. |
 | ***Precondicion:*** | <br>  El comprador y el vendedor necesitan realizar esta funcion simultaneamente. |
-| ***Flujo Normal:*** | <br>  1. Los actores deben introducir la id o palabra clave en el motor de busqueda. <br> 2. El sistema muestra informacin relacionada con los datos introducidos en el buscador. |
+| ***Flujo Normal:*** | <br>  1. Los actores deben introducir la id o palabra clave en el motor de busqueda. <br> 2. El sistema muestra informacin relacionada con los datos introducidos en el buscador.<br> 3. Ambos actores deben acordar un precio. <br> 4. Se realiza la compra y se registra en el sistema <br> |
 |***Flujo Alternativo:*** | <br> 2A. El sistema no encuentra correlaciones con los datos introducidos e informa al usuario |
 | ***Poscondiciones :*** | <br> El sistema ha mostrado un mensaje al usuario. |
 
@@ -241,10 +232,37 @@ En un sistema de compra, existen cuatro tipos de usuarios: comprador, vendedor, 
 | ***Flujo Normal:*** | <br>  1. El comprador puede seleccionar un producto clickando sobre el. <br> 2. El producto se agrega a la cesta de productos de la compra. <br> 3. El producto se bloquea. |
 |***Flujo Alternativo:*** | <br> 2A. El producto no esta disponible e informa al comprador. |
 | ***Poscondiciones :*** | <br> Los cambios han sido almacenados en el sistema y el producto bloqueado para el comprador. |
-=======
-| ***Poscondiciones :*** | <br> Los cambios han sido almacenados en el sistema y el producto bloqueado para el comprador.|
-=======
-| ***Poscondiciones :*** | <br> Los cambios han sido almacenados en el sistema y el producto bloqueado para el comprador.|
+
+<br>
+
+| ***UC-08*** |  |
+| --- | --- |
+| ***Nombre:***  | Acordar un precio |
+| ***Autor:***  | FehriGilFernandezBesada |
+| ***Fecha:***  | 30/09/22 |
+| ***Descripcion:*** | <br> Vendedor y comprador acuerdan un precio para un producto |
+| ***Relaciones*** | UC-05, UC-06 |
+| ***Actores:***  | <br>  Comprador, Vendedor. |
+| ***Precondicion:*** | <br>  Un producto debe estar disponible |
+| ***Flujo Normal:*** | <br>  1. El vendedor establece un precio inicial. <br> 2. El comprador acepta el precio. |
+|***Flujo Alternativo:*** | <br> 2A. El comprador no acepta el precio y se debe establecer otro o finalizar compra. <br> 3. Consultar historico de ventas. |
+| ***Poscondiciones :*** | <br> Los cambios han sido almacenados en el sistema y el producto bloqueado para el comprador. |
+
+<br>
+
+| ***UC-09*** |  |
+| --- | --- |
+| ***Nombre:***  | Consultar historico de ventas |
+| ***Autor:***  | FehriGilFernandezBesada |
+| ***Fecha:***  | 30/09/22 |
+| ***Descripcion:*** | <br> Cuando se acuerda un precio, opcionalmente se puede consultar un historico |
+| ***Relaciones*** | UC-05, UC-06 |
+| ***Actores:***  | <br>  Comprador, Vendedor. |
+| ***Precondicion:*** | <br>  Un producto debe estar disponible |
+| ***Flujo Normal:*** | <br>  1. El vendedor establece un precio inicial. <br> 2. El comprador acepta el precio. |
+|***Flujo Alternativo:*** | <br> 2A. El comprador no acepta el precio y se debe establecer otro o finalizar compra. <br> 3. Consultar historico de ventas. |
+| ***Poscondiciones :*** | <br> Los cambios han sido almacenados en el sistema y el producto bloqueado para el comprador. |
+
 
 <br>
 
