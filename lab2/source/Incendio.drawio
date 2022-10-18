@@ -1,0 +1,25 @@
+<mxfile host="65bd71144e">
+    <diagram id="zpJF0sMgBnT45ZnZXNny" name="Page-1">
+        <mxGraphModel dx="478" dy="353" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+            <root>
+                <mxCell id="0"/>
+                <mxCell id="1" parent="0"/>
+                <mxCell id="51" value="Pool" style="swimlane;childLayout=stackLayout;resizeParent=1;resizeParentMax=0;horizontal=0;startSize=20;horizontalStack=0;shadow=1;strokeColor=#FFFFFF;strokeWidth=1;fillColor=none;gradientColor=none;" parent="1" vertex="1">
+                    <mxGeometry x="40" y="10" width="720" height="360" as="geometry"/>
+                </mxCell>
+                <mxCell id="52" value="Lane 1" style="swimlane;startSize=20;horizontal=0;shadow=1;strokeColor=#FFFFFF;strokeWidth=1;fillColor=none;gradientColor=none;" parent="51" vertex="1">
+                    <mxGeometry x="20" width="700" height="120" as="geometry"/>
+                </mxCell>
+                <mxCell id="55" value="" style="ellipse;html=1;shape=startState;fillColor=#000000;strokeColor=#FFFFFF;shadow=1;" parent="52" vertex="1">
+                    <mxGeometry x="50" y="45" width="30" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="53" value="Lane 2" style="swimlane;startSize=20;horizontal=0;shadow=1;strokeColor=#FFFFFF;strokeWidth=1;fillColor=none;gradientColor=none;" parent="51" vertex="1">
+                    <mxGeometry x="20" y="120" width="700" height="120" as="geometry"/>
+                </mxCell>
+                <mxCell id="54" value="Lane 3" style="swimlane;startSize=20;horizontal=0;shadow=1;strokeColor=#FFFFFF;strokeWidth=1;fillColor=none;gradientColor=none;" parent="51" vertex="1">
+                    <mxGeometry x="20" y="240" width="700" height="120" as="geometry"/>
+                </mxCell>
+            </root>
+        </mxGraphModel>
+    </diagram>
+</mxfile>
