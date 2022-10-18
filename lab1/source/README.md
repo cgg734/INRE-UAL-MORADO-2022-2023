@@ -203,7 +203,7 @@ En un sistema de compra, existen cuatro tipos de usuarios: comprador, vendedor, 
 | ***Poscondiciones :*** | <br> El sistema ha mostrado un mensaje al usuario. |
 
 <br>
->>>>>>> 4eb9e1bf8c907f140cc8c26155f99c047e1c0e95
+
 
 | ***UC-06*** |  |
 | --- | --- |
@@ -295,4 +295,4 @@ En un sistema de compra, existen cuatro tipos de usuarios: comprador, vendedor, 
 | ***Importancia:*** | <br> Muy importante. |
 | ***Estado:*** | <br> Aceptado. |
 | ***Comentarios:*** | <br> |
->>>>>>> 4eb9e1bf8c907f140cc8c26155f99c047e1c0e95
+
