@@ -4,11 +4,30 @@
 :Administrador: --|> Abstracto
 :Comprador: --|> Abstracto
 :Vendedor: -- (realizar)
+
+usecase AcordarP as "
+Acordar precio
+--
+extension points
+Consultar historico de ventas
+"
+
+"Consultar historicos en ventas" as (consultarH)
+
+
+(consultarH)..>(AcordarP): <<include>>
+
+(realizar)..>(AcordarP): <<include>>
+
 :Comprador: -- (realizar)
 "Realizar venta" as (realizar)
 
 :Comprador: -- (finalizarC)
 "Finalizar compra" as (finalizarC)
+
+"Marcar productos bloqueados" as (marcarP)
+(AgregarP)..>(marcarP): <<include>>
+
 
 :Comprador: -- (AgregarP)
 "Agregar productos" as (AgregarP)
@@ -19,11 +38,22 @@
 ConsultarProd --|> (BuscarProd)
 "Buscar Productos" as (BuscarProd)
 
+
+
+"Verificar disponibilidad" as (VerificarDisp)
+
+(ConsultarProd)..>(VerificarDisp): <<include>>
+
+
+
 :Abstracto: -- (ConsultarO)
 "Consultar ofertas" as (ConsultarO)
 
 :Abstracto: -- (ConsultarPrec)
 "Consultar precios" as (ConsultarPrec)
+
+
+(ConsultarPrec)..>(BuscarProd): <<include>>
 
 
 :Administrador: -- (EliminarP)
@@ -34,8 +64,29 @@ ConsultarProd --|> (BuscarProd)
 :Proveedor: -- (AvisarFin)
 "Avisar fin de oferta" as (AvisarFin)
 
-AvisarFin --|> (Avisar)
+AvisarFin -down-|> (Avisar)
 "Avisar" as (Avisar)
+
+(Avisar)..>(Enviar Notificacion): <<include>>
+(AvisarFin).>(Eliminar oferta): <<include>>
+
+usecase AvisarNuevos as "
+Avisar Nuevos productos
+--
+extension points
+Realizar incorporacion
+"
+
+:Proveedor: -- (AvisarNuevos)
+
+(AvisarNuevos)-up-|>(Avisar)
+
+
+"Realizar incorporacion" as (RealizarIncorp)
+(RealizarIncorp)..>(AvisarNuevos): <<extend>>
+
+
+
 
 
 @enduml
