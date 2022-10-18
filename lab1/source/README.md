@@ -202,7 +202,6 @@ En un sistema de compra, existen cuatro tipos de usuarios: comprador, vendedor, 
 | ***Nombre:***  | Realizar venta. |
 | ***Autor:***  | FehriGilFernandezBesada |
 | ***Fecha:***  | 30/09/22 |
-<<<<<<< HEAD
 | ***Descripcion:*** | <br> El comprador puede realizar la compra tras hablar . |
 | ***Actores:***  | <br>  Comprador, Vendedor. |
 | ***Precondicion:*** | <br>  Vendedor y comprador deben haber acordado un precio. |
