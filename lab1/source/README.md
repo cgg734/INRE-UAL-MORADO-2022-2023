@@ -36,14 +36,6 @@ En una universidad, el personal del PDI, el personal del PAS y los estudiantes p
 troducidos son correctos, en caso de que los datos no lo sean, se avisara al usuario que los corrija.<br>
 |***Postcondiciones*** | <br> El sistema ha comprobado que los datos introducidos son correctos y el horario se muestra satisfactoriamente
 
-
-
-
-
-
-
-
-
 | ***UC-03*** |  |
 | --- | --- |
 | ***Nombre:***  | Modificar horarios. |
