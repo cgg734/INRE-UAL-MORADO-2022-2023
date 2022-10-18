@@ -201,11 +201,7 @@ En un sistema de compra, existen cuatro tipos de usuarios: comprador, vendedor, 
 | ***Flujo Normal:*** | <br>  1. Los actores deben introducir la id o palabra clave en el motor de busqueda. <br> 2. El sistema muestra informacin relacionada con los datos introducidos en el buscador. |
 |***Flujo Alternativo:*** | <br> 2A. El sistema no encuentra correlaciones con los datos introducidos e informa al usuario |
 | ***Poscondiciones :*** | <br> El sistema ha mostrado un mensaje al usuario. |
-<<<<<<< HEAD
-<<<<<<< HEAD
->>>>>>> 1427671a5d6a37405d75909afd3a4315addc0d18
-=======
-=======
+
 <br>
 >>>>>>> 4eb9e1bf8c907f140cc8c26155f99c047e1c0e95
 
