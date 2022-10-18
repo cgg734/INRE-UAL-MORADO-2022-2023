@@ -263,6 +263,142 @@ En un sistema de compra, existen cuatro tipos de usuarios: comprador, vendedor, 
 |***Flujo Alternativo:*** | <br> 2A. El comprador no acepta el precio y se debe establecer otro o finalizar compra. <br> 3. Consultar historico de ventas. |
 | ***Poscondiciones :*** | <br> Los cambios han sido almacenados en el sistema y el producto bloqueado para el comprador. |
 
+<br>
+
+| ***UC-10*** |  |
+| --- | --- |
+| ***Nombre:***  | Consultar precios |
+| ***Autor:***  | FehriGilFernandezBesada |
+| ***Fecha:***  | 30/09/22 |
+| ***Descripcion:*** | <br> Se puede consultar el precio de un producto en venta |
+| ***Relaciones*** | UC-04|
+| ***Actores:***  | <br>  Abstracto. |
+| ***Precondicion:*** | <br>  Un producto debe estar disponible |
+| ***Flujo Normal:*** | <br>  1. Se debe buscar un producto. <br> 2. Se muestra en  pantalla el precio del producto. |
+|***Flujo Alternativo:*** | <br> 2A. El producto no existe o no se encuentra disponible y se muestra el mensaje en pantalla. |
+| ***Poscondiciones :*** | <br>  |
+
+<br>
+
+| ***UC-11*** |  |
+| --- | --- |
+| ***Nombre:***  | Consultar ofertas. |
+| ***Autor:***  | FehriGilFernandezBesada |
+| ***Fecha:***  | 30/09/22 |
+| ***Descripcion:*** | <br> Se muestran las ofertas disponibles en el momento de la consulta. |
+| ***Relaciones*** |  |
+| ***Actores:***  | <br>  Abstracto. |
+| ***Precondicion:*** | <br>   |
+| ***Flujo Normal:*** | <br>  1. El actor pide información sobre ofertas actuales. <br> 2. El sistema agrupa información sobre las ofertas disponibles <br> 3. El sistema lista todas las ofertas en pantalla |
+|***Flujo Alternativo:*** | <br> 3A. No existen ofertas disponibles y se muestra el mensaje en pantalla. |
+| ***Poscondiciones :*** | <br>  |
+
+<br>
+
+| ***UC-12*** |  |
+| --- | --- |
+| ***Nombre:***  | Eliminar producto |
+| ***Autor:***  | FehriGilFernandezBesada |
+| ***Fecha:***  | 30/09/22 |
+| ***Descripcion:*** | <br> El administrador puede eliminar un producto existente del sistema. |
+| ***Relaciones*** |  |
+| ***Actores:***  | <br>  Administrador. |
+| ***Precondicion:*** | <br>  El producto debe exitir en el sistema. |
+| ***Flujo Normal:*** | <br>  1. El administrador escoge el producto a eliminar. <br> 2. El administrador pulsa sobre la opción "eliminar producto" <br> 3. El administrador confirma que quiere eliminar el producto. |
+|***Flujo Alternativo:*** | <br> 3A. El administrador no confirma la eliminación y el producto no se elimina. |
+| ***Poscondiciones :*** | <br> Los cambios han sido almacenados en el sistema y el producto 
+ha sido eliminado. |
+
+<br>
+
+| ***UC-13*** |  |
+| --- | --- |
+| ***Nombre:***  | Avisar |
+| ***Autor:***  | FehriGilFernandezBesada |
+| ***Fecha:***  | 30/09/22 |
+| ***Descripcion:*** | <br> El proovedor puede realizar avisos con notificaciones. |
+| ***Relaciones*** | UC-14, UC-15, UC-16, UC-17 |
+| ***Actores:***  | <br>  Proveedor. |
+| ***Precondicion:*** | <br>   |
+| ***Flujo Normal:*** | <br>  1. El proveedor debe acceder a la seccion de notificaciones. <br> 2. El proveedor debe redactar el mensaje que quiere enviar. <br> 3. El proveedor debe pulsar "enviar notificacion" |
+|***Flujo Alternativo:*** | <br>  |
+| ***Poscondiciones :*** | <br>  |
+
+<br>
+
+| ***UC-14*** |  |
+| --- | --- |
+| ***Nombre:***  | Enviar notificacion |
+| ***Autor:***  | FehriGilFernandezBesada |
+| ***Fecha:***  | 30/09/22 |
+| ***Descripcion:*** | <br> El proveedor puede enviar una notificación. |
+| ***Relaciones*** | UC-13 |
+| ***Actores:***  | <br>  Proveedor. |
+| ***Precondicion:*** | <br>   |
+| ***Flujo Normal:*** | <br>  1. El provedor redacta un mensaje. <br> 2. El proveedor pulsa "enviar notificación" |
+|***Flujo Alternativo:*** | <br> 3A. El administrador no confirma la eliminación y el producto no se elimina. |
+| ***Poscondiciones :*** | <br> Los cambios han sido almacenados en el sistema y el producto 
+ha sido eliminado. |
+
+<br>
+
+| ***UC-15*** |  |
+| --- | --- |
+| ***Nombre:***  | Avisar fin de oferta |
+| ***Autor:***  | FehriGilFernandezBesada |
+| ***Fecha:***  | 30/09/22 |
+| ***Descripcion:*** | <br> El proveedor envía una notificación avisando del fin de una oferta. |
+| ***Relaciones*** | UC-13, UC-16 |
+| ***Actores:***  | <br>  Proveedor. |
+| ***Precondicion:*** | <br>   |
+| ***Flujo Normal:*** | <br> 1. El proveedor debe acceder a la seccion de notificaciones. <br> 2. El provedor redacta un mensaje. <br> 2. El proveedor pulsa "enviar notificación". <br> 3. El proveedor elimina la oferta. |
+|***Flujo Alternativo:*** | <br>  |
+| ***Poscondiciones :*** | <br>  |
+
+<br>
+
+| ***UC-16*** |  |
+| --- | --- |
+| ***Nombre:***  | Eliminar oferta |
+| ***Autor:***  | FehriGilFernandezBesada |
+| ***Fecha:***  | 30/09/22 |
+| ***Descripcion:*** | <br> El proveedor puede eliminar una oferta. |
+| ***Relaciones*** | UC-13, UC-15 |
+| ***Actores:***  | <br>  Proveedor. |
+| ***Precondicion:*** | <br> El proovedor debe avisar del fin de oferta. |
+| ***Flujo Normal:*** | <br>  1. El proveedor seleciona la oferta a eliminar. <br> 2. El proveedor pulsa la opcion "eliminar oferta". <br> 3. El proveedor confirma la eliminacion de la oferta |
+|***Flujo Alternativo:*** | <br> 3A. El proveedor no confirma la eliminación y la oferta no se elimina. |
+| ***Poscondiciones :*** | <br> Los cambios han sido almacenados en el sistema y la oferta ha sido eliminada. |
+
+<br>
+
+| ***UC-17*** |  |
+| --- | --- |
+| ***Nombre:***  | Avisar nuevos productos |
+| ***Autor:***  | FehriGilFernandezBesada |
+| ***Fecha:***  | 30/09/22 |
+| ***Descripcion:*** | <br> El proveedor envía una notificacion informando de nuevos productos. |
+| ***Relaciones*** | UC-13, UC-18 |
+| ***Actores:***  | <br>  Proveedor. |
+| ***Precondicion:*** | <br>   |
+| ***Flujo Normal:*** | <br> 1. El proveedor debe acceder a la seccion de notificaciones. <br> 2. El provedor redacta un mensaje. <br> 2. El proveedor pulsa "enviar notificación" |
+|***Flujo Alternativo:*** | <br> 3. Opcionalmente se puede realizar la incorporacion del producto |
+| ***Poscondiciones :*** | <br>  |
+
+<br>
+
+| ***UC-18*** |  |
+| --- | --- |
+| ***Nombre:***  | Realizar incorporacion |
+| ***Autor:***  | FehriGilFernandezBesada |
+| ***Fecha:***  | 30/09/22 |
+| ***Descripcion:*** | <br> El proveedor incorpora un nuevo producto. |
+| ***Relaciones*** | UC-13, UC-17 |
+| ***Actores:***  | <br>  Proveedor. |
+| ***Precondicion:*** | <br>  El proveedor avisa de la incorporacion del producto. |
+| ***Flujo Normal:*** | <br> 1. El proveedor selecciona el producto que quiere añadir. <br> 2. El proveedor pulsa la opcion "incorporar producto". |
+|***Flujo Alternativo:*** | <br> |
+| ***Poscondiciones :*** | <br> La incorporacion se ha realizado y se ha guardado en el sistema. |
 
 <br>
 
