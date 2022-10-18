@@ -1,4 +1,5 @@
 <mxfile host="65bd71144e">
+<<<<<<< HEAD
     <diagram id="zpJF0sMgBnT45ZnZXNny" name="Page-1">
         <mxGraphModel dx="478" dy="353" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
             <root>
@@ -18,6 +19,29 @@
                 </mxCell>
                 <mxCell id="54" value="Lane 3" style="swimlane;startSize=20;horizontal=0;shadow=1;strokeColor=#FFFFFF;strokeWidth=1;fillColor=none;gradientColor=none;" parent="51" vertex="1">
                     <mxGeometry x="20" y="240" width="700" height="120" as="geometry"/>
+=======
+    <diagram id="Wt2fmZQlNGgZ8vYAdMki" name="Page-1">
+        <mxGraphModel dx="564" dy="344" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+            <root>
+                <mxCell id="0"/>
+                <mxCell id="1" parent="0"/>
+                <mxCell id="7" value="" style="swimlane;childLayout=stackLayout;resizeParent=1;resizeParentMax=0;horizontal=0;startSize=40;horizontalStack=0;" parent="1" vertex="1">
+                    <mxGeometry x="100" y="170" width="570" height="560" as="geometry">
+                        <mxRectangle x="100" y="170" width="50" height="40" as="alternateBounds"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="8" value="" style="swimlane;startSize=40;horizontal=0;" parent="7" vertex="1">
+                    <mxGeometry x="40" width="530" height="200" as="geometry"/>
+                </mxCell>
+                <mxCell id="14" value="" style="points=[[0.145,0.145,0],[0.5,0,0],[0.855,0.145,0],[1,0.5,0],[0.855,0.855,0],[0.5,1,0],[0.145,0.855,0],[0,0.5,0]];shape=mxgraph.bpmn.event;html=1;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;verticalAlign=top;align=center;perimeter=ellipsePerimeter;outlineConnect=0;aspect=fixed;outline=standard;symbol=general;" vertex="1" parent="8">
+                    <mxGeometry x="90" y="20" width="50" height="50" as="geometry"/>
+                </mxCell>
+                <mxCell id="9" value="Bomberos" style="swimlane;startSize=40;horizontal=0;" parent="7" vertex="1">
+                    <mxGeometry x="40" y="200" width="530" height="120" as="geometry"/>
+                </mxCell>
+                <mxCell id="10" value="Compañia de seguros" style="swimlane;startSize=40;horizontal=0;" parent="7" vertex="1">
+                    <mxGeometry x="40" y="320" width="530" height="240" as="geometry"/>
+>>>>>>> 4eb9e1bf8c907f140cc8c26155f99c047e1c0e95
                 </mxCell>
             </root>
         </mxGraphModel>
