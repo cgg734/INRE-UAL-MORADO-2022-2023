@@ -169,7 +169,7 @@ En un sistema de compra, existen cuatro tipos de usuarios: comprador, vendedor, 
 
 | ***UC-04*** |  |
 | --- | --- |
-| ***Nombre:***  | Buscar producto. |
+| ***Nombre:***  | Buscar productos. |
 | ***Autor:***  | FehriGilFernandezBesada |
 | ***Fecha:***  | 30/09/22 |
 | ***Descripcion:*** | <br> El personal PAS puede modificar los horarios. |
@@ -185,6 +185,15 @@ En un sistema de compra, existen cuatro tipos de usuarios: comprador, vendedor, 
 | ***Nombre:***  | Realizar venta. |
 | ***Autor:***  | FehriGilFernandezBesada |
 | ***Fecha:***  | 30/09/22 |
+<<<<<<< HEAD
+| ***Descripcion:*** | <br> El comprador puede realizar la compra tras hablar . |
+| ***Actores:***  | <br>  Comprador, Vendedor. |
+| ***Precondicion:*** | <br>  Vendedor y comprador deben haber acordado un precio. |
+| ***Flujo Normal:*** | <br>  1. El comprador debe tener sus productos agregados. <br> 2. El vendedor y el comprador acuerdan el precio.  <br> 3. Llegan a un acuerdo para poder finalizar la compra. |
+|***Flujo Alternativo:*** | <br> 3A. Si el comprador no acepta el precio no se llegaria a realizar la compra. |
+| ***Poscondiciones :*** | <br>  |
+<br>
+=======
 | ***Descripcion:*** | <br> El comprador y el vendedor pueden realizar una venta simultaneamente. |
 | ***Relaciones*** |   |
 | ***Actores:***  | <br>  Comprador, Vendedor. |
@@ -192,7 +201,13 @@ En un sistema de compra, existen cuatro tipos de usuarios: comprador, vendedor, 
 | ***Flujo Normal:*** | <br>  1. Los actores deben introducir la id o palabra clave en el motor de busqueda. <br> 2. El sistema muestra informacin relacionada con los datos introducidos en el buscador. |
 |***Flujo Alternativo:*** | <br> 2A. El sistema no encuentra correlaciones con los datos introducidos e informa al usuario |
 | ***Poscondiciones :*** | <br> El sistema ha mostrado un mensaje al usuario. |
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> 1427671a5d6a37405d75909afd3a4315addc0d18
+=======
+=======
 <br>
+>>>>>>> 4eb9e1bf8c907f140cc8c26155f99c047e1c0e95
 
 | ***UC-06*** |  |
 | --- | --- |
@@ -206,7 +221,13 @@ En un sistema de compra, existen cuatro tipos de usuarios: comprador, vendedor, 
 | ***Flujo Normal:*** | <br>  1. El comprador realiza la busqueda del producto a consultar. <br> 2. El sistema comprueba la disponibilad del producto <br> 3. El sistema ofrece informacion del producto consultado |
 |***Flujo Alternativo:*** | <br> 3A. Si el producto no esta disponible, se muestra un mensaje advirtiendo de esto el comprador. |
 | ***Poscondiciones :*** | <br>  |
+<<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> eabea36851886b115a8307c6e6de58fe90ef2962
+=======
+=======
 <br>
+>>>>>>> 4eb9e1bf8c907f140cc8c26155f99c047e1c0e95
 
 | ***UC-07*** |  |
 | --- | --- |
@@ -219,6 +240,14 @@ En un sistema de compra, existen cuatro tipos de usuarios: comprador, vendedor, 
 | ***Precondicion:*** | <br>  Un producto debe estar disponible |
 | ***Flujo Normal:*** | <br>  1. El comprador puede seleccionar un producto clickando sobre el. <br> 2. El producto se agrega a la cesta de productos de la compra. <br> 3. El producto se bloquea. |
 |***Flujo Alternativo:*** | <br> 2A. El producto no esta disponible e informa al comprador. |
+<<<<<<< HEAD
+<<<<<<< HEAD
+| ***Poscondiciones :*** | <br> Los cambios han sido almacenados en el sistema y el producto bloqueado para el comprador. |
+>>>>>>> 98c671146223892d580625887e1bb15a675fdc27
+=======
+| ***Poscondiciones :*** | <br> Los cambios han sido almacenados en el sistema y el producto bloqueado para el comprador.|
+>>>>>>> b286dc604fb6168ed3265fdda6484f33747b136f
+=======
 | ***Poscondiciones :*** | <br> Los cambios han sido almacenados en el sistema y el producto bloqueado para el comprador.|
 <br>
 
@@ -270,3 +299,4 @@ En un sistema de compra, existen cuatro tipos de usuarios: comprador, vendedor, 
 | ***Importancia:*** | <br> Muy importante. |
 | ***Estado:*** | <br> Aceptado. |
 | ***Comentarios:*** | <br> |
+>>>>>>> 4eb9e1bf8c907f140cc8c26155f99c047e1c0e95
