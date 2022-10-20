@@ -35,14 +35,7 @@ En una universidad, el personal del PDI, el personal del PAS y los estudiantes p
 4.B.- El sistema comprueba que los datos in
 troducidos son correctos, en caso de que los datos no lo sean, se avisara al usuario que los corrija.<br>
 |***Postcondiciones*** | <br> El sistema ha comprobado que los datos introducidos son correctos y el horario se muestra satisfactoriamente
-
-
-
-
-
-
-
-
+<br>
 
 | ***UC-03*** |  |
 | --- | --- |
@@ -202,7 +195,7 @@ En un sistema de compra, existen cuatro tipos de usuarios: comprador, vendedor, 
 | ***Nombre:***  | Realizar venta. |
 | ***Autor:***  | FehriGilFernandezBesada |
 | ***Fecha:***  | 30/09/22 |
-
+<<<<<<< HEAD
 | ***Descripcion:*** | <br> El comprador puede realizar la compra tras hablar . |
 | ***Actores:***  | <br>  Comprador, Vendedor. |
 | ***Precondicion:*** | <br>  Vendedor y comprador deben haber acordado un precio. |
@@ -212,10 +205,10 @@ En un sistema de compra, existen cuatro tipos de usuarios: comprador, vendedor, 
 <br>
 =======
 | ***Descripcion:*** | <br> El comprador y el vendedor pueden realizar una venta simultaneamente. |
-| ***Relaciones*** |   |
+| ***Relaciones*** | UC-08  |
 | ***Actores:***  | <br>  Comprador, Vendedor. |
 | ***Precondicion:*** | <br>  El comprador y el vendedor necesitan realizar esta funcion simultaneamente. |
-| ***Flujo Normal:*** | <br>  1. Los actores deben introducir la id o palabra clave en el motor de busqueda. <br> 2. El sistema muestra informacin relacionada con los datos introducidos en el buscador. |
+| ***Flujo Normal:*** | <br>  1. Los actores deben introducir la id o palabra clave en el motor de busqueda. <br> 2. El sistema muestra informacin relacionada con los datos introducidos en el buscador.<br> 3. Ambos actores deben acordar un precio. <br> 4. Se realiza la compra y se registra en el sistema <br> |
 |***Flujo Alternativo:*** | <br> 2A. El sistema no encuentra correlaciones con los datos introducidos e informa al usuario |
 | ***Poscondiciones :*** | <br> El sistema ha mostrado un mensaje al usuario. |
 
@@ -234,13 +227,9 @@ En un sistema de compra, existen cuatro tipos de usuarios: comprador, vendedor, 
 | ***Flujo Normal:*** | <br>  1. El comprador realiza la busqueda del producto a consultar. <br> 2. El sistema comprueba la disponibilad del producto <br> 3. El sistema ofrece informacion del producto consultado |
 |***Flujo Alternativo:*** | <br> 3A. Si el producto no esta disponible, se muestra un mensaje advirtiendo de esto el comprador. |
 | ***Poscondiciones :*** | <br>  |
-<<<<<<< HEAD
-<<<<<<< HEAD
->>>>>>> eabea36851886b115a8307c6e6de58fe90ef2962
-=======
-=======
+
 <br>
->>>>>>> 4eb9e1bf8c907f140cc8c26155f99c047e1c0e95
+
 
 | ***UC-07*** |  |
 | --- | --- |
@@ -253,15 +242,174 @@ En un sistema de compra, existen cuatro tipos de usuarios: comprador, vendedor, 
 | ***Precondicion:*** | <br>  Un producto debe estar disponible |
 | ***Flujo Normal:*** | <br>  1. El comprador puede seleccionar un producto clickando sobre el. <br> 2. El producto se agrega a la cesta de productos de la compra. <br> 3. El producto se bloquea. |
 |***Flujo Alternativo:*** | <br> 2A. El producto no esta disponible e informa al comprador. |
-<<<<<<< HEAD
-<<<<<<< HEAD
 | ***Poscondiciones :*** | <br> Los cambios han sido almacenados en el sistema y el producto bloqueado para el comprador. |
->>>>>>> 98c671146223892d580625887e1bb15a675fdc27
-=======
-| ***Poscondiciones :*** | <br> Los cambios han sido almacenados en el sistema y el producto bloqueado para el comprador.|
->>>>>>> b286dc604fb6168ed3265fdda6484f33747b136f
-=======
-| ***Poscondiciones :*** | <br> Los cambios han sido almacenados en el sistema y el producto bloqueado para el comprador.|
+
+<br>
+
+| ***UC-08*** |  |
+| --- | --- |
+| ***Nombre:***  | Acordar un precio |
+| ***Autor:***  | FehriGilFernandezBesada |
+| ***Fecha:***  | 30/09/22 |
+| ***Descripcion:*** | <br> Vendedor y comprador acuerdan un precio para un producto |
+| ***Relaciones*** | UC-05, UC-06 |
+| ***Actores:***  | <br>  Comprador, Vendedor. |
+| ***Precondicion:*** | <br>  Un producto debe estar disponible |
+| ***Flujo Normal:*** | <br>  1. El vendedor establece un precio inicial. <br> 2. El comprador acepta el precio. |
+|***Flujo Alternativo:*** | <br> 2A. El comprador no acepta el precio y se debe establecer otro o finalizar compra. <br> 3. Consultar historico de ventas. |
+| ***Poscondiciones :*** | <br> Los cambios han sido almacenados en el sistema y el producto bloqueado para el comprador. |
+
+<br>
+
+| ***UC-09*** |  |
+| --- | --- |
+| ***Nombre:***  | Consultar historico de ventas |
+| ***Autor:***  | FehriGilFernandezBesada |
+| ***Fecha:***  | 30/09/22 |
+| ***Descripcion:*** | <br> Cuando se acuerda un precio, opcionalmente se puede consultar un historico |
+| ***Relaciones*** | UC-05, UC-06 |
+| ***Actores:***  | <br>  Comprador, Vendedor. |
+| ***Precondicion:*** | <br>  Un producto debe estar disponible |
+| ***Flujo Normal:*** | <br>  1. El vendedor establece un precio inicial. <br> 2. El comprador acepta el precio. |
+|***Flujo Alternativo:*** | <br> 2A. El comprador no acepta el precio y se debe establecer otro o finalizar compra. <br> 3. Consultar historico de ventas. |
+| ***Poscondiciones :*** | <br> Los cambios han sido almacenados en el sistema y el producto bloqueado para el comprador. |
+
+<br>
+
+| ***UC-10*** |  |
+| --- | --- |
+| ***Nombre:***  | Consultar precios |
+| ***Autor:***  | FehriGilFernandezBesada |
+| ***Fecha:***  | 30/09/22 |
+| ***Descripcion:*** | <br> Se puede consultar el precio de un producto en venta |
+| ***Relaciones*** | UC-04|
+| ***Actores:***  | <br>  Abstracto. |
+| ***Precondicion:*** | <br>  Un producto debe estar disponible |
+| ***Flujo Normal:*** | <br>  1. Se debe buscar un producto. <br> 2. Se muestra en  pantalla el precio del producto. |
+|***Flujo Alternativo:*** | <br> 2A. El producto no existe o no se encuentra disponible y se muestra el mensaje en pantalla. |
+| ***Poscondiciones :*** | <br>  |
+
+<br>
+
+| ***UC-11*** |  |
+| --- | --- |
+| ***Nombre:***  | Consultar ofertas. |
+| ***Autor:***  | FehriGilFernandezBesada |
+| ***Fecha:***  | 30/09/22 |
+| ***Descripcion:*** | <br> Se muestran las ofertas disponibles en el momento de la consulta. |
+| ***Relaciones*** |  |
+| ***Actores:***  | <br>  Abstracto. |
+| ***Precondicion:*** | <br>   |
+| ***Flujo Normal:*** | <br>  1. El actor pide información sobre ofertas actuales. <br> 2. El sistema agrupa información sobre las ofertas disponibles <br> 3. El sistema lista todas las ofertas en pantalla |
+|***Flujo Alternativo:*** | <br> 3A. No existen ofertas disponibles y se muestra el mensaje en pantalla. |
+| ***Poscondiciones :*** | <br>  |
+
+<br>
+
+| ***UC-12*** |  |
+| --- | --- |
+| ***Nombre:***  | Eliminar producto |
+| ***Autor:***  | FehriGilFernandezBesada |
+| ***Fecha:***  | 30/09/22 |
+| ***Descripcion:*** | <br> El administrador puede eliminar un producto existente del sistema. |
+| ***Relaciones*** |  |
+| ***Actores:***  | <br>  Administrador. |
+| ***Precondicion:*** | <br>  El producto debe exitir en el sistema. |
+| ***Flujo Normal:*** | <br>  1. El administrador escoge el producto a eliminar. <br> 2. El administrador pulsa sobre la opción "eliminar producto" <br> 3. El administrador confirma que quiere eliminar el producto. |
+|***Flujo Alternativo:*** | <br> 3A. El administrador no confirma la eliminación y el producto no se elimina. |
+| ***Poscondiciones :*** | <br> Los cambios han sido almacenados en el sistema y el producto 
+ha sido eliminado. |
+
+<br>
+
+| ***UC-13*** |  |
+| --- | --- |
+| ***Nombre:***  | Avisar |
+| ***Autor:***  | FehriGilFernandezBesada |
+| ***Fecha:***  | 30/09/22 |
+| ***Descripcion:*** | <br> El proovedor puede realizar avisos con notificaciones. |
+| ***Relaciones*** | UC-14, UC-15, UC-16, UC-17 |
+| ***Actores:***  | <br>  Proveedor. |
+| ***Precondicion:*** | <br>   |
+| ***Flujo Normal:*** | <br>  1. El proveedor debe acceder a la seccion de notificaciones. <br> 2. El proveedor debe redactar el mensaje que quiere enviar. <br> 3. El proveedor debe pulsar "enviar notificacion" |
+|***Flujo Alternativo:*** | <br>  |
+| ***Poscondiciones :*** | <br>  |
+
+<br>
+
+| ***UC-14*** |  |
+| --- | --- |
+| ***Nombre:***  | Enviar notificacion |
+| ***Autor:***  | FehriGilFernandezBesada |
+| ***Fecha:***  | 30/09/22 |
+| ***Descripcion:*** | <br> El proveedor puede enviar una notificación. |
+| ***Relaciones*** | UC-13 |
+| ***Actores:***  | <br>  Proveedor. |
+| ***Precondicion:*** | <br>   |
+| ***Flujo Normal:*** | <br>  1. El provedor redacta un mensaje. <br> 2. El proveedor pulsa "enviar notificación" |
+|***Flujo Alternativo:*** | <br> 3A. El administrador no confirma la eliminación y el producto no se elimina. |
+| ***Poscondiciones :*** | <br> Los cambios han sido almacenados en el sistema y el producto 
+ha sido eliminado. |
+
+<br>
+
+| ***UC-15*** |  |
+| --- | --- |
+| ***Nombre:***  | Avisar fin de oferta |
+| ***Autor:***  | FehriGilFernandezBesada |
+| ***Fecha:***  | 30/09/22 |
+| ***Descripcion:*** | <br> El proveedor envía una notificación avisando del fin de una oferta. |
+| ***Relaciones*** | UC-13, UC-16 |
+| ***Actores:***  | <br>  Proveedor. |
+| ***Precondicion:*** | <br>   |
+| ***Flujo Normal:*** | <br> 1. El proveedor debe acceder a la seccion de notificaciones. <br> 2. El provedor redacta un mensaje. <br> 2. El proveedor pulsa "enviar notificación". <br> 3. El proveedor elimina la oferta. |
+|***Flujo Alternativo:*** | <br>  |
+| ***Poscondiciones :*** | <br>  |
+
+<br>
+
+| ***UC-16*** |  |
+| --- | --- |
+| ***Nombre:***  | Eliminar oferta |
+| ***Autor:***  | FehriGilFernandezBesada |
+| ***Fecha:***  | 30/09/22 |
+| ***Descripcion:*** | <br> El proveedor puede eliminar una oferta. |
+| ***Relaciones*** | UC-13, UC-15 |
+| ***Actores:***  | <br>  Proveedor. |
+| ***Precondicion:*** | <br> El proovedor debe avisar del fin de oferta. |
+| ***Flujo Normal:*** | <br>  1. El proveedor seleciona la oferta a eliminar. <br> 2. El proveedor pulsa la opcion "eliminar oferta". <br> 3. El proveedor confirma la eliminacion de la oferta |
+|***Flujo Alternativo:*** | <br> 3A. El proveedor no confirma la eliminación y la oferta no se elimina. |
+| ***Poscondiciones :*** | <br> Los cambios han sido almacenados en el sistema y la oferta ha sido eliminada. |
+
+<br>
+
+| ***UC-17*** |  |
+| --- | --- |
+| ***Nombre:***  | Avisar nuevos productos |
+| ***Autor:***  | FehriGilFernandezBesada |
+| ***Fecha:***  | 30/09/22 |
+| ***Descripcion:*** | <br> El proveedor envía una notificacion informando de nuevos productos. |
+| ***Relaciones*** | UC-13, UC-18 |
+| ***Actores:***  | <br>  Proveedor. |
+| ***Precondicion:*** | <br>   |
+| ***Flujo Normal:*** | <br> 1. El proveedor debe acceder a la seccion de notificaciones. <br> 2. El provedor redacta un mensaje. <br> 2. El proveedor pulsa "enviar notificación" |
+|***Flujo Alternativo:*** | <br> 3. Opcionalmente se puede realizar la incorporacion del producto |
+| ***Poscondiciones :*** | <br>  |
+
+<br>
+
+| ***UC-18*** |  |
+| --- | --- |
+| ***Nombre:***  | Realizar incorporacion |
+| ***Autor:***  | FehriGilFernandezBesada |
+| ***Fecha:***  | 30/09/22 |
+| ***Descripcion:*** | <br> El proveedor incorpora un nuevo producto. |
+| ***Relaciones*** | UC-13, UC-17 |
+| ***Actores:***  | <br>  Proveedor. |
+| ***Precondicion:*** | <br>  El proveedor avisa de la incorporacion del producto. |
+| ***Flujo Normal:*** | <br> 1. El proveedor selecciona el producto que quiere añadir. <br> 2. El proveedor pulsa la opcion "incorporar producto". |
+|***Flujo Alternativo:*** | <br> |
+| ***Poscondiciones :*** | <br> La incorporacion se ha realizado y se ha guardado en el sistema. |
 
 <br>
 
@@ -313,4 +461,3 @@ En un sistema de compra, existen cuatro tipos de usuarios: comprador, vendedor, 
 | ***Importancia:*** | <br> Muy importante. |
 | ***Estado:*** | <br> Aceptado. |
 | ***Comentarios:*** | <br> |
-
