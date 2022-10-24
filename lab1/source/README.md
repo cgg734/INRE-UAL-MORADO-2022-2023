@@ -7,6 +7,7 @@ En una universidad, el personal del PDI, el personal del PAS y los estudiantes p
 | ***Autor:***  | Fehri Gil Fernandez Besada |
 | ***Fecha:***  | 30/09/22 |
 | ***Descripcion:*** | <br> El personal PDI puede proponer cambios en el horario. |
+| ***Relaciones*** | IF |
 | ***Actores:***  | <br>  PersonalPDI. |
 | ***Precondicion:*** |  <br>  El personal PDI debe estar registrado. |
 | ***Flujo Normal:***  | <br>  1. El personal PDI debe pulsar un boton para modificar el horario. <br> 2. El actor rellena un formulario con los cambios realizados. <br> 3. El actor pulsa un botón para confirmar los cambios. |
@@ -14,27 +15,18 @@ En una universidad, el personal del PDI, el personal del PAS y los estudiantes p
 | ***Poscondiciones*** | <br>  La solicitud se ha realizado correctamente. |
 
 
-
-
-
-
-
-
-
-| ***UC-01*** | --- |
+| ***UC-02*** |  |
 | --- | --- |
 | ***Nombre:***  | Consultar horarios. |
 | ***Autor:***  | Fehri Gil Fernandez Besada |
 | ***Fecha:***  | 30/09/22 |
 | ***Descripcion:*** | <br> El usuario puede comprobar el horario correspondiente |
+| ***Relaciones*** | IF |
 | ***Actores:***  | <br>  Estudiantes. |
 | ***Precondicion:*** |  <br>  El estudiante debe de tener sus datos personales en la universidad y por tanto estar dado de alta. |
-| ***Flujo Normal:***  | <br>  1. El estudiante accede a la pestaña de horario. <br> 2. El estudiante debe de elegir el dia y el mes. <br> 3. El actor pulsa un botón para el envio del formulario. <br> 4. El sistema comprueba que los datos introducidos. <br> 5. Visualizacion del horario.
-|***Flujo Alternativo:*** | <br> 4.A.- El sistema comprueba que los datos introducidos son correctos, en caso de que en el dia no haya ninguna clase se enviara un mensaje de error.<br>
-
-4.B.- El sistema comprueba que los datos in
-troducidos son correctos, en caso de que los datos no lo sean, se avisara al usuario que los corrija.<br>
-|***Postcondiciones*** | <br> El sistema ha comprobado que los datos introducidos son correctos y el horario se muestra satisfactoriamente
+| ***Flujo Normal:***  | <br>  1. El estudiante accede a la pestaña de horario. <br> 2. El estudiante debe de elegir el dia y el mes. <br> 3. El actor pulsa un botón para el envio del formulario. <br> 4. El sistema comprueba que los datos introducidos. <br> 5. Visualizacion del horario. |
+|***Flujo Alternativo:*** | <br> 4.A.- El sistema comprueba que los datos introducidos son correctos, en caso de que en el dia no haya ninguna clase se enviara un mensaje de error.<br>4.B.- El sistema comprueba que los datos introducidos son correctos, en caso de que los datos no lo sean, se avisara al usuario que los corrija.|
+|***Postcondiciones*** | <br> El sistema ha comprobado que los datos introducidos son correctos y el horario se muestra satisfactoriamente |
 <br>
 
 | ***UC-03*** |  |
@@ -45,11 +37,9 @@ troducidos son correctos, en caso de que los datos no lo sean, se avisara al usu
 | ***Descripcion:*** | <br> El personal PAS puede modificar los horarios. |
 | ***Actores:***  | <br>  PersonalPAS. |
 | ***Precondicion:*** | <br>  El personal PAS debe estar registrado como PAS. |
+| ***Relaciones*** | IF |
 | ***Flujo Normal:*** | <br>  1. El personal PAS debe pulsar un boton para modificar el horario. <br> 2. El actor rellena un formulario con cajas de texto para los nuevos cambios realizados. <br> 3. El actor pulsa un botón para confirmar los cambios. |
 |***Flujo Alternativo:*** | <br> 2A. El sistema comprueba los datos del formulario y si no son correctos pide corrección |
-<<<<<<< HEAD
-| ***Poscondiciones :*** | <br> Los cambios han sido almacenados en el sistema y se actualizan para el resto de usuarios |
-=======
 | ***Poscondiciones :*** | <br> Los cambios han sido almacenados en el sistema y se actualizan para el resto de usuarios |
 
 | ***UC-04*** |  |
@@ -94,40 +84,40 @@ troducidos son correctos, en caso de que los datos no lo sean, se avisara al usu
 | ***Poscondiciones :*** | <br> Los cambios han sido verificados, almacenados en el sistema y actualizados. |
 <br>
 
-| ***INF-01*** | Estudiantes |
+| ***INF-01*** | Usuarios del sistema. |
 | --- | --- |
 | ***Version:***  | Septiembre-2022 |
 | ***Autor:***  | FehriGilFernandezBesada |
-| ***Referencias:*** | <br> Ninguna. |
-| ***Fuentes:***  | <br>  Mátricula del estudiante   |
-| ***Descripción*** | <br> El sistema deberá almacenar los datos correspondientes a los estudiantes. |
-| ***Datos especificos:*** |  1. Documento nacional de identidad (DNI) o NIE. <br> 2. Nombre completo. <br> 3.Teléfono de contacto. <br> 4. Sexo del estudiante. <br> 5. Calificaciones.  |
+| ***Referencias:*** | <br> Estudiante, PersonalPDI, personalPAS. |
+| ***Fuentes:***  | <br>  Horarios.   |
+| ***Descripción*** | <br> El sistema deberá almacenar los datos correspondientes a todos los usuarios del sistema. |
+| ***Datos especificos:*** |  1. DNI/NIE: Cadena de máximo 10 caracteres. <br> 2. Nombre completo: Cadena de máximo 30 caracteres. <br> 3.Teléfono de contacto: Entero positivo. <br> 4. Sexo: Un carácter "F" o "M" <br>  |
 | ***Importancia:*** | <br> Muy importante. |
 | ***Estado:*** | <br> Aceptado. |
-| ***Comentarios:*** | <br> Los datos del estudiante son imprescindibles en el correcto funcionamiento del sistema.|
+| ***Comentarios:*** | <br> Los datos de los usuarios del sistema son imprescindibles en el correcto funcionamiento del sistema.|
 <br>
 
-| ***INF-02*** | Personal Docente |
+| ***INF-02*** | Información sobre altas de los estudiantes |
 | --- | --- |
 | ***Version:***  | Septiembre-2022 |
 | ***Autor:***  | FehriGilFernandezBesada |
-| ***Referencias:*** | <br> Ninguna. |
-| ***Fuentes:***  | <br>  Contrato de trabajo.   |
-| ***Descripción*** | <br> El sistema deberá almacenar los datos correspondientes al personal docente. |
-| ***Datos especificos:*** |  1. Documento nacional de identidad (DNI) o NIE. <br> 2. Nombre completo. <br> 3.Teléfono de contacto.  <br> 4. Email de contacto. <br> 5. Asignaturas impartidas. <br>   |
+| ***Referencias:*** | <br> Dar alta estudiantes. |
+| ***Fuentes:***  | <br>  Horarios.   |
+| ***Descripción*** | <br> El sistema deberá almacenar los datos necesarios para dar de alta a los estudiantes. |
+| ***Datos especificos:*** |  1. Nombre completo del estudiante: Cadena. <br> 5. Asignaturas cursadas del estudiante: Cadena. <br>   |
 | ***Importancia:*** | <br> Muy importante. |
 | ***Estado:*** | <br> Aceptado. |
-| ***Comentarios:*** | <br> Los datos del personal docente son imprescindibles en el correcto funcionamiento del sistema.|
+| ***Comentarios:*** | <br> |
 <br>
 
 | ***INF-03*** | Información sobre horarios. |
 | --- | --- |
 | ***Version:***  | Septiembre-2022 |
 | ***Autor:***  | FehriGilFernandezBesada |
-| ***Referencias:*** | <br> Ninguna. |
-| ***Fuentes:***  | <br>  Tabla de horarios. |
+| ***Referencias:*** | <br> Consultar horarios, Modificar horarios, Proponer cambios en los horarios. |
+| ***Fuentes:***  | <br>  Horarios. |
 | ***Descripción*** | <br> El sistema deberá almacenar los datos correspondientes a los horarios de las distintas asignaturas. |
-| ***Datos especificos:*** |  1. Nombre de las Asignaturas. <br> 2. Rango de horas en la que se imparte cada asignatura. <br> 3.Día en el que se imparte la asignatura.  |
+| ***Datos especificos:*** |  1. Nombre de las Asignaturas: Cadena. <br> 2. Rango de horas en la que se imparte cada asignatura: Cadena con la siguiente información, hh-mm/hh-mm <br> 3.Día en el que se imparte la asignatura: Cadena  |
 | ***Importancia:*** | <br> Muy importante. |
 | ***Estado:*** | <br> Aceptado. |
 | ***Comentarios:*** | <br> El horario es imprescindible para el correcto funcionamiento del sistema.|
@@ -193,6 +183,8 @@ En un sistema de compra, existen cuatro tipos de usuarios: comprador, vendedor, 
 | ***UC-05*** | |
 |--- | --- |
 | ***Nombre*** | Realizar venta |
+| ***Autor:***  | FehriGilFernandezBesada |
+| ***Fecha:***  | 30/09/22 |
 | ***Descripcion:*** | <br> El comprador y el vendedor pueden realizar una venta simultaneamente. |
 | ***Relaciones*** | UC-08  |
 | ***Actores:***  | <br>  Comprador, Vendedor. |
@@ -216,7 +208,6 @@ En un sistema de compra, existen cuatro tipos de usuarios: comprador, vendedor, 
 | ***Flujo Normal:*** | <br>  1. El comprador realiza la busqueda del producto a consultar. <br> 2. El sistema comprueba la disponibilad del producto <br> 3. El sistema ofrece informacion del producto consultado |
 |***Flujo Alternativo:*** | <br> 3A. Si el producto no esta disponible, se muestra un mensaje advirtiendo de esto el comprador. |
 | ***Poscondiciones :*** | <br>  |
-
 <br>
 
 
@@ -406,10 +397,10 @@ ha sido eliminado. |
 | --- | --- |
 | ***Version:***  | Septiembre-2022 |
 | ***Autor:***  | FehriGilFernandezBesada |
-| ***Referencias:*** | <br> Ninguna. |
-| ***Fuentes:***  | <br>     |
+| ***Referencias:*** | <br> Vendedor, Proveedor, Comprador, Administrador. |
+| ***Fuentes:***  | <br>   Sistema de Compras  |
 | ***Descripción:*** | <br> El sistema deberá almacenar los datos sobre los diferentes roles <br> que ejerce el usuario del sistema. |
-| ***Datos especificos:*** |   <br> 1. Nombre completo. <br> 2.Teléfono de contacto.  <br> 3. Email <br> Numero de cuenta bancaria. |
+| ***Datos especificos:*** |   <br> 1. Nombre completo: Cadena de máximo 30 caracteres. <br> 2.Teléfono de contacto: Cadena de máximo 10 caracteres.  <br> 3. Email: Cadena <br> Numero de cuenta bancaria: Entero postivo. |
 | ***Importancia:*** | <br> Muy importante. |
 | ***Estado:*** | <br> Aceptado. |
 | ***Comentarios:*** | <br> Los datos de los usuarios son imprescindibles en el correcto funcionamiento del sistema.|
@@ -418,35 +409,61 @@ ha sido eliminado. |
 | --- | --- |
 | ***Version:***  | Septiembre-2022 |
 | ***Autor:***  | FehriGilFernandezBesada |
-| ***Referencias:*** | <br> Ninguna. |
-| ***Fuentes:***  | <br>     |
+| ***Referencias:*** | <br> Finalizar compra. |
+| ***Fuentes:***  | <br>   Sistema de Compras  |
 | ***Descripción:*** | <br> El sistema deberá almacenar la información correspondiente a las compras realizadas por los compradores. |
-| ***Datos especificos:*** |   <br> 1. Número de referencia de la compra: 10 dígitos. <br> 2.Fecha de realización de la compra.  <br> 3. Destino del producto comprado: Calle/Portal/Número. |
+| ***Datos especificos:*** |   <br> 1. Número de referencia de la compra: Entero positivo de 5 dígitos. <br> 2.Fecha de realización de la compra: dd/mm/aaaa.  <br> 3. Destino del producto comprado: Cadena de un máximo de 30 caracteres. |
 | ***Importancia:*** | <br> Muy importante. |
 | ***Estado:*** | <br> Aceptado. |
 | ***Comentarios:*** | <br> |
 
- ***INF-02*** | Información sobre las ofertas.  |
+ ***INF-03*** | Información sobre las ofertas.  |
 | --- | --- |
 | ***Version:***  | Septiembre-2022 |
 | ***Autor:***  | FehriGilFernandezBesada |
-| ***Referencias:*** | <br> Ninguna. |
-| ***Fuentes:***  | <br>     |
+| ***Referencias:*** | <br> Consultar ofertas. |
+| ***Fuentes:***  | <br>   Sistema de Compras.  |
 | ***Descripción:*** | <br> El sistema deberá almacenar la información correspondiente a las diferentes ofertas. |
-| ***Datos especificos:*** |   <br> 1. Porcentaje de descuento. <br> 2. Identificador del producto ofertado: 3 dígitos. <br> 3. Fecha de finalización de la oferta: dd/mm/aaaa. |
+| ***Datos especificos:*** |   <br> 1. Porcentaje de descuento: Cadena de 2 caracteres. Ejemplo: "%25". <br> 2. Identificador del producto ofertado: Entero positivo de 5 digitos. <br> 3. Fecha de finalización de la oferta: dd/mm/aaaa. |
 | ***Importancia:*** | <br> Importante. |
 | ***Estado:*** | <br> Aceptado. |
-| ***Comentarios:*** | <br> Los productos ofertados deben estar presentes en el sistema junto a sus condiciones para que el comprador la pueda considerar. |
+| ***Comentarios:*** | <br> Los productos ofertados deben estar presentes en el sistema junto a sus condiciones para que el comprador las pueda considerar. |
 <br>
 
-***INF-03*** | Información sobre compras.  |
+***INF-04*** | Información sobre productos.  |
 | --- | --- |
 | ***Version:***  | Septiembre-2022 |
 | ***Autor:***  | FehriGilFernandezBesada |
-| ***Referencias:*** | <br> Ninguna. |
-| ***Fuentes:***  | <br>     |
-| ***Descripción:*** | <br> El sistema deberá almacenar la información correspondiente a las compras realizadas por los compradores. |
-| ***Datos especificos:*** |   <br> 1. Número de referencia de la compra: 10 dígitos. <br> 2.Fecha de realización de la compra.  <br> 3. Destino del producto comprado: Calle/Portal/Número. |
+| ***Referencias:*** | <br> Buscar producto, Agregar producto. |
+| ***Fuentes:***  | <br>   Sistema de Compras.  |
+| ***Descripción:*** | <br> El sistema deberá almacenar la información correspondiente a los productos dsiponibles. |
+| ***Datos especificos:*** |   <br> 1. Identificador del producto: entero de 3 dígitos. |
+| ***Importancia:*** | <br> Muy importante. |
+| ***Estado:*** | <br> Aceptado. |
+| ***Comentarios:*** | <br> |
+<br>
+
+***INF-05*** | Información sobre precios.  |
+| --- | --- |
+| ***Version:***  | Septiembre-2022 |
+| ***Autor:***  | FehriGilFernandezBesada |
+| ***Referencias:*** | <br> Consultar precios. |
+| ***Fuentes:***  | <br>   Sistema de Compras.  |
+| ***Descripción:*** | <br> El sistema deberá almacenar la información correspondiente a los precios. |
+| ***Datos especificos:*** |   <br> 1. Identificador del producto: entero de 3 dígitos. <br> 2.Precio en euros del producto: Número real. |
+| ***Importancia:*** | <br> Muy importante. |
+| ***Estado:*** | <br> Aceptado. |
+| ***Comentarios:*** | <br> |
+<br>
+
+***INF-04*** | Información sobre avisos.  |
+| --- | --- |
+| ***Version:***  | Septiembre-2022 |
+| ***Autor:***  | FehriGilFernandezBesada |
+| ***Referencias:*** | <br> Avisar. |
+| ***Fuentes:***  | <br>   Sistema de Compras.  |
+| ***Descripción:*** | <br> El sistema deberá avisar a los usuarios de los productos que vayan saliendo a la venta. |
+| ***Datos especificos:*** |   <br> 1. Notificación mostrando todos los nuevos productos: Cadena de máximo 20 caracteres por producto. |
 | ***Importancia:*** | <br> Muy importante. |
 | ***Estado:*** | <br> Aceptado. |
 | ***Comentarios:*** | <br> |

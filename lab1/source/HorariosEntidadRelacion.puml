@@ -1,0 +1,25 @@
+@startuml Horarios
+Class Estudiante{
+    DNI/NIE
+    NombreCompleto
+    Telefono
+    Sexo
+}
+Class Horarios{
+    NombreAsignatura
+    HorasAsignatura
+    DiaAsignatura
+
+}
+Class DarAltaEstudiante{
+    NombreEstudiante
+    AsignaturasCursadas
+}
+
+Estudiante<|-up-PersonalPDI
+Estudiante<|-down-PersonalPAS
+Horarios "1..*"<--"1" Estudiante : consultar
+Horarios "1..*"<-left-"1" PersonalPDI : ProponerCambios
+Horarios "1..*"<-up-"1" PersonalPAS : Modificar
+DarAltaEstudiante "1..*"<--"1" PersonalPAS
+DarAltaEstudiante "1..*"<--"1" PersonalPDI
