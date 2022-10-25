@@ -1,24 +1,11 @@
 @startuml Sistema
-Class Comprador{
-    Agregan Productos
-    Consultan Precios
-    Finalizan compras
-    Consultan ofertas
-}
-Class Proveedor{
-    Consultan Precios
-    Consultan ofertas
-    Avisan nuevos productos
-    Incorporar ofertas
-    Avisan fin -> elimina oferta
+
+Class Proovedor{
+    Avisar nuevos productos
+    Avisar fin -> elimina oferta
 
 }
-Class Vendedor{
-    Consultan Precios
-    Consultan ofertas
-}
-Class Administrador{
-}
+
 Class Productos{
     Estado
 }
@@ -26,19 +13,18 @@ Class Oferta{
 }
 
 Class RealizarVenta{
-    NombreEstudiante
-    AsignaturasCursadas
+    
 }
 Class ConsultarHistoricoVenta{
-    NombreEstudiante
-    AsignaturasCursadas
+    
 }
 
-Compras<|-up-Comprador : finalizan
-Ofertas<|-up-Comprador : consultan
-Precios<|-down-Comprador : consultan
-Productos "1..*"<--"1" Comprador : agregan
-Horarios "1..*"<-left-"1" PersonalPDI : ProponerCambios
-Horarios "1..*"<-up-"1" PersonalPAS : Modificar
-DarAltaEstudiante "1..*"<--"1" PersonalPAS
-DarAltaEstudiante "1..*"<--"1" PersonalPDI
+Compras <|-up-Comprador : Finalizar
+Ofertas "1..*"<|-up-Comprador : Consultar
+Precios <|-down-Comprador : Consultar
+Productos "1..*"<--"1" Comprador : Agregar
+Precios "1..*"<-left-"1" Proovedor : Consultar
+Ofertas "1..*"<-up-"1" Proovedor : Consultar
+Ofertas "1..*"<--"1" Proovedor : Incoorporar
+Precios <--*1" Vendedor : Consultar
+Ofertas "1..*"<--"1" Vendedor : Consultar
