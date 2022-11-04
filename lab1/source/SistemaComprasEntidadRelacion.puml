@@ -1,0 +1,23 @@
+@startuml Sistema
+
+Class Proovedor{
+    Avisar nuevos productos
+    Avisar fin -> elimina oferta
+
+}
+
+Class Productos{
+    Estado
+}
+
+
+Compras <|-up-Comprador : Finalizar
+Ofertas "1..*"<|-up-Comprador : Consultar
+Precios <|-down-Comprador : Consultar
+Productos "1..*"<--"1" Comprador : Agregar
+Precios "1..*"<-left-"1" Proovedor : Consultar
+Ofertas "1..*"<-up-"1" Proovedor : Consultar
+Ofertas "1..*"<--"1" Proovedor : Incoorporar
+Precios <--"1" Vendedor : Consultar
+Ofertas "1..*"<-down-"1" Vendedor : Consultar
+@enduml
