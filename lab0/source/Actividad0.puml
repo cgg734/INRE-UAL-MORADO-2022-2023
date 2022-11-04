@@ -32,3 +32,4 @@ usecase EC as "Elaborar calendario
 (RegG)--|>(Reg)
 (Enviar notificaciones)..>(Reg) : <<extend>>
 (Ver notificacines)..>(Reg) : <<extend>>
+@enduml
