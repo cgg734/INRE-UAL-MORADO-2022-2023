@@ -1,5 +1,5 @@
 # INRE-UAL-MORADO-2022-2023
-# Actividad 0
+# Actividad 1
 Se trata de una aplicación web, aparentemente relacionada con el deporte, en la que el gestor tiene la posibilidad de administrar con diferentes funciones. Entre ellas, la elaboración de listas de jugadores con sus estadísticas, además de un calendario con las que puede organizar las diferentes jornadas. Al registrarte se te habilita un sistema de notificaciones y con la posibilidad de subir archivos a la nube al igual que descargarlos. También se te permite acceder a los reports al igual qué modificar los dashboards.
 El usuario solo puede ver las listas, descargar archivos y ver calendario. De igual manera necesita estar registrado.
 ![](../../out/lab0/source/Actividad0/Actividad0.svg)
