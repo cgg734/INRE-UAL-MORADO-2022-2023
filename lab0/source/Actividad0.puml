@@ -22,9 +22,9 @@ usecase EC as "Elaborar calendario
  (Descargar archivos)--Abstracto
  (Reg)--Usuario
  (RegG)--Gestor
- (Subir archivos)-->Gestor
- (Acceder a reports)-->Gestor 
+ (Subir archivos)--Gestor
+ (Acceder a reports)--Gestor 
 (RegG)--|>(Reg)
-(Enviar notificaciones)--> Usuario
-(Ver notificacines)-->Usuario 
+(Enviar notificaciones)-- Usuario
+(Ver notificacines)--Usuario 
 @enduml
