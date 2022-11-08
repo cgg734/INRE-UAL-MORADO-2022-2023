@@ -15,7 +15,7 @@ En una universidad, el personal del PDI, el personal del PAS y los estudiantes p
 | ***Autor:***  | Fehri Gil Fernandez Besada |
 | ***Fecha:***  | 30/09/22 |
 | ***Descripcion:*** | <br> El personal PDI puede proponer cambios en el horario. |
-| ***Relaciones*** | IF |
+| ***Relaciones*** | INF-01,INF-03 |
 | ***Actores:***  | <br>  PersonalPDI. |
 | ***Precondicion:*** |  <br>  El personal PDI debe estar registrado. |
 | ***Flujo Normal:***  | <br>  1. El personal PDI debe pulsar un boton para modificar el horario. <br> 2. El actor rellena un formulario con los cambios realizados. <br> 3. El actor pulsa un botón para confirmar los cambios. |
@@ -29,7 +29,7 @@ En una universidad, el personal del PDI, el personal del PAS y los estudiantes p
 | ***Autor:***  | Fehri Gil Fernandez Besada |
 | ***Fecha:***  | 30/09/22 |
 | ***Descripcion:*** | <br> El usuario puede comprobar el horario correspondiente |
-| ***Relaciones*** | IF |
+| ***Relaciones*** | INF-01 |
 | ***Actores:***  | <br>  Estudiantes. |
 | ***Precondicion:*** |  <br>  El estudiante debe de tener sus datos personales en la universidad y por tanto estar dado de alta. |
 | ***Flujo Normal:***  | <br>  1. El estudiante accede a la pestaña de horario. <br> 2. El estudiante debe de elegir el dia y el mes. <br> 3. El actor pulsa un botón para el envio del formulario. <br> 4. El sistema comprueba que los datos introducidos. <br> 5. Visualizacion del horario. |
@@ -45,7 +45,7 @@ En una universidad, el personal del PDI, el personal del PAS y los estudiantes p
 | ***Descripcion:*** | <br> El personal PAS puede modificar los horarios. |
 | ***Actores:***  | <br>  PersonalPAS. |
 | ***Precondicion:*** | <br>  El personal PAS debe estar registrado como PAS. |
-| ***Relaciones*** | IF |
+| ***Relaciones*** | INF-03 |
 | ***Flujo Normal:*** | <br>  1. El personal PAS debe pulsar un boton para modificar el horario. <br> 2. El actor rellena un formulario con cajas de texto para los nuevos cambios realizados. <br> 3. El actor pulsa un botón para confirmar los cambios. |
 |***Flujo Alternativo:*** | <br> 2A. El sistema comprueba los datos del formulario y si no son correctos pide corrección |
 | ***Poscondiciones :*** | <br> Los cambios han sido almacenados en el sistema y se actualizan para el resto de usuarios |
@@ -174,7 +174,7 @@ En un sistema de compra, existen cuatro tipos de usuarios: comprador, vendedor, 
 | ***Autor:***  | FehriGilFernandezBesada |
 | ***Fecha:***  | 30/09/22 |
 | ***Descripcion:*** | <br> El comprador puede finalizar una compra. |
-| ***Relaciones*** | IF |
+| ***Relaciones*** | INF-02 |
 | ***Actores:***  | <br>  Comprador |
 | ***Precondicion:*** | <br>  El comprador debera haber agredado productos |
 | ***Flujo Normal:*** | <br>  1. El comprador debera introducir la opcion de finalizar la compra. <br> 2. Se procesan los datos de los artículos selecionados y se pasa a las opciones de pago <br> 3. Se rellenan los formularios de las opciones de pago. <br> 4. Se comprueba la informacion de pago. <br> 5. Se realiza la transaccion.  |
@@ -188,7 +188,7 @@ En un sistema de compra, existen cuatro tipos de usuarios: comprador, vendedor, 
 | ***Autor:***  | FehriGilFernandezBesada |
 | ***Fecha:***  | 30/09/22 |
 | ***Descripcion:*** | <br> El comprador puede agregar productos de su compra. |
-| ***Relaciones*** | If |
+| ***Relaciones*** | INF-04,INF-06 |
 | ***Actores:***  | <br>  Comprador. |
 | ***Precondicion:*** | <br>  Los productos deben mostrarse disponibles. |
 | ***Flujo Normal:*** | <br>  1. El comprador puede seleccionar un producto clickando sobre el. <br> 2. El producto se agrega a la cesta de productos de la compra. <br> 3. El producto se bloquea. |
@@ -216,6 +216,7 @@ En un sistema de compra, existen cuatro tipos de usuarios: comprador, vendedor, 
 | ***Autor:***  | FehriGilFernandezBesada |
 | ***Fecha:***  | 30/09/22 |
 | ***Descripcion:*** | <br> El personal PAS puede modificar los horarios. |
+| ***Relaciones*** | INF-04 |
 | ***Actores:***  | <br>  Comprador, Abstracto. |
 | ***Precondicion:*** | <br>  El producto debe existir en el sistema. |
 | ***Flujo Normal:*** | <br>  1. Los actores deben introducir la id o palabra clave en el motor de busqueda. <br> 2. El sistema muestra informacin relacionada con los datos introducidos en el buscador. |
