@@ -1,11 +1,5 @@
 # INRE-UAL-MORADO-2022-2023
 
-# Actividad 1
-Se trata de una aplicación web, aparentemente relacionada con el deporte, en la que el gestor tiene la posibilidad de administrar con diferentes funciones. Entre ellas, la elaboración de listas de jugadores con sus estadísticas, además de un calendario con las que puede organizar las diferentes jornadas. Al registrarte se te habilita un sistema de notificaciones y con la posibilidad de subir archivos a la nube al igual que descargarlos. También se te permite acceder a los reports al igual qué modificar los dashboards.
-El usuario solo puede ver las listas, descargar archivos y ver calendario. De igual manera necesita estar registrado.
-![](../../out/lab0/source/Actividad0/Actividad0.svg)
-
-
 ## Horarios
 En una universidad, el personal del PDI, el personal del PAS y los estudiantes pueden consultar horarios. Por su parte, el personal del PAS puede modificar horarios y dar de alta estudiantes. El personal de PDI puede proponer cambios en los horarios y dar de alta estudiantes. La funcionalidad de dar de alta estudiantes del PAS realiza una verificación de los datos del estudiante. Sin embargo, la funcionalidad de dar de alta estudiantes del PDI, además de verificar los datos también permite de forma excepcional realizar la búsqueda en las listas de clase de sus asignaturas.
 ![](../../out/lab0/source/Horarios/Horarios.svg)
@@ -31,3 +25,7 @@ En un sistema de gestión de incidencias, los técnicos y los operadores pueden 
 ![](../../out/lab0/source/GestionDeIncidencias/GestionDeIncidencias.svg)
 
 
+# Actividad 0
+Se trata de una aplicación web, aparentemente relacionada con el deporte, en la que el gestor tiene la posibilidad de administrar con diferentes funciones. Entre ellas, la elaboración de listas de jugadores con sus estadísticas, además de un calendario con las que puede organizar las diferentes jornadas. Al registrarte se te habilita un sistema de notificaciones y con la posibilidad de subir archivos a la nube al igual que descargarlos. También se te permite acceder a los reports al igual qué modificar los dashboards.
+El usuario solo puede ver las listas, descargar archivos y ver calendario. De igual manera necesita estar registrado.
+![](../../out/lab0/source/Actividad0/Actividad0.svg)
