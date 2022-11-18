@@ -16,21 +16,21 @@ Administrador-up-(ConsultRes)
 Administrador--(GestPet) 
 Administrador-down-(RealOf) 
 
-Administrador-right->Cliente
+Administrador-right-|>Cliente
 
 (Mostrar calendario) as (MCalenda)
 (ConsultDisponib).up.>(MCalenda)
 
-(Consultar)<--(ConsultDisponib): <<include>>
-(Consultar)<--(ConsultRes)
+(Consultar)<|--(ConsultDisponib): <<include>>
+(Consultar)<|--(ConsultRes)
 
 (Buscar elementos) as (BuscaElem)
 (Consultar).up.>(BuscaElem): <<include>>
 
 actor Comercial
 
-Comercial-up-> :Gestor de reservas:
-Comercial-right-> Administrador
+Comercial-up-|> :Gestor de reservas:
+Comercial-right-|> Administrador
 
 usecase (Gestionar nuevas reservas) as GestNReser
 :Gestor de reservas:-up-(GestNReser)
@@ -41,7 +41,7 @@ extension points
 Bloqueo temporal de reserva "
 
 Comercial--(ROfComercial)
-(ROfComercial)-->(RealOf)
+(ROfComercial)--|>(RealOf)
 usecase (Bloqueo temporal de reserva) as (Bloq)
 (Bloq)..>(ROfComercial): <<extend>>
 (Recalculo de precios)<..(ROfComercial): <<include>>

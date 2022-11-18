@@ -11,15 +11,10 @@ usecase EC as "Elaborar calendario
  (EC)--Gestor
  (Organizar jornadas)..>(EC) : <<extend>>
  usecase Reg as "Registrarse
- --
- extension points:
- Enviar notificaciones
- Ver notificaciones"
+ "
  usecase RegG as "Registrarse (vista gestor)
- --
- extension points:
- Subir archivos
- Acceder a reports"
+ "
+ 
  Gestor--|>Abstracto
  Usuario--|>Abstracto
  (Ver listas)--Abstracto
@@ -27,9 +22,9 @@ usecase EC as "Elaborar calendario
  (Descargar archivos)--Abstracto
  (Reg)--Usuario
  (RegG)--Gestor
- (Subir archivos)..>RegG : <<extend>>
- (Acceder a reports)..>RegG : <<extend>>
+ (Subir archivos)--Gestor
+ (Acceder a reports)--Gestor 
 (RegG)--|>(Reg)
-(Enviar notificaciones)..>(Reg) : <<extend>>
-(Ver notificacines)..>(Reg) : <<extend>>
+(Enviar notificaciones)-- Usuario
+(Ver notificacines)--Usuario 
 @enduml
