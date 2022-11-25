@@ -519,7 +519,31 @@ En un sistema de compra, existen cuatro tipos de usuarios: comprador, vendedor, 
 | ***Referencias:*** | <br> Avisar. |
 | ***Fuentes:***  | <br>   Sistema de Compras.  |
 | ***Descripción:*** | <br> El sistema deberá avisar a los usuarios de los productos que vayan saliendo a la venta. |
-| ***Datos especificos:*** |   <br> 1. Notificación mostrando todos los nuevos productos: Cadena de máximo 20 caracteres por producto. |
+| ***Datos especificos:*** |   <br> 1. Notificación mostrando todos los nuevos productos: Cadena de máximo 20 caracteres por producto. <br> 2.Aviso de final de oferta: cadena |
+| ***Importancia:*** | <br> Muy importante. |
+| ***Estado:*** | <br> Aceptado. |
+| ***Comentarios:*** | <br> |
+
+ ***INF-07*** | Información sobre destinos.  |
+| --- | --- |
+| ***Version:***  | Septiembre-2022 |
+| ***Autor:***  | FehriGilFernandezBesada |
+| ***Referencias:*** | <br> Finalizar compra. |
+| ***Fuentes:***  | <br>   Sistema de Compras  |
+| ***Descripción:*** | <br> El sistema deberá almacenar la información correspondiente al destino de cada una de las compras. |
+| ***Datos especificos:*** |  <br> 1. Destino del producto comprado: Cadena de un máximo de 30 caracteres. |
+| ***Importancia:*** | <br> Muy importante. |
+| ***Estado:*** | <br> Aceptado. |
+| ***Comentarios:*** | <br> |
+
+***INF-08*** | Información sobre el histórico de ventas.  |
+| --- | --- |
+| ***Version:***  | Septiembre-2022 |
+| ***Autor:***  | FehriGilFernandezBesada |
+| ***Referencias:*** | <br> Consultar histórico ventas. |
+| ***Fuentes:***  | <br>   Sistema de Compras  |
+| ***Descripción:*** | <br> El sistema deberá almacenar la información correspondiente al histórico de ventas. |
+| ***Datos especificos:*** |  <br>  1.Nombre del usuario. <br> 2. Contraseña: cadena. |
 | ***Importancia:*** | <br> Muy importante. |
 | ***Estado:*** | <br> Aceptado. |
 | ***Comentarios:*** | <br> |

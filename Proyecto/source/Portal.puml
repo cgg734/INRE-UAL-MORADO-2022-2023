@@ -1,3 +1,11 @@
 @startuml Portal
+actor Usuario
+actor UsuarioRegistrado
+actor Administrador
+
+
+Administrador--(Crear nuevas paginas web)
+Usuario--(Visualizar estadisticas de acceso)
+Administrador--(Crear nuevas paginas web)
 
 @enduml
