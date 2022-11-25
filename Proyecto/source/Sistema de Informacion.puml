@@ -38,4 +38,5 @@ VisualAct<|--EX
 UNR-right-(Visualizar alarmas)
 UNR<|--UR
 (Disparar alarmas)--Sistema
+OA--(Suministrar datos al sistema)
 @enduml
