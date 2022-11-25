@@ -1,2 +1,41 @@
 @startuml Sistema de infirmacion
+actor OA as "Operador adjudicatario"
+actor Operador
+actor UR as "Usuario logueado"
+actor UNR as "Usuario no logueado"
+usecase (Visualizar \nla actividad de los operadores \nen la cartografía) as VisualAct
+OA-left-VisualAct
+(Registrar situaciones puntuales)<..VisualAct : <<include>>
+(Registrar periodos continuos)<..VisualAct : <<include>>
+usecase (Visualizar alarmas UR) as "Visualizar alarmas (UL)"
+usecase (Visualizar alarmas OA) as "Visualizar alarmas (OA)"
+usecase (Visualizar alarmas O) as "Visualizar alarmas (O)"
+usecase (Visualizar alarmas)
+usecase (Recibir avisos)
+usecase DE as "Definir eventos 
+--
+extension points
+Generar avisos"
+
+usecase (Generar avisos) as GA
+usecase EX as "Examinar 
+la explotación
+en tiempo real"
+OA--(Visualizar alarmas OA)
+UR--(Visualizar alarmas UR)
+Operador--(Visualizar alarmas O)
+(Visualizar alarmas O)--|>(Visualizar alarmas)
+(Visualizar alarmas OA)--|>(Visualizar alarmas)
+(Visualizar alarmas UR)--|>(Visualizar alarmas)
+Operador--(Recibir avisos)
+OA--DE
+(introducir variables)<..DE : <<include>> 
+(Introducir condiciones)<..DE : <<include>>
+DE<..GA : <<extend>>
+UNR--EX
+VisualAct<|--EX
+(Introducir operador/es)<..EX : <<include>>
+UNR-right-(Visualizar alarmas)
+UNR<|--UR
+(Disparar alarmas)--Sistema
 @enduml
