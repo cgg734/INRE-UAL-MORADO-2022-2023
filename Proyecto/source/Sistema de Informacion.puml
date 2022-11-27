@@ -1,28 +1,2 @@
 @startuml Sistema de infirmacion
-
-actor sistema
-actor userNoLog
-actor gestorTransporte
-actor userLog
-
-usecase (Ayudas en linea) as Ayuda
-usecase (Definir transbordo) as Trans
-usecase (Definir barrios) as Barr
-usecase (Definir zonas) as Zonas
-usecase (Definir municipios) as Muni
-usecase (Identificacion zonas no transitables) as noTransitables
-
-usecase (Ver recorrido) as VRecorrido
-usecase (Ver itineriario) as Vtinerario
-
-sistema--(Ayuda)
-userLog--(Trans)
-sistema--(noTransitables)
-sistema--(Barr)
-sistema--(Zonas)
-sistema--(Muni)
-
-userLog--(VRecorrido)
-userLog--(VItinerario)
-userLog--(MItinerar)
 @enduml
