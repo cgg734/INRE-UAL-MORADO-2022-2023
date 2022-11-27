@@ -215,11 +215,11 @@ En un sistema de compra, existen cuatro tipos de usuarios: comprador, vendedor, 
 | ***Nombre:***  | Buscar productos. |
 | ***Autor:***  | FehriGilFernandezBesada |
 | ***Fecha:***  | 30/09/22 |
-| ***Descripcion:*** | <br> El personal PAS puede modificar los horarios. |
+| ***Descripcion:*** | <br> El comprador puede buscar productos y consultar su información. |
 | ***Relaciones*** | INF-04 |
 | ***Actores:***  | <br>  Comprador, Abstracto. |
 | ***Precondicion:*** | <br>  El producto debe existir en el sistema. |
-| ***Flujo Normal:*** | <br>  1. Los actores deben introducir la id o palabra clave en el motor de busqueda. <br> 2. El sistema muestra informacin relacionada con los datos introducidos en el buscador. |
+| ***Flujo Normal:*** | <br>  1. Los actores deben introducir la id o palabra clave en el motor de busqueda. <br> 2. El sistema muestra información relacionada con los datos introducidos en el buscador. |
 |***Flujo Alternativo:*** | <br> 2A. El sistema no encuentra correlaciones con los datos introducidos e informa al usuario |
 | ***Poscondiciones :*** | <br> El sistema ha mostrado un mensaje al usuario. |
 <br>
