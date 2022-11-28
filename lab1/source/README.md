@@ -215,18 +215,29 @@ En un sistema de compra, existen cuatro tipos de usuarios: comprador, vendedor, 
 | ***Nombre:***  | Buscar productos. |
 | ***Autor:***  | FehriGilFernandezBesada |
 | ***Fecha:***  | 30/09/22 |
-| ***Descripcion:*** | <br> El personal PAS puede modificar los horarios. |
+| ***Descripcion:*** | <br> El comprador puede buscar productos y consultar su información. |
 | ***Relaciones*** | INF-04 |
 | ***Actores:***  | <br>  Comprador, Abstracto. |
 | ***Precondicion:*** | <br>  El producto debe existir en el sistema. |
-| ***Flujo Normal:*** | <br>  1. Los actores deben introducir la id o palabra clave en el motor de busqueda. <br> 2. El sistema muestra informacin relacionada con los datos introducidos en el buscador. |
+| ***Flujo Normal:*** | <br>  1. Los actores deben introducir la id o palabra clave en el motor de busqueda. <br> 2. El sistema muestra información relacionada con los datos introducidos en el buscador. |
 |***Flujo Alternativo:*** | <br> 2A. El sistema no encuentra correlaciones con los datos introducidos e informa al usuario |
 | ***Poscondiciones :*** | <br> El sistema ha mostrado un mensaje al usuario. |
 <br>
 
-| ***UC-05*** | |
-|--- | --- |
-| ***Nombre*** | Realizar venta |
+| ***UC-05*** |  |
+| --- | --- |
+| ***Nombre:***  | Realizar venta. |
+| ***Autor:***  | FehriGilFernandezBesada |
+| ***Fecha:***  | 30/09/22 |
+<<<<<<< HEAD
+| ***Descripcion:*** | <br> El comprador puede realizar la compra tras hablar . |
+| ***Actores:***  | <br>  Comprador, Vendedor. |
+| ***Precondicion:*** | <br>  Vendedor y comprador deben haber acordado un precio. |
+| ***Flujo Normal:*** | <br>  1. El comprador debe tener sus productos agregados. <br> 2. El vendedor y el comprador acuerdan el precio.  <br> 3. Llegan a un acuerdo para poder finalizar la compra. |
+|***Flujo Alternativo:*** | <br> 3A. Si el comprador no acepta el precio no se llegaria a realizar la compra. |
+| ***Poscondiciones :*** | <br>  |
+<br>
+=======
 | ***Autor:***  | FehriGilFernandezBesada |
 | ***Fecha:***  | 30/09/22 |
 | ***Descripcion:*** | <br> El comprador y el vendedor pueden realizar una venta simultaneamente. |
