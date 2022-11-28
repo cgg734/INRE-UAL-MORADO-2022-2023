@@ -235,7 +235,7 @@ En un sistema de compra, existen cuatro tipos de usuarios: comprador, vendedor, 
 | ***Precondicion:*** | <br>  El comprador y el vendedor necesitan realizar esta funcion simultaneamente. |
 | ***Flujo Normal:*** | <br>  1. Los actores deben introducir la id o palabra clave en el motor de busqueda. <br> 2. El sistema muestra informacin relacionada con los datos introducidos en el buscador.<br> 3. Ambos actores deben acordar un precio. <br> 4. Se realiza la compra y se registra en el sistema <br> |
 |***Flujo Alternativo:*** | <br> 2A. El sistema no encuentra correlaciones con los datos introducidos e informa al usuario |
-| ***Poscondiciones :*** | <br> El sistema ha mostrado un mensaje al usuario. |
+| ***Poscondiciones :*** | <br> El sistema ha mostrado un mensaje al usuario.  |
 
 <br>
 

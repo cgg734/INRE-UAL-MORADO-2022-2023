@@ -1,11 +1,12 @@
 @startuml Portal
 actor Usuario
-actor UsuarioRegistrado
+actor UR as "Usuario Registrado"
 actor Administrador
 
 
 Administrador--(Crear nuevas paginas web)
 Usuario--(Visualizar estadisticas de acceso)
-Administrador--(Crear nuevas paginas web)
+Administrador--(Modificar diseño de la página)
+Administrador--(Visualizar estadisticas de acceso)
 
 @enduml
