@@ -229,7 +229,6 @@ En un sistema de compra, existen cuatro tipos de usuarios: comprador, vendedor, 
 | ***Nombre:***  | Realizar venta. |
 | ***Autor:***  | FehriGilFernandezBesada |
 | ***Fecha:***  | 30/09/22 |
-<<<<<<< HEAD
 | ***Descripcion:*** | <br> El comprador puede realizar la compra tras hablar . |
 | ***Actores:***  | <br>  Comprador, Vendedor. |
 | ***Precondicion:*** | <br>  Vendedor y comprador deben haber acordado un precio. |
@@ -237,15 +236,18 @@ En un sistema de compra, existen cuatro tipos de usuarios: comprador, vendedor, 
 |***Flujo Alternativo:*** | <br> 3A. Si el comprador no acepta el precio no se llegaria a realizar la compra. |
 | ***Poscondiciones :*** | <br>  |
 <br>
-=======
+
+| ***UC-06*** |  |
+| --- | --- |
+| ***Nombre:***  | Verificar disponibilidad. |
 | ***Autor:***  | FehriGilFernandezBesada |
 | ***Fecha:***  | 30/09/22 |
 | ***Descripcion:*** | <br> El comprador y el vendedor pueden realizar una venta simultaneamente. |
 | ***Relaciones*** | UC-08  |
 | ***Actores:***  | <br>  Comprador, Vendedor. |
 | ***Precondicion:*** | <br>  El comprador y el vendedor necesitan realizar esta funcion simultaneamente. |
-| ***Flujo Normal:*** | <br>  1. Los actores deben introducir la id o palabra clave en el motor de busqueda. <br> 2. El sistema muestra informacin relacionada con los datos introducidos en el buscador.<br> 3. Ambos actores deben acordar un precio. <br> 4. Se realiza la compra y se registra en el sistema <br> |
-|***Flujo Alternativo:*** | <br> 2A. El sistema no encuentra correlaciones con los datos introducidos e informa al usuario |
+| ***Flujo Normal:*** | <br>  1. Los actores deben introducir la id o palabra clave en el motor de busqueda. <br> 2. El sistema muestra informacin relacionada con los datos introducidos en el buscador. <br> 3. Ambos actores deben acordar un precio. <br> 4. Se realiza la compra y se registra en el sistema. <br> |
+|***Flujo Alternativo:*** | <br> 2A. El sistema no encuentra correlaciones con los datos introducidos e informa al usuario. |
 | ***Poscondiciones :*** | <br> El sistema ha mostrado un mensaje al usuario.  |
 
 <br>
