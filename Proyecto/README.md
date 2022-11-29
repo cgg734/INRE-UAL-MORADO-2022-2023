@@ -134,4 +134,4 @@ Sarai Besada Pino. <br>
 | 29/11/2022 | 1.0 | Diccionario de palabras técnicas que permite disponer de toda la información que pueda crear dudas sobre el proyecto en orden alfabético.| FehriGilFernandezBesada | <br> <br>
 | ***Fecha*** | ***Versión*** | ***Término*** |***Descripción*** |***Autor*** |
 | 29/11/2022 | 1.0 | Alarma | Notificaciones acerca de los cortes en carreteras, colapso tras algún evento o el retraso de un transporte siendo un usuario registrado.  | <br>
-| 29/11/2022 | 1.0 | Operadores | Los conductores de cada medio de transporte, los revisores y/o personal de asistencia.  | <br>
+| 29/11/2022 | 1.0 | Operador | Los conductores de cada medio de transporte, los revisores y/o personal de asistencia.  | <br>
