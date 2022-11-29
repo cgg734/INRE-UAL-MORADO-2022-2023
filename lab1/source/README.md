@@ -298,10 +298,17 @@ En un sistema de compra, existen cuatro tipos de usuarios: comprador, vendedor, 
 | ***Descripcion:*** | <br> Cuando se acuerda un precio, opcionalmente se puede consultar un historico |
 | ***Relaciones*** | UC-05, UC-06, INF-08 |
 | ***Actores:***  | <br>  Comprador, Vendedor. |
+<<<<<<< HEAD
 | ***Precondicion:*** | <br>  Un producto debe estar disponible |
 | ***Flujo Normal:*** | <br>  1. El vendedor establece un precio inicial. <br> 2. El comprador acepta el precio. |
 |***Flujo Alternativo:*** | <br> 2A. El comprador no acepta el precio y se debe establecer otro o finalizar compra. <br> 3. Consultar historico de ventas. |
 | ***Poscondiciones :*** | <br> Los cambios han sido almacenados en el sistema y el producto bloqueado para el comprador. |
+=======
+| ***Precondicion:*** | <br>  |
+| ***Flujo Normal:*** | <br>  1. Seleccionar la opción de consultar el histórico de ventas. <br> 2. El sistema muestra una lista con todas las ventas realizadas anterirmente.  |
+|***Flujo Alternativo:*** | <br> 2A. Si la lista está vacía muestra un mensaje para informar de que no ha habido ventas anteriormente. |
+| ***Poscondiciones :*** | <br>  |
+>>>>>>> 7b18fa44e02ed064a3aac83c3d19c3121def9b97
 
 <br>
 
