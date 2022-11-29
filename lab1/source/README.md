@@ -294,7 +294,7 @@ En un sistema de compra, existen cuatro tipos de usuarios: comprador, vendedor, 
 | ***Relaciones*** | UC-05, UC-06, INF-08 |
 | ***Actores:***  | <br>  Comprador, Vendedor. |
 | ***Precondicion:*** | <br>  |
-| ***Flujo Normal:*** | <br>  1. Seleccionar la opción de consultar el histórico de ventas. <br> 2. El sistema muestra una lista con todas las ventas realizadas anterirmente. |
+| ***Flujo Normal:*** | <br>  1. Seleccionar la opción de consultar el histórico de ventas. <br> 2. El sistema muestra una lista con todas las ventas realizadas anterirmente.  |
 |***Flujo Alternativo:*** | <br> 2A. Si la lista está vacía muestra un mensaje para informar de que no ha habido ventas anteriormente. |
 | ***Poscondiciones :*** | <br>  |
 
