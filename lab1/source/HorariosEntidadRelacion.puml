@@ -18,7 +18,7 @@ Class Horarios{
 Class Asignatura {
     Nombre
 }
-Class DarAltaEstudiante{
+Class Alta{
     NombreEstudiante
     AsignaturasCursadas
 }
@@ -27,5 +27,5 @@ Class DarAltaEstudiante{
 Horarios "1..*"--"1" Usuario
 Horarios"1"--"*"Asignatura
 Asignatura"1..*"--"1"Usuario
-Usuario"1"--"1..*"DarAltaEstudiante
+Usuario"1"--"1..*"Alta
 Asignatura"1"--"1"ListaDeClase

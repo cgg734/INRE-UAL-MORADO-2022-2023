@@ -17,8 +17,13 @@ En una universidad, el personal del PDI, el personal del PAS y los estudiantes p
 | ***Descripcion:*** | <br> El personal PDI puede proponer cambios en el horario. |
 | ***Relaciones*** | INF-01, INF-03 |
 | ***Actores:***  | <br>  PersonalPDI. |
+<<<<<<< HEAD
 | ***Precondicion:*** |  <br>  El personal PDI debe estar registrado. |
 | ***Flujo Normal:***  | <br>  1. El personal PDI debe pulsar un boton para modificar el horario. <br> 2. El actor rellena un formulario con los cambios realizados. <br> 3. El actor pulsa un botón para confirmar los cambios. |
+=======
+| ***Precondicion:*** |  <br>  El personal PDI debe estar logueado. |
+| ***Flujo Normal:***  | <br>  1. El personal PDI debe pulsar un boton para proponer cambios en el horario. <br> 2. El actor rellena un formulario con los cambios a realizar. <br> 3. El actor pulsa un botón para confirmar los cambios. |
+>>>>>>> 05becab32dcf9cd6cd8cd1848a8d81e2381b269b
 | ***Flujo Alternativo:*** | <br>  1. Si al confirmar no se actualiza el horario vuelve a mostrar el formulario. <br> 2. Si no se rellena el formulario se mostrará un mensaje de error. |
 | ***Poscondiciones*** | <br>  La solicitud se ha realizado correctamente. |
 
@@ -29,7 +34,7 @@ En una universidad, el personal del PDI, el personal del PAS y los estudiantes p
 | ***Autor:***  | Fehri Gil Fernandez Besada |
 | ***Fecha:***  | 30/09/22 |
 | ***Descripcion:*** | <br> El usuario puede comprobar el horario correspondiente |
-| ***Relaciones*** | INF-01 |
+| ***Relaciones*** | INF-01, INF-03 |
 | ***Actores:***  | <br>  Estudiantes. |
 | ***Precondicion:*** |  <br>  El estudiante debe de tener sus datos personales en la universidad y por tanto estar dado de alta. |
 | ***Flujo Normal:***  | <br>  1. El estudiante accede a la pestaña de horario. <br> 2. El estudiante debe de elegir el dia y el mes. <br> 3. El actor pulsa un botón para el envio del formulario. <br> 4. El sistema comprueba que los datos introducidos. <br> 5. Visualizacion del horario. |
@@ -43,6 +48,7 @@ En una universidad, el personal del PDI, el personal del PAS y los estudiantes p
 | ***Autor:***  | FehriGilFernandezBesada |
 | ***Fecha:***  | 30/09/22 |
 | ***Descripcion:*** | <br> El personal PAS puede modificar los horarios. |
+| ***Relaciones*** | INF-01, INF-03 |
 | ***Actores:***  | <br>  PersonalPAS. |
 | ***Precondicion:*** | <br>  El personal PAS debe estar registrado como PAS. |
 | ***Relaciones*** | INF-03 |
@@ -69,6 +75,7 @@ En una universidad, el personal del PDI, el personal del PAS y los estudiantes p
 | ***Nombre:***  | Buscar en listas de clase. |
 | ***Autor:***  | FehriGilFernandezBesada |
 | ***Fecha:***  | 30/09/22 |
+| ***Relaciones*** | INF-04 |
 | ***Descripcion:*** | <br> El personal PDI de manera opcional puede buscar en las listas de clase. |
 | ***Relaciones*** | UC-04 |
 | ***Actores:***  | <br>  PersonalPDI. |
@@ -188,7 +195,7 @@ En un sistema de compra, existen cuatro tipos de usuarios: comprador, vendedor, 
 | ***Autor:***  | FehriGilFernandezBesada |
 | ***Fecha:***  | 30/09/22 |
 | ***Descripcion:*** | <br> El comprador puede agregar productos de su compra. |
-| ***Relaciones*** | INF-04,INF-06 |
+| ***Relaciones*** | INF-04 |
 | ***Actores:***  | <br>  Comprador. |
 | ***Precondicion:*** | <br>  Los productos deben mostrarse disponibles. |
 | ***Flujo Normal:*** | <br>  1. El comprador puede seleccionar un producto clickando sobre el. <br> 2. El producto se agrega a la cesta de productos de la compra. <br> 3. El producto se bloquea. |
@@ -202,7 +209,7 @@ En un sistema de compra, existen cuatro tipos de usuarios: comprador, vendedor, 
 | ***Autor:***  | FehriGilFernandezBesada |
 | ***Fecha:***  | 30/09/22 |
 | ***Descripcion:*** | <br> El comprador puede consultar algunos productos |
-| ***Relaciones*** | UC-04, UC-06 |
+| ***Relaciones*** | UC-04, UC-06,INF-04 |
 | ***Actores:***  | <br>  Comprador. |
 | ***Precondicion:*** | <br>  El producto tiene que estar disponible. |
 | ***Flujo Normal:*** | <br>  1. Los actores deben introducir la id o palabra clave en el motor de busqueda. <br> 2. El sistema muestra informacin relacionada con los datos introducidos en el buscador. <br> 2. El sistema comprueba la disponibilad del producto <br> 3. El sistema ofrece informacion del producto consultado |
@@ -215,28 +222,26 @@ En un sistema de compra, existen cuatro tipos de usuarios: comprador, vendedor, 
 | ***Nombre:***  | Buscar productos. |
 | ***Autor:***  | FehriGilFernandezBesada |
 | ***Fecha:***  | 30/09/22 |
-| ***Descripcion:*** | <br> El personal PAS puede modificar los horarios. |
+| ***Descripcion:*** | <br> El comprador puede buscar productos y consultar su información. |
 | ***Relaciones*** | INF-04 |
 | ***Actores:***  | <br>  Comprador, Abstracto. |
 | ***Precondicion:*** | <br>  El producto debe existir en el sistema. |
-| ***Flujo Normal:*** | <br>  1. Los actores deben introducir la id o palabra clave en el motor de busqueda. <br> 2. El sistema muestra informacin relacionada con los datos introducidos en el buscador. |
+| ***Flujo Normal:*** | <br>  1. Los actores deben introducir la id o palabra clave en el motor de busqueda. <br> 2. El sistema muestra información relacionada con los datos introducidos en el buscador. |
 |***Flujo Alternativo:*** | <br> 2A. El sistema no encuentra correlaciones con los datos introducidos e informa al usuario |
 | ***Poscondiciones :*** | <br> El sistema ha mostrado un mensaje al usuario. |
 <br>
 
-| ***UC-05*** | |
-|--- | --- |
-| ***Nombre*** | Realizar venta |
+| ***UC-05*** |  |
+| --- | --- |
+| ***Nombre:***  | Realizar venta. |
 | ***Autor:***  | FehriGilFernandezBesada |
 | ***Fecha:***  | 30/09/22 |
-| ***Descripcion:*** | <br> El comprador y el vendedor pueden realizar una venta simultaneamente. |
-| ***Relaciones*** | UC-08  |
+| ***Descripcion:*** | <br> El comprador puede realizar la compra tras hablar . |
 | ***Actores:***  | <br>  Comprador, Vendedor. |
-| ***Precondicion:*** | <br>  El comprador y el vendedor necesitan realizar esta funcion simultaneamente. |
-| ***Flujo Normal:*** | <br>  1. Los actores deben introducir la id o palabra clave en el motor de busqueda. <br> 2. El sistema muestra informacin relacionada con los datos introducidos en el buscador.<br> 3. Ambos actores deben acordar un precio. <br> 4. Se realiza la compra y se registra en el sistema <br> |
-|***Flujo Alternativo:*** | <br> 2A. El sistema no encuentra correlaciones con los datos introducidos e informa al usuario |
-| ***Poscondiciones :*** | <br> El sistema ha mostrado un mensaje al usuario. |
-
+| ***Precondicion:*** | <br>   |
+| ***Flujo Normal:*** | <br>  1. El comprador debe tener sus productos agregados. <br> 2. El vendedor y el comprador acuerdan el precio.  <br> 3. Llegan a un acuerdo para poder finalizar la compra. |
+|***Flujo Alternativo:*** | <br> 3A. Si el comprador no acepta el precio no se llegaria a realizar la compra. |
+| ***Poscondiciones :*** | <br>  |
 <br>
 
 
@@ -250,7 +255,7 @@ En un sistema de compra, existen cuatro tipos de usuarios: comprador, vendedor, 
 | ***Actores:***  | <br>  Comprador. |
 | ***Precondicion:*** | <br>  El comprador consulta productos. |
 | ***Flujo Normal:*** | <br>  1. El comprador realiza la busqueda del producto a consultar. <br> 2. El sistema comprueba la disponibilad del producto <br> 3. El sistema ofrece informacion del producto consultado |
-|***Flujo Alternativo:*** | <br> 3A. Si el producto no esta disponible, se muestra un mensaje advirtiendo de esto el comprador. |
+|***Flujo Alternativo:*** | <br> 3A. Si el producto no esta disponible, se muestra un mensaje advirtiendo de esto al comprador. |
 | ***Poscondiciones :*** | <br>  |
 <br>
 
@@ -261,7 +266,7 @@ En un sistema de compra, existen cuatro tipos de usuarios: comprador, vendedor, 
 | ***Autor:***  | FehriGilFernandezBesada |
 | ***Fecha:***  | 30/09/22 |
 | ***Descripcion:*** | <br> El sistema comprueba la disponibilidad de los productos consultados. |
-| ***Relaciones*** | UC-02, UC-03 |
+| ***Relaciones*** | UC-02, UC-03, INF-04 |
 | ***Actores:***  | <br>  Comprador. |
 | ***Precondicion:*** | <br>  Un producto debe estar disponible |
 | ***Flujo Normal:*** | <br>  1. El comprador puede seleccionar un producto clickando sobre el. <br> 2. El producto se agrega a la cesta de productos de la compra. <br> 3. El producto se bloquea. |
@@ -276,7 +281,7 @@ En un sistema de compra, existen cuatro tipos de usuarios: comprador, vendedor, 
 | ***Autor:***  | FehriGilFernandezBesada |
 | ***Fecha:***  | 30/09/22 |
 | ***Descripcion:*** | <br> Vendedor y comprador acuerdan un precio para un producto |
-| ***Relaciones*** | UC-05, UC-06 |
+| ***Relaciones*** | UC-05, UC-06, INF-05 |
 | ***Actores:***  | <br>  Comprador, Vendedor. |
 | ***Precondicion:*** | <br>  Un producto debe estar disponible |
 | ***Flujo Normal:*** | <br>  1. El vendedor establece un precio inicial. <br> 2. El comprador acepta el precio. |
@@ -291,7 +296,7 @@ En un sistema de compra, existen cuatro tipos de usuarios: comprador, vendedor, 
 | ***Autor:***  | FehriGilFernandezBesada |
 | ***Fecha:***  | 30/09/22 |
 | ***Descripcion:*** | <br> Cuando se acuerda un precio, opcionalmente se puede consultar un historico |
-| ***Relaciones*** | UC-05, UC-06 |
+| ***Relaciones*** | UC-05, UC-06, INF-08 |
 | ***Actores:***  | <br>  Comprador, Vendedor. |
 | ***Precondicion:*** | <br>  Un producto debe estar disponible |
 | ***Flujo Normal:*** | <br>  1. El vendedor establece un precio inicial. <br> 2. El comprador acepta el precio. |
@@ -306,7 +311,7 @@ En un sistema de compra, existen cuatro tipos de usuarios: comprador, vendedor, 
 | ***Autor:***  | FehriGilFernandezBesada |
 | ***Fecha:***  | 30/09/22 |
 | ***Descripcion:*** | <br> Se puede consultar el precio de un producto en venta |
-| ***Relaciones*** | UC-04|
+| ***Relaciones*** | UC-04, INF-05 |
 | ***Actores:***  | <br>  Abstracto. |
 | ***Precondicion:*** | <br>  Un producto debe estar disponible |
 | ***Flujo Normal:*** | <br>  1. Se debe buscar un producto. <br> 2. Se muestra en  pantalla el precio del producto. |
@@ -321,7 +326,7 @@ En un sistema de compra, existen cuatro tipos de usuarios: comprador, vendedor, 
 | ***Autor:***  | FehriGilFernandezBesada |
 | ***Fecha:***  | 30/09/22 |
 | ***Descripcion:*** | <br> Se muestran las ofertas disponibles en el momento de la consulta. |
-| ***Relaciones*** |  |
+| ***Relaciones*** | INF-03 |
 | ***Actores:***  | <br>  Abstracto. |
 | ***Precondicion:*** | <br>   |
 | ***Flujo Normal:*** | <br>  1. El actor pide información sobre ofertas actuales. <br> 2. El sistema agrupa información sobre las ofertas disponibles <br> 3. El sistema lista todas las ofertas en pantalla |
@@ -336,7 +341,7 @@ En un sistema de compra, existen cuatro tipos de usuarios: comprador, vendedor, 
 | ***Autor:***  | FehriGilFernandezBesada |
 | ***Fecha:***  | 30/09/22 |
 | ***Descripcion:*** | <br> El administrador puede eliminar un producto existente del sistema. |
-| ***Relaciones*** |  |
+| ***Relaciones*** | INF-04 |
 | ***Actores:***  | <br>  Administrador. |
 | ***Precondicion:*** | <br>  El producto debe exitir en el sistema. |
 | ***Flujo Normal:*** | <br>  1. El administrador escoge el producto a eliminar. <br> 2. El administrador pulsa sobre la opción "eliminar producto" <br> 3. El administrador confirma que quiere eliminar el producto. |
@@ -352,7 +357,7 @@ ha sido eliminado. |
 | ***Autor:***  | FehriGilFernandezBesada |
 | ***Fecha:***  | 30/09/22 |
 | ***Descripcion:*** | <br> El proovedor puede realizar avisos con notificaciones. |
-| ***Relaciones*** | UC-14, UC-15, UC-16, UC-17 |
+| ***Relaciones*** | UC-14, UC-15, UC-16, UC-17, INF-06 |
 | ***Actores:***  | <br>  Proveedor. |
 | ***Precondicion:*** | <br>   |
 | ***Flujo Normal:*** | <br>  1. El proveedor debe acceder a la seccion de notificaciones. <br> 2. El proveedor debe redactar el mensaje que quiere enviar. <br> 3. El proveedor debe pulsar "enviar notificacion" |
@@ -413,7 +418,7 @@ ha sido eliminado. |
 | ***Autor:***  | FehriGilFernandezBesada |
 | ***Fecha:***  | 30/09/22 |
 | ***Descripcion:*** | <br> El proveedor envía una notificacion informando de nuevos productos. |
-| ***Relaciones*** | UC-13, UC-18 |
+| ***Relaciones*** | UC-13, UC-18, INF-04 |
 | ***Actores:***  | <br>  Proveedor. |
 | ***Precondicion:*** | <br>   |
 | ***Flujo Normal:*** | <br> 1. El proveedor debe acceder a la seccion de notificaciones. <br> 2. El provedor redacta un mensaje. <br> 2. El proveedor pulsa "enviar notificación" |
@@ -510,7 +515,31 @@ ha sido eliminado. |
 | ***Referencias:*** | <br> Avisar. |
 | ***Fuentes:***  | <br>   Sistema de Compras.  |
 | ***Descripción:*** | <br> El sistema deberá avisar a los usuarios de los productos que vayan saliendo a la venta. |
-| ***Datos especificos:*** |   <br> 1. Notificación mostrando todos los nuevos productos: Cadena de máximo 20 caracteres por producto. |
+| ***Datos especificos:*** |   <br> 1. Notificación mostrando todos los nuevos productos: Cadena de máximo 20 caracteres por producto. <br> 2.Aviso de final de oferta: cadena |
+| ***Importancia:*** | <br> Muy importante. |
+| ***Estado:*** | <br> Aceptado. |
+| ***Comentarios:*** | <br> |
+
+ ***INF-07*** | Información sobre destinos.  |
+| --- | --- |
+| ***Version:***  | Septiembre-2022 |
+| ***Autor:***  | FehriGilFernandezBesada |
+| ***Referencias:*** | <br> Finalizar compra. |
+| ***Fuentes:***  | <br>   Sistema de Compras  |
+| ***Descripción:*** | <br> El sistema deberá almacenar la información correspondiente al destino de cada una de las compras. |
+| ***Datos especificos:*** |  <br> 1. Destino del producto comprado: Cadena de un máximo de 30 caracteres. |
+| ***Importancia:*** | <br> Muy importante. |
+| ***Estado:*** | <br> Aceptado. |
+| ***Comentarios:*** | <br> |
+
+***INF-08*** | Información sobre el histórico de ventas.  |
+| --- | --- |
+| ***Version:***  | Septiembre-2022 |
+| ***Autor:***  | FehriGilFernandezBesada |
+| ***Referencias:*** | <br> Consultar histórico ventas. |
+| ***Fuentes:***  | <br>   Sistema de Compras  |
+| ***Descripción:*** | <br> El sistema deberá almacenar la información correspondiente al histórico de ventas. |
+| ***Datos especificos:*** |  <br>  1.Nombre del usuario. <br> 2. Contraseña: cadena. |
 | ***Importancia:*** | <br> Muy importante. |
 | ***Estado:*** | <br> Aceptado. |
 | ***Comentarios:*** | <br> |

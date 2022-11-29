@@ -19,9 +19,9 @@ Administrador-down-(RealOf)
 Administrador-right-|>Cliente
 
 (Mostrar calendario) as (MCalenda)
-(ConsultDisponib).up.>(MCalenda)
+(ConsultDisponib).up.>(MCalenda) : <<include>>
 
-(Consultar)<|--(ConsultDisponib): <<include>>
+(Consultar)<|--(ConsultDisponib)
 (Consultar)<|--(ConsultRes)
 
 (Buscar elementos) as (BuscaElem)
@@ -29,7 +29,7 @@ Administrador-right-|>Cliente
 
 actor Comercial
 
-Comercial-up-|> :Gestor de reservas:
+Comercial<|-up- :Gestor de reservas:
 Comercial-right-|> Administrador
 
 usecase (Gestionar nuevas reservas) as GestNReser
