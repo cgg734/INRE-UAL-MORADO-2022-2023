@@ -1,4 +1,4 @@
-# Proyecto
+# Proyecto <br>
 
 ![Texto alternativo](01%20Logotipo.png) <br>
 
@@ -24,4 +24,10 @@ Además, se aporta información de la Autoridad de Transporte Público de Gran C
 
 <br>
 
-# Información del dominio del problema
+## Información del dominio del problema. <br>
+### Organigrama
+![Texto alternativo](Organigrama.drawio.svg) <br>
+
+<br>
+
+### Glosario de términos.
