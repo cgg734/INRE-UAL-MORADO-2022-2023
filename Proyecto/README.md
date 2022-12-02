@@ -23,6 +23,9 @@ Además, se aporta información de la Autoridad de Transporte Público de Gran C
 
 <br>
 
+### Organigrama
+![Texto alternativo](Organigrama.drawio.svg) <br>
+
 
 ## Glosario de términos
 
@@ -33,11 +36,5 @@ Además, se aporta información de la Autoridad de Transporte Público de Gran C
 | ***Fecha*** | ***Versión*** | ***Término*** |***Descripción*** |***Autor*** |
 | --- | --- | --- | --- | --- |
 | 29/11/2022 | 1.0 | Alarma | Notificaciones acerca de los cortes en carreteras, colapso tras algún evento o el retraso de un transporte siendo un usuario registrado.  | <br>
-| 29/11/2022 | 1.0 | Operadores | Los conductores de cada medio de transporte, los revisores y/o personal de asistencia.  | <br>. <br>
+| 29/11/2022 | 1.0 | Operadores | Los conductores de cada medio de transporte, los revisores y/o personal de asistencia.  | <br>. 
 
-### Organigrama
-![Texto alternativo](Organigrama.drawio.svg) <br>
-
-<br>
-
-### Glosario de términos.
