@@ -19,7 +19,6 @@ En una universidad, el personal del PDI, el personal del PAS y los estudiantes p
 | ***Actores:***  | <br>  PersonalPDI. |
 | ***Precondicion:*** |  <br>  El personal PDI debe estar registrado. |
 | ***Flujo Normal:***  | <br>  1. El personal PDI debe pulsar un boton para modificar el horario. <br> 2. El actor rellena un formulario con los cambios realizados. <br> 3. El actor pulsa un botón para confirmar los cambios. |
-=======
 | ***Precondicion:*** |  <br>  El personal PDI debe estar logueado. |
 | ***Flujo Normal:***  | <br>  1. El personal PDI debe pulsar un boton para proponer cambios en el horario. <br> 2. El actor rellena un formulario con los cambios a realizar. <br> 3. El actor pulsa un botón para confirmar los cambios. |
 | ***Flujo Alternativo:*** | <br>  1. Si al confirmar no se actualiza el horario vuelve a mostrar el formulario. <br> 2. Si no se rellena el formulario se mostrará un mensaje de error. |
@@ -300,7 +299,6 @@ En un sistema de compra, existen cuatro tipos de usuarios: comprador, vendedor, 
 | ***Flujo Normal:*** | <br>  1. El vendedor establece un precio inicial. <br> 2. El comprador acepta el precio. |
 |***Flujo Alternativo:*** | <br> 2A. El comprador no acepta el precio y se debe establecer otro o finalizar compra. <br> 3. Consultar historico de ventas. |
 | ***Poscondiciones :*** | <br> Los cambios han sido almacenados en el sistema y el producto bloqueado para el comprador. |
-=======
 | ***Precondicion:*** | <br>  |
 | ***Flujo Normal:*** | <br>  1. Seleccionar la opción de consultar el histórico de ventas. <br> 2. El sistema muestra una lista con todas las ventas realizadas anterirmente.  |
 |***Flujo Alternativo:*** | <br> 2A. Si la lista está vacía muestra un mensaje para informar de que no ha habido ventas anteriormente. |
