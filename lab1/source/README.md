@@ -17,13 +17,11 @@ En una universidad, el personal del PDI, el personal del PAS y los estudiantes p
 | ***Descripcion:*** | <br> El personal PDI puede proponer cambios en el horario. |
 | ***Relaciones*** | INF-01, INF-03 |
 | ***Actores:***  | <br>  PersonalPDI. |
-<<<<<<< HEAD
 | ***Precondicion:*** |  <br>  El personal PDI debe estar registrado. |
 | ***Flujo Normal:***  | <br>  1. El personal PDI debe pulsar un boton para modificar el horario. <br> 2. El actor rellena un formulario con los cambios realizados. <br> 3. El actor pulsa un botón para confirmar los cambios. |
 =======
 | ***Precondicion:*** |  <br>  El personal PDI debe estar logueado. |
 | ***Flujo Normal:***  | <br>  1. El personal PDI debe pulsar un boton para proponer cambios en el horario. <br> 2. El actor rellena un formulario con los cambios a realizar. <br> 3. El actor pulsa un botón para confirmar los cambios. |
->>>>>>> 05becab32dcf9cd6cd8cd1848a8d81e2381b269b
 | ***Flujo Alternativo:*** | <br>  1. Si al confirmar no se actualiza el horario vuelve a mostrar el formulario. <br> 2. Si no se rellena el formulario se mostrará un mensaje de error. |
 | ***Poscondiciones*** | <br>  La solicitud se ha realizado correctamente. |
 
