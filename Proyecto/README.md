@@ -17,7 +17,7 @@ Sarai Besada Pino. <br>
 
 <br>
 
-## Introduccion
+## Introducción
 En el siguiente documento se especifica los procesos llevados a cabo para el desarrollo de un proyecto software centrado en la implementación de un sistema de información y un portal web para una aplicación sobre el transporte público regular de viajeros para la isla de Gran Canaria. <br>
 Además, se aporta información de la Autoridad de Transporte Público de Gran Canaria para facilitar el diseño del portal y sus funcionalidades.Por otra parte, se añaden los requisitos, diagramas, casos de uso e información necesaria para la implementación de todas las partes de la aplicación.
 
@@ -35,6 +35,10 @@ Además, se aporta información de la Autoridad de Transporte Público de Gran C
 
 | ***Fecha*** | ***Versión*** | ***Término*** |***Descripción*** |***Autor*** |
 | --- | --- | --- | --- | --- |
-| 29/11/2022 | 1.0 | Alarma | Notificaciones acerca de los cortes en carreteras, colapso tras algún evento o el retraso de un transporte siendo un usuario registrado.  | <br>
-| 29/11/2022 | 1.0 | Operadores | Los conductores de cada medio de transporte, los revisores y/o personal de asistencia.  | <br>. 
-
+| 29/11/2022 | 1.0 | Alarma | Notificación acerca de los cortes en carreteras, colapso tras algún evento o el retraso de un transporte siendo un usuario registrado. | FehriGilFernandezBesada | <br>
+| 02/12/2022 | 1.0 | Operador de transporte | El conductor de cada medio de transporte. | FehriGilFernandezBesada | <br>
+| 03/12/2022 | 1.0 | Operador adjudicatario | Los revisores y/o personal de asistencia que añaden información en el vehículo. | FehriGilFernandezBesada | <br>
+| 03/12/2022 | 1.0 | Eventos | Monumentos, ocio, competencias deportivas, acontecimientos culturales autonónimos y nacionales. | FehriGilFernandezBesada | <br> 
+| 03/12/2022 | 1.0 | Medios de transporte | Atobuses, taxis, barcos y carros tirados por caballos. | FehriGilFernandezBesada | <br> 
+| 03/12/2022 | 1.0 | Tiempo de saltos | El tiempo que una incidencia hace que se retrase nuestro medio de transporte,el retrasado generado. | FehriGilFernandezBesada | <br> 
+| 03/12/2022 | 1.0 | Medio magnético | Un registro en un disco duro. | FehriGilFernandezBesada | <br> 
