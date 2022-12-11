@@ -39,4 +39,5 @@ UNR-right-(Visualizar alarmas)
 UNR<|--UR
 (Disparar alarmas)--Sistema
 OA--(Suministrar datos al sistema)
+UR--(Puntuar operadores)
 @enduml
