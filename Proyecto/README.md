@@ -23,7 +23,9 @@ Además, se aporta información de la Autoridad de Transporte Público de Gran C
 
 <br>
 
-### Organigrama
+# Información del Dominio del problema.
+
+## Organigrama
 ![Texto alternativo](Organigrama.drawio.svg) <br>
 
 
@@ -45,7 +47,7 @@ Además, se aporta información de la Autoridad de Transporte Público de Gran C
 
 
 # Necesidades del negocio.
-## Objetivos del negocio
+## Objetivos del negocio.
 ## Tareas.
 
 # Requisitos del sistema a desarrollar.
@@ -121,23 +123,23 @@ En el siguiente apartado se desarrollan los requisitos funcionales y no funciona
 | ***Relaciones*** | UC-00 |
 | ***Actores:***  |  Usuario Logueado y Usuario Invitado. |
 | ***Precondicion:*** | <br> |
-| ***Flujo Normal:*** | 1. Acceso a la realizacion de la consulta. |
+| ***Flujo Normal:*** | 1. Acceso a la realización de la consulta. |
 |***Flujo Alternativo:*** | <br> |
 | ***Poscondiciones :*** | <br>  |
 <br>
 
 | ***UC-02*** |  |
 | --- | --- |
-| ***Nombre:***  | Introducir Parametros |
+| ***Nombre:***  | Introducir Parámetros |
 | ***Autor:***  | FehriGilFernandezBesada |
 | ***Fecha:***  | 12/12/22 |
-| ***Descripcion:*** | Introducir los parametros necesarios para que el sistema pueda ofrecer la ruta optima. |
+| ***Descripcion:*** | Introducir los parametros necesarios para que el sistema pueda ofrecer la ruta óptima. |
 | ***Relaciones*** | UC-00 |
 | ***Actores:***  |  Usuario Logueado y Usuario Invitado. |
 | ***Precondicion:*** | <br> |
-| ***Flujo Normal:*** | 1. Introduccion origen y destino. <br>2. Introduccion de fecha y hora.<br> 3. Actor pulsa un boton para guardar los parametros |
-|***Flujo Alternativo:*** | 1.A. El sistema comprueba que los datos corresponde con lo esperado<br> 
-2.A. El sistema comprueba que la fecha introducida es correcta|
+| ***Flujo Normal:*** | 1. Introducción origen y destino. <br>2. Introducción de fecha y hora.<br> 3. Actor pulsa un botón para guardar los parámetros. |
+|***Flujo Alternativo:*** | 1.A. El sistema comprueba que los datos corresponden con lo esperado. <br> 
+2.A. El sistema comprueba que la fecha introducida es correcta.|
 | ***Poscondiciones :*** | <br>  |
 <br>
 
@@ -146,13 +148,13 @@ En el siguiente apartado se desarrollan los requisitos funcionales y no funciona
 | ***Nombre:***  | Introducir Parametros |
 | ***Autor:***  | FehriGilFernandezBesada |
 | ***Fecha:***  | 12/12/22 |
-| ***Descripcion:*** | Introducir los parametros necesarios para que el sistema pueda ofrecer la ruta optima. |
+| ***Descripcion:*** | Introducir los parámetros necesarios para que el sistema pueda ofrecer la ruta óptima. |
 | ***Relaciones*** | UC-00 |
 | ***Actores:***  |  Usuario Logueado y Usuario Invitado. |
 | ***Precondicion:*** | <br> |
-| ***Flujo Normal:*** | 1. Introduccion origen y destino. <br>2. Introduccion de fecha y hora.<br> 3. Actor pulsa un boton para guardar los parametros |
-|***Flujo Alternativo:*** | 1.A. El sistema comprueba que los datos corresponde con lo esperado<br> 
-2.A. El sistema comprueba que la fecha introducida es correcta|
+| ***Flujo Normal:*** | 1. Introducción origen y destino. <br>2. Introducción de fecha y hora.<br> 3. Actor pulsa un botón para guardar los parámetros. |
+|***Flujo Alternativo:*** | 1.A. El sistema comprueba que los datos corresponden con lo esperado. <br> 
+2.A. El sistema comprueba que la fecha introducida es correcta.|
 | ***Poscondiciones :*** | <br>  |
 <br>
 
@@ -161,25 +163,25 @@ En el siguiente apartado se desarrollan los requisitos funcionales y no funciona
 | ***Nombre:***  | Introducir origen y destino |
 | ***Autor:***  | FehriGilFernandezBesada |
 | ***Fecha:***  | 12/12/22 |
-| ***Descripcion:*** | Introduccion del origen y del destino por medio de las diferentes opciones ofertadas: calle y numero, detalle paradas, barrio, zona, municipio, desde el mapa o a partir de un evento cultural |
+| ***Descripcion:*** | Introducción del origen y del destino por medio de las diferentes opciones ofertadas: calle y número, detalle paradas, barrio, zona, municipio; desde el mapa o a partir de un evento cultural. |
 | ***Relaciones*** | UC-00 |
 | ***Actores:***  |  Usuario Logueado y Usuario Invitado. |
 | ***Precondicion:*** | <br> |
-| ***Flujo Normal:*** | 1. Eleccion del metodo de introduccion de los datos. <br>2. Seleccion del origen y destino. |
-|***Flujo Alternativo:*** | 2.A. El sistema comprueba que los datos se encuentran en el territorio contemplado |
+| ***Flujo Normal:*** | 1. Elección del metodo de introducción de los datos. <br>2. Selección del origen y destino. |
+|***Flujo Alternativo:*** | 2.A. El sistema comprueba que los datos se encuentran en el territorio contemplado. |
 | ***Poscondiciones :*** | <br> |
 <br>
 
 | ***Código*** | ***Actor*** | ***Descripción*** |
 |---|---|---|
 | ACT-01 | Usuario invitado | Usuario que no se encuentra registrado en el sistema y hace uso de las funcionalidades de la app que no requieren de estar logueado. |<br>
-| ACT-02 | Usuario logueado | Usuario cuyas credenciales ya se encuentran dentro del sistema y, por lo tanto, tiene la posibilidad de loguearse podiendo así hacer uso de ciertas funcionalidades que lo requieren y disfrutan de otros beneficios. |<br>
-| ACT-03 | Subcontratado | Trabajador de una empresa externa expresamente contratado para el ofrecimiento de ayudas en linea a los usuarios. |<br>
+| ACT-02 | Usuario logueado | Usuario cuyas credenciales ya se encuentran dentro del sistema y, por lo tanto, tiene la posibilidad de loguearse pudiendo así hacer uso de ciertas funcionalidades que lo requieren y disfrutar de otros beneficios. |<br>
+| ACT-03 | Subcontratado | Trabajador de una empresa externa expresamente contratado para el ofrecimiento de ayudas en línea a los usuarios. |<br>
 
 
 #### Diagrama del sistema del sistema de monitorización de la explotación del transporte (SMET).
 ![Texto alternativo](/out/Proyecto/source/SMET/Sistema%20de%20informacion.svg) <br>
-### Lista general de casos de uso y actores.
+### Lista general de casos de uso y actores del proyecto.
 | ***Caso de uso*** | ***Descripción*** |
 |---|---|
 <br>
@@ -191,6 +193,7 @@ En el siguiente apartado se desarrollan los requisitos funcionales y no funciona
 | ACT-03 | Administrador | Usuario con beneficios especiales que desempeñan la administración del sistema interacitivo de información del transporte y del portal. |<br>
 | ACT-04 | Operador adjudicatario | Usuario con beneficios especiales que desempeñan la administración del sistema de monitorización de la explotación del transporte. |<br>
 | ACT-05 | Operador de transporte | Usuario o usuarios encargados de operar los distintos transportes disponibles pertenecientes a la Autoridad Única de Transporte de Gran Canaria. |<br>
+| ACT-06 | Sistema | Sistema encargado de enviar alarmas | <br>
 
 <br>
 
@@ -211,11 +214,11 @@ En el siguiente apartado se desarrollan los requisitos funcionales y no funciona
 | ***Nombre:***  | Visualizar alarmas |
 | ***Autor:***  | FehriGilFernandezBesada |
 | ***Fecha:***  | 12/12/22 |
-| ***Descripcion:*** | <br> Los usuarios del sistema pueden visualizar alarmas |
+| ***Descripcion:*** | <br> Los usuarios del sistema pueden visualizar alarmas. |
 | ***Relaciones*** | INF- |
 | ***Actores:***  | <br>  Usuario invitado, Usuario logueado, Operador adjudicatario, Operador de transporte |
 | ***Precondicion:*** | <br>   |
-| ***Flujo Normal:*** | <br>  1. El usuario accede a la sección de alarmas del sistema. <br> 2. El sistema procesa la información del usuario que accede a la sección de alarmas <br> 3. El sistema muestra las alarmas del usuario <br>   |
+| ***Flujo Normal:*** | <br>  1. El usuario accede a la sección de alarmas del sistema. <br> 2. El sistema procesa la información del usuario que accede a la sección de alarmas <br> 3. El sistema muestra las alarmas del usuario. <br>   |
 |***Flujo Alternativo:*** | <br> 3A. El sistema aún no contiene alarmas para el usuario, por lo que muestra un mensaje. |
 | ***Poscondiciones :*** | <br>  |
 <br>
@@ -227,8 +230,8 @@ En el siguiente apartado se desarrollan los requisitos funcionales y no funciona
 | ***Fecha:***  | 12/12/22 |
 | ***Descripcion:*** | <br> Cuando no se encuentran alarmas para un usuario se muestra un mensaje. |
 | ***Relaciones*** | INF- |
-| ***Actores:***  | <br>  Usuario invitado, Usuario logueado, Operador adjudicatario, Operador de transporte |
-| ***Precondicion:*** | <br> No se encuentran resultados de alarma para un usuario |
+| ***Actores:***  | <br>  Usuario invitado, Usuario logueado, Operador adjudicatario, Operador de transporte. |
+| ***Precondicion:*** | <br> No se encuentran resultados de alarma para un usuario. |
 | ***Flujo Normal:*** | <br> 1. El sistema muestra un mensaje indicando que no se obtienen alarmas. |
 |***Flujo Alternativo:*** | <br>  |
 | ***Poscondiciones :*** | <br>  |
@@ -242,7 +245,7 @@ En el siguiente apartado se desarrollan los requisitos funcionales y no funciona
 | ***Descripcion:*** | <br> El operador de transporte puede visualizar alarmas obteniendo tambíen alarmas únicas de operador de transporte. |
 | ***Relaciones*** | INF- |
 | ***Actores:***  | <br>  Operador de transporte |
-| ***Precondicion:*** | <br>  El usuario debe estar logueado como operador de transporte |
+| ***Precondicion:*** | <br>  El usuario debe estar logueado como operador de transporte. |
 | ***Flujo Normal:*** | <br>  1. El usuario accede a la sección de alarmas del sistema. <br> 2. El sistema procesa la información del usuario que accede a la sección de alarmas <br> 3. El sistema muestra las alarmas del usuario <br> 4. Se muestran alarmas únicas del operador de transporte |
 |***Flujo Alternativo:*** | <br> 3A. El sistema aún no contiene alarmas para el usuario, por lo que muestra un mensaje. |
 | ***Poscondiciones :*** | <br>  |
@@ -256,8 +259,8 @@ En el siguiente apartado se desarrollan los requisitos funcionales y no funciona
 | ***Descripcion:*** | <br> El usuario logueado puede visualizar alarmas obteniendo tambíen alarmas únicas de usuario logueado. |
 | ***Relaciones*** | INF- |
 | ***Actores:***  | <br>  Usuario logueado |
-| ***Precondicion:*** | <br>  El usuario debe estar logueado |
-| ***Flujo Normal:*** | <br>  1. El usuario accede a la sección de alarmas del sistema. <br> 2. El sistema procesa la información del usuario que accede a la sección de alarmas <br> 3. El sistema muestra las alarmas del usuario <br> 4. Se muestran alarmas únicas del usuario logueado |
+| ***Precondicion:*** | <br>  El usuario debe estar logueado. |
+| ***Flujo Normal:*** | <br>  1. El usuario accede a la sección de alarmas del sistema. <br> 2. El sistema procesa la información del usuario que accede a la sección de alarmas <br> 3. El sistema muestra las alarmas del usuario <br> 4. Se muestran alarmas únicas del usuario logueado. |
 |***Flujo Alternativo:*** | <br> 3A. El sistema aún no contiene alarmas para el usuario, por lo que muestra un mensaje. |
 | ***Poscondiciones :*** | <br>  |
 <br>
@@ -270,7 +273,7 @@ En el siguiente apartado se desarrollan los requisitos funcionales y no funciona
 | ***Descripcion:*** | <br> El operador adjudicatario puede visualizar alarmas obteniendo tambíen alarmas únicas de operador adjudicatario. |
 | ***Relaciones*** | INF- |
 | ***Actores:***  | <br>  Operador adjudicatario |
-| ***Precondicion:*** | <br>  El usuario debe estar logueado como operador adjudicatario |
+| ***Precondicion:*** | <br>  El usuario debe estar logueado como operador adjudicatario. |
 | ***Flujo Normal:*** | <br>  1. El usuario accede a la sección de alarmas del sistema. <br> 2. El sistema procesa la información del usuario que accede a la sección de alarmas <br> 3. El sistema muestra las alarmas del usuario <br> 4. Se muestran alarmas únicas del operador adjudicatario |
 |***Flujo Alternativo:*** | <br> 3A. El sistema aún no contiene alarmas para el usuario, por lo que muestra un mensaje. |
 | ***Poscondiciones :*** | <br>  |
@@ -334,7 +337,7 @@ En el siguiente apartado se desarrollan los requisitos funcionales y no funciona
 
 | ***UC-*** |  |
 | --- | --- |
-| ***Nombre:***  | Examinar la explotación en tiempo real. |
+| ***Nombre:***  | Examinar la explotación en tiempo real |
 | ***Autor:***  | FehriGilFernandezBesada |
 | ***Fecha:***  | 12/12/22 |
 | ***Descripcion:*** | <br> Se muestra el estado y las actividades de los diferentes elementos existentes de la explotación del transporte. |
@@ -348,7 +351,7 @@ En el siguiente apartado se desarrollan los requisitos funcionales y no funciona
 
 | ***UC-*** |  |
 | --- | --- |
-| ***Nombre:***  | Puntuar operadores. |
+| ***Nombre:***  | Puntuar operadores |
 | ***Autor:***  | FehriGilFernandezBesada |
 | ***Fecha:***  | 12/12/22 |
 | ***Descripcion:*** | <br> El usuario logueado puede puntuar el desempeño de un operador. |
@@ -357,12 +360,12 @@ En el siguiente apartado se desarrollan los requisitos funcionales y no funciona
 | ***Precondicion:*** | <br>   |
 | ***Flujo Normal:*** | <br>  1. El usuario solicita al sistema puntuar operadores. <br> 2. El usuario selecciona a un operador/operadores <br> 3. El usuario introduce su puntuación. |
 |***Flujo Alternativo:*** | <br>  |
-| ***Poscondiciones :*** | <br> Se actualiza la media de la puntuación del operador u operadores |
+| ***Poscondiciones :*** | <br> Se actualiza la media de la puntuación del operador u operadores. |
 <br>
 
 | ***UC-*** |  |
 | --- | --- |
-| ***Nombre:***  | Seleccionar operador. |
+| ***Nombre:***  | Seleccionar operador |
 | ***Autor:***  | FehriGilFernandezBesada |
 | ***Fecha:***  | 12/12/22 |
 | ***Descripcion:*** | <br> El usuario logueado selecciona uno o varios operadores en el proceso de puntuación de los mismos. |
@@ -375,7 +378,7 @@ En el siguiente apartado se desarrollan los requisitos funcionales y no funciona
 <br>
 
 
-## Diagramas de clase asociados a los requisitos de información
+## Diagramas de clase asociados a los requisitos de información.
 <br>
 
 # Apéndices
@@ -385,9 +388,9 @@ En el siguiente apartado se desarrollan los requisitos funcionales y no funciona
 | ***Desarrollo de la entrevista*** | Técnico Rafa Bravo |
 | ***Tiempo seg/min*** | ***Pregunta/tema tratado*** |
 |  | P:¿Es necesario registrarse?¿Es una opción? <br> R: Depende de la funcionalidad que estemos hablando. Para ver la noticias no hace falta loguearse, pero para subir noticias sí. |
-|  | P:¿De qué medios de transporte se podrá ver horarios y demás información? Medios por carretera, pero ¿cuáles? <br> R: Hoy estamos usando solo buses, pero van a entrar buses como los taxis y unos inter barcos que tenemos entre las distintas islas. Tiempo parada por donde van, por donde están circulando. También tenemos carros tirados por caballos y no estoy seguro de si eso está controlado o no, tenéis que preguntar a otra persona. |
+|  | P:¿De qué medios de transporte se podrá ver horarios y demás información? Medios por carretera, pero ¿cuáles? <br> R: Hoy estamos usando solo buses, pero van a entrar tanto buses como los taxis y unos inter barcos que tenemos entre las distintas islas. Tiempo parada por donde van, por donde están circulando. También tenemos carros tirados por caballos y no estoy seguro de si eso está controlado o no, tenéis que preguntar a otra persona. |
 |  | P:¿Qué tipo de eventos estamos tratando? <br> R: En principio, eventos y monumentos, por donde se pasa por las rutas. En el portal web solamente, las noticias que se pongan se van a estar relacionadas con cosas de ocio, eventos de un partido de fútbol, todo relacionado con las Islas Canarias. |
-|  | P:¿Las notificaciones de qué nos deben avisar? <br> R: Cuando haces búsquedas de rutas, os debe avisar de cortes en la carretera, o por culpa de algún evento hay un colapso y los transporte sufren un retraso. En el momento en el que selecciones esa ruta se te avisará si eres un usuario registrado y tienes puesto un número de teléfono. |
+|  | P:¿Las notificaciones de qué nos deben avisar? <br> R: Cuando haces búsquedas de rutas, debe avisar de cortes en la carretera, o si por culpa de algún evento hay un colapso y los transporten sufren un retraso. En el momento en el que selecciones esa ruta se te avisará si eres un usuario registrado y tienes puesto un número de teléfono. |
 |  | “Deberá ser posible examinar el estado de la explotación en tiempo real para cada operador por separado o en conjunto o en la combinación de operadores que se prefiera por el usuario-.” <br> P:¿A qué se refiere exactamente con la explotación en tiempo real de operadores? <br> R: Los operadores son los conductores de cada medio de transporte, o revisores, o personal de asistencia. |
 |  | “Se debe poder examinar el estado de la explotación en tiempo real para el/los operador/es que prefiera el usuario.” <br> P:¿Puede el usuario ver qué operadores están disponibles en todo momento y acaso tienen una valoración o algo similar ? <br> R: Pues no lo habíamos pensado, pero sería interesante que los usuarios pudieran puntuar a los operadores. |
 |  | “Calcular distancias entre paradas, definir transbordos, calcular tiempos de recorrido, -identificar zonas por las que no se puede transitar y deben ser rodeadas-” <br> P: ¿Este tipo de información será visible también para el usuario normal o sólo para el gestor de transporte? <br> R: Hay que avisar al conductor para que no pase por esa calle, y se debe avisar a los usuarios por si quieren bajar en una parada que está cortada la calle. |
