@@ -135,6 +135,8 @@ En el siguiente apartado se desarrollan los requisitos funcionales y no funciona
 ## Casos de uso
 ### Diagramas de casos de uso
 #### Diagrama del portal.
+![Texto alternativo](/out/Proyecto/source/Portal/Portal.svg) <br>
+
 #### Diagrama del  sistema interactivo de información del transporte. SIIT (A2).
 | ***UC-01*** |  |
 | --- | --- |
@@ -223,6 +225,286 @@ En el siguiente apartado se desarrollan los requisitos funcionales y no funciona
 <br>
 
 #### Portal
+
+| ***UC01*** |  |
+| --- | --- |
+| ***Nombre:***  | Usar espacios de trabajo compartido |
+| ***Autor:***  | FehriGilFernandezBesada |
+| ***Fecha:***  | 12/12/22 |
+| ***Descripcion:*** | <br> Los administradores podrán interactuar en espacios de trabajo compartido. |
+| ***Relaciones*** | INF- |
+| ***Actores:***  | <br>  Administrador |
+| ***Precondicion:*** | <br>   El administrador debe estar autentificado |
+| ***Flujo Normal:*** | <br>  1. El administrador accede a la sección de trabajo compartido. <br> 2. El sistema muestra un chat para interactuar con el resto de administradores. <br>   |
+|***Flujo Alternativo:*** | <br> 2A. No hay nadie dentro del espacio y el sistema muestra un mensaje indicándolo. |
+| ***Poscondiciones :*** | <br>  |
+<br>
+
+| ***UC02*** |  |
+| --- | --- |
+| ***Nombre:***  | Editar la Web |
+| ***Autor:***  | FehriGilFernandezBesada |
+| ***Fecha:***  | 12/12/22 |
+| ***Descripcion:*** | <br> El administrador puede editar aspectos de la Web. |
+| ***Relaciones*** | INF- |
+| ***Actores:***  | <br>  Administrador |
+| ***Precondicion:*** | <br>   |
+| ***Flujo Normal:*** | <br>  1. El administrador solicita al sistema acceder al editor. <br> 2. El sistema da acceso al editor que debe ser WYSIWYG.  |
+|***Flujo Alternativo:*** | <br>  |
+| ***Poscondiciones :*** | <br>  |
+<br>
+
+| ***UC03*** |  |
+| --- | --- |
+| ***Nombre:***  | Empelar editor WYSIWYG |
+| ***Autor:***  | FehriGilFernandezBesada |
+| ***Fecha:***  | 12/12/22 |
+| ***Descripcion:*** | <br> El administrador edita aspectos de la Web mediante un editro WYSIWYG. |
+| ***Relaciones*** | INF- |
+| ***Actores:***  | <br>  Administrador |
+| ***Precondicion:*** | <br>   |
+| ***Flujo Normal:*** | <br>  1. El administrador emplea el editor WYSIWYG para editar la Web.  |
+|***Flujo Alternativo:*** | <br>  |
+| ***Poscondiciones :*** | <br>  |
+<br>
+
+
+| ***UC04*** |  |
+| --- | --- |
+| ***Nombre:***  | Visualizar estadísticas de acceso |
+| ***Autor:***  | FehriGilFernandezBesada |
+| ***Fecha:***  | 12/12/22 |
+| ***Descripcion:*** | <br> Los usuarios del sistema pueden visualizar las estadísticas de acceso. |
+| ***Relaciones*** | INF- |
+| ***Actores:***  | <br>  Administrador, Usuario logueado |
+| ***Precondicion:*** | <br>  El usuario del sistema debe estar logueado |
+| ***Flujo Normal:*** | <br>  1. El usuario del sistema solicita la visualización de las estadísticas de acceso. <br> 2. El sistema muestra las estadísticas mostrando el numero de accesos totales y las fechas en las que se produjeron.  |
+|***Flujo Alternativo:*** | <br> 2A. Si no han habido accesos en el último mes, el sistema muestra un mensaje indicándolo. |
+| ***Poscondiciones :*** | <br>  |
+<br>
+
+| ***UC05*** |  |
+| --- | --- |
+| ***Nombre:***  | Visualizar estadísticas de acceso vista Administrador |
+| ***Autor:***  | FehriGilFernandezBesada |
+| ***Fecha:***  | 12/12/22 |
+| ***Descripcion:*** | <br> Los usuarios del sistema pueden visualizar las estadísticas de acceso. |
+| ***Relaciones*** | INF- |
+| ***Actores:***  | <br>  Administrador |
+| ***Precondicion:*** | <br>  El usuario del sistema debe estar logueado |
+| ***Flujo Normal:*** | <br>  1. El usuario del sistema solicita la visualización de las estadísticas de acceso. <br> 2. El sistema muestra las estadísticas mostrando el numero de accesos totales y las fechas en las que se produjeron. <br> 3. El administrador selecciona el usuario del que quiere ver las estádisticas <br> 4. El sistema muestra los accesos del usuario seleccionado y el proceso termina. |
+|***Flujo Alternativo:*** | <br> 2A. Si no han habido accesos en el último mes, el sistema muestra un mensaje indicándolo. |
+| ***Poscondiciones :*** | <br>  |
+<br>
+
+| ***UC06*** |  |
+| --- | --- |
+| ***Nombre:***  | Modificar diseño de la página. |
+| ***Autor:***  | FehriGilFernandezBesada |
+| ***Fecha:***  | 12/12/22 |
+| ***Descripcion:*** | <br> El administrador puede modificar el diseño de la página de manera sencilla. |
+| ***Relaciones*** | INF- |
+| ***Actores:***  | <br>  Administrador |
+| ***Precondicion:*** | <br>  El administrador debe estar logueado |
+| ***Flujo Normal:*** | <br>  1. El Administrador solicita editar la página. <br> 2. El sistema muestra un editor simple para modificar ciertos aspectos de la página. <br> 3. Al terminar aceptan los cambios y el proceso termina. |
+|***Flujo Alternativo:*** | <br>  |
+| ***Poscondiciones :*** | <br>  |
+<br>
+
+| ***UC07*** |  |
+| --- | --- |
+| ***Nombre:***  | Usar herramientas de explotación de Web. |
+| ***Autor:***  | FehriGilFernandezBesada |
+| ***Fecha:***  | 12/12/22 |
+| ***Descripcion:*** | <br> El administrador puede hacer uso de herramientas de explotación para editar contenidos. |
+| ***Relaciones*** | INF- |
+| ***Actores:***  | <br>  Administrador |
+| ***Precondicion:*** | <br>  El administrador debe estar logueado |
+| ***Flujo Normal:*** | <br>  1. El Administrador solicita al sistema editar contenidos de la Web. <br> 2. El sistema muestra un menu con diferentes opciones de edición.  |
+|***Flujo Alternativo:*** | <br> 2A. El administrador podrá eliminar contenido. <br> 2B. El administrador podrá modificar contenido. <br> 2C. El administrador podrá publicar contenido. |
+| ***Poscondiciones :*** | <br>  |
+<br>
+
+| ***UC08*** |  |
+| --- | --- |
+| ***Nombre:***  | Eliminar contenido. |
+| ***Autor:***  | FehriGilFernandezBesada |
+| ***Fecha:***  | 12/12/22 |
+| ***Descripcion:*** | <br> El administrador puede eliminar contenido de la Web |
+| ***Relaciones*** | INF- |
+| ***Actores:***  | <br>  Administrador |
+| ***Precondicion:*** | <br>  El administrador debe estar logueado |
+| ***Flujo Normal:*** | <br>  1. El administrador selecciona el contenido que desea eliminar. <br> 2. El sistema lo elimina y el proceso termina.  |
+|***Flujo Alternativo:*** | <br> |
+| ***Poscondiciones :*** | <br>  |
+<br>
+
+| ***UC09*** |  |
+| --- | --- |
+| ***Nombre:***  | Eliminar contenido. |
+| ***Autor:***  | FehriGilFernandezBesada |
+| ***Fecha:***  | 12/12/22 |
+| ***Descripcion:*** | <br> El administrador puede eliminar contenido de la Web |
+| ***Relaciones*** | INF- |
+| ***Actores:***  | <br>  Administrador |
+| ***Precondicion:*** | <br>  El administrador debe estar logueado |
+| ***Flujo Normal:*** | <br>  1. El administrador selecciona el contenido que desea eliminar. <br> 2. El sistema lo elimina y el proceso termina.  |
+|***Flujo Alternativo:*** | <br> |
+| ***Poscondiciones :*** | <br>  |
+<br>
+
+| ***UC10*** |  |
+| --- | --- |
+| ***Nombre:***  | Modificar contenido. |
+| ***Autor:***  | FehriGilFernandezBesada |
+| ***Fecha:***  | 12/12/22 |
+| ***Descripcion:*** | <br> El administrador puede modificar contenido de la Web |
+| ***Relaciones*** | INF- |
+| ***Actores:***  | <br>  Administrador |
+| ***Precondicion:*** | <br>  El administrador debe estar logueado |
+| ***Flujo Normal:*** | <br>  1. El administrador selecciona el contenido que desea modificar. <br> 2. El sistema muestra un nuevo menu para poder modificar el contenido. <br> 3. Al realizar las modificaciones el administrador confirma los cambios y el proceso termina.  |
+|***Flujo Alternativo:*** | <br> |
+| ***Poscondiciones :*** | <br>  |
+<br>
+
+| ***UC11*** |  |
+| --- | --- |
+| ***Nombre:***  | Publicar contenido. |
+| ***Autor:***  | FehriGilFernandezBesada |
+| ***Fecha:***  | 12/12/22 |
+| ***Descripcion:*** | <br> El administrador puede eliminar contenido de la Web |
+| ***Relaciones*** | INF- |
+| ***Actores:***  | <br>  Administrador |
+| ***Precondicion:*** | <br>  El administrador debe estar logueado |
+| ***Flujo Normal:*** | <br>  1. El administrador inserta al sistema el contenido que desea publicar. <br> 2. El administrador confirma los cambios y el proceso termina.  |
+|***Flujo Alternativo:*** | <br> |
+| ***Poscondiciones :*** | <br>  |
+<br>
+
+| ***UC12*** |  |
+| --- | --- |
+| ***Nombre:***  | Crear nueva página. |
+| ***Autor:***  | FehriGilFernandezBesada |
+| ***Fecha:***  | 12/12/22 |
+| ***Descripcion:*** | <br> El usuario puede crear una nueva página de manera sencilla. |
+| ***Relaciones*** | INF- |
+| ***Actores:***  | <br>  Usuario logueado, Administrador  |
+| ***Precondicion:*** | <br>   |
+| ***Flujo Normal:*** | <br>  1. El  usuario logueado solicita al sistema crear una  nueva página. <br> 2. El sistema muestra un menú minimalista para editar la página. <br> 3. El usuario crea la página, confirma los cambios y el proceso termina.  |
+|***Flujo Alternativo:*** | <br> 2A.Antes de confirmar la página, el usuario podrá ver una previsualizaciónde la página. <br> |
+| ***Poscondiciones :*** | <br>  |
+<br>
+
+| ***UC13*** |  |
+| --- | --- |
+| ***Nombre:***  | Previsualizar página. |
+| ***Autor:***  | FehriGilFernandezBesada |
+| ***Fecha:***  | 12/12/22 |
+| ***Descripcion:*** | <br> El usuario podrá previsualizar la página creada. |
+| ***Relaciones*** | INF- |
+| ***Actores:***  | <br>  Usuario logueado, Administrador |
+| ***Precondicion:*** | <br>   |
+| ***Flujo Normal:*** | <br>  1. El  usuario selecciona la opción de previsualización <br> 2. El sistema muestra la previsualización y el proceso termina. <br>  |
+|***Flujo Alternativo:*** | <br>  |
+| ***Poscondiciones :*** | <br>  |
+<br>
+
+| ***UC14*** |  |
+| --- | --- |
+| ***Nombre:***  | Utilizar herramientas Web 2.0. |
+| ***Autor:***  | FehriGilFernandezBesada |
+| ***Fecha:***  | 12/12/22 |
+| ***Descripcion:*** | <br> El usuario podrá interactuar mediante el uso de herramientas Web 2.0. |
+| ***Relaciones*** | INF- |
+| ***Actores:***  | <br>  Usuario logueado, Administrador, Usuario invitado |
+| ***Precondicion:*** | <br>   |
+| ***Flujo Normal:*** | <br>  1. El  usuario solicita al sistema emplear las herramientas Web 2.0. <br> 2. El sistema muestra las diferentes herramientas y el usuario selecciona uno. <br> |
+|***Flujo Alternativo:*** | <br>  |
+| ***Poscondiciones :*** | <br>  |
+<br>
+
+| ***UC15*** |  |
+| --- | --- |
+| ***Nombre:***  | Cloud tag. |
+| ***Autor:***  | FehriGilFernandezBesada |
+| ***Fecha:***  | 12/12/22 |
+| ***Descripcion:*** | <br> El usuario podrá interactuar mediante el uso cloud tag. |
+| ***Relaciones*** | INF- |
+| ***Actores:***  | <br>  Usuario logueado, Administrador, Usuario invitado |
+| ***Precondicion:*** | <br>   |
+| ***Flujo Normal:*** | <br>  1. El  usuario solicita al sistema emplear las herramientas Web 2.0. <br> 2. El sistema muestra las diferentes herramientas y el usuario selecciona uno. <br> 3. Al seleccionar cloud tag, el sistema muestra la interfaz para poder interactuar. <br> 4. El usuario confirma los cambios al terminar. |
+|***Flujo Alternativo:*** | <br>  |
+| ***Poscondiciones :*** | <br>  |
+<br>
+
+| ***UC16*** |  |
+| --- | --- |
+| ***Nombre:***  | Blog. |
+| ***Autor:***  | FehriGilFernandezBesada |
+| ***Fecha:***  | 12/12/22 |
+| ***Descripcion:*** | <br> El usuario podrá interactuar mediante el uso de blogs. |
+| ***Relaciones*** | INF- |
+| ***Actores:***  | <br>  Usuario logueado, Administrador, Usuario invitado |
+| ***Precondicion:*** | <br>   |
+| ***Flujo Normal:*** | <br>  1. El  usuario solicita al sistema emplear las herramientas Web 2.0. <br> 2. El sistema muestra las diferentes herramientas y el usuario selecciona uno. <br> 3. Al seleccionar el blog se el sistema muestra la interfaz para crear el blog. <br> 4. El usuario confirma los cambios al terminar. |
+|***Flujo Alternativo:*** | <br>  |
+| ***Poscondiciones :*** | <br>  |
+<br>
+
+| ***UC17*** |  |
+| --- | --- |
+| ***Nombre:***  | Foros. |
+| ***Autor:***  | FehriGilFernandezBesada |
+| ***Fecha:***  | 12/12/22 |
+| ***Descripcion:*** | <br> El usuario podrá interactuar con otros usuarios mediante el uso de foros. |
+| ***Relaciones*** | INF- |
+| ***Actores:***  | <br>  Usuario logueado, Administrador, Usuario invitado |
+| ***Precondicion:*** | <br>   |
+| ***Flujo Normal:*** | <br>  1. El  usuario solicita al sistema emplear las herramientas Web 2.0. <br> 2. El sistema muestra las diferentes herramientas y el usuario selecciona uno. <br> 3. Al seleccionar el foro el sistema muestra un chat para interactuar con otros usuarios.  |
+|***Flujo Alternativo:*** | <br>  |
+| ***Poscondiciones :*** | <br>  |
+<br>
+
+| ***UC18*** |  |
+| --- | --- |
+| ***Nombre:***  | Buscar. |
+| ***Autor:***  | FehriGilFernandezBesada |
+| ***Fecha:***  | 12/12/22 |
+| ***Descripcion:*** | <br> El usuario podrá buscar en el sistema mediante un buscador. |
+| ***Relaciones*** | INF- |
+| ***Actores:***  | <br>  Usuario logueado, Administrador, Usuario invitado |
+| ***Precondicion:*** | <br>   |
+| ***Flujo Normal:*** | <br>  1. El  usuario busca en el buscador. <br> 2. El sistema muestra todos los contenidos que contienen relativos a lo buscado.  |
+|***Flujo Alternativo:*** | <br> 1A. El usuario puede elegir un idioma para filtrar la búsqueda. <br> 1B. El usuario podrá elegir las secciones donde realizar la búsqueda. |
+| ***Poscondiciones :*** | <br>  |
+<br>
+
+| ***UC19*** |  |
+| --- | --- |
+| ***Nombre:***  | Elegir idioma. |
+| ***Autor:***  | FehriGilFernandezBesada |
+| ***Fecha:***  | 12/12/22 |
+| ***Descripcion:*** | <br> El usuario podrá elegir un idioma para filtrar la búsqueda. |
+| ***Relaciones*** | INF- |
+| ***Actores:***  | <br>  Usuario logueado, Administrador, Usuario invitado |
+| ***Precondicion:*** | <br>   |
+| ***Flujo Normal:*** | <br>  1. El  usuario solicita elegir un idioma. <br> 2. El sistema muestra todos los idiomas y el usuario escoge uno.   |
+|***Flujo Alternativo:*** | <br>  |
+| ***Poscondiciones :*** | <br>  |
+<br>
+
+| ***UC20*** |  |
+| --- | --- |
+| ***Nombre:***  | Buscar por secciones. |
+| ***Autor:***  | FehriGilFernandezBesada |
+| ***Fecha:***  | 12/12/22 |
+| ***Descripcion:*** | <br> El usuario podrá elegir uuna sección del sistema para filtrar la búsqueda. |
+| ***Relaciones*** | INF- |
+| ***Actores:***  | <br>  Usuario logueado, Administrador, Usuario invitado |
+| ***Precondicion:*** | <br>   |
+| ***Flujo Normal:*** | <br>  1. El  usuario solicita elegir una sección. <br> 2. El sistema muestra todas las secciones y el usuario escoge uno.   |
+|***Flujo Alternativo:*** | <br>  |
+| ***Poscondiciones :*** | <br>  |
 <br>
 
 #### Sistema interactivo de información del transporte

@@ -15,13 +15,19 @@ Publicar contenido
 Eliminar contenido
 Modificar contenido"
 
+usecase Buscar as "Buscar
+----
+Extension point
+Elegir idioma
+Buscar por secciones"
+
 Administrador--|>UL
 UL--|>UNL
 
 
 Administrador--(Editar la Web)
 (Editar la Web).>(Emplear editor WYSIWYG) : <<include>>
-Administrador--(Modificar diseño página)
+Administrador--(Modificar diseño de la página)
 Administrador--HExplotacion 
 (Publicar contenido) ..>HExplotacion : <<extend>>
 (Eliminar contenido) ..>HExplotacion : <<extend>>
@@ -33,15 +39,17 @@ Administrador--(Usar espacios de trabajo de compartido)
 
 UL--CrearPagina
 (Previsualizar página)..>CrearPagina: <<extend>>
-UL--(Visualizar estadísticas de \n acceso Vista Usuario registrado)
-(Visualizar estadísticas de \n acceso Vista Usuario registrado)--|>(Visualizar estadísticas \n de acceso)
+UL--(Visualizar estadísticas \n de acceso)
 
-UNL--(Utilizar herramientas Web 2.0)
-(Utilizar herramientas Web 2.0)<|--(Foros)
-(Utilizar herramientas Web 2.0)<|--(Blogs) 
-(Utilizar herramientas Web 2.0)<|--(Cloud tag)
+
+UNL--(Foros)
+UNL--(Blogs)
+UNL--(Cloud tag)
+(Foros)--|>(Utilizar herramientas Web 2.0)
+(Blogs)--|>(Utilizar herramientas Web 2.0)
+(Cloud tag)--|>(Utilizar herramientas Web 2.0)
 UNL--(Buscar)
-(Buscar)..>(Buscar por secciones) : <<include>>
-(Buscar)..>(Elegir idioma) : <<include>>
+(Buscar por secciones)..>(Buscar) : <<extends>>
+(Elegir idioma)..>(Buscar) : <<extends>>
 
 @enduml
