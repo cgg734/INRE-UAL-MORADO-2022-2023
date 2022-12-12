@@ -106,7 +106,7 @@ En el siguiente apartado se desarrollan los requisitos funcionales y no funciona
 #### Diagrama del portal.
 #### Diagrama del  sistema interactivo de información del transporte. SIIT (A2).
 #### Diagrama del sistema del sistema de monitorización de la explotación del transporte (SMET).
-![Texto alternativo](/out/Proyecto/source/Sistema%20de%20Informacion/Sistema%20de%20infirmacion.svg) <br>
+![Texto alternativo](/out/Proyecto/source/SMET/Sistema%20de%20informacion.svg) <br>
 ### Lista general de casos de uso y actores.
 | ***Caso de uso*** | ***Descripción*** |
 |---|---|
@@ -136,16 +136,16 @@ En el siguiente apartado se desarrollan los requisitos funcionales y no funciona
 
 | ***UC-*** |  |
 | --- | --- |
-| ***Nombre:***  | Finalizar compra |
+| ***Nombre:***  | Visualizar alarmas |
 | ***Autor:***  | FehriGilFernandezBesada |
-| ***Fecha:***  | 30/09/22 |
-| ***Descripcion:*** | <br> El comprador puede finalizar una compra. |
-| ***Relaciones*** | INF-02 |
-| ***Actores:***  | <br>  Comprador |
-| ***Precondicion:*** | <br>  El comprador debera haber agredado productos |
-| ***Flujo Normal:*** | <br>  1. El comprador debera introducir la opcion de finalizar la compra. <br> 2. Se procesan los datos de los artículos selecionados y se pasa a las opciones de pago <br> 3. Se rellenan los formularios de las opciones de pago. <br> 4. Se comprueba la informacion de pago. <br> 5. Se realiza la transaccion.  |
-|***Flujo Alternativo:*** | <br> 4A. La informacion de los datos de pago son erroneos y se informa al comprador |
-| ***Poscondiciones :*** | <br> Se guarda en el sistema el registro de la compra. |
+| ***Fecha:***  | 12/12/22 |
+| ***Descripcion:*** | <br> Los usuarios del sistema pueden visualizar alarmas |
+| ***Relaciones*** | INF- |
+| ***Actores:***  | <br>  Usuario invitado, Usuario logueado, Operador adjudicatario, Operador de transporte |
+| ***Precondicion:*** | <br>   |
+| ***Flujo Normal:*** | <br>  1. El usuario accede a la sección de alarmas del sistema. <br> 2. El sistema procesa la información del usuario que accede a la sección de alarmas <br> 3. El sistema muestra las alarmas del usuario <br>   |
+|***Flujo Alternativo:*** | <br> 3A. El sistema aún no contiene alarmas para el usuario, por lo que muestra un mensaje. |
+| ***Poscondiciones :*** | <br>  |
 <br>
 
 ## Diagramas de clase asociados a los requisitos de información

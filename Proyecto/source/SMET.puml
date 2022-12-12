@@ -10,7 +10,10 @@ OA-left-VisualAct
 usecase (Visualizar alarmas UR) as "Visualizar alarmas (UL)"
 usecase (Visualizar alarmas OA) as "Visualizar alarmas (OA)"
 usecase (Visualizar alarmas O) as "Visualizar alarmas (O)"
-usecase (Visualizar alarmas)
+usecase VA as "Visualizar alarmas 
+--
+extension points 
+Mostrar mensaje"
 usecase (Recibir avisos)
 usecase DE as "Definir eventos 
 --
@@ -24,9 +27,9 @@ en tiempo real"
 OA--(Visualizar alarmas OA)
 UR--(Visualizar alarmas UR)
 Operador--(Visualizar alarmas O)
-(Visualizar alarmas O)--|>(Visualizar alarmas)
-(Visualizar alarmas OA)--|>(Visualizar alarmas)
-(Visualizar alarmas UR)--|>(Visualizar alarmas)
+(Visualizar alarmas O)--|>VA
+(Visualizar alarmas OA)--|>VA
+(Visualizar alarmas UR)--|>VA
 Operador--(Recibir avisos)
 OA--DE
 (introducir variables)<..DE : <<include>> 
@@ -35,7 +38,7 @@ DE<..GA : <<extend>>
 UNR--EX
 VisualAct<|--EX
 (Introducir operador/es)<..EX : <<include>>
-UNR-right-(Visualizar alarmas)
+UNR-right-VA
 UNR<|--UR
 (Disparar alarmas)--Sistema
 OA--(Suministrar datos al sistema)
@@ -43,4 +46,5 @@ usecase PO as "Puntuar operadores"
 UR--PO
 (Seleccionar operador)<..PO : <<include>>
 OA--(Medir rendimiento de operadores)
+(Mostrar mensaje).up.>VA : <<extend>>
 @enduml
