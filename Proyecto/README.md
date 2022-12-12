@@ -193,6 +193,7 @@ En el siguiente apartado se desarrollan los requisitos funcionales y no funciona
 | ACT-03 | Administrador | Usuario con beneficios especiales que desempeñan la administración del sistema interacitivo de información del transporte y del portal. |<br>
 | ACT-04 | Operador adjudicatario | Usuario con beneficios especiales que desempeñan la administración del sistema de monitorización de la explotación del transporte. |<br>
 | ACT-05 | Operador de transporte | Usuario o usuarios encargados de operar los distintos transportes disponibles pertenecientes a la Autoridad Única de Transporte de Gran Canaria. |<br>
+| ACT-06 | Sistema | Sistema encargado de enviar alarmas | <br>
 
 <br>
 
