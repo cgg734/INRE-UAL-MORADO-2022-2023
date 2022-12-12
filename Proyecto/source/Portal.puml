@@ -1,13 +1,47 @@
 @startuml Portal
-actor Usuario
-actor UR as "Usuario Registrado"
+actor UL as "Usuario logueado"
+actor UNL as "Usuario no logueado"
 actor Administrador
 
 
-Administrador--(Crear nuevas paginas web)
-Usuario--(Visualizar estadisticas de acceso)
-Administrador--(Modificar diseño de la página)
-Administrador--(Visualizar estadisticas de acceso)
+usecase CrearPagina as "Crear nueva página
+----
+Extension point
+Previsualizar página"
+usecase HExplotacion as "Usar herramienta de \n explotacion de Web
+----
+Extension point
+Publicar contenido
+Eliminar contenido
+Modificar contenido"
 
+Administrador--|>UL
+UL--|>UNL
+
+
+Administrador--(Editar la Web)
+(Editar la Web).>(Emplear editor WYSIWYG) : <<include>>
+Administrador--(Modificar diseño página)
+Administrador--HExplotacion 
+(Publicar contenido) -->HExplotacion : <<extend>>
+(Eliminar contenido) -->HExplotacion : <<extend>>
+(Modificar contenido) -->HExplotacion : <<extend>>
+Administrador--(Visualizar estadísticas de \n acceso Vista Administrador) 
+(Visualizar estadísticas de \n acceso Vista Administrador)--|>(Visualizar estadísticas \n de acceso)
+Administrador--(Usar espacios de trabajo de compartido)
+
+
+UL--CrearPagina
+(Previsualizar página)..>CrearPagina: <<extend>>
+UL--(Visualizar estadísticas de \n acceso Vista Usuario registrado)
+(Visualizar estadísticas de \n acceso Vista Usuario registrado)--|>(Visualizar estadísticas \n de acceso)
+
+UNL--(Utilizar herramientas Web 2.0)
+(Utilizar herramientas Web 2.0)..>(Foros) : <<include>>
+(Utilizar herramientas Web 2.0)..>(Blogs) : <<include>>
+(Utilizar herramientas Web 2.0)..>(Cloud tag) : <<include>>
+UNL--(Buscar)
+(Buscar)..>(Buscar por secciones) : <<include>>
+(Buscar)..>(Elegir idioma) : <<include>>
 
 @enduml
