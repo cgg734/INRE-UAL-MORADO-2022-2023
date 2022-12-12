@@ -15,7 +15,7 @@ Consultar historico de ventas
 "Consultar historicos en ventas" as (consultarH)
 
 
-(consultarH)..>(AcordarP): <<include>>
+(consultarH)..>(AcordarP): <<extend>>
 
 (realizar)..>(AcordarP): <<include>>
 
@@ -59,12 +59,12 @@ ConsultarProd --|> (BuscarProd)
 :Administrador: -- (EliminarP)
 "Eliminar producto" as (EliminarP)
 
-:Comprador: --|> Vendedor
+
 
 :Proveedor: -- (AvisarFin)
 "Avisar fin de oferta" as (AvisarFin)
 
-AvisarFin -down-|> (Avisar)
+AvisarFin --|> (Avisar)
 "Avisar" as (Avisar)
 
 (Avisar)..>(Enviar Notificacion): <<include>>

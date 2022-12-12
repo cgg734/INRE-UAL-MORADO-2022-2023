@@ -29,10 +29,10 @@ Después de un incendio, por un lado se necesita obtener información de nuestra
 9.Si el departamento de finanzas aprobó, el proceso finaliza enviando un mensaje al proceso cliente.
 
 
-![Texto alternativo](lab2_Aprobaci%C3%B3nDeFondos.drawio.svg)
+![Texto alternativo](Aprobaci%C3%B3nDeFondos.svg)
 
 # Información revisada
 Un empleado envía una información para ser revisada. A un gerente se le envía la información para su revisión, quien tiene la potestad de aprobarla o rechazarla. Si se aprueba, el empleado recibe una notificación y el proceso culmina. De lo contrario al empleado se le envía la información para su corrección. El empleado procede a realizar los cambios y a enviar la información de vuelta. Luego se envía una notificación al gerente y el proceso culmina.
 
 
-![Texto alternativo](lab2_Informaci%C3%B3nRevisada.drawio.svg)
+![Texto alternativo](Informaci%C3%B3nRevisada.svg)
