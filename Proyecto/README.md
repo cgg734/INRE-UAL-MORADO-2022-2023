@@ -56,7 +56,14 @@ En el siguiente apartado se desarrollan los requisitos funcionales y no funciona
 
 | ***Requisito*** | ***Descripcion*** | ***Tipo*** |
 |---|---|---|
-| Obtención información Gestor de transporte. | Función la cual se podrá realizar mediante método magnético o soporte a papel, así como el trabajo de campo para la obtención de la información no recogida en otras fuentes. En el caso de que se necesiten medios la AUTGC los facilitará para el mejor desarrollo de las tareas. | Requisito funcional | <br>
+| Acceso a la web. | El sistema debe permitir la edición de la web mediante la utilización de un editor WYSIWYG por parte de los administradores. | Requisito funcional | <br>
+| Creación de nuevas páginas. | El sistema debe permitir la creación de nuevas páginas de forma sencilla y coherente con el resto de la Web a usuarios finales que no tengan conocimiento de programación ni de HTML. También permitirá una previsualización. | Requisito funcional | <br>
+| Modificación sencilla del diseño. | El sistema debe permitir modificar el diseño común a varias páginas e incluso de la Web entera.  | Requisito funcional | <br>
+| Herramientas de explotación. | El sistema incorporará herramientas de explotación independientes para cada tipo de información, para que cada contenido de la web pueda ser modificado, retirado o publicado. | Requisito funcional | <br>
+| Herramientas de seguimientos del portal. | El portal debe mostrar estadísticas de acceso a las distintas Secciones y Servicios. El administrador tendrá una vista en la que  podrá ver las estadísticas de acceso de todos los usuarios logueados. Por otro lado, el usuario logueado tendrá una vista en la que solo verá las suyas. | Requisito funcional | <br>
+| Espacios de trabajo compartido. | El portal debe contar con entornos de trabajo compartido y en colaboración para los administradores del sistema. | Requisito funcional | <br>
+| Herramientas web 2.0. | El portal debe contar con herramientas web 2.0 para los usuarios: blogs, foros y relación de cloud tag en la home de la web. | Requisito funcional | <br>
+| Buscador. | El portal permitirá la localización de cualquier contenido mediante la introducción de términos clave. No se diferenciarán las palabras con o sin acento, mayúsculas o minúsculas. Dispondrá de opciones que permitan la parametrización de las búsquedas. | Requisito funcional | <br>
 
 
 ### Requisitos del sistema de información (A2)
