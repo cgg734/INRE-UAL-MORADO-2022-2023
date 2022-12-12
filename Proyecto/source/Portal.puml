@@ -23,9 +23,9 @@ Administrador--(Editar la Web)
 (Editar la Web).>(Emplear editor WYSIWYG) : <<include>>
 Administrador--(Modificar diseño página)
 Administrador--HExplotacion 
-(Publicar contenido) -->HExplotacion : <<extend>>
-(Eliminar contenido) -->HExplotacion : <<extend>>
-(Modificar contenido) -->HExplotacion : <<extend>>
+(Publicar contenido) ..>HExplotacion : <<extend>>
+(Eliminar contenido) ..>HExplotacion : <<extend>>
+(Modificar contenido) ..>HExplotacion : <<extend>>
 Administrador--(Visualizar estadísticas de \n acceso Vista Administrador) 
 (Visualizar estadísticas de \n acceso Vista Administrador)--|>(Visualizar estadísticas \n de acceso)
 Administrador--(Usar espacios de trabajo de compartido)
