@@ -96,6 +96,7 @@ En el siguiente apartado se desarrollan los requisitos funcionales y no funciona
 | Recibir avisos. | Se debe permitir definir eventos con base en variables y con unas condiciones que permitan generar avisos. | Requisito funcional | <br>
 | Examinar el estado de la explotación en tiempo real. | Se debe poder examinar el estado de la explotación en tiempo real para el/los operador/es que prefiera el usuario. | Requisito funcional | <br>
 | Visualización y monitorización del sistema | Se debe poder realizar la visualización y monitorización del sistema  en base a los datos que se reciban. Y también, desde los datos que puedan estar almacenados previamente, y que podrían enviarse al sistema para ser visualizados a posteriori, especificando un rango de fecha, hora, operador y tiempo de salto. Debe ser posible redefinir todas las notificaciones y validar los eventos recibidos y procesados. | Requisito funcional | <br>
+| Monitorización del rendimiento de los operadores. | Los operadores adjudicatarios deben poder monitorizar el desempleo de los operadores del transporte ayudándose de las puntuaciones que ofrecen los usuarios logueados. | Requisito funcional | <br>
 | Claridad en contraste de la información. |En particular el sistema debe poner de manifiesto de modo claro y sin complejidad el nivel de cumplimiento de lo planificado respecto a lo realizado.   | Requisito no funcional | <br>
 | Visualización de alarmas (notificaciones) simultáneas |Las alarmas (notificaciones) deben ser simultáneas en los distintos proyectos y se deben manifestar mediante avisos acústicos, visuales y mediante notificaciones a móviles aparte de otras a considerar. | Requisito no funcional | <br>
 
@@ -124,8 +125,30 @@ En el siguiente apartado se desarrollan los requisitos funcionales y no funciona
 ### Detalles de los casos de uso
 <br>
 
-## Diagramas de clase asociados a los requisitos de información
+#### Portal
+<br>
 
+#### Sistema interactivo de información del transporte
+<br>
+
+#### Sistema de monitorización de la explotación del transporte
+<br>
+
+| ***UC-*** |  |
+| --- | --- |
+| ***Nombre:***  | Finalizar compra |
+| ***Autor:***  | FehriGilFernandezBesada |
+| ***Fecha:***  | 30/09/22 |
+| ***Descripcion:*** | <br> El comprador puede finalizar una compra. |
+| ***Relaciones*** | INF-02 |
+| ***Actores:***  | <br>  Comprador |
+| ***Precondicion:*** | <br>  El comprador debera haber agredado productos |
+| ***Flujo Normal:*** | <br>  1. El comprador debera introducir la opcion de finalizar la compra. <br> 2. Se procesan los datos de los artículos selecionados y se pasa a las opciones de pago <br> 3. Se rellenan los formularios de las opciones de pago. <br> 4. Se comprueba la informacion de pago. <br> 5. Se realiza la transaccion.  |
+|***Flujo Alternativo:*** | <br> 4A. La informacion de los datos de pago son erroneos y se informa al comprador |
+| ***Poscondiciones :*** | <br> Se guarda en el sistema el registro de la compra. |
+<br>
+
+## Diagramas de clase asociados a los requisitos de información
 <br>
 
 # Apéndices

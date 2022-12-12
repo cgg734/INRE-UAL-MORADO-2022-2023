@@ -1,4 +1,4 @@
-@startuml Sistema de infirmacion
+@startuml Sistema de informacion
 actor OA as "Operador adjudicatario"
 actor Operador
 actor UR as "Usuario logueado"
