@@ -478,8 +478,7 @@ En el siguiente apartado se desarrollan los requisitos funcionales y no funciona
 | ***Actores:***  |  Usuario Logueado y Usuario Invitado. |
 | ***Precondición:*** | <br> |
 | ***Flujo Normal:*** | 1. Introducción origen y destino. <br>2. Introducción de fecha y hora.<br> 3. Actor pulsa un botón para guardar los parámetros. |
-|***Flujo Alternativo:*** | 1.A. El sistema comprueba que los datos corresponden con lo esperado. <br> 
-2.A. El sistema comprueba que la fecha introducida es correcta.|
+|***Flujo Alternativo:*** | 1.A. El sistema comprueba que los datos corresponden con lo esperado. <br>2.A. El sistema comprueba que la fecha introducida es correcta.|
 | ***Poscondiciones:*** | <br>  |
 <br>
 
@@ -493,8 +492,7 @@ En el siguiente apartado se desarrollan los requisitos funcionales y no funciona
 | ***Actores:***  |  Usuario Logueado y Usuario Invitado. |
 | ***Precondición:*** | <br> |
 | ***Flujo Normal:*** | 1. Introducción origen y destino. <br>2. Introducción de fecha y hora.<br> 3. Actor pulsa un botón para guardar los parámetros. |
-|***Flujo Alternativo:*** | 1.A. El sistema comprueba que los datos corresponden con lo esperado. <br> 
-2.A. El sistema comprueba que la fecha introducida es correcta.|
+|***Flujo Alternativo:*** | 1.A. El sistema comprueba que los datos corresponden con lo esperado. <br>2.A. El sistema comprueba que la fecha introducida es correcta.|
 | ***Poscondiciones:*** | <br>  |
 <br>
 
