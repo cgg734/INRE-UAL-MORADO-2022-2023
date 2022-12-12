@@ -128,9 +128,9 @@ En el siguiente apartado se desarrollan los requisitos funcionales y no funciona
 | ***Poscondiciones :*** | <br>  |
 <br>
 
-| ***UC-02*** |  |
+| ***UC-02*** | |
 | --- | --- |
-| ***Nombre:***  | Introducir Parámetros |
+| ***Nombre:*** | Introducir Parámetros |
 | ***Autor:***  | FehriGilFernandezBesada |
 | ***Fecha:***  | 12/12/22 |
 | ***Descripcion:*** | Introducir los parametros necesarios para que el sistema pueda ofrecer la ruta óptima. |
@@ -160,7 +160,7 @@ En el siguiente apartado se desarrollan los requisitos funcionales y no funciona
 
 | ***UC-03*** |  |
 | --- | --- |
-| ***Nombre:***  | Introducir origen y destino |
+| ***Nombre:*** | Introducir origen y destino |
 | ***Autor:***  | FehriGilFernandezBesada |
 | ***Fecha:***  | 12/12/22 |
 | ***Descripcion:*** | Introducción del origen y del destino por medio de las diferentes opciones ofertadas: calle y número, detalle paradas, barrio, zona, municipio; desde el mapa o a partir de un evento cultural. |
