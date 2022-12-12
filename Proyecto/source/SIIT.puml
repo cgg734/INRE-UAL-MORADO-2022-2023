@@ -3,15 +3,31 @@ actor UI as "Usuario invitado"
 actor UL as "Usuario Logueado"
 actor Usuario
 actor Subcontratado
+actor Administrador
+
+
+usecase (Modificar) as "Modificar datos"
+usecase (Introducir) as "Introduccion manual de datos"
+
+
+
 
 UI--|>Usuario
 UL--|>Usuario
 
 usecase (Ayuda) as  "Obtener ayuda en linea"
 usecase (Consulta) as "Realizar Consulta"
-usecase (Horarios) as "Visualizar listado de horarios"
+usecase Horarios as "Visualizar listado de horarios y lineas
+--
+extension points
+Visualizar Informacion Adicional"
 usecase (Potenciar) as "Introducir Parametros a potenciar"
 usecase (Origen) as "Introducir origen y destino"
+
+
+Administrador--Modificar
+Administrador--Introducir
+Administrador--Horarios
 
 
 usecase Parametros as "Introducir Parámetros
@@ -30,16 +46,27 @@ Subcontratado--Ayuda
 (Parametros)<..(Potenciar) : <<extends>>
 
 
+
 usecase Solucion as "Visualizar recorrido solución
 --
 extension points
-Visualizar paradas y lineas"
-usecase (MostrarInfoExtra) as "Visualizar paradas y lineas"
+Visualizar Informacion Adicional"
+
+usecase (MostrarInfoList) as "Visualizar Informacion Adicional Listado"
+usecase (MostrarInfoConsulta) as "Visualizar Informacion Adicional Consulta"
+usecase (MostrarInfo) as "Visualizar Informacion Adicional"
 
 
 (Parametros)..>(Solucion) : <<include>> 
-(Solucion)<..(MostrarInfoExtra) : <<extends>>
+(Solucion)<..(MostrarInfoConsulta) : <<extends>>
+(Horarios)<..(MostrarInfoList) : <<extends>>
 
+(MostrarInfoList)--|>(MostrarInfo)
+(MostrarInfoConsulta)--|>(MostrarInfo)
+
+(MostrarInfo)<|--(Paradas)
+(MostrarInfo)<|--(Linea)
+(MostrarInfoConsulta)<|--(Itinerario)
 
 
 @enduml
