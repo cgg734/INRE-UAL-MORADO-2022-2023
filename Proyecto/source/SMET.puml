@@ -30,7 +30,7 @@ Operador--(Visualizar alarmas O)
 (Visualizar alarmas O)--|>VA
 (Visualizar alarmas OA)--|>VA
 (Visualizar alarmas UR)--|>VA
-Operador--(Recibir avisos)
+Operador--(Ver avisos)
 OA--DE
 (introducir variables)<..DE : <<include>> 
 (Introducir condiciones)<..DE : <<include>>
