@@ -129,8 +129,7 @@ En el siguiente apartado se desarrollan los requisitos funcionales y no funciona
 | ***Actores:***  |  Usuario Logueado y Usuario Invitado. |
 | ***Precondicion:*** | <br> |
 | ***Flujo Normal:*** | 1. Introduccion origen y destino. <br>2. Introduccion de fecha y hora.<br> 3. Actor pulsa un boton para guardar los parametros |
-|***Flujo Alternativo:*** | 1.A. El sistema comprueba que los datos corresponde con lo esperado<br> 
-2.A. El sistema comprueba que la fecha introducida es correcta|
+|***Flujo Alternativo:*** | 1.A. El sistema comprueba que los datos corresponde con lo esperado<br> 2.A. El sistema comprueba que la fecha introducida es correcta|
 | ***Poscondiciones :*** | <br>  |
 <br>
 
@@ -144,8 +143,7 @@ En el siguiente apartado se desarrollan los requisitos funcionales y no funciona
 | ***Actores:***  |  Usuario Logueado y Usuario Invitado. |
 | ***Precondicion:*** | <br> |
 | ***Flujo Normal:*** | 1. Introduccion origen y destino. <br>2. Introduccion de fecha y hora.<br> 3. Actor pulsa un boton para guardar los parametros |
-|***Flujo Alternativo:*** | 1.A. El sistema comprueba que los datos corresponde con lo esperado<br> 
-2.A. El sistema comprueba que la fecha introducida es correcta|
+|***Flujo Alternativo:*** |  1.A. El sistema comprueba que los datos corresponde con lo esperado<br>2.A. El sistema comprueba que la fecha introducida es correcta|
 | ***Poscondiciones :*** | <br>  |
 <br>
 
@@ -159,7 +157,7 @@ En el siguiente apartado se desarrollan los requisitos funcionales y no funciona
 | ***Actores:***  |  Usuario Logueado y Usuario Invitado. |
 | ***Precondicion:*** | <br> |
 | ***Flujo Normal:*** | 1. Eleccion del metodo de introduccion de los datos. <br>2. Seleccion del origen y destino. |
-|***Flujo Alternativo:*** | 2.A. El sistema comprueba que los datos se encuentran en el territorio contemplado |
+|***Flujo Alternativo:*** |  2.A. El sistema comprueba que los datos se encuentran en el territorio contemplado |
 | ***Poscondiciones :*** | <br> |
 <br>
 
