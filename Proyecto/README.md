@@ -138,63 +138,6 @@ En el siguiente apartado se desarrollan los requisitos funcionales y no funciona
 ![Texto alternativo](/out/Proyecto/source/Portal/Portal.svg) <br>
 
 #### Diagrama del  sistema interactivo de información del transporte. SIIT (A2).
-| ***UC-01*** |  |
-| --- | --- |
-| ***Nombre:***  | Realizar Consulta |
-| ***Autor:***  | FehriGilFernandezBesada |
-| ***Fecha:***  | 12/12/22 |
-| ***Descripción:*** | Realizar una consulta del trayecto a realizar. |
-| ***Relaciones*** | UC-00 |
-| ***Actores:***  |  Usuario Logueado y Usuario Invitado. |
-| ***Precondicion:*** | <br> |
-| ***Flujo Normal:*** | 1. Acceso a la realización de la consulta. |
-|***Flujo Alternativo:*** | <br> |
-| ***Poscondiciones:*** | <br>  |
-<br>
-
-| ***UC-02*** | |
-| --- | --- |
-| ***Nombre:*** | Introducir Parámetros |
-| ***Autor:***  | FehriGilFernandezBesada |
-| ***Fecha:***  | 12/12/22 |
-| ***Descripción:*** | Introducir los parametros necesarios para que el sistema pueda ofrecer la ruta óptima. |
-| ***Relaciones*** | UC-00 |
-| ***Actores:***  |  Usuario Logueado y Usuario Invitado. |
-| ***Precondición:*** | <br> |
-| ***Flujo Normal:*** | 1. Introducción origen y destino. <br>2. Introducción de fecha y hora.<br> 3. Actor pulsa un botón para guardar los parámetros. |
-|***Flujo Alternativo:*** | 1.A. El sistema comprueba que los datos corresponden con lo esperado. <br> 
-2.A. El sistema comprueba que la fecha introducida es correcta.|
-| ***Poscondiciones:*** | <br>  |
-<br>
-
-| ***UC-02*** |  |
-| --- | --- |
-| ***Nombre:***  | Introducir Parametros |
-| ***Autor:***  | FehriGilFernandezBesada |
-| ***Fecha:***  | 12/12/22 |
-| ***Descripción:*** | Introducir los parámetros necesarios para que el sistema pueda ofrecer la ruta óptima. |
-| ***Relaciones*** | UC-00 |
-| ***Actores:***  |  Usuario Logueado y Usuario Invitado. |
-| ***Precondición:*** | <br> |
-| ***Flujo Normal:*** | 1. Introducción origen y destino. <br>2. Introducción de fecha y hora.<br> 3. Actor pulsa un botón para guardar los parámetros. |
-|***Flujo Alternativo:*** | 1.A. El sistema comprueba que los datos corresponden con lo esperado. <br> 
-2.A. El sistema comprueba que la fecha introducida es correcta.|
-| ***Poscondiciones:*** | <br>  |
-<br>
-
-| ***UC-03*** |  |
-| --- | --- |
-| ***Nombre:*** | Introducir origen y destino |
-| ***Autor:***  | FehriGilFernandezBesada |
-| ***Fecha:***  | 12/12/22 |
-| ***Descripción:*** | Introducción del origen y del destino por medio de las diferentes opciones ofertadas: calle y número, detalle paradas, barrio, zona, municipio; desde el mapa o a partir de un evento cultural. |
-| ***Relaciones*** | UC-00 |
-| ***Actores:***  |  Usuario Logueado y Usuario Invitado. |
-| ***Precondición:*** | <br> |
-| ***Flujo Normal:*** | 1. Elección del metodo de introducción de los datos. <br>2. Selección del origen y destino. |
-|***Flujo Alternativo:*** | 2.A. El sistema comprueba que los datos se encuentran en el territorio contemplado. |
-| ***Poscondiciones:*** | <br> |
-<br>
 
 | ***Código*** | ***Actor*** | ***Descripción*** |
 |---|---|---|
@@ -508,7 +451,221 @@ En el siguiente apartado se desarrollan los requisitos funcionales y no funciona
 <br>
 
 #### Sistema interactivo de información del transporte
+
 <br>
+
+| ***UC-01*** |  |
+| --- | --- |
+| ***Nombre:***  | Realizar Consulta |
+| ***Autor:***  | FehriGilFernandezBesada |
+| ***Fecha:***  | 12/12/22 |
+| ***Descripción:*** | Realizar una consulta del trayecto a realizar. |
+| ***Relaciones*** | UC-00 |
+| ***Actores:***  |  Usuario Logueado y Usuario Invitado. |
+| ***Precondicion:*** | <br> |
+| ***Flujo Normal:*** | 1. Acceso a la realización de la consulta. |
+|***Flujo Alternativo:*** | <br> |
+| ***Poscondiciones:*** | <br>  |
+<br>
+
+| ***UC-02*** | |
+| --- | --- |
+| ***Nombre:*** | Introducir Parámetros |
+| ***Autor:***  | FehriGilFernandezBesada |
+| ***Fecha:***  | 12/12/22 |
+| ***Descripción:*** | Introducir los parametros necesarios para que el sistema pueda ofrecer la ruta óptima. |
+| ***Relaciones*** | UC-00 |
+| ***Actores:***  |  Usuario Logueado y Usuario Invitado. |
+| ***Precondición:*** | <br> |
+| ***Flujo Normal:*** | 1. Introducción origen y destino. <br>2. Introducción de fecha y hora.<br> 3. Actor pulsa un botón para guardar los parámetros. |
+|***Flujo Alternativo:*** | 1.A. El sistema comprueba que los datos corresponden con lo esperado. <br> 
+2.A. El sistema comprueba que la fecha introducida es correcta.|
+| ***Poscondiciones:*** | <br>  |
+<br>
+
+| ***UC-03*** |  |
+| --- | --- |
+| ***Nombre:***  | Introducir Parametros |
+| ***Autor:***  | FehriGilFernandezBesada |
+| ***Fecha:***  | 12/12/22 |
+| ***Descripción:*** | Introducir los parámetros necesarios para que el sistema pueda ofrecer la ruta óptima. |
+| ***Relaciones*** | UC-00 |
+| ***Actores:***  |  Usuario Logueado y Usuario Invitado. |
+| ***Precondición:*** | <br> |
+| ***Flujo Normal:*** | 1. Introducción origen y destino. <br>2. Introducción de fecha y hora.<br> 3. Actor pulsa un botón para guardar los parámetros. |
+|***Flujo Alternativo:*** | 1.A. El sistema comprueba que los datos corresponden con lo esperado. <br> 
+2.A. El sistema comprueba que la fecha introducida es correcta.|
+| ***Poscondiciones:*** | <br>  |
+<br>
+
+| ***UC-04*** |  |
+| --- | --- |
+| ***Nombre:*** | Introducir origen y destino |
+| ***Autor:***  | FehriGilFernandezBesada |
+| ***Fecha:***  | 12/12/22 |
+| ***Descripción:*** | Introducción del origen y del destino por medio de las diferentes opciones ofertadas: calle y número, detalle paradas, barrio, zona, municipio; desde el mapa o a partir de un evento cultural. |
+| ***Relaciones*** | UC-00 |
+| ***Actores:***  |  Usuario Logueado y Usuario Invitado. |
+| ***Precondición:*** | <br> |
+| ***Flujo Normal:*** | 1. Elección del metodo de introducción de los datos. <br>2. Selección del origen y destino. |
+|***Flujo Alternativo:*** | 2.A. El sistema comprueba que los datos se encuentran en el territorio contemplado. |
+| ***Poscondiciones:*** | <br> |
+<br>
+
+| ***UC-05*** |  |
+| --- | --- |
+| ***Nombre:*** | Introducir parametros a pontenciar |
+| ***Autor:***  | FehriGilFernandezBesada |
+| ***Fecha:***  | 12/12/22 |
+| ***Descripción:*** | Seleccionar un aspecto que debe de ser potenciado para la optimizacion del itinerario conforme las necesidades del usuario. |
+| ***Relaciones*** | UC-00 |
+| ***Actores:***  |  Usuario Logueado y Usuario Invitado. |
+| ***Precondición:*** | <br> |
+| ***Flujo Normal:*** | 1. Elección del elemento prioritario.<br>2. Eleccion de elementos segun orden de preferencia |
+|***Flujo Alternativo:*** |- |
+| ***Poscondiciones:*** | <br> |
+<br>
+
+| ***UC-06*** |  |
+| --- | --- |
+| ***Nombre:*** | Visualizar recorrido solución |
+| ***Autor:***  | FehriGilFernandezBesada |
+| ***Fecha:***  | 12/12/22 |
+| ***Descripción:*** | Se muestra el itinerario optimo, a partir del origen se muestra los diferentes tramos que deberia recorrer el usuario, tiempo empleado, lineas, descripcion, el destino de la linea a viajar y el tiempo total del trayecto |
+| ***Relaciones*** | UC-00 |
+| ***Actores:***  |  Usuario Logueado y Usuario Invitado. |
+| ***Precondición:*** | <br> |
+| ***Flujo Normal:*** | 1. Visualizacion en el mapa del itinerario.<br>2. El usuario pulsa sobre el mapa. <br> 3. El sistema muestra las indicaciones en forma de texto. |
+|***Flujo Alternativo:*** | - |
+| ***Poscondiciones:*** | <br> |
+<br>
+
+| ***UC-07*** |  |
+| --- | --- |
+| ***Nombre:*** | Visualizar Información Adicional Consulta |
+| ***Autor:***  | FehriGilFernandezBesada |
+| ***Fecha:***  | 12/12/22 |
+| ***Descripción:*** | Muestra informacion adicional con respecto a la solucion mostrada, como puede ser información de las paradas, de las lineas o del propio itinerario |
+| ***Relaciones*** | UC-00 |
+| ***Actores:***  |  Usuario Logueado y Usuario Invitado. |
+| ***Precondición:*** | <br> |
+| ***Flujo Normal:*** | 1. El sistema muestra todas las opciones disponibles <br>2. El usuario pulsa en el elementos a ver información extra. |
+|***Flujo Alternativo:*** |- |
+| ***Poscondiciones:*** | <br> |
+<br>
+
+| ***UC-08*** |  |
+| --- | --- |
+| ***Nombre:*** | Itinerario |
+| ***Autor:***  | FehriGilFernandezBesada |
+| ***Fecha:***  | 12/12/22 |
+| ***Descripción:*** | Muestra informacion adicional con respecto al itinerario mostrado, por cada tramo se muestra la parada de inicio y fin |
+| ***Relaciones*** | UC-00 |
+| ***Actores:***  |  Usuario Logueado y Usuario Invitado. |
+| ***Precondición:*** | <br> |
+| ***Flujo Normal:*** | 1. El sistema muestra información adicional al itinerario |
+|***Flujo Alternativo:*** | - |
+| ***Poscondiciones:*** | <br> |
+<br>
+
+| ***UC-09*** |  |
+| --- | --- |
+| ***Nombre:*** | Visualizar Informacion Adicional |
+| ***Autor:***  | FehriGilFernandezBesada |
+| ***Fecha:***  | 12/12/22 |
+| ***Descripción:*** | Muestra informacion adicional con respecto a cada parada y cada linea de la AUTGC|
+| ***Relaciones*** | UC-00 |
+| ***Actores:***  |  Usuario Logueado y Usuario Invitado. |
+| ***Precondición:*** | <br> |
+| ***Flujo Normal:*** | 1. El usuario indica si quiere visualizar la información de una parada o de una linea. <br> 2.El sistema muestra el conjunto de lineas o paradas,<br> 3. El usuario elige la linea o parada en la cual esta interesado. <br>4. El sistema muestra la informacion asociada |
+|***Flujo Alternativo:*** | - |
+| ***Poscondiciones:*** | <br> |
+<br>
+
+| ***UC-10*** |  |
+| --- | --- |
+| ***Nombre:*** | Paradas |
+| ***Autor:***  | FehriGilFernandezBesada |
+| ***Fecha:***  | 12/12/22 |
+| ***Descripción:*** | Muestra informacion adicional con respecto a cada parada de la AUTGC|
+| ***Relaciones*** | UC-00 |
+| ***Actores:***  |  Usuario Logueado y Usuario Invitado. |
+| ***Precondición:*** | <br> |
+| ***Flujo Normal:*** | 1. El usuario elige la parada en la cual esta interesado. <br>2. El sistema muestra la informacion asociada |
+|***Flujo Alternativo:*** | - |
+| ***Poscondiciones:*** | <br> |
+<br>
+
+| ***UC-11*** |  |
+| --- | --- |
+| ***Nombre:*** | Linea |
+| ***Autor:***  | FehriGilFernandezBesada |
+| ***Fecha:***  | 12/12/22 |
+| ***Descripción:*** | Muestra informacion adicional con respecto a cada linea de la AUTGC|
+| ***Relaciones*** | UC-00 |
+| ***Actores:***  |  Usuario Logueado y Usuario Invitado. |
+| ***Precondición:*** | <br> |
+| ***Flujo Normal:*** | 1. El usuario elige la linea en la cual esta interesado. <br>2. El sistema muestra la informacion asociada |
+|***Flujo Alternativo:*** | - |
+| ***Poscondiciones:*** | <br> |
+<br>
+
+| ***UC-12*** |  |
+| --- | --- |
+| ***Nombre:*** | Linea |
+| ***Autor:***  | FehriGilFernandezBesada |
+| ***Fecha:***  | 12/12/22 |
+| ***Descripción:*** | Muestra informacion adicional con respecto a cada linea de la AUTGC|
+| ***Relaciones*** | UC-00 |
+| ***Actores:***  |  Usuario Logueado y Usuario Invitado. |
+| ***Precondición:*** | <br> |
+| ***Flujo Normal:*** | 1. El usuario elige la linea en la cual esta interesado. <br>2. El sistema muestra la informacion asociada |
+|***Flujo Alternativo:*** | - |
+| ***Poscondiciones:*** | <br> |
+<br>
+
+| ***UC-12*** |  |
+| --- | --- |
+| ***Nombre:*** | Visualizar Información Adicional Listado |
+| ***Autor:***  | FehriGilFernandezBesada |
+| ***Fecha:***  | 12/12/22 |
+| ***Descripción:*** | Muestra informacion adicional con respecto a cada paradas y las lineas a partir de la lista de horarios de la AUTGC|
+| ***Relaciones*** | UC-00 |
+| ***Actores:***  |  Usuario Logueado y Usuario Invitado. |
+| ***Precondición:*** | <br> |
+| ***Flujo Normal:*** | 1. El usuario elige la linea o parada en la cual esta interesado. <br>2. El sistema muestra la informacion asociada |
+|***Flujo Alternativo:*** | - |
+| ***Poscondiciones:*** | <br> |
+<br>
+
+| ***UC-13*** |  |
+| --- | --- |
+| ***Nombre:*** | Visualizar Listado de horarios y lineas |
+| ***Autor:***  | FehriGilFernandezBesada |
+| ***Fecha:***  | 12/12/22 |
+| ***Descripción:*** | VIsualiza el conjunto de horarios y lineas actualmente disponibles|
+| ***Relaciones*** | UC-00 |
+| ***Actores:***  |  Administrador, Usuario Logueado y Usuario Invitado. |
+| ***Precondición:*** | <br> |
+| ***Flujo Normal:*** | 1. El sistema muestra el conjunto de lineas con sus horarios asociados. |
+|***Flujo Alternativo:*** | - |
+| ***Poscondiciones:*** | <br> |
+<br>
+
+| ***UC-14*** |  |
+| --- | --- |
+| ***Nombre:*** | Modificar |
+| ***Autor:***  | FehriGilFernandezBesada |
+| ***Fecha:***  | 12/12/22 |
+| ***Descripción:*** | El administrador tiene la capacidad de que cualquier momento puede modificar los datos. |
+| ***Relaciones*** | UC-00 |
+| ***Actores:***  |  Administrador. |
+| ***Precondición:*** | <br> |
+| ***Flujo Normal:*** | 1. El Administrador selecciona el dato a modificar.<br> 2. El Sistema muestra un espacio donde el administrador puede introducir los nuevos datos.<br> 3. El administrador introduce el nuevo dato.<br> 4. El sistema comprueba que los datos introducidos son correctos |
+|***Flujo Alternativo:*** | - |
+| ***Poscondiciones:*** | Los datos han sido introducidos de forma correcta y por tanto han sido guardados |
+<br>
+
 
 #### Sistema de monitorización de la explotación del transporte
 <br>
