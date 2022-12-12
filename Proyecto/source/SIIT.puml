@@ -1,3 +1,48 @@
 @startuml SIIT
 
+actor Usuario
+actor Sistema
+actor Subcontratado
+
+usecase (Ayuda) as  "Obtener ayuda en linea"
+usecase (Consulta) as "Realizar Consulta"
+usecase (Horarios) as "Visualizar listado de horarios"
+
+usecase (Calle) as "Introducir calle y número"
+usecase (Detalle) as "Introducir detalle de parada"
+usecase (Barrio) as "Introducir zona"
+usecase (Evento) as "Introducir evento cultural"
+
+usecase Parametros as "Introducir Parámetros
+--
+extension points
+Introducir calle y numero
+Introducir detalle de parada
+Introducir zona
+Introducir evento cultural"
+
+Usuario--Horarios
+Usuario--Consulta
+Usuario--Ayuda
+Subcontratado--Ayuda
+
+(Consulta)..>(Parametros) : <<include>> 
+(Parametros)<..(Calle) : <<extends>>
+(Parametros)<..(Detalle) : <<extends>>
+(Parametros)<..(Barrio) : <<extends>>
+(Parametros)<..(Evento) : <<extends>>
+
+
+usecase Solucion as "Visualizar recorrido solución
+--
+extension points
+Visualizar paradas y lineas"
+usecase (MostrarInfoExtra) as "Visualizar paradas y lineas"
+
+
+(Parametros)..>(Solucion) : <<include>> 
+(Solucion)<..(MostrarInfoExtra) : <<extends>>
+
+
+
 @enduml
