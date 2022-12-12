@@ -22,8 +22,9 @@ En el siguiente documento se especifica los procesos llevados a cabo para el des
 Además, se aporta información de la Autoridad de Transporte Público de Gran Canaria para facilitar el diseño del portal y sus funcionalidades.Por otra parte, se añaden los requisitos, diagramas, casos de uso e información necesaria para la implementación de todas las partes de la aplicación.
 
 <br>
+#Información del Dominio del problema.
 
-### Organigrama
+## Organigrama
 ![Texto alternativo](Organigrama.drawio.svg) <br>
 
 
@@ -45,7 +46,7 @@ Además, se aporta información de la Autoridad de Transporte Público de Gran C
 
 
 # Necesidades del negocio.
-## Objetivos del negocio
+## Objetivos del negocio.
 ## Tareas.
 
 # Requisitos del sistema a desarrollar.
