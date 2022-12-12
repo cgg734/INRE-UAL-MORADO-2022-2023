@@ -105,7 +105,7 @@ En el siguiente apartado se desarrollan los requisitos funcionales y no funciona
 ### Diagramas de casos de uso
 #### Diagrama del portal.
 #### Diagrama del  sistema interactivo de información del transporte. SIIT (A2).
-#### Diagrama del sistema del sistema de monitorización de la explotación del transporte (SMET).
+#### Diagrama del sistema de monitorización de la explotación del transporte (SMET).
 ![Texto alternativo](/out/Proyecto/source/SMET/Sistema%20de%20informacion.svg) <br>
 ### Lista general de casos de uso y actores.
 | ***Caso de uso*** | ***Descripción*** |
@@ -147,6 +147,161 @@ En el siguiente apartado se desarrollan los requisitos funcionales y no funciona
 |***Flujo Alternativo:*** | <br> 3A. El sistema aún no contiene alarmas para el usuario, por lo que muestra un mensaje. |
 | ***Poscondiciones :*** | <br>  |
 <br>
+
+| ***UC-*** |  |
+| --- | --- |
+| ***Nombre:***  | Mostrar mensaje |
+| ***Autor:***  | FehriGilFernandezBesada |
+| ***Fecha:***  | 12/12/22 |
+| ***Descripcion:*** | <br> Cuando no se encuentran alarmas para un usuario se muestra un mensaje. |
+| ***Relaciones*** | INF- |
+| ***Actores:***  | <br>  Usuario invitado, Usuario logueado, Operador adjudicatario, Operador de transporte |
+| ***Precondicion:*** | <br> No se encuentran resultados de alarma para un usuario |
+| ***Flujo Normal:*** | <br> 1. El sistema muestra un mensaje indicando que no se obtienen alarmas. |
+|***Flujo Alternativo:*** | <br>  |
+| ***Poscondiciones :*** | <br>  |
+<br>
+
+| ***UC-*** |  |
+| --- | --- |
+| ***Nombre:***  | Visualizar alarmas (O) |
+| ***Autor:***  | FehriGilFernandezBesada |
+| ***Fecha:***  | 12/12/22 |
+| ***Descripcion:*** | <br> El operador de transporte puede visualizar alarmas obteniendo tambíen alarmas únicas de operador de transporte. |
+| ***Relaciones*** | INF- |
+| ***Actores:***  | <br>  Operador de transporte |
+| ***Precondicion:*** | <br>  El usuario debe estar logueado como operador de transporte |
+| ***Flujo Normal:*** | <br>  1. El usuario accede a la sección de alarmas del sistema. <br> 2. El sistema procesa la información del usuario que accede a la sección de alarmas <br> 3. El sistema muestra las alarmas del usuario <br> 4. Se muestran alarmas únicas del operador de transporte |
+|***Flujo Alternativo:*** | <br> 3A. El sistema aún no contiene alarmas para el usuario, por lo que muestra un mensaje. |
+| ***Poscondiciones :*** | <br>  |
+<br>
+
+| ***UC-*** |  |
+| --- | --- |
+| ***Nombre:***  | Visualizar alarmas (UL) |
+| ***Autor:***  | FehriGilFernandezBesada |
+| ***Fecha:***  | 12/12/22 |
+| ***Descripcion:*** | <br> El usuario logueado puede visualizar alarmas obteniendo tambíen alarmas únicas de usuario logueado. |
+| ***Relaciones*** | INF- |
+| ***Actores:***  | <br>  Usuario logueado |
+| ***Precondicion:*** | <br>  El usuario debe estar logueado |
+| ***Flujo Normal:*** | <br>  1. El usuario accede a la sección de alarmas del sistema. <br> 2. El sistema procesa la información del usuario que accede a la sección de alarmas <br> 3. El sistema muestra las alarmas del usuario <br> 4. Se muestran alarmas únicas del usuario logueado |
+|***Flujo Alternativo:*** | <br> 3A. El sistema aún no contiene alarmas para el usuario, por lo que muestra un mensaje. |
+| ***Poscondiciones :*** | <br>  |
+<br>
+
+| ***UC-*** |  |
+| --- | --- |
+| ***Nombre:***  | Visualizar alarmas (OA) |
+| ***Autor:***  | FehriGilFernandezBesada |
+| ***Fecha:***  | 12/12/22 |
+| ***Descripcion:*** | <br> El operador adjudicatario puede visualizar alarmas obteniendo tambíen alarmas únicas de operador adjudicatario. |
+| ***Relaciones*** | INF- |
+| ***Actores:***  | <br>  Operador adjudicatario |
+| ***Precondicion:*** | <br>  El usuario debe estar logueado como operador adjudicatario |
+| ***Flujo Normal:*** | <br>  1. El usuario accede a la sección de alarmas del sistema. <br> 2. El sistema procesa la información del usuario que accede a la sección de alarmas <br> 3. El sistema muestra las alarmas del usuario <br> 4. Se muestran alarmas únicas del operador adjudicatario |
+|***Flujo Alternativo:*** | <br> 3A. El sistema aún no contiene alarmas para el usuario, por lo que muestra un mensaje. |
+| ***Poscondiciones :*** | <br>  |
+<br>
+
+| ***UC-*** |  |
+| --- | --- |
+| ***Nombre:***  | Visualizar la actividad de los operadores en la cartografía |
+| ***Autor:***  | FehriGilFernandezBesada |
+| ***Fecha:***  | 12/12/22 |
+| ***Descripcion:*** | <br> El operador adjudicatario puede visualizar la actividad de los operadores sobre la cartografía. |
+| ***Relaciones*** | INF- |
+| ***Actores:***  | <br>  Operador adjudicatario |
+| ***Precondicion:*** | <br>  El usuario debe estar logueado como operador adjudicatario |
+| ***Flujo Normal:*** | <br> 1. El usuario solicita al sistema la visualización de la explotación del transporte en tiempo real. <br> 2. El sistema obtiene la información de la explotación del transporte. <br> 3. El sistema muestra la explotación del transporte en tiempo real. <br> 4. El usuario accede a la sección de visualización de operadores. <br> 5. El operador adjudicatario introduce un operador de transporte <br> 6. El sistema muestra sobre la cartografía la actividad del operador introducido <br> 7. El operador registra situaciones puntuales y periodos continuos de la actividad del operador. |
+|***Flujo Alternativo:*** | <br>  |
+| ***Poscondiciones :*** | <br> 1. Los nuevos registros de situaciones puntuales y periodos continuos se guardan en el sistema |
+<br>
+
+| ***UC-*** |  |
+| --- | --- |
+| ***Nombre:***  | Introducir operadores |
+| ***Autor:***  | FehriGilFernandezBesada |
+| ***Fecha:***  | 12/12/22 |
+| ***Descripcion:*** | <br> Se rellenan campos necesarios sobre las credenciales de un operador de transporte para obtener su actividad sobre la cartografia. |
+| ***Relaciones*** | INF- |
+| ***Actores:***  | <br> Operador adjudicatario |
+| ***Precondicion:*** | <br>  El usuario debe estar logueado como operador adjudicatario |
+| ***Flujo Normal:*** | <br>  1. El operador rellena las credenciales del operador de transporte del que desea obtener los datos. <br> 2. El sistema devuelve la información del operador |
+|***Flujo Alternativo:*** | <br>  |
+| ***Poscondiciones :*** | <br>  |
+<br>
+
+| ***UC-*** |  |
+| --- | --- |
+| ***Nombre:***  | Registrar situaciones puntuales |
+| ***Autor:***  | FehriGilFernandezBesada |
+| ***Fecha:***  | 12/12/22 |
+| ***Descripcion:*** | <br> Se seleccionan momentos concretos (capturas de pantalla) que se guardan como situaciones puntuales. |
+| ***Relaciones*** | INF- |
+| ***Actores:***  | <br> Operador adjudicatario |
+| ***Precondicion:*** | <br>  El usuario debe estar logueado como operador adjudicatario |
+| ***Flujo Normal:*** | <br>  1. El sistema muestra todo el contenido que se puede registrar. <br> 2. El operador adjudicatario selecciona un momento concreto. |
+|***Flujo Alternativo:*** | <br>  |
+| ***Poscondiciones :*** | <br>  |
+<br>
+
+| ***UC-*** |  |
+| --- | --- |
+| ***Nombre:***  | Registrar periodos contínuos |
+| ***Autor:***  | FehriGilFernandezBesada |
+| ***Fecha:***  | 12/12/22 |
+| ***Descripcion:*** | <br> Se seleccionan intervalos de tiempo (se mantiene como video) que se guarda como situaciones de periodo contínuo. |
+| ***Relaciones*** | INF- |
+| ***Actores:***  | <br> Operador adjudicatario |
+| ***Precondicion:*** | <br>  El usuario debe estar logueado como operador adjudicatario |
+| ***Flujo Normal:*** | <br>  1. El sistema muestra todo el contenido que se puede registrar. <br> 2. El operador adjudicatario selecciona un intervalo de tiempo. |
+|***Flujo Alternativo:*** | <br>  |
+| ***Poscondiciones :*** | <br>  |
+<br>
+
+| ***UC-*** |  |
+| --- | --- |
+| ***Nombre:***  | Examinar la explotación en tiempo real. |
+| ***Autor:***  | FehriGilFernandezBesada |
+| ***Fecha:***  | 12/12/22 |
+| ***Descripcion:*** | <br> Se muestra el estado y las actividades de los diferentes elementos existentes de la explotación del transporte. |
+| ***Relaciones*** | INF- |
+| ***Actores:***  | <br> Usuario invitado, Usuario logueado |
+| ***Precondicion:*** | <br>   |
+| ***Flujo Normal:*** | <br>  1. El usuario solicita al sistema la visualización de la explotación del transporte en tiempo real. <br> 2. El sistema obtiene la información de la explotación del transporte <br> 3. El sistema muestra la explotación del transporte en tiempo real. |
+|***Flujo Alternativo:*** | <br>  |
+| ***Poscondiciones :*** | <br>  |
+<br>
+
+| ***UC-*** |  |
+| --- | --- |
+| ***Nombre:***  | Puntuar operadores. |
+| ***Autor:***  | FehriGilFernandezBesada |
+| ***Fecha:***  | 12/12/22 |
+| ***Descripcion:*** | <br> El usuario logueado puede puntuar el desempeño de un operador. |
+| ***Relaciones*** | INF- |
+| ***Actores:***  | <br> Usuario logueado |
+| ***Precondicion:*** | <br>   |
+| ***Flujo Normal:*** | <br>  1. El usuario solicita al sistema puntuar operadores. <br> 2. El usuario selecciona a un operador/operadores <br> 3. El usuario introduce su puntuación. |
+|***Flujo Alternativo:*** | <br>  |
+| ***Poscondiciones :*** | <br> Se actualiza la media de la puntuación del operador u operadores |
+<br>
+
+| ***UC-*** |  |
+| --- | --- |
+| ***Nombre:***  | Seleccionar operador. |
+| ***Autor:***  | FehriGilFernandezBesada |
+| ***Fecha:***  | 12/12/22 |
+| ***Descripcion:*** | <br> El usuario logueado selecciona uno o varios operadores en el proceso de puntuación de los mismos. |
+| ***Relaciones*** | INF- |
+| ***Actores:***  | <br> Usuario logueado |
+| ***Precondicion:*** | <br>   |
+| ***Flujo Normal:*** | <br>  1. El sistema obtiene una lista de los operadores responsables del transporte del usuario en sus últimos viajes. <br> 2. El usuario escoge el operador u operadores que desea seleccionar. <br> 3. El usuario pasa los operadores escogidos a la lista de seleccionados. |
+|***Flujo Alternativo:*** | <br>  |
+| ***Poscondiciones :*** | <br>  |
+<br>
+
 
 ## Diagramas de clase asociados a los requisitos de información
 <br>

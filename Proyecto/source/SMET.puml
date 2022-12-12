@@ -36,15 +36,15 @@ OA--DE
 (Introducir condiciones)<..DE : <<include>>
 DE<..GA : <<extend>>
 UNR--EX
-VisualAct<|--EX
-(Introducir operador/es)<..EX : <<include>>
+VisualAct--|>EX
+(Introducir operador/es)<..VisualAct : <<include>>
 UNR-right-VA
 UNR<|--UR
 (Disparar alarmas)--Sistema
 OA--(Suministrar datos al sistema)
 usecase PO as "Puntuar operadores"
 UR--PO
-(Seleccionar operador)<..PO : <<include>>
+(Seleccionar operador)<.up.PO : <<include>>
 OA--(Medir rendimiento de operadores)
 (Mostrar mensaje).up.>VA : <<extend>>
 @enduml
