@@ -39,5 +39,8 @@ UNR-right-(Visualizar alarmas)
 UNR<|--UR
 (Disparar alarmas)--Sistema
 OA--(Suministrar datos al sistema)
-UR--(Puntuar operadores)
+usecase PO as "Puntuar operadores"
+UR--PO
+(Seleccionar operador)<..PO : <<include>>
+OA--(Medir rendimiento de operadores)
 @enduml
