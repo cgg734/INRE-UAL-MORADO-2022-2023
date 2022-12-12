@@ -377,6 +377,117 @@ En el siguiente apartado se desarrollan los requisitos funcionales y no funciona
 | ***Poscondiciones :*** | <br>  |
 <br>
 
+| ***UC-*** |  |
+| --- | --- |
+| ***Nombre:***  | Suministrar datos al sistema. |
+| ***Autor:***  | FehriGilFernandezBesada |
+| ***Fecha:***  | 12/12/22 |
+| ***Descripcion:*** | <br> El operador introduce en el sistema nuevos datos. |
+| ***Relaciones*** | INF- |
+| ***Actores:***  | <br> Operador adjudicatario |
+| ***Precondicion:*** | <br>   |
+| ***Flujo Normal:*** | <br>  1. El operador solicita introducir datos nuevos. <br> 2. El operador introducen los datos completando varios campos. |
+|***Flujo Alternativo:*** | <br>  |
+| ***Poscondiciones :*** | <br> Los cambios nuevos introducidos se cargan en e sistema y se actualizan para el resto de funcionalidades y usuarios. |
+<br>
+
+| ***UC-*** |  |
+| --- | --- |
+| ***Nombre:***  | Medir rendimiento de los operadores. |
+| ***Autor:***  | FehriGilFernandezBesada |
+| ***Fecha:***  | 12/12/22 |
+| ***Descripcion:*** | <br> El operador adjudicatario puede medir el desempeño de los operadores basándose en el resultado de sus puntuaciones. |
+| ***Relaciones*** | INF- |
+| ***Actores:***  | <br> Operador adjudicatario |
+| ***Precondicion:*** | <br>   |
+| ***Flujo Normal:*** | <br>  1. El operador solicita medir el rendimiento de los operadores de transporte. <br> 2. El sistema muestra todos los operadores en activo. <br> 3. El operador adjudicatario selecciona al operador de transporte del que desea obtener su desempeño |
+|***Flujo Alternativo:*** | <br>  |
+| ***Poscondiciones :*** | <br>  |
+<br>
+
+| ***UC-*** |  |
+| --- | --- |
+| ***Nombre:***  | Definir eventos. |
+| ***Autor:***  | FehriGilFernandezBesada |
+| ***Fecha:***  | 12/12/22 |
+| ***Descripcion:*** | <br> El operador adjudicatario puede definir nuevos eventos en el sistema que serán visibles para el resto de usuarios. |
+| ***Relaciones*** | INF- |
+| ***Actores:***  | <br> Operador adjudicatario |
+| ***Precondicion:*** | <br>   |
+| ***Flujo Normal:*** | <br>  1. El operador solicita definir un nuevo evento. <br> 2. El operador introduce una pequeña descripción del evento <br> 3. El operador introduce variables del evento. <br> 4. El operador introduce las condiciones del evento |
+|***Flujo Alternativo:*** | <br> 1. De forma excepcional, algunos eventos generan avisos para los operadores de transporte.  |
+| ***Poscondiciones :*** | <br>  |
+<br>
+
+| ***UC-*** |  |
+| --- | --- |
+| ***Nombre:***  | Introducir variable. |
+| ***Autor:***  | FehriGilFernandezBesada |
+| ***Fecha:***  | 12/12/22 |
+| ***Descripcion:*** | <br> El operador adjudicatario introduce variables de un evento en el proceso de creación del mismo. |
+| ***Relaciones*** | INF- |
+| ***Actores:***  | <br> Operador adjudicatario |
+| ***Precondicion:*** | <br>   |
+| ***Flujo Normal:*** | <br>  1. El operador introduce el número de variables que desea introducir. <br> 2. El operador asigna un nombre a cada variable. <br> 3. El operador completa los campos para cada variable. |
+|***Flujo Alternativo:*** | <br> |
+| ***Poscondiciones :*** | <br>  |
+<br>
+
+| ***UC-*** |  |
+| --- | --- |
+| ***Nombre:***  | Introducir condiciones. |
+| ***Autor:***  | FehriGilFernandezBesada |
+| ***Fecha:***  | 12/12/22 |
+| ***Descripcion:*** | <br> El operador adjudicatario introduce condiciones para un evento durante el proceso de creación del mismo. |
+| ***Relaciones*** | INF- |
+| ***Actores:***  | <br> Operador adjudicatario |
+| ***Precondicion:*** | <br>   |
+| ***Flujo Normal:*** | <br>  1. El operador introduce el número de condiciones que desea introducir. <br> 2. El operador asigna un nombre a cada condición. <br> 3. El operador introduce los datos de cada condición. |
+|***Flujo Alternativo:*** | <br> |
+| ***Poscondiciones :*** | <br>  |
+<br>
+
+| ***UC-*** |  |
+| --- | --- |
+| ***Nombre:***  | Generar avisos. |
+| ***Autor:***  | FehriGilFernandezBesada |
+| ***Fecha:***  | 12/12/22 |
+| ***Descripcion:*** | <br> El operador adjudicatario puede generar un aviso para un evento durante el desarrollo del mismo, que reciben todos los operadores de transporte en activo. |
+| ***Relaciones*** | INF- |
+| ***Actores:***  | <br> Operador adjudicatario |
+| ***Precondicion:*** | <br>   |
+| ***Flujo Normal:*** | <br>  1. El operador solicita generar un aviso. <br> 2. El sistema genera un mensaje de texto con los detalles del evento <br> 3. El sistema envía el aviso a los operadores. |
+|***Flujo Alternativo:*** | <br> |
+| ***Poscondiciones :*** | <br>  |
+<br>
+
+| ***UC-*** |  |
+| --- | --- |
+| ***Nombre:***  | Ver avisos. |
+| ***Autor:***  | FehriGilFernandezBesada |
+| ***Fecha:***  | 12/12/22 |
+| ***Descripcion:*** | <br> El operador de transporte puede recibir un aviso sobre un evento. |
+| ***Relaciones*** | INF- |
+| ***Actores:***  | <br> Operador adjudicatario |
+| ***Precondicion:*** | <br> Se debe haber generado un aviso nuevo  |
+| ***Flujo Normal:*** | <br>  1. El operador solicita ver un nuevo aviso. |
+|***Flujo Alternativo:*** | <br> |
+| ***Poscondiciones :*** | <br>  |
+<br>
+
+| ***UC-*** |  |
+| --- | --- |
+| ***Nombre:***  | Disparar alarma. |
+| ***Autor:***  | FehriGilFernandezBesada |
+| ***Fecha:***  | 12/12/22 |
+| ***Descripcion:*** | <br> El sistema envía alarmas a todos sus receptores. |
+| ***Relaciones*** | INF- |
+| ***Actores:***  | <br> Sistema |
+| ***Precondicion:*** | <br>  |
+| ***Flujo Normal:*** | <br>  1. El sistema envía cada alarma a su destinatario. |
+|***Flujo Alternativo:*** | <br> |
+| ***Poscondiciones :*** | <br>  |
+<br>
 
 ## Diagramas de clase asociados a los requisitos de información.
 <br>
