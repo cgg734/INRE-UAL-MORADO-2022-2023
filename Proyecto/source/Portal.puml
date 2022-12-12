@@ -37,9 +37,9 @@ UL--(Visualizar estadísticas de \n acceso Vista Usuario registrado)
 (Visualizar estadísticas de \n acceso Vista Usuario registrado)--|>(Visualizar estadísticas \n de acceso)
 
 UNL--(Utilizar herramientas Web 2.0)
-(Utilizar herramientas Web 2.0)..>(Foros) : <<include>>
-(Utilizar herramientas Web 2.0)..>(Blogs) : <<include>>
-(Utilizar herramientas Web 2.0)..>(Cloud tag) : <<include>>
+(Utilizar herramientas Web 2.0)<|--(Foros)
+(Utilizar herramientas Web 2.0)<|--(Blogs) 
+(Utilizar herramientas Web 2.0)<|--(Cloud tag)
 UNL--(Buscar)
 (Buscar)..>(Buscar por secciones) : <<include>>
 (Buscar)..>(Elegir idioma) : <<include>>
