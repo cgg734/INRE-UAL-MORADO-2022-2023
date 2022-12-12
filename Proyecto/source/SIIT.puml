@@ -1,25 +1,24 @@
 @startuml SIIT
-
+actor UI as "Usuario invitado"
+actor UL as "Usuario Logueado"
 actor Usuario
-actor Sistema
 actor Subcontratado
+
+UI--|>Usuario
+UL--|>Usuario
 
 usecase (Ayuda) as  "Obtener ayuda en linea"
 usecase (Consulta) as "Realizar Consulta"
 usecase (Horarios) as "Visualizar listado de horarios"
+usecase (Potenciar) as "Introducir Parametros a potenciar"
+usecase (Origen) as "Introducir origen y destino"
 
-usecase (Calle) as "Introducir calle y número"
-usecase (Detalle) as "Introducir detalle de parada"
-usecase (Barrio) as "Introducir zona"
-usecase (Evento) as "Introducir evento cultural"
 
 usecase Parametros as "Introducir Parámetros
 --
 extension points
-Introducir calle y numero
-Introducir detalle de parada
-Introducir zona
-Introducir evento cultural"
+Parametros a potenciar
+"
 
 Usuario--Horarios
 Usuario--Consulta
@@ -27,10 +26,8 @@ Usuario--Ayuda
 Subcontratado--Ayuda
 
 (Consulta)..>(Parametros) : <<include>> 
-(Parametros)<..(Calle) : <<extends>>
-(Parametros)<..(Detalle) : <<extends>>
-(Parametros)<..(Barrio) : <<extends>>
-(Parametros)<..(Evento) : <<extends>>
+(Parametros)..>(Origen) : <<include>> 
+(Parametros)<..(Potenciar) : <<extends>>
 
 
 usecase Solucion as "Visualizar recorrido solución

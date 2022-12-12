@@ -105,7 +105,72 @@ En el siguiente apartado se desarrollan los requisitos funcionales y no funciona
 ### Diagramas de casos de uso
 #### Diagrama del portal.
 #### Diagrama del  sistema interactivo de información del transporte. SIIT (A2).
-#### Diagrama del sistema de monitorización de la explotación del transporte (SMET).
+| ***UC-01*** |  |
+| --- | --- |
+| ***Nombre:***  | Realizar Consulta |
+| ***Autor:***  | FehriGilFernandezBesada |
+| ***Fecha:***  | 12/12/22 |
+| ***Descripcion:*** | Realizar una consulta del trayecto a realizar. |
+| ***Relaciones*** | UC-00 |
+| ***Actores:***  |  Usuario Logueado y Usuario Invitado. |
+| ***Precondicion:*** | <br> |
+| ***Flujo Normal:*** | 1. Acceso a la realizacion de la consulta. |
+|***Flujo Alternativo:*** | <br> |
+| ***Poscondiciones :*** | <br>  |
+<br>
+
+| ***UC-02*** |  |
+| --- | --- |
+| ***Nombre:***  | Introducir Parametros |
+| ***Autor:***  | FehriGilFernandezBesada |
+| ***Fecha:***  | 12/12/22 |
+| ***Descripcion:*** | Introducir los parametros necesarios para que el sistema pueda ofrecer la ruta optima. |
+| ***Relaciones*** | UC-00 |
+| ***Actores:***  |  Usuario Logueado y Usuario Invitado. |
+| ***Precondicion:*** | <br> |
+| ***Flujo Normal:*** | 1. Introduccion origen y destino. <br>2. Introduccion de fecha y hora.<br> 3. Actor pulsa un boton para guardar los parametros |
+|***Flujo Alternativo:*** | 1.A. El sistema comprueba que los datos corresponde con lo esperado<br> 
+2.A. El sistema comprueba que la fecha introducida es correcta|
+| ***Poscondiciones :*** | <br>  |
+<br>
+
+| ***UC-02*** |  |
+| --- | --- |
+| ***Nombre:***  | Introducir Parametros |
+| ***Autor:***  | FehriGilFernandezBesada |
+| ***Fecha:***  | 12/12/22 |
+| ***Descripcion:*** | Introducir los parametros necesarios para que el sistema pueda ofrecer la ruta optima. |
+| ***Relaciones*** | UC-00 |
+| ***Actores:***  |  Usuario Logueado y Usuario Invitado. |
+| ***Precondicion:*** | <br> |
+| ***Flujo Normal:*** | 1. Introduccion origen y destino. <br>2. Introduccion de fecha y hora.<br> 3. Actor pulsa un boton para guardar los parametros |
+|***Flujo Alternativo:*** | 1.A. El sistema comprueba que los datos corresponde con lo esperado<br> 
+2.A. El sistema comprueba que la fecha introducida es correcta|
+| ***Poscondiciones :*** | <br>  |
+<br>
+
+| ***UC-03*** |  |
+| --- | --- |
+| ***Nombre:***  | Introducir origen y destino |
+| ***Autor:***  | FehriGilFernandezBesada |
+| ***Fecha:***  | 12/12/22 |
+| ***Descripcion:*** | Introduccion del origen y del destino por medio de las diferentes opciones ofertadas: calle y numero, detalle paradas, barrio, zona, municipio, desde el mapa o a partir de un evento cultural |
+| ***Relaciones*** | UC-00 |
+| ***Actores:***  |  Usuario Logueado y Usuario Invitado. |
+| ***Precondicion:*** | <br> |
+| ***Flujo Normal:*** | 1. Eleccion del metodo de introduccion de los datos. <br>2. Seleccion del origen y destino. |
+|***Flujo Alternativo:*** | 2.A. El sistema comprueba que los datos se encuentran en el territorio contemplado |
+| ***Poscondiciones :*** | <br> |
+<br>
+
+| ***Código*** | ***Actor*** | ***Descripción*** |
+|---|---|---|
+| ACT-01 | Usuario invitado | Usuario que no se encuentra registrado en el sistema y hace uso de las funcionalidades de la app que no requieren de estar logueado. |<br>
+| ACT-02 | Usuario logueado | Usuario cuyas credenciales ya se encuentran dentro del sistema y, por lo tanto, tiene la posibilidad de loguearse podiendo así hacer uso de ciertas funcionalidades que lo requieren y disfrutan de otros beneficios. |<br>
+| ACT-03 | Subcontratado | Trabajador de una empresa externa expresamente contratado para el ofrecimiento de ayudas en linea a los usuarios. |<br>
+
+
+#### Diagrama del sistema del sistema de monitorización de la explotación del transporte (SMET).
 ![Texto alternativo](/out/Proyecto/source/SMET/Sistema%20de%20informacion.svg) <br>
 ### Lista general de casos de uso y actores.
 | ***Caso de uso*** | ***Descripción*** |
