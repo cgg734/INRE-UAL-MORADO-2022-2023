@@ -22,7 +22,8 @@ En el siguiente documento se especifica los procesos llevados a cabo para el des
 Además, se aporta información de la Autoridad de Transporte Público de Gran Canaria para facilitar el diseño del portal y sus funcionalidades.Por otra parte, se añaden los requisitos, diagramas, casos de uso e información necesaria para la implementación de todas las partes de la aplicación.
 
 <br>
-#Información del Dominio del problema.
+
+# Información del Dominio del problema.
 
 ## Organigrama
 ![Texto alternativo](Organigrama.drawio.svg) <br>
@@ -180,7 +181,7 @@ En el siguiente apartado se desarrollan los requisitos funcionales y no funciona
 
 #### Diagrama del sistema del sistema de monitorización de la explotación del transporte (SMET).
 ![Texto alternativo](/out/Proyecto/source/SMET/Sistema%20de%20informacion.svg) <br>
-### Lista general de casos de uso y actores.
+### Lista general de casos de uso y actores del proyecto.
 | ***Caso de uso*** | ***Descripción*** |
 |---|---|
 <br>
@@ -376,7 +377,7 @@ En el siguiente apartado se desarrollan los requisitos funcionales y no funciona
 <br>
 
 
-## Diagramas de clase asociados a los requisitos de información
+## Diagramas de clase asociados a los requisitos de información.
 <br>
 
 # Apéndices
