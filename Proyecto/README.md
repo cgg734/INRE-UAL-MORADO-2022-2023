@@ -73,6 +73,8 @@ En esta sección del documento se presentan los objetivos del proyecto a llevar 
 | ***Descripción*** | Respecto al Sistema de Información de Monitorización de la Explotación de la Autoridad Única del Transporte de Gran Canaria, se trata de Analizar, Diseñar, Implementar y poner en marcha un sistema de información central sobre la explotación, para la Autoridad Única del Transportes cuya misión fundamental sea la de monitorizar en tiempo real el estado de la red de transporte público por carretera en la Isla de Gran Canaria en los siguientes aspectos: <br> • el cumplimiento de los servicios adjudicados a los operadores y considerados esenciales, <br> • servicios considerados como ampliaciones o mejoras prestados por parte de los operadores adjudicatarios <br> • la simulación de la situación real y su comprobación mediante el empleo de los sistemasde comunicaciones disponibles en los vehículos de los operadores. |
 <br>
 
+## Modelado de procesos del negocio.
+
 ## Tareas.
 
 
