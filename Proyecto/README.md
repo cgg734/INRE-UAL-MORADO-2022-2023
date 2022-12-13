@@ -1225,6 +1225,7 @@ En el siguiente apartado se desarrollan los requisitos funcionales y no funciona
 <br>
 
 ### Diagrama de clase asociado a los requisitos del SIIT. <br>
+![Texto alternativo](Diagrama%20clases%20A2.drawio.svg) <br>
 
 ### Diagrama de clase asociado a los requisitos del SMET. <br>
 ![Texto alternativo](Diagrama%20clases%20B.drawio.svg) <br>
