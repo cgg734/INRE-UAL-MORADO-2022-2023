@@ -1204,12 +1204,15 @@ En el siguiente apartado se desarrollan los requisitos funcionales y no funciona
 ## Diagramas de clase asociados a los requisitos de información.
 <br>
 
+### Diagrama de clase asociado a los requisitos de información del portal (A1)
+[Texto alternativo](Diagrama%20clases%20A1.drawio.svg)
+
 ## Requisitos de información
 ### Requisitos de información del portal (A1)
 
 <br>
 
-![Texto alternativo](Diagrama%20clases%20A1.drawio.svg)
+
 
 | ***INF-01*** | Información sobre Administrador.  |
 | --- | --- |
