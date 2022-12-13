@@ -958,7 +958,7 @@ En el siguiente apartado se desarrollan los requisitos funcionales y no funciona
 | ***Referencias:*** | <br> Administrador, Usuario logueado, Usuario invitado. |
 | ***Fuentes:***  | <br>   Servicios Continuos.  |
 | ***Descripción:*** | <br> El sistema deberá almacenar los datos y los diferentes roles que tiene el administrador. <br> |
-| ***Datos específicos:*** |  <br> 1. Nombre completo: Cadena de máximo 30 caracteres. <br> 2.Teléfono de contacto: Cadena de máximo 10 caracteres.  <br> 3. Email: Cadena <br> Número de cuenta bancaria: Entero postivo. <br> 4. Podrá utilizar las diferentes herramientas web, ver tanto los foros, como los blogs, como el cloud tag. <br> |
+| ***Datos específicos:*** |  <br> 1. Nombre completo: Cadena de máximo 30 caracteres. <br> 2. Teléfono de contacto: Cadena de máximo 10 caracteres.  <br> 3. Email: Cadena <br> Número de cuenta bancaria: Entero postivo. <br> 4. Podrá utilizar las diferentes herramientas web, ver tanto los foros, como los blogs, como el cloud tag. <br> |
 | ***Importancia:*** | <br> Muy importante. |
 | ***Estado:*** | <br> Aceptado. |
 | ***Comentarios:*** | <br> Los datos son imprescindibles para correcto funcionamiento del sistema.|
@@ -970,7 +970,7 @@ En el siguiente apartado se desarrollan los requisitos funcionales y no funciona
 | ***Referencias:*** | <br> Usuario logueado, Usuario inivtado. |
 | ***Fuentes:***  | <br>   Servicios Continuos  |
 | ***Descripción:*** | <br> El sistema deberá almacenar los datos y todas las acciones que puede hacer el usuario logueado. |
-| ***Datos específicos:*** |   <br>  1. Nombre completo: Cadena de máximo 30 caracteres. <br> 2.Teléfono de contacto: Cadena de máximo 10 caracteres.  <br> 3. Email: Cadena <br> Número de cuenta bancaria: Entero postivo. <br> 4. Podrá utilizar las diferentes herramientas web, ver tanto los foros, como los blogs, como el cloud tag. <br>  |
+| ***Datos específicos:*** |   <br>  1. Nombre completo: Cadena de máximo 30 caracteres. <br> 2. Teléfono de contacto: Cadena de máximo 10 caracteres.  <br> 3. Email: Cadena <br> Número de cuenta bancaria: Entero postivo. <br> 4. Podrá utilizar las diferentes herramientas web, ver tanto los foros, como los blogs, como el cloud tag. <br>  |
 | ***Importancia:*** | <br> Muy importante. |
 | ***Estado:*** | <br> Aceptado. |
 | ***Comentarios:*** | <br>  Los datos son imprescindibles para correcto funcionamiento del sistema. |
@@ -995,7 +995,7 @@ En el siguiente apartado se desarrollan los requisitos funcionales y no funciona
 | ***Referencias:*** | <br> Visualizar estadísticas. |
 | ***Fuentes:***  | <br>   Servicios Continuos  |
 | ***Descripción:*** | <br> El sistema deberá almacenar la información correspondiente a las estadísticas de cada usuario logueado. |
-| ***Datos especificos:*** |   <br>  Identificador de las estadísticas: nombre de usuario. |
+| ***Datos especificos:*** |   <br>  Identificador de las estadísticas: Nombre de usuario. |
 | ***Importancia:*** | <br> Muy importante. |
 | ***Estado:*** | <br> Aceptado. |
 | ***Comentarios:*** | <br> |
