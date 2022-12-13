@@ -47,8 +47,35 @@ Además, se aporta información de la Autoridad de Transporte Público de Gran C
 
 
 # Necesidades del negocio.
+<br>
+
 ## Objetivos del negocio.
+
+En esta sección del documento se presentan los objetivos del proyecto a llevar a cabo.
+
+<br>
+
+| ***OBJ-01*** | ***Portal*** |
+| --- | --- |
+| ***Versión*** | 1.0 |
+| ***Descripción*** |  Se debe implementar un portal web que cumpla con la identificación de necesidades (contenidos, servicios, audiencias,…), definición de la estructura (arquitectura de la información, mapa web,…) y organización del portal, detallar componentes organizativos, funcionales y técnicos del mismo. |
+<br>
+
+| ***OBJ-02*** | ***SIIT*** |
+| --- | --- |
+| ***Versión*** | 1.0 |
+| ***Descripción*** | Se debe implementar un sistema integrado de información de la red de transporte público de todos los municipios de Gran Canaria que proporcione herramientas de análisis,consulta, localización y gestión, con el objeto de que el usuario del transporte público pueda consultar de forma dinámica la información del servicio permitiéndole conocer y programar con antelación su viaje. |
+<br>
+
+| ***OBJ-03*** | ***SMET*** |
+| --- | --- |
+| ***Versión*** | 1.0 |
+| ***Descripción*** | Respecto al Sistema de Información de Monitorización de la Explotación de la Autoridad Única del Transporte de Gran Canaria, se trata de Analizar, Diseñar, Implementar y poner en marcha un sistema de información central sobre la explotación, para la Autoridad Única del Transportes cuya misión fundamental sea la de monitorizar en tiempo real el estado de la red de transporte público por carretera en la Isla de Gran Canaria en los siguientes aspectos: <br> • el cumplimiento de los servicios adjudicados a los operadores y considerados esenciales, <br> • servicios considerados como ampliaciones o mejoras prestados por parte de los operadores adjudicatarios <br> • la simulación de la situación real y su comprobación mediante el empleo de los sistemasde comunicaciones disponibles en los vehículos de los operadores. |
+<br>
+
 ## Tareas.
+
+
 
 # Requisitos del sistema a desarrollar.
 En el siguiente apartado se desarrollan los requisitos funcionales y no funcionales necesarios para llevar a cabo el cumpliento del pliego de condiciones del que se debe extraer toda la información necesario para el correcto funcionamiento del software a desarrollar. Además, se muestran también los diagramas de casos de uso, las tablas en detalle de los mismos y el listado de usuarios y casos de uso.
@@ -332,6 +359,8 @@ En el siguiente apartado se desarrollan los requisitos funcionales y no funciona
 ![Texto alternativo](/out/Proyecto/source/Portal/Portal.svg) <br>
 
 #### Diagrama del  sistema interactivo de información del transporte. SIIT (A2).
+
+![Texto alternativo](/out/Proyecto/source/SIIT/SIIT.svg)
 
 | ***Código*** | ***Actor*** | ***Descripción*** |
 |---|---|---|
