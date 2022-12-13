@@ -76,6 +76,12 @@ En esta sección del documento se presentan los objetivos del proyecto a llevar 
 ## Modelado de procesos del negocio.
 
 ## Tareas.
+<br>
+
+### Acta de incidencias.
+Un considerado esencial de la Autoridad única del transporte de Gran Canaria debe establecer contacto con un operador de transporte al final de su jornada para obtener el acta de incidencias que debe aportar a un operador adjudicatario. Este último comprueba que esté correcto y, en caso de no serlo, exige corrección.
+
+
 
 
 
