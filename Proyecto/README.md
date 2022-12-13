@@ -56,17 +56,125 @@ En el siguiente apartado se desarrollan los requisitos funcionales y no funciona
 ## Requisitos
 ### Requisitos del portal (A1)
 
-| ***Requisito*** | ***Descripción*** | ***Tipo*** |
-|---|---|---|
-| Acceso a la web. | El sistema debe permitir la edición de la web mediante la utilización de un editor WYSIWYG por parte de los administradores. | Requisito funcional | <br>
-| Creación de nuevas páginas. | El sistema debe permitir la creación de nuevas páginas de forma sencilla y coherente con el resto de la Web a usuarios finales que no tengan conocimiento de programación ni de HTML. También permitirá una previsualización. | Requisito funcional | <br>
-| Modificación sencilla del diseño. | El sistema debe permitir modificar el diseño común a varias páginas e incluso de la Web entera.  | Requisito funcional | <br>
-| Herramientas de explotación. | El sistema incorporará herramientas de explotación independientes para cada tipo de información, para que cada contenido de la web pueda ser modificado, retirado o publicado. | Requisito funcional | <br>
-| Herramientas de seguimientos del portal. | El portal debe mostrar estadísticas de acceso a las distintas Secciones y Servicios. El administrador tendrá una vista en la que  podrá ver las estadísticas de acceso de todos los usuarios logueados. Por otro lado, el usuario logueado tendrá una vista en la que solo verá las suyas. | Requisito funcional | <br>
-| Espacios de trabajo compartido. | El portal debe contar con entornos de trabajo compartido y en colaboración para los administradores del sistema. | Requisito funcional | <br>
-| Herramientas web 2.0. | El portal debe contar con herramientas web 2.0 para los usuarios: blogs, foros y relación de cloud tag en la home de la web. | Requisito funcional | <br>
-| Buscador. | El portal permitirá la localización de cualquier contenido mediante la introducción de términos clave. No se diferenciarán las palabras con o sin acento, mayúsculas o minúsculas. Dispondrá de opciones que permitan la parametrización de las búsquedas. | Requisito funcional | <br>
+| RF-					| Acceso a la web		|
+| :---					| :--  				    |
+| Versión				| 1.0				    |
+| Autores				| FehriGilFernandezBesada|
+| Fuentes				| Pliego de condiciones |
+| Objetivos asociados	|  |
+| Requisitos asociados	|  |
+| Descripción			| El sistema debe permitir la edición de la web mediante la utilización de un editor WYSIWYG por parte de los administradores. |
+| Importancia			| Alta |
+| Urgencia				|  |
+| Estado				|  |
+| Estabilidad			|  |
+| Comentarios			|  |
+<br>
 
+| RF-					| Creación de nuevas páginas |
+| :---					| :--  				    |
+| Versión				| 1.0				    |
+| Autores				| FehriGilFernandezBesada|
+| Fuentes				| Pliego de condiciones |
+| Objetivos asociados	|  |
+| Requisitos asociados	|  |
+| Descripción			| El sistema debe permitir la creación de nuevas páginas de forma sencilla y coherente con el resto de la Web a usuarios finales que no tengan conocimiento de programación ni de HTML. También permitirá una previsualización. |
+| Importancia			| Alta |
+| Urgencia				|  |
+| Estado				|  |
+| Estabilidad			|  |
+| Comentarios			|  |
+<br>
+
+| RF-					|  Modificación sencilla del diseño. |
+| :---					| :--  				    |
+| Versión				| 1.0				    |
+| Autores				| FehriGilFernandezBesada|
+| Fuentes				| Pliego de condiciones |
+| Objetivos asociados	|  |
+| Requisitos asociados	|  |
+| Descripción			| El sistema debe permitir modificar el diseño común a varias páginas e incluso de la Web entera. |
+| Importancia			| Alta |
+| Urgencia				|  |
+| Estado				|  |
+| Estabilidad			|  |
+| Comentarios			|  |
+<br>
+
+| RF-					|  Herramientas de explotación. |
+| :---					| :--  				    |
+| Versión				| 1.0				    |
+| Autores				| FehriGilFernandezBesada|
+| Fuentes				| Pliego de condiciones |
+| Objetivos asociados	|  |
+| Requisitos asociados	|  |
+| Descripción			|  El sistema incorporará herramientas de explotación independientes para cada tipo de información, para que cada contenido de la web pueda ser modificado, retirado o publicado. |
+| Importancia			| Alta |
+| Urgencia				|  |
+| Estado				|  |
+| Estabilidad			|  |
+| Comentarios			|  |
+<br>
+
+| RF-					|  Herramientas de seguimientos del portal. |
+| :---					| :--  				    |
+| Versión				| 1.0				    |
+| Autores				| FehriGilFernandezBesada|
+| Fuentes				| Pliego de condiciones |
+| Objetivos asociados	|  |
+| Requisitos asociados	|  |
+| Descripción			|  El portal debe mostrar estadísticas de acceso a las distintas Secciones y Servicios. El administrador tendrá una vista en la que  podrá ver las estadísticas de acceso de todos los usuarios logueados. Por otro lado, el usuario logueado tendrá una vista en la que solo verá las suyas. |
+| Importancia			| Alta |
+| Urgencia				|  |
+| Estado				|  |
+| Estabilidad			|  |
+| Comentarios			|  |
+<br>
+
+| RF-					|  Espacios de trabajo compartido. |
+| :---					| :--  				    |
+| Versión				| 1.0				    |
+| Autores				| FehriGilFernandezBesada|
+| Fuentes				| Pliego de condiciones |
+| Objetivos asociados	|  |
+| Requisitos asociados	|  |
+| Descripción			|  El portal debe contar con entornos de trabajo compartido y en colaboración para los administradores del sistema. |
+| Importancia			| Alta |
+| Urgencia				|  |
+| Estado				|  |
+| Estabilidad			|  |
+| Comentarios			|  |
+<br>
+
+| RF-					|  Herramientas web 2.0. |
+| :---					| :--  				    |
+| Versión				| 1.0				    |
+| Autores				| FehriGilFernandezBesada|
+| Fuentes				| Pliego de condiciones |
+| Objetivos asociados	|  |
+| Requisitos asociados	|  |
+| Descripción			|  El portal debe contar con herramientas web 2.0 para los usuarios: blogs, foros y relación de cloud tag en la home de la web. |
+| Importancia			| Alta |
+| Urgencia				|  |
+| Estado				|  |
+| Estabilidad			|  |
+| Comentarios			|  |
+<br>
+
+| RF-					|  Herramientas web 2.0. |
+| :---					| :--  				    |
+| Versión				| 1.0				    |
+| Autores				| FehriGilFernandezBesada|
+| Fuentes				| Pliego de condiciones |
+| Objetivos asociados	|  |
+| Requisitos asociados	|  |
+| Descripción			|  El portal permitirá la localización de cualquier contenido mediante la introducción de términos clave. No se diferenciarán las palabras con o sin acento, mayúsculas o minúsculas. Dispondrá de opciones que permitan la parametrización de las búsquedas. |
+| Importancia			| Alta |
+| Urgencia				|  |
+| Estado				|  |
+| Estabilidad			|  |
+| Comentarios			|  |
+<br>
 
 ### Requisitos del sistema de información (A2)
 
@@ -747,9 +855,9 @@ En el siguiente apartado se desarrollan los requisitos funcionales y no funciona
 | ***Relaciones*** | INF- |
 | ***Actores:***  | <br>  Operador adjudicatario |
 | ***Precondición:*** | <br>  El usuario debe estar logueado como operador adjudicatario |
-| ***Flujo Normal:*** | <br> 1. El usuario solicita al sistema la visualización de la explotación del transporte en tiempo real. <br> 2. El sistema obtiene la información de la explotación del transporte. <br> 3. El sistema muestra la explotación del transporte en tiempo real. <br> 4. El usuario accede a la sección de visualización de operadores. <br> 5. El operador adjudicatario introduce un operador de transporte <br> 6. El sistema muestra sobre la cartografía la actividad del operador introducido <br> 7. El operador registra situaciones puntuales y periodos continuos de la actividad del operador. |
-|***Flujo Alternativo:*** | <br>  |
-| ***Poscondiciones:*** | <br> 1. Los nuevos registros de situaciones puntuales y periodos continuos se guardan en el sistema |
+| ***Flujo Normal:*** | <br> 1. El usuario solicita al sistema la visualización de la explotación del transporte en tiempo real. <br> 2. El sistema obtiene la información de la explotación del transporte. <br> 3. El sistema muestra la explotación del transporte en tiempo real. <br> 4. El operador adjudicatario accede a la sección de visualización de operadores. <br> 5. Se obtiene una lista de operadores de transporte. |
+|***Flujo Alternativo:*** | <br> 5.A De manera excepcional, el operador adjudicatario puede introducir un operador de transporte en concreto. |
+| ***Poscondiciones:*** | <br>  |
 <br>
 
 | ***UC-*** |  |
@@ -761,7 +869,7 @@ En el siguiente apartado se desarrollan los requisitos funcionales y no funciona
 | ***Relaciones*** | INF- |
 | ***Actores:***  | <br> Operador adjudicatario |
 | ***Precondición:*** | <br>  El usuario debe estar logueado como operador adjudicatario |
-| ***Flujo Normal:*** | <br>  1. El operador rellena las credenciales del operador de transporte del que desea obtener los datos. <br> 2. El sistema devuelve la información del operador |
+| ***Flujo Normal:*** | <br>  1. El operador rellena las credenciales del operador de transporte del que desea obtener los datos. <br> 2. El sistema devuelve la información del operador. |
 |***Flujo Alternativo:*** | <br>  |
 | ***Poscondiciones:*** | <br>  |
 <br>
@@ -775,9 +883,9 @@ En el siguiente apartado se desarrollan los requisitos funcionales y no funciona
 | ***Relaciones*** | INF- |
 | ***Actores:***  | <br> Operador adjudicatario |
 | ***Precondición:*** | <br>  El usuario debe estar logueado como operador adjudicatario |
-| ***Flujo Normal:*** | <br>  1. El sistema muestra todo el contenido que se puede registrar. <br> 2. El operador adjudicatario selecciona un momento concreto. |
+| ***Flujo Normal:*** | <br> 1. El operador adjudicatario accede al resgistro de situaciones puntuales <br> 2. El sistema muestra todo el contenido que se puede registrar. <br> 3. El operador adjudicatario selecciona un momento concreto. |
 |***Flujo Alternativo:*** | <br>  |
-| ***Poscondiciones :*** | <br>  |
+| ***Poscondiciones :*** | <br> Una vez guardado el registro, se actuliza la base de datos con el nuevo registro. |
 <br>
 
 | ***UC-*** |  |
@@ -789,9 +897,9 @@ En el siguiente apartado se desarrollan los requisitos funcionales y no funciona
 | ***Relaciones*** | INF- |
 | ***Actores:***  | <br> Operador adjudicatario |
 | ***Precondición:*** | <br>  El usuario debe estar logueado como operador adjudicatario |
-| ***Flujo Normal:*** | <br>  1. El sistema muestra todo el contenido que se puede registrar. <br> 2. El operador adjudicatario selecciona un intervalo de tiempo. |
+| ***Flujo Normal:*** | <br> 1. El operador accede al registro de periodos contínuos <br> 2. El sistema muestra todo el contenido que se puede registrar. <br> 3. El operador adjudicatario selecciona un intervalo de tiempo. |
 |***Flujo Alternativo:*** | <br>  |
-| ***Poscondiciones :*** | <br>  |
+| ***Poscondiciones :*** | <br> Una vez guardado el registro, se actualiza la base de datos con el nuevo registro. |
 <br>
 
 | ***UC-*** |  |
