@@ -22,7 +22,50 @@ usecase Horarios as "Visualizar listado de horarios y lineas
 extension points
 Visualizar Informacion Adicional"
 usecase (Potenciar) as "Introducir Parametros a potenciar"
-usecase (Origen) as "Introducir origen y destino"
+usecase Origen as "Introducir origen y destino
+--
+extension points
+Utilizar mapa
+Direccion
+Barrio
+Detalle Paradas
+Evento Cultural"
+
+
+usecase (Direccion) as "Direccion"
+usecase (Barrio) as "Barrio"
+usecase (Detalle) as "Detalle Paradas"
+usecase (Evento) as "Evento Cultural"
+usecase Mapa as "Utilizar Mapa
+--
+extension points
+Acercar
+Alejar
+Desplazar
+Ir a mapa base
+Centrar
+"
+
+usecase (Acercar) as "Acercar"
+usecase (Alejar) as "Alejar"
+usecase (Desplazar) as "Desplazar"
+usecase (MapaB) as "Ir a mapa base"
+usecase (Centrar) as "Centrar"
+
+
+(Origen)<.up.(Mapa) : <<extends>>
+(Origen)<..(Direccion) : <<extends>>
+(Origen)<..(Barrio) : <<extends>>
+(Origen)<..(Detalle) : <<extends>>
+(Origen)<..(Evento) : <<extends>>
+
+
+(Mapa)<..(Acercar) : <<extends>>
+(Mapa)<.up.(Alejar) : <<extends>>
+(Mapa)<.left.(Desplazar) : <<extends>>
+(Mapa)<.up.(MapaB) : <<extends>>
+(Mapa)<..(Centrar) : <<extends>>
+
 
 
 Administrador--Modificar
@@ -36,14 +79,14 @@ extension points
 Parametros a potenciar
 "
 
-Usuario--Horarios
+Usuario-right-Horarios
 Usuario--Consulta
 Usuario--Ayuda
 Subcontratado--Ayuda
 
 (Consulta)..>(Parametros) : <<include>> 
 (Parametros)..>(Origen) : <<include>> 
-(Parametros)<..(Potenciar) : <<extends>>
+(Parametros)<.up.(Potenciar) : <<extends>>
 
 
 
@@ -53,20 +96,28 @@ extension points
 Visualizar Informacion Adicional"
 
 usecase (MostrarInfoList) as "Visualizar Informacion Adicional Listado"
-usecase (MostrarInfoConsulta) as "Visualizar Informacion Adicional Consulta"
-usecase (MostrarInfo) as "Visualizar Informacion Adicional"
+usecase MostrarInfoConsulta as "Visualizar Informacion Adicional Consulta
+--
+extensions points
+Itinerario"
+
+usecase MostrarInfo as "Visualizar Informacion Adicional
+--
+extension points
+Parada
+Linea"
 
 
-(Parametros)..>(Solucion) : <<include>> 
-(Solucion)<..(MostrarInfoConsulta) : <<extends>>
-(Horarios)<..(MostrarInfoList) : <<extends>>
+(Origen)...>(Solucion) : <<include>> 
+(Solucion)<..MostrarInfoConsulta : <<extends>>
+(Horarios)<.right.(MostrarInfoList) : <<extends>>
 
-(MostrarInfoList)--|>(MostrarInfo)
-(MostrarInfoConsulta)--|>(MostrarInfo)
+(MostrarInfoList)--|>MostrarInfo
+(MostrarInfoConsulta)-right-|>MostrarInfo
 
-(MostrarInfo)<|--(Paradas)
-(MostrarInfo)<|--(Linea)
-(MostrarInfoConsulta)<|--(Itinerario)
+(MostrarInfo)<..(Parada) : <<extends>>
+(MostrarInfo)<..(Linea) : <<extends>>
+(MostrarInfoConsulta)<..(Itinerario) : <<extends>>
 
 
 @enduml
