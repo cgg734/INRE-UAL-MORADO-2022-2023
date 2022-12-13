@@ -3,10 +3,16 @@ actor OA as "Operador adjudicatario"
 actor Operador
 actor UR as "Usuario logueado"
 actor UNR as "Usuario no logueado"
-usecase (Visualizar \nla actividad de los operadores \nen la cartografía) as VisualAct
+usecase VisualAct as "Visualizar la actividad 
+de los operadores 
+en la cartografía
+--
+extension points
+Introducir operadores
+"
 OA-left-VisualAct
-(Registrar situaciones puntuales)<..VisualAct : <<include>>
-(Registrar periodos continuos)<..VisualAct : <<include>>
+(Registrar situaciones puntuales)--OA 
+(Registrar periodos continuos)--OA
 usecase (Visualizar alarmas UR) as "Visualizar alarmas (UL)"
 usecase (Visualizar alarmas OA) as "Visualizar alarmas (OA)"
 usecase (Visualizar alarmas O) as "Visualizar alarmas (O)"
@@ -37,7 +43,7 @@ OA--DE
 DE<..GA : <<extend>>
 UNR--EX
 VisualAct--|>EX
-(Introducir operador/es)<..VisualAct : <<include>>
+(Introducir operador/es)..>VisualAct : <<extend>>
 UNR-right-VA
 UNR<|--UR
 (Disparar alarmas)--Sistema
