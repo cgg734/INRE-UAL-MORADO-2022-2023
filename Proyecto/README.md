@@ -74,6 +74,7 @@ En esta sección del documento se presentan los objetivos del proyecto a llevar 
 <br>
 
 ## Modelado de procesos del negocio.
+![Texto alternativo](Acta%20de%20incidencias.drawio.svg)
 
 ## Tareas.
 <br>
