@@ -400,7 +400,7 @@ En el siguiente apartado se desarrollan los requisitos funcionales y no funciona
 
 #### Diagrama del sistema del sistema de monitorización de la explotación del transporte (SMET).
 ![Texto alternativo](/out/Proyecto/source/SMET/Sistema%20de%20informacion.svg) <br>
-### Lista general de casos de uso y actores del proyecto.
+### Lista general de casos de uso y actores del proyecto. <br>
 | ***Caso de uso*** | ***Descripción*** |
 |---|---|
 <br>
@@ -1219,7 +1219,15 @@ En el siguiente apartado se desarrollan los requisitos funcionales y no funciona
 <br>
 
 ### Diagrama de clase asociado a los requisitos de información del portal (A1)
-[Texto alternativo](Diagrama%20clases%20A1.drawio.svg)
+<br>
+
+![Texto alternativo](Diagrama%20clases%20A1.drawio.svg)
+<br>
+
+### Diagrama de clase asociado a los requisitos del SIIT. <br>
+
+### Diagrama de clase asociado a los requisitos del SMET. <br>
+![Texto alternativo](Diagrama%20clases%20B.drawio.svg) <br>
 
 ## Requisitos de información
 ### Requisitos de información del portal (A1)
