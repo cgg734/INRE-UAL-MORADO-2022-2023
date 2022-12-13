@@ -951,6 +951,118 @@ En el siguiente apartado se desarrollan los requisitos funcionales y no funciona
 ## Diagramas de clase asociados a los requisitos de información.
 <br>
 
+| ***INF-01*** | Información sobre Administrador.  |
+| --- | --- |
+| ***Version:***  | Diciembre-2022 |
+| ***Autor:***  | FehriGilFernandezBesada |
+| ***Referencias:*** | <br> Administrador, Usuario logueado, Usuario invitado. |
+| ***Fuentes:***  | <br>   Servicios Continuos.  |
+| ***Descripción:*** | <br> El sistema deberá almacenar los datos y los diferentes roles que tiene el administrador. <br> |
+| ***Datos específicos:*** |  <br> 1. Nombre completo: Cadena de máximo 30 caracteres. <br> 2.Teléfono de contacto: Cadena de máximo 10 caracteres.  <br> 3. Email: Cadena <br> Número de cuenta bancaria: Entero postivo. <br> 4. Podrá utilizar las diferentes herramientas web, ver tanto los foros, como los blogs, como el cloud tag. <br> |
+| ***Importancia:*** | <br> Muy importante. |
+| ***Estado:*** | <br> Aceptado. |
+| ***Comentarios:*** | <br> Los datos son imprescindibles para correcto funcionamiento del sistema.|
+
+ ***INF-02*** | Información sobre Usuario logueado.  |
+| --- | --- |
+| ***Version:***  | Diciembre-2022 |
+| ***Autor:***  | FehriGilFernandezBesada |
+| ***Referencias:*** | <br> Usuario logueado, Usuario inivtado. |
+| ***Fuentes:***  | <br>   Servicios Continuos  |
+| ***Descripción:*** | <br> El sistema deberá almacenar los datos y todas las acciones que puede hacer el usuario logueado. |
+| ***Datos específicos:*** |   <br>  1. Nombre completo: Cadena de máximo 30 caracteres. <br> 2.Teléfono de contacto: Cadena de máximo 10 caracteres.  <br> 3. Email: Cadena <br> Número de cuenta bancaria: Entero postivo. <br> 4. Podrá utilizar las diferentes herramientas web, ver tanto los foros, como los blogs, como el cloud tag. <br>  |
+| ***Importancia:*** | <br> Muy importante. |
+| ***Estado:*** | <br> Aceptado. |
+| ***Comentarios:*** | <br>  <br> |
+
+ ***INF-03*** | Información sobre Usuario invitado.  |
+| --- | --- |
+| ***Version:***  | Diciembre-2022 |
+| ***Autor:***  | FehriGilFernandezBesada |
+| ***Referencias:*** | <br> Usuario invitado. |
+| ***Fuentes:***  | <br>   Servicios Continuos  |
+| ***Descripción:*** | <br> El sistema deberá almacenar la información correspondiente a las posibles acciones de un usuario invitado. |
+| ***Datos especificos:*** |   <br> 1. Podrá utilizar las diferentes herramientas web, ver tanto los foros, como los blogs, como el cloud tag. |
+| ***Importancia:*** | <br> Importante. |
+| ***Estado:*** | <br> Aceptado. |
+| ***Comentarios:*** | <br> Los productos ofertados deben estar presentes en el sistema junto a sus condiciones para que el comprador las pueda considerar. |
+<br>
+
+***INF-04*** | Información sobre estadísticas.  |
+| --- | --- |
+| ***Version:***  | Diciembre-2022 |
+| ***Autor:***  | FehriGilFernandezBesada |
+| ***Referencias:*** | <br> BVisualizar estadísticas. |
+| ***Fuentes:***  | <br>   Servicios Continuos  |
+| ***Descripción:*** | <br> El sistema deberá almacenar la información correspondiente a las estadísticas de cada usuario logueado. |
+| ***Datos especificos:*** |   <br> 1. Identificador de las estadísticas: nombre de usuario. |
+| ***Importancia:*** | <br> Muy importante. |
+| ***Estado:*** | <br> Aceptado. |
+| ***Comentarios:*** | <br> |
+
+<br>
+
+***INF-05*** | Información sobre Página.  |
+| --- | --- |
+| ***Version:***  | Diciembre-2022 |
+| ***Autor:***  | FehriGilFernandezBesada |
+| ***Referencias:*** | <br> Consultar contenido. |
+| ***Fuentes:***  | <br>   Servicios Continuos  |
+| ***Descripción:*** | <br> El sistema deberá almacenar la información correspondiente al contenido de la página. |
+| ***Datos especificos:*** |   <br>  |
+| ***Importancia:*** | <br> Muy importante. |
+| ***Estado:*** | <br> Aceptado. |
+| ***Comentarios:*** | <br> |
+<br>
+
+***INF-06*** | Información sobre Herramientas Web.  |
+| --- | --- |
+| ***Version:***  | Diciembre-2022 |
+| ***Autor:***  | FehriGilFernandezBesada |
+| ***Referencias:*** | <br> Utilizar Herramientas Web. |
+| ***Fuentes:***  | <br>   Servicios Continuos  |
+| ***Descripción:*** | <br> El sistema deberá almacenar la información de las diferentes herramientas web, ver tanto los foros, como los blogs, como el cloud tag. |
+| ***Datos especificos:*** |   <br> |
+| ***Importancia:*** | <br> Muy importante. |
+| ***Estado:*** | <br> Aceptado. |
+| ***Comentarios:*** | <br> |
+
+ ***INF-07*** | Información sobre Cloud tag.  |
+| --- | --- |
+| ***Version:***  | Diciembre-2022 |
+| ***Autor:***  | FehriGilFernandezBesada |
+| ***Referencias:*** | <br> Finalizar compra. |
+| ***Fuentes:***  | <br>   Servicios Continuos  |
+| ***Descripción:*** | <br> El sistema deberá almacenar la información correspondiente al cloud tag. |
+| ***Datos especificos:*** |  <br>  |
+| ***Importancia:*** | <br> Muy importante. |
+| ***Estado:*** | <br> Aceptado. |
+| ***Comentarios:*** | <br> |
+
+***INF-08*** | Información sobre Foro.  |
+| --- | --- |
+| ***Version:***  | Diciembre-2022 |
+| ***Autor:***  | FehriGilFernandezBesada |
+| ***Referencias:*** | <br> Consultar histórico ventas. |
+| ***Fuentes:***  | <br>   Servicios Continuos  |
+| ***Descripción:*** | <br> El sistema deberá almacenar la información correspondiente a los foros. |
+| ***Datos especificos:*** |  <br>  |
+| ***Importancia:*** | <br> Muy importante. |
+| ***Estado:*** | <br> Aceptado. |
+| ***Comentarios:*** | <br> |
+
+***INF-08*** | Información sobre Blog.  |
+| --- | --- |
+| ***Version:***  | Diciembre-2022 |
+| ***Autor:***  | FehriGilFernandezBesada |
+| ***Referencias:*** | <br> Consultar histórico ventas. |
+| ***Fuentes:***  | <br>   Servicios Continuos  |
+| ***Descripción:*** | <br> El sistema deberá almacenar la información correspondiente a los blogs. |
+| ***Datos especificos:*** |  <br> |
+| ***Importancia:*** | <br> Muy importante. |
+| ***Estado:*** | <br> Aceptado. |
+| ***Comentarios:*** | <br> |
+
 # Apéndices
 ## Entrevista
 | ***Ficha de entrevista*** | |
