@@ -1203,6 +1203,8 @@ En el siguiente apartado se desarrollan los requisitos funcionales y no funciona
 ## Diagramas de clase asociados a los requisitos de información.
 <br>
 
+![Texto alternativo](Diagrama%20clases%20A1.drawio.svg)
+
 | ***INF-01*** | Información sobre Administrador.  |
 | --- | --- |
 | ***Version:***  | Diciembre-2022 |
