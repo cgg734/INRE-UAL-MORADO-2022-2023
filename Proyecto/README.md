@@ -47,8 +47,44 @@ Además, se aporta información de la Autoridad de Transporte Público de Gran C
 
 
 # Necesidades del negocio.
+<br>
+
 ## Objetivos del negocio.
+
+En esta sección del documento se presentan los objetivos del proyecto a llevar a cabo.
+
+<br>
+
+| ***OBJ-01*** | ***Portal*** |
+| --- | --- |
+| ***Versión*** | 1.0 |
+| ***Descripción*** |  Se debe implementar un portal web que cumpla con la identificación de necesidades (contenidos, servicios, audiencias,…), definición de la estructura (arquitectura de la información, mapa web,…) y organización del portal, detallar componentes organizativos, funcionales y técnicos del mismo. |
+<br>
+
+| ***OBJ-02*** | ***SIIT*** |
+| --- | --- |
+| ***Versión*** | 1.0 |
+| ***Descripción*** | Se debe implementar un sistema integrado de información de la red de transporte público de todos los municipios de Gran Canaria que proporcione herramientas de análisis,consulta, localización y gestión, con el objeto de que el usuario del transporte público pueda consultar de forma dinámica la información del servicio permitiéndole conocer y programar con antelación su viaje. |
+<br>
+
+| ***OBJ-03*** | ***SMET*** |
+| --- | --- |
+| ***Versión*** | 1.0 |
+| ***Descripción*** | Respecto al Sistema de Información de Monitorización de la Explotación de la Autoridad Única del Transporte de Gran Canaria, se trata de Analizar, Diseñar, Implementar y poner en marcha un sistema de información central sobre la explotación, para la Autoridad Única del Transportes cuya misión fundamental sea la de monitorizar en tiempo real el estado de la red de transporte público por carretera en la Isla de Gran Canaria en los siguientes aspectos: <br> • el cumplimiento de los servicios adjudicados a los operadores y considerados esenciales, <br> • servicios considerados como ampliaciones o mejoras prestados por parte de los operadores adjudicatarios <br> • la simulación de la situación real y su comprobación mediante el empleo de los sistemasde comunicaciones disponibles en los vehículos de los operadores. |
+<br>
+
+## Modelado de procesos del negocio.
+![Texto alternativo](Acta%20de%20incidencias.drawio.svg)
+
 ## Tareas.
+<br>
+
+### Acta de incidencias.
+Un considerado esencial de la Autoridad única del transporte de Gran Canaria debe establecer contacto con un operador de transporte al final de su jornada para obtener el acta de incidencias que debe aportar a un operador adjudicatario. Este último comprueba que esté correcto y, en caso de no serlo, exige corrección.
+
+
+
+
 
 # Requisitos del sistema a desarrollar.
 En el siguiente apartado se desarrollan los requisitos funcionales y no funcionales necesarios para llevar a cabo el cumpliento del pliego de condiciones del que se debe extraer toda la información necesario para el correcto funcionamiento del software a desarrollar. Además, se muestran también los diagramas de casos de uso, las tablas en detalle de los mismos y el listado de usuarios y casos de uso.
@@ -56,17 +92,126 @@ En el siguiente apartado se desarrollan los requisitos funcionales y no funciona
 ## Requisitos
 ### Requisitos del portal (A1)
 
-| ***Requisito*** | ***Descripción*** | ***Tipo*** |
-|---|---|---|
-| Acceso a la web. | El sistema debe permitir la edición de la web mediante la utilización de un editor WYSIWYG por parte de los administradores. | Requisito funcional | <br>
-| Creación de nuevas páginas. | El sistema debe permitir la creación de nuevas páginas de forma sencilla y coherente con el resto de la Web a usuarios finales que no tengan conocimiento de programación ni de HTML. También permitirá una previsualización. | Requisito funcional | <br>
-| Modificación sencilla del diseño. | El sistema debe permitir modificar el diseño común a varias páginas e incluso de la Web entera.  | Requisito funcional | <br>
-| Herramientas de explotación. | El sistema incorporará herramientas de explotación independientes para cada tipo de información, para que cada contenido de la web pueda ser modificado, retirado o publicado. | Requisito funcional | <br>
-| Herramientas de seguimientos del portal. | El portal debe mostrar estadísticas de acceso a las distintas Secciones y Servicios. El administrador tendrá una vista en la que  podrá ver las estadísticas de acceso de todos los usuarios logueados. Por otro lado, el usuario logueado tendrá una vista en la que solo verá las suyas. | Requisito funcional | <br>
-| Espacios de trabajo compartido. | El portal debe contar con entornos de trabajo compartido y en colaboración para los administradores del sistema. | Requisito funcional | <br>
-| Herramientas web 2.0. | El portal debe contar con herramientas web 2.0 para los usuarios: blogs, foros y relación de cloud tag en la home de la web. | Requisito funcional | <br>
-| Buscador. | El portal permitirá la localización de cualquier contenido mediante la introducción de términos clave. No se diferenciarán las palabras con o sin acento, mayúsculas o minúsculas. Dispondrá de opciones que permitan la parametrización de las búsquedas. | Requisito funcional | <br>
 
+| RF-01					| Acceso a la web		|
+| :---					| :--  				    |
+| Versión				| 1.0				    |
+| Autores				| FehriGilFernandezBesada|
+| Fuentes				| Pliego de condiciones |
+| Objetivos asociados	|  |
+| Requisitos asociados	|  |
+| Descripción			| El sistema debe permitir la edición de la web mediante la utilización de un editor WYSIWYG por parte de los administradores. |
+| Importancia			| Alta |
+| Urgencia				|  |
+| Estado				|  |
+| Estabilidad			|  |
+| Comentarios			|  |
+<br>
+
+| RF-02					| Creación de nuevas páginas |
+| :---					| :--  				    |
+| Versión				| 1.0				    |
+| Autores				| FehriGilFernandezBesada|
+| Fuentes				| Pliego de condiciones |
+| Objetivos asociados	|  |
+| Requisitos asociados	|  |
+| Descripción			| El sistema debe permitir la creación de nuevas páginas de forma sencilla y coherente con el resto de la Web a usuarios finales que no tengan conocimiento de programación ni de HTML. También permitirá una previsualización. |
+| Importancia			| Alta |
+| Urgencia				|  |
+| Estado				|  |
+| Estabilidad			|  |
+| Comentarios			|  |
+<br>
+
+| RF-03					|  Modificación sencilla del diseño. |
+| :---					| :--  				    |
+| Versión				| 1.0				    |
+| Autores				| FehriGilFernandezBesada|
+| Fuentes				| Pliego de condiciones |
+| Objetivos asociados	|  |
+| Requisitos asociados	|  |
+| Descripción			| El sistema debe permitir modificar el diseño común a varias páginas e incluso de la Web entera. |
+| Importancia			| Alta |
+| Urgencia				|  |
+| Estado				|  |
+| Estabilidad			|  |
+| Comentarios			|  |
+<br>
+
+| RF-04					|  Herramientas de explotación. |
+| :---					| :--  				    |
+| Versión				| 1.0				    |
+| Autores				| FehriGilFernandezBesada|
+| Fuentes				| Pliego de condiciones |
+| Objetivos asociados	|  |
+| Requisitos asociados	|  |
+| Descripción			|  El sistema incorporará herramientas de explotación independientes para cada tipo de información, para que cada contenido de la web pueda ser modificado, retirado o publicado. |
+| Importancia			| Alta |
+| Urgencia				|  |
+| Estado				|  |
+| Estabilidad			|  |
+| Comentarios			|  |
+<br>
+
+| RF-05					|  Herramientas de seguimientos del portal. |
+| :---					| :--  				    |
+| Versión				| 1.0				    |
+| Autores				| FehriGilFernandezBesada|
+| Fuentes				| Pliego de condiciones |
+| Objetivos asociados	|  |
+| Requisitos asociados	|  |
+| Descripción			|  El portal debe mostrar estadísticas de acceso a las distintas Secciones y Servicios. El administrador tendrá una vista en la que  podrá ver las estadísticas de acceso de todos los usuarios logueados. Por otro lado, el usuario logueado tendrá una vista en la que solo verá las suyas. |
+| Importancia			| Alta |
+| Urgencia				|  |
+| Estado				|  |
+| Estabilidad			|  |
+| Comentarios			|  |
+<br>
+
+| RF-06					|  Espacios de trabajo compartido. |
+| :---					| :--  				    |
+| Versión				| 1.0				    |
+| Autores				| FehriGilFernandezBesada|
+| Fuentes				| Pliego de condiciones |
+| Objetivos asociados	|  |
+| Requisitos asociados	|  |
+| Descripción			|  El portal debe contar con entornos de trabajo compartido y en colaboración para los administradores del sistema. |
+| Importancia			| Alta |
+| Urgencia				|  |
+| Estado				|  |
+| Estabilidad			|  |
+| Comentarios			|  |
+<br>
+
+| RF-07					|  Herramientas web 2.0. |
+| :---					| :--  				    |
+| Versión				| 1.0				    |
+| Autores				| FehriGilFernandezBesada|
+| Fuentes				| Pliego de condiciones |
+| Objetivos asociados	|  |
+| Requisitos asociados	|  |
+| Descripción			|  El portal debe contar con herramientas web 2.0 para los usuarios: blogs, foros y relación de cloud tag en la home de la web. |
+| Importancia			| Alta |
+| Urgencia				|  |
+| Estado				|  |
+| Estabilidad			|  |
+| Comentarios			|  |
+<br>
+
+| RF-08					|  Herramientas web 2.0. |
+| :---					| :--  				    |
+| Versión				| 1.0				    |
+| Autores				| FehriGilFernandezBesada|
+| Fuentes				| Pliego de condiciones |
+| Objetivos asociados	|  |
+| Requisitos asociados	|  |
+| Descripción			|  El portal permitirá la localización de cualquier contenido mediante la introducción de términos clave. No se diferenciarán las palabras con o sin acento, mayúsculas o minúsculas. Dispondrá de opciones que permitan la parametrización de las búsquedas. |
+| Importancia			| Alta |
+| Urgencia				|  |
+| Estado				|  |
+| Estabilidad			|  |
+| Comentarios			|  |
+<br>
 
 ### Requisitos del sistema de información (A2)
 
@@ -94,22 +239,127 @@ En el siguiente apartado se desarrollan los requisitos funcionales y no funciona
 | Calculo del itinerario. | Con los datos obtenidos se calcula el itinerario recomendado. | Requisito no funcional | <br>
 
 
-
-
 ### Requisitos del sistema del sistema de monitorización de la explotación del transporte (SMET)
 
-| ***Requisito*** | ***Descripción*** | ***Tipo*** |
-|---|---|---|
-| Mostrar sobre la cartografia en pantalla la actividad de los peradores |Se debe mostrar en pantalla (que a su vez muestra un mapa), la actividad de los operadores en tiempo real, teniendo la capacidad de registrar situaciones puntuales (fotos de estado) y periodos contínuos de tiempo (películas de estado). | Requisito funcional | <br>
-| Visualizar las alarmas de los distintos proyectos de la autoridad | Se deben mostrar las alarmas (notificaciones) de los diversos proyectos de la autoridad de transporte (proyecto de monitorización y venta) que contenga información del sistema de ventas, gestión del título único del transporte (gestión de billetes únicos y su información que no permita la generación de dos iguales), información de adelanto o atraso del paso por parada, el estado de los sistemas (líneas no disponibles o buses fuera de servicio) y otros que se quieran integrar. | Requisito funcional | <br>
-| Recibir avisos. | Se debe permitir definir eventos con base en variables y con unas condiciones que permitan generar avisos. | Requisito funcional | <br>
-| Examinar el estado de la explotación en tiempo real. | Se debe poder examinar el estado de la explotación en tiempo real para el/los operador/es que prefiera el usuario. | Requisito funcional | <br>
-| Visualización y monitorización del sistema | Se debe poder realizar la visualización y monitorización del sistema  en base a los datos que se reciban. Y también, desde los datos que puedan estar almacenados previamente, y que podrían enviarse al sistema para ser visualizados a posteriori, especificando un rango de fecha, hora, operador y tiempo de salto. Debe ser posible redefinir todas las notificaciones y validar los eventos recibidos y procesados. | Requisito funcional | <br>
-| Monitorización del rendimiento de los operadores. | Los operadores adjudicatarios deben poder monitorizar el desempleo de los operadores del transporte ayudándose de las puntuaciones que ofrecen los usuarios logueados. | Requisito funcional | <br>
-| Claridad en contraste de la información. |En particular el sistema debe poner de manifiesto de modo claro y sin complejidad el nivel de cumplimiento de lo planificado respecto a lo realizado.   | Requisito no funcional | <br>
-| Visualización de alarmas (notificaciones) simultáneas |Las alarmas (notificaciones) deben ser simultáneas en los distintos proyectos y se deben manifestar mediante avisos acústicos, visuales y mediante notificaciones a móviles aparte de otras a considerar. | Requisito no funcional | <br>
+| RF-					| Mostrar sobre la cartografia en pantalla la actividad de los peradores |
+| :---					| :--  				    |
+| Versión				| 1.0				    |
+| Autores				| FehriGilFernandezBesada|
+| Fuentes				| Pliego de condiciones |
+| Objetivos asociados	|  |
+| Requisitos asociados	|  |
+| Descripción			| Se debe mostrar en pantalla (que a su vez muestra un mapa), la actividad de los operadores en tiempo real, teniendo la capacidad de registrar situaciones puntuales (fotos de estado) y periodos contínuos de tiempo (películas de estado). |
+| Importancia			| Alta |
+| Urgencia				|  |
+| Estado				|  |
+| Estabilidad			|  |
+| Comentarios			|  |
+<br>
 
+| RF-					| Visualizar las alarmas de los distintos proyectos de la autoridad |
+| :---					| :--  				    |
+| Versión				| 1.0				    |
+| Autores				| FehriGilFernandezBesada|
+| Fuentes				| Pliego de condiciones |
+| Objetivos asociados	|  |
+| Requisitos asociados	|  |
+| Descripción			| Se deben mostrar las alarmas (notificaciones) de los diversos proyectos de la autoridad de transporte (proyecto de monitorización y venta) que contenga información del sistema de ventas, gestión del título único del transporte (gestión de billetes únicos y su información que no permita la generación de dos iguales), información de adelanto o atraso del paso por parada, el estado de los sistemas (líneas no disponibles o buses fuera de servicio) y otros que se quieran integrar. |
+| Importancia			| Alta |
+| Urgencia				|  |
+| Estado				|  |
+| Estabilidad			|  |
+| Comentarios			|  |
+<br>
 
+| RF-					| Recibir avisos. |
+| :---					| :--  				    |
+| Versión				| 1.0				    |
+| Autores				| FehriGilFernandezBesada|
+| Fuentes				| Pliego de condiciones |
+| Objetivos asociados	|  |
+| Requisitos asociados	|  |
+| Descripción			| Se debe permitir definir eventos con base en variables y con unas condiciones que permitan generar avisos. |
+| Importancia			| Alta |
+| Urgencia				|  |
+| Estado				|  |
+| Estabilidad			|  |
+| Comentarios			|  |
+<br>
+
+| RF-					| Examinar el estado de la explotación en tiempo real. |
+| :---					| :--  				    |
+| Versión				| 1.0				    |
+| Autores				| FehriGilFernandezBesada|
+| Fuentes				| Pliego de condiciones |
+| Objetivos asociados	|  |
+| Requisitos asociados	|  |
+| Descripción			| Se debe poder examinar el estado de la explotación en tiempo real para el/los operador/es que prefiera el usuario. |
+| Importancia			| Alta |
+| Urgencia				|  |
+| Estado				|  |
+| Estabilidad			|  |
+| Comentarios			|  |
+<br>
+
+| RF-					| Visualización y monitorización del sistema. |
+| :---					| :--  				    |
+| Versión				| 1.0				    |
+| Autores				| FehriGilFernandezBesada|
+| Fuentes				| Pliego de condiciones |
+| Objetivos asociados	|  |
+| Requisitos asociados	|  |
+| Descripción			| Se debe poder realizar la visualización y monitorización del sistema  en base a los datos que se reciban. Y también, desde los datos que puedan estar almacenados previamente, y que podrían enviarse al sistema para ser visualizados a posteriori, especificando un rango de fecha, hora, operador y tiempo de salto. Debe ser posible redefinir todas las notificaciones y validar los eventos recibidos y procesados. |
+| Importancia			| Alta |
+| Urgencia				|  |
+| Estado				|  |
+| Estabilidad			|  |
+| Comentarios			|  |
+<br>
+
+| RF-				    | Monitorización del rendimiento de los operadores. |
+| :---					| :--  				    |
+| Versión				| 1.0				    |
+| Autores				| FehriGilFernandezBesada|
+| Fuentes				| Pliego de condiciones |
+| Objetivos asociados	|  |
+| Requisitos asociados	|  |
+| Descripción			| Los operadores adjudicatarios deben poder monitorizar el desempleo de los operadores del transporte ayudándose de las puntuaciones que ofrecen los usuarios logueados. |
+| Importancia			| Alta |
+| Urgencia				|  |
+| Estado				|  |
+| Estabilidad			|  |
+| Comentarios			|  |
+<br>
+
+| RNF-			        | Claridad en contraste de la información. |
+| :---					| :--  				    |
+| Versión				| 1.0				    |
+| Autores				| FehriGilFernandezBesada|
+| Fuentes				| Pliego de condiciones |
+| Objetivos asociados	|  |
+| Requisitos asociados	|  |
+| Descripción			| En particular el sistema debe poner de manifiesto de modo claro y sin complejidad el nivel de cumplimiento de lo planificado respecto a lo realizado. |
+| Importancia			| Alta |
+| Urgencia				|  |
+| Estado				|  |
+| Estabilidad			|  |
+| Comentarios			|  |
+<br>
+
+| RNF-		            | Visualización de alarmas (notificaciones) simultáneas |
+| :---					| :--  				    |
+| Versión				| 1.0				    |
+| Autores				| FehriGilFernandezBesada|
+| Fuentes				| Pliego de condiciones |
+| Objetivos asociados	|  |
+| Requisitos asociados	|  |
+| Descripción			| Las alarmas (notificaciones) deben ser simultáneas en los distintos proyectos y se deben manifestar mediante avisos acústicos, visuales y mediante notificaciones a móviles aparte de otras a considerar. |
+| Importancia			| Alta |
+| Urgencia				|  |
+| Estado				|  |
+| Estabilidad			|  |
+| Comentarios			|  |
+<br>
 
 ### Requisitos de los Servicios Continuos
 | ***Requisito*** | ***Descripción*** | ***Tipo*** |
@@ -138,6 +388,8 @@ En el siguiente apartado se desarrollan los requisitos funcionales y no funciona
 ![Texto alternativo](/out/Proyecto/source/Portal/Portal.svg) <br>
 
 #### Diagrama del  sistema interactivo de información del transporte. SIIT (A2).
+
+![Texto alternativo](/out/Proyecto/source/SIIT/SIIT.svg)
 
 | ***Código*** | ***Actor*** | ***Descripción*** |
 |---|---|---|
@@ -650,6 +902,7 @@ En el siguiente apartado se desarrollan los requisitos funcionales y no funciona
 | ***Poscondiciones:*** | <br> |
 <br>
 
+
 | ***UC-14*** |  |
 | --- | --- |
 | ***Nombre:*** | Modificar |
@@ -955,6 +1208,8 @@ En el siguiente apartado se desarrollan los requisitos funcionales y no funciona
 ### Requisitos de información del portal (A1)
 
 <br>
+
+![Texto alternativo](Diagrama%20clases%20A1.drawio.svg)
 
 | ***INF-01*** | Información sobre Administrador.  |
 | --- | --- |
