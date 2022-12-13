@@ -134,7 +134,7 @@ En el siguiente apartado se desarrollan los requisitos funcionales y no funciona
 
 ## Casos de uso
 ### Diagramas de casos de uso
-#### Diagrama del portal.
+#### Diagrama del portal (A1).
 ![Texto alternativo](/out/Proyecto/source/Portal/Portal.svg) <br>
 
 #### Diagrama del  sistema interactivo de información del transporte. SIIT (A2).
@@ -951,6 +951,11 @@ En el siguiente apartado se desarrollan los requisitos funcionales y no funciona
 ## Diagramas de clase asociados a los requisitos de información.
 <br>
 
+## Requisitos de información
+### Requisitos de información del portal (A1)
+
+<br>
+
 | ***INF-01*** | Información sobre Administrador.  |
 | --- | --- |
 | ***Version:***  | Diciembre-2022 |
@@ -1046,7 +1051,7 @@ En el siguiente apartado se desarrollan los requisitos funcionales y no funciona
 | ***Referencias:*** | <br> Consultar histórico ventas. |
 | ***Fuentes:***  | <br>   Servicios Continuos  |
 | ***Descripción:*** | <br> El sistema deberá almacenar la información correspondiente a los foros. |
-| ***Datos especificos:*** |  <br> gi |
+| ***Datos especificos:*** |  <br>  |
 | ***Importancia:*** | <br> Muy importante. |
 | ***Estado:*** | <br> Aceptado. |
 | ***Comentarios:*** | <br> |
@@ -1059,6 +1064,126 @@ En el siguiente apartado se desarrollan los requisitos funcionales y no funciona
 | ***Fuentes:***  | <br>   Servicios Continuos  |
 | ***Descripción:*** | <br> El sistema deberá almacenar la información correspondiente a los blogs. |
 | ***Datos especificos:*** |  <br> |
+| ***Importancia:*** | <br> Muy importante. |
+| ***Estado:*** | <br> Aceptado. |
+| ***Comentarios:*** | <br> |
+
+
+
+### Requisitos de información del sistema de monitorización de la explotación del transporte (SMET)
+
+<br>
+
+
+
+| ***INF-01*** | Información sobre Operador.  |
+| --- | --- |
+| ***Version:***  | Diciembre-2022 |
+| ***Autor:***  | FehriGilFernandezBesada |
+| ***Referencias:*** | <br> Operador. |
+| ***Fuentes:***  | <br>   Servicios Continuos.  |
+| ***Descripción:*** | <br> El sistema deberá almacenar los datos y los diferentes roles que tiene el operador. <br> |
+| ***Datos específicos:*** |  <br> Visualiza alarmas y avisos. <br> |
+| ***Importancia:*** | <br> Muy importante. |
+| ***Estado:*** | <br> Aceptado. |
+| ***Comentarios:*** | <br> Los datos son imprescindibles para correcto funcionamiento del sistema.|
+
+ ***INF-02*** | Información sobre Usuario logueado.  |
+| --- | --- |
+| ***Version:***  | Diciembre-2022 |
+| ***Autor:***  | FehriGilFernandezBesada |
+| ***Referencias:*** | <br> Usuario logueado, Usuario invitado. |
+| ***Fuentes:***  | <br>   Servicios Continuos  |
+| ***Descripción:*** | <br> El sistema deberá almacenar los datos y todas las acciones que puede hacer el usuario logueado. |
+| ***Datos específicos:*** |   <br>  1. Nombre completo: Cadena de máximo 30 caracteres. <br> 2. Teléfono de contacto: Cadena de máximo 10 caracteres.  <br> 3. Email: Cadena <br> Número de cuenta bancaria: Entero postivo. <br> 4. Visualiza alarmas. <br>  |
+| ***Importancia:*** | <br> Muy importante. |
+| ***Estado:*** | <br> Aceptado. |
+| ***Comentarios:*** | <br>  Los datos son imprescindibles para correcto funcionamiento del sistema. |
+
+ ***INF-03*** | Información sobre Usuario invitado.  |
+| --- | --- |
+| ***Version:***  | Diciembre-2022 |
+| ***Autor:***  | FehriGilFernandezBesada |
+| ***Referencias:*** | <br> Usuario invitado. |
+| ***Fuentes:***  | <br>   Servicios Continuos  |
+| ***Descripción:*** | <br> El sistema deberá almacenar la información correspondiente a las posibles acciones de un usuario invitado. |
+| ***Datos especificos:*** |   <br>  Visualiza alarmas. |
+| ***Importancia:*** | <br> Importante. |
+| ***Estado:*** | <br> Aceptado. |
+| ***Comentarios:*** | <br>  |
+<br>
+
+***INF-04*** | Información sobre Operador adjudicatario.  |
+| --- | --- |
+| ***Version:***  | Diciembre-2022 |
+| ***Autor:***  | FehriGilFernandezBesada |
+| ***Referencias:*** | <br> Operador adjudicatario. |
+| ***Fuentes:***  | <br>   Servicios Continuos  |
+| ***Descripción:*** | <br> El sistema deberá almacenar la información correspondiente al Operador adjudicatario y sus roles. |
+| ***Datos especificos:*** |   <br> Genera avisos, visualiza alarmas y suministra datos al sistema. |
+| ***Importancia:*** | <br> Muy importante. |
+| ***Estado:*** | <br> Aceptado. |
+| ***Comentarios:*** | <br> |
+
+<br>
+
+***INF-05*** | Información sobre Sistema.  |
+| --- | --- |
+| ***Version:***  | Diciembre-2022 |
+| ***Autor:***  | FehriGilFernandezBesada |
+| ***Referencias:*** | <br> Sistema. |
+| ***Fuentes:***  | <br>   Servicios Continuos  |
+| ***Descripción:*** | <br> El sistema deberá almacenar la información correspondiente al sistema. |
+| ***Datos especificos:*** |   <br> Dispara alarmas.  <br>  |
+| ***Importancia:*** | <br> Muy importante. |
+| ***Estado:*** | <br> Aceptado. |
+| ***Comentarios:*** | <br> |
+<br>
+
+***INF-06*** | Información sobre Dato.  |
+| --- | --- |
+| ***Version:***  | Diciembre-2022 |
+| ***Autor:***  | FehriGilFernandezBesada |
+| ***Referencias:*** | <br> Datos del sistema. |
+| ***Fuentes:***  | <br>   Servicios Continuos  |
+| ***Descripción:*** | <br> El sistema deberá almacenar los datos recibidos por el operdor adjudicatorio. |
+| ***Datos especificos:*** |   <br> |
+| ***Importancia:*** | <br> Muy importante. |
+| ***Estado:*** | <br> Aceptado. |
+| ***Comentarios:*** | <br> |
+
+ ***INF-07*** | Información sobre Alarma.  |
+| --- | --- |
+| ***Version:***  | Diciembre-2022 |
+| ***Autor:***  | FehriGilFernandezBesada |
+| ***Referencias:*** | <br> Alarma. |
+| ***Fuentes:***  | <br>   Servicios Continuos  |
+| ***Descripción:*** | <br> El sistema deberá almacenar la información correspondiente a las diferentes alarmas disparadas por el sistema. |
+| ***Datos especificos:*** |  <br>  |
+| ***Importancia:*** | <br> Muy importante. |
+| ***Estado:*** | <br> Aceptado. |
+| ***Comentarios:*** | <br> |
+
+***INF-08*** | Información sobre Evento.  |
+| --- | --- |
+| ***Version:***  | Diciembre-2022 |
+| ***Autor:***  | FehriGilFernandezBesada |
+| ***Referencias:*** | <br> Evento. |
+| ***Fuentes:***  | <br>   Servicios Continuos  |
+| ***Descripción:*** | <br> El operador adjudicatorio define los eventos. |
+| ***Datos especificos:*** |  <br>  |
+| ***Importancia:*** | <br> Muy importante. |
+| ***Estado:*** | <br> Aceptado. |
+| ***Comentarios:*** | <br> |
+
+***INF-09*** | Información sobre Avisos.  |
+| --- | --- |
+| ***Version:***  | Diciembre-2022 |
+| ***Autor:***  | FehriGilFernandezBesada |
+| ***Referencias:*** | <br> Avisos. |
+| ***Fuentes:***  | <br>   Servicios Continuos  |
+| ***Descripción:*** | <br> El operador adjudicatorio genera avisos. |
+| ***Datos especificos:*** |  <br> Los operadores ven los avisos. <br>|
 | ***Importancia:*** | <br> Muy importante. |
 | ***Estado:*** | <br> Aceptado. |
 | ***Comentarios:*** | <br> |
