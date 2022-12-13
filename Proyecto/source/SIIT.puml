@@ -95,7 +95,7 @@ usecase Solucion as "Visualizar recorrido solución
 extension points
 Visualizar Informacion Adicional"
 
-usecase MostrarInfoList as "Visualizar Informacion Adicional Listado
+usecase MostrarInfo as "Visualizar Informacion Adicional
 --
 extension points
 Parada
@@ -108,13 +108,13 @@ Itinerario"
 
 (Origen)...>(Solucion) : <<include>> 
 (Solucion)<..MostrarInfoConsulta : <<extends>>
-(Horarios)<.right.(MostrarInfoList) : <<extends>>
+(Horarios)<.right.(MostrarInfo) : <<extends>>
 
 
-(MostrarInfoConsulta)-right-|>(MostrarInfoList)
+(MostrarInfoConsulta)-right-|>(MostrarInfo)
 
-(MostrarInfoList)<..(Parada) : <<extends>>
-(MostrarInfoList)<..(Linea) : <<extends>>
+(MostrarInfo)<..(Parada) : <<extends>>
+(MostrarInfo)<..(Linea) : <<extends>>
 (MostrarInfoConsulta)<..(Itinerario) : <<extends>>
 
 
