@@ -56,125 +56,17 @@ En el siguiente apartado se desarrollan los requisitos funcionales y no funciona
 ## Requisitos
 ### Requisitos del portal (A1)
 
-| RF-01					| Acceso a la web		|
-| :---					| :--  				    |
-| Versión				| 1.0				    |
-| Autores				| FehriGilFernandezBesada|
-| Fuentes				| Pliego de condiciones |
-| Objetivos asociados	|  |
-| Requisitos asociados	|  |
-| Descripción			| El sistema debe permitir la edición de la web mediante la utilización de un editor WYSIWYG por parte de los administradores. |
-| Importancia			| Alta |
-| Urgencia				|  |
-| Estado				|  |
-| Estabilidad			|  |
-| Comentarios			|  |
-<br>
+| ***Requisito*** | ***Descripción*** | ***Tipo*** |
+|---|---|---|
+| Acceso a la web. | El sistema debe permitir la edición de la web mediante la utilización de un editor WYSIWYG por parte de los administradores. | Requisito funcional | <br>
+| Creación de nuevas páginas. | El sistema debe permitir la creación de nuevas páginas de forma sencilla y coherente con el resto de la Web a usuarios finales que no tengan conocimiento de programación ni de HTML. También permitirá una previsualización. | Requisito funcional | <br>
+| Modificación sencilla del diseño. | El sistema debe permitir modificar el diseño común a varias páginas e incluso de la Web entera.  | Requisito funcional | <br>
+| Herramientas de explotación. | El sistema incorporará herramientas de explotación independientes para cada tipo de información, para que cada contenido de la web pueda ser modificado, retirado o publicado. | Requisito funcional | <br>
+| Herramientas de seguimientos del portal. | El portal debe mostrar estadísticas de acceso a las distintas Secciones y Servicios. El administrador tendrá una vista en la que  podrá ver las estadísticas de acceso de todos los usuarios logueados. Por otro lado, el usuario logueado tendrá una vista en la que solo verá las suyas. | Requisito funcional | <br>
+| Espacios de trabajo compartido. | El portal debe contar con entornos de trabajo compartido y en colaboración para los administradores del sistema. | Requisito funcional | <br>
+| Herramientas web 2.0. | El portal debe contar con herramientas web 2.0 para los usuarios: blogs, foros y relación de cloud tag en la home de la web. | Requisito funcional | <br>
+| Buscador. | El portal permitirá la localización de cualquier contenido mediante la introducción de términos clave. No se diferenciarán las palabras con o sin acento, mayúsculas o minúsculas. Dispondrá de opciones que permitan la parametrización de las búsquedas. | Requisito funcional | <br>
 
-| RF-02					| Creación de nuevas páginas |
-| :---					| :--  				    |
-| Versión				| 1.0				    |
-| Autores				| FehriGilFernandezBesada|
-| Fuentes				| Pliego de condiciones |
-| Objetivos asociados	|  |
-| Requisitos asociados	|  |
-| Descripción			| El sistema debe permitir la creación de nuevas páginas de forma sencilla y coherente con el resto de la Web a usuarios finales que no tengan conocimiento de programación ni de HTML. También permitirá una previsualización. |
-| Importancia			| Alta |
-| Urgencia				|  |
-| Estado				|  |
-| Estabilidad			|  |
-| Comentarios			|  |
-<br>
-
-| RF-03					|  Modificación sencilla del diseño. |
-| :---					| :--  				    |
-| Versión				| 1.0				    |
-| Autores				| FehriGilFernandezBesada|
-| Fuentes				| Pliego de condiciones |
-| Objetivos asociados	|  |
-| Requisitos asociados	|  |
-| Descripción			| El sistema debe permitir modificar el diseño común a varias páginas e incluso de la Web entera. |
-| Importancia			| Alta |
-| Urgencia				|  |
-| Estado				|  |
-| Estabilidad			|  |
-| Comentarios			|  |
-<br>
-
-| RF-04					|  Herramientas de explotación. |
-| :---					| :--  				    |
-| Versión				| 1.0				    |
-| Autores				| FehriGilFernandezBesada|
-| Fuentes				| Pliego de condiciones |
-| Objetivos asociados	|  |
-| Requisitos asociados	|  |
-| Descripción			|  El sistema incorporará herramientas de explotación independientes para cada tipo de información, para que cada contenido de la web pueda ser modificado, retirado o publicado. |
-| Importancia			| Alta |
-| Urgencia				|  |
-| Estado				|  |
-| Estabilidad			|  |
-| Comentarios			|  |
-<br>
-
-| RF-05					|  Herramientas de seguimientos del portal. |
-| :---					| :--  				    |
-| Versión				| 1.0				    |
-| Autores				| FehriGilFernandezBesada|
-| Fuentes				| Pliego de condiciones |
-| Objetivos asociados	|  |
-| Requisitos asociados	|  |
-| Descripción			|  El portal debe mostrar estadísticas de acceso a las distintas Secciones y Servicios. El administrador tendrá una vista en la que  podrá ver las estadísticas de acceso de todos los usuarios logueados. Por otro lado, el usuario logueado tendrá una vista en la que solo verá las suyas. |
-| Importancia			| Alta |
-| Urgencia				|  |
-| Estado				|  |
-| Estabilidad			|  |
-| Comentarios			|  |
-<br>
-
-| RF-06					|  Espacios de trabajo compartido. |
-| :---					| :--  				    |
-| Versión				| 1.0				    |
-| Autores				| FehriGilFernandezBesada|
-| Fuentes				| Pliego de condiciones |
-| Objetivos asociados	|  |
-| Requisitos asociados	|  |
-| Descripción			|  El portal debe contar con entornos de trabajo compartido y en colaboración para los administradores del sistema. |
-| Importancia			| Alta |
-| Urgencia				|  |
-| Estado				|  |
-| Estabilidad			|  |
-| Comentarios			|  |
-<br>
-
-| RF-07					|  Herramientas web 2.0. |
-| :---					| :--  				    |
-| Versión				| 1.0				    |
-| Autores				| FehriGilFernandezBesada|
-| Fuentes				| Pliego de condiciones |
-| Objetivos asociados	|  |
-| Requisitos asociados	|  |
-| Descripción			|  El portal debe contar con herramientas web 2.0 para los usuarios: blogs, foros y relación de cloud tag en la home de la web. |
-| Importancia			| Alta |
-| Urgencia				|  |
-| Estado				|  |
-| Estabilidad			|  |
-| Comentarios			|  |
-<br>
-
-| RF-08					|  Herramientas web 2.0. |
-| :---					| :--  				    |
-| Versión				| 1.0				    |
-| Autores				| FehriGilFernandezBesada|
-| Fuentes				| Pliego de condiciones |
-| Objetivos asociados	|  |
-| Requisitos asociados	|  |
-| Descripción			|  El portal permitirá la localización de cualquier contenido mediante la introducción de términos clave. No se diferenciarán las palabras con o sin acento, mayúsculas o minúsculas. Dispondrá de opciones que permitan la parametrización de las búsquedas. |
-| Importancia			| Alta |
-| Urgencia				|  |
-| Estado				|  |
-| Estabilidad			|  |
-| Comentarios			|  |
-<br>
 
 ### Requisitos del sistema de información (A2)
 
@@ -206,125 +98,39 @@ En el siguiente apartado se desarrollan los requisitos funcionales y no funciona
 
 ### Requisitos del sistema del sistema de monitorización de la explotación del transporte (SMET)
 
-| RF-					| Mostrar sobre la cartografia en pantalla la actividad de los peradores |
-| :---					| :--  				    |
-| Versión				| 1.0				    |
-| Autores				| FehriGilFernandezBesada|
-| Fuentes				| Pliego de condiciones |
-| Objetivos asociados	|  |
-| Requisitos asociados	|  |
-| Descripción			| Se debe mostrar en pantalla (que a su vez muestra un mapa), la actividad de los operadores en tiempo real, teniendo la capacidad de registrar situaciones puntuales (fotos de estado) y periodos contínuos de tiempo (películas de estado). |
-| Importancia			| Alta |
-| Urgencia				|  |
-| Estado				|  |
-| Estabilidad			|  |
-| Comentarios			|  |
-<br>
+| ***Requisito*** | ***Descripción*** | ***Tipo*** |
+|---|---|---|
+| Mostrar sobre la cartografia en pantalla la actividad de los peradores |Se debe mostrar en pantalla (que a su vez muestra un mapa), la actividad de los operadores en tiempo real, teniendo la capacidad de registrar situaciones puntuales (fotos de estado) y periodos contínuos de tiempo (películas de estado). | Requisito funcional | <br>
+| Visualizar las alarmas de los distintos proyectos de la autoridad | Se deben mostrar las alarmas (notificaciones) de los diversos proyectos de la autoridad de transporte (proyecto de monitorización y venta) que contenga información del sistema de ventas, gestión del título único del transporte (gestión de billetes únicos y su información que no permita la generación de dos iguales), información de adelanto o atraso del paso por parada, el estado de los sistemas (líneas no disponibles o buses fuera de servicio) y otros que se quieran integrar. | Requisito funcional | <br>
+| Recibir avisos. | Se debe permitir definir eventos con base en variables y con unas condiciones que permitan generar avisos. | Requisito funcional | <br>
+| Examinar el estado de la explotación en tiempo real. | Se debe poder examinar el estado de la explotación en tiempo real para el/los operador/es que prefiera el usuario. | Requisito funcional | <br>
+| Visualización y monitorización del sistema | Se debe poder realizar la visualización y monitorización del sistema  en base a los datos que se reciban. Y también, desde los datos que puedan estar almacenados previamente, y que podrían enviarse al sistema para ser visualizados a posteriori, especificando un rango de fecha, hora, operador y tiempo de salto. Debe ser posible redefinir todas las notificaciones y validar los eventos recibidos y procesados. | Requisito funcional | <br>
+| Monitorización del rendimiento de los operadores. | Los operadores adjudicatarios deben poder monitorizar el desempleo de los operadores del transporte ayudándose de las puntuaciones que ofrecen los usuarios logueados. | Requisito funcional | <br>
+| Claridad en contraste de la información. |En particular el sistema debe poner de manifiesto de modo claro y sin complejidad el nivel de cumplimiento de lo planificado respecto a lo realizado.   | Requisito no funcional | <br>
+| Visualización de alarmas (notificaciones) simultáneas |Las alarmas (notificaciones) deben ser simultáneas en los distintos proyectos y se deben manifestar mediante avisos acústicos, visuales y mediante notificaciones a móviles aparte de otras a considerar. | Requisito no funcional | <br>
 
-| RF-					| Visualizar las alarmas de los distintos proyectos de la autoridad |
-| :---					| :--  				    |
-| Versión				| 1.0				    |
-| Autores				| FehriGilFernandezBesada|
-| Fuentes				| Pliego de condiciones |
-| Objetivos asociados	|  |
-| Requisitos asociados	|  |
-| Descripción			| Se deben mostrar las alarmas (notificaciones) de los diversos proyectos de la autoridad de transporte (proyecto de monitorización y venta) que contenga información del sistema de ventas, gestión del título único del transporte (gestión de billetes únicos y su información que no permita la generación de dos iguales), información de adelanto o atraso del paso por parada, el estado de los sistemas (líneas no disponibles o buses fuera de servicio) y otros que se quieran integrar. |
-| Importancia			| Alta |
-| Urgencia				|  |
-| Estado				|  |
-| Estabilidad			|  |
-| Comentarios			|  |
-<br>
 
-| RF-					| Recibir avisos. |
-| :---					| :--  				    |
-| Versión				| 1.0				    |
-| Autores				| FehriGilFernandezBesada|
-| Fuentes				| Pliego de condiciones |
-| Objetivos asociados	|  |
-| Requisitos asociados	|  |
-| Descripción			| Se debe permitir definir eventos con base en variables y con unas condiciones que permitan generar avisos. |
-| Importancia			| Alta |
-| Urgencia				|  |
-| Estado				|  |
-| Estabilidad			|  |
-| Comentarios			|  |
-<br>
 
-| RF-					| Examinar el estado de la explotación en tiempo real. |
-| :---					| :--  				    |
-| Versión				| 1.0				    |
-| Autores				| FehriGilFernandezBesada|
-| Fuentes				| Pliego de condiciones |
-| Objetivos asociados	|  |
-| Requisitos asociados	|  |
-| Descripción			| Se debe poder examinar el estado de la explotación en tiempo real para el/los operador/es que prefiera el usuario. |
-| Importancia			| Alta |
-| Urgencia				|  |
-| Estado				|  |
-| Estabilidad			|  |
-| Comentarios			|  |
-<br>
+### Requisitos de los Servicios Continuos
+| ***Requisito*** | ***Descripción*** | ***Tipo*** |
+|---|---|---|
+| Información geo-referenciada. | Se debe introducir la información que deberá incluir la posición geográfica (latitud, longitud y altura) de los nodos de dicha red, los recorridos de los vehículos, carreteras de la isla y planos de núcleos urbanos, fotografías de sitios de interés turístico, ocio, cultura, paradas y estaciones, etc.  | Requisito funcional | <br>
+| Accesibilidad al sistema de información para el SIIT. |Los contenidos y servicios orientados al usuario deben ser accesibles desde los puntos habilitados de la Autoridad Única del Transporte (estaciones, intercambiadores, paradas preferentes), así como desde cualquier punto en donde los usuarios dispongan de acceso a Internet haciendo uso tanto de dispositivos móviles (ordenadores portátiles, teléfonos móviles, PDAs, etc.)  | Requisito funcional | <br>
+| Mostrar en la interfaz. |Las páginas podrán contener elementos multimedia y mostrar resultados de consultas a Bases de Datos, para mostrar resultados de forma dinámica. | Requisito funcional | <br>
+| Consultas origen-destino. | El sistema deberá informar de cómo ir de un punto origen de la red de transporte a otro destino de la red de transporte. Para ello, el usuario introducirá en el sistema el origen y el destino del viaje que quiere realizar, pudiendo para ello seleccionarlos a través de distintas búsquedas (por municipios, barrio o zona, paradas, etc). | Requisito funcional | <br>
+| Información de interés turístico. | Se mostrará la información de interés turístico, como por ejemplo, información sobre los distintos municipios (localización, qué visitar, etc.), las principales playas, naturaleza (miradores, paisajes relevantes, etc.), fiestas populares (fechas, lugar de celebración), gastronomía, puntos de información turísticas y patrimonio artístico, arquitectónico y arqueológico. Además, se informará de rutas con interés turístico con posibilidad de ser realizadas en transporte regular de viajeros.  | Requisito funcional | <br>
+| Información de lugares de interés general. | El sistema proporcionará información sobre lugares de interés general de toda la Isla, como por ejemplo: centros sanitarios, centros de seguridad y emergencias, centros de la administración pública, centros culturales, lugares de ocio, etc. Además, se informará de los servicios de transporte público que pueden utilizarse para llegar a ellos. La AUTGC facilitará el acuerdo de cesión de esta información por parte de otros organismos de la administración, siendo el licitante el responsable de recabar coordinar y adecuarla a la imagen y alcance del proyecto.  | Requisito funcional | <br>
+| Agenda cultural y de ocio. | Se mostrará información sobre la agenda cultural y de ocio de los principales teatros, auditorios, salas de exposiciones, así como de los eventos que se celebren en la Isla 21/24 relacionados con la cultura y el ocio. | Requisito funcional | <br>
+| Pagos de servicios de transporte. | El sistema posibilitará de manera segura la recarga de la tarjeta única de pago de la AUTGC, mediante pasarela multibanco. | Requisito funcional | <br>
+| Descarga de archivos. | El sistema deberá proporcionar la funcionalidad de descargar archivos que contengan aplicaciones y datos asociados a servicios que la AUT pudiera proporcionar.  | Requisito funcional | <br>
+| Consultas estadísticas. | El portal contará con un aplicativo de estadísticas que permita conocer cómo se utiliza el sistema por parte de los usuarios, con el fin de obtener información de interés desde el punto de vista del transporte (origen más solicitado, destino más solicitado, información más requerida, puntos de información más solicitados, etc.) y procurar su mejora continuada. | Requisito funcional | <br>
+| Actualización de contenidos. | El software se desarrollará de forma que permita una actualización o modificación sencilla y rápida de los datos del sistema, tanto de los relacionados con la prestación del servicio de transporte como de los vinculados a turismo y cultura. | Requisito funcional | <br>
+| Software modular y escalable. | El software deberá tener una arquitectura modular y escalable, de manera que se puedan poner en marcha las distintas funcionalidades a medidas que vayan siendo comprobadas y validadas, permitiendo además las futuras ampliaciones que fueran necesarias. Se considerarán muy positivamente las ofertas que aporten soluciones que no requieran el pago de licencias y/o el pago regular de mantenimiento de software propietario, actualizaciones y/o revisiones de software. | Requisito no funcional | <br>
 
-| RF-					| Visualización y monitorización del sistema. |
-| :---					| :--  				    |
-| Versión				| 1.0				    |
-| Autores				| FehriGilFernandezBesada|
-| Fuentes				| Pliego de condiciones |
-| Objetivos asociados	|  |
-| Requisitos asociados	|  |
-| Descripción			| Se debe poder realizar la visualización y monitorización del sistema  en base a los datos que se reciban. Y también, desde los datos que puedan estar almacenados previamente, y que podrían enviarse al sistema para ser visualizados a posteriori, especificando un rango de fecha, hora, operador y tiempo de salto. Debe ser posible redefinir todas las notificaciones y validar los eventos recibidos y procesados. |
-| Importancia			| Alta |
-| Urgencia				|  |
-| Estado				|  |
-| Estabilidad			|  |
-| Comentarios			|  |
-<br>
 
-| RF-					| Monitorización del rendimiento de los operadores. |
-| :---					| :--  				    |
-| Versión				| 1.0				    |
-| Autores				| FehriGilFernandezBesada|
-| Fuentes				| Pliego de condiciones |
-| Objetivos asociados	|  |
-| Requisitos asociados	|  |
-| Descripción			| Los operadores adjudicatarios deben poder monitorizar el desempleo de los operadores del transporte ayudándose de las puntuaciones que ofrecen los usuarios logueados. |
-| Importancia			| Alta |
-| Urgencia				|  |
-| Estado				|  |
-| Estabilidad			|  |
-| Comentarios			|  |
-<br>
 
-| RNF-					| Claridad en contraste de la información. |
-| :---					| :--  				    |
-| Versión				| 1.0				    |
-| Autores				| FehriGilFernandezBesada|
-| Fuentes				| Pliego de condiciones |
-| Objetivos asociados	|  |
-| Requisitos asociados	|  |
-| Descripción			| En particular el sistema debe poner de manifiesto de modo claro y sin complejidad el nivel de cumplimiento de lo planificado respecto a lo realizado. |
-| Importancia			| Alta |
-| Urgencia				|  |
-| Estado				|  |
-| Estabilidad			|  |
-| Comentarios			|  |
-<br>
 
-| RNF-					| Visualización de alarmas (notificaciones) simultáneas |
-| :---					| :--  				    |
-| Versión				| 1.0				    |
-| Autores				| FehriGilFernandezBesada|
-| Fuentes				| Pliego de condiciones |
-| Objetivos asociados	|  |
-| Requisitos asociados	|  |
-| Descripción			| Las alarmas (notificaciones) deben ser simultáneas en los distintos proyectos y se deben manifestar mediante avisos acústicos, visuales y mediante notificaciones a móviles aparte de otras a considerar. |
-| Importancia			| Alta |
-| Urgencia				|  |
-| Estado				|  |
-| Estabilidad			|  |
-| Comentarios			|  |
-<br>
+
 
 ## Casos de uso
 ### Diagramas de casos de uso
@@ -862,7 +668,7 @@ En el siguiente apartado se desarrollan los requisitos funcionales y no funciona
 #### Sistema de monitorización de la explotación del transporte
 <br>
 
-| ***UC-46*** |  |
+| ***UC-*** |  |
 | --- | --- |
 | ***Nombre:***  | Visualizar alarmas |
 | ***Autor:***  | FehriGilFernandezBesada |
@@ -876,7 +682,7 @@ En el siguiente apartado se desarrollan los requisitos funcionales y no funciona
 | ***Poscondiciones:*** | <br>  |
 <br>
 
-| ***UC-47*** |  |
+| ***UC-*** |  |
 | --- | --- |
 | ***Nombre:***  | Mostrar mensaje |
 | ***Autor:***  | FehriGilFernandezBesada |
@@ -890,7 +696,7 @@ En el siguiente apartado se desarrollan los requisitos funcionales y no funciona
 | ***Poscondiciones:*** | <br>  |
 <br>
 
-| ***UC-48*** |  |
+| ***UC-*** |  |
 | --- | --- |
 | ***Nombre:***  | Visualizar alarmas (O) |
 | ***Autor:***  | FehriGilFernandezBesada |
@@ -904,7 +710,7 @@ En el siguiente apartado se desarrollan los requisitos funcionales y no funciona
 | ***Poscondiciones:*** | <br>  |
 <br>
 
-| ***UC-49*** |  |
+| ***UC-*** |  |
 | --- | --- |
 | ***Nombre:***  | Visualizar alarmas (UL) |
 | ***Autor:***  | FehriGilFernandezBesada |
@@ -918,7 +724,7 @@ En el siguiente apartado se desarrollan los requisitos funcionales y no funciona
 | ***Poscondiciones:*** | <br>  |
 <br>
 
-| ***UC-50*** |  |
+| ***UC-*** |  |
 | --- | --- |
 | ***Nombre:***  | Visualizar alarmas (OA) |
 | ***Autor:***  | FehriGilFernandezBesada |
@@ -932,7 +738,7 @@ En el siguiente apartado se desarrollan los requisitos funcionales y no funciona
 | ***Poscondiciones:*** | <br>  |
 <br>
 
-| ***UC-51*** |  |
+| ***UC-*** |  |
 | --- | --- |
 | ***Nombre:***  | Visualizar la actividad de los operadores en la cartografía |
 | ***Autor:***  | FehriGilFernandezBesada |
@@ -941,12 +747,12 @@ En el siguiente apartado se desarrollan los requisitos funcionales y no funciona
 | ***Relaciones*** | INF- |
 | ***Actores:***  | <br>  Operador adjudicatario |
 | ***Precondición:*** | <br>  El usuario debe estar logueado como operador adjudicatario |
-| ***Flujo Normal:*** | <br> 1. El usuario solicita al sistema la visualización de la explotación del transporte en tiempo real. <br> 2. El sistema obtiene la información de la explotación del transporte. <br> 3. El sistema muestra la explotación del transporte en tiempo real. <br> 4. El operador adjudicatario accede a la sección de visualización de operadores. <br> 5. Se obtiene una lista de operadores de transporte. |
-|***Flujo Alternativo:*** | <br> 5.A De manera excepcional, el operador adjudicatario puede introducir un operador de transporte en concreto. |
-| ***Poscondiciones:*** | <br>  |
+| ***Flujo Normal:*** | <br> 1. El usuario solicita al sistema la visualización de la explotación del transporte en tiempo real. <br> 2. El sistema obtiene la información de la explotación del transporte. <br> 3. El sistema muestra la explotación del transporte en tiempo real. <br> 4. El usuario accede a la sección de visualización de operadores. <br> 5. El operador adjudicatario introduce un operador de transporte <br> 6. El sistema muestra sobre la cartografía la actividad del operador introducido <br> 7. El operador registra situaciones puntuales y periodos continuos de la actividad del operador. |
+|***Flujo Alternativo:*** | <br>  |
+| ***Poscondiciones:*** | <br> 1. Los nuevos registros de situaciones puntuales y periodos continuos se guardan en el sistema |
 <br>
 
-| ***UC-52*** |  |
+| ***UC-*** |  |
 | --- | --- |
 | ***Nombre:***  | Introducir operadores |
 | ***Autor:***  | FehriGilFernandezBesada |
@@ -955,12 +761,12 @@ En el siguiente apartado se desarrollan los requisitos funcionales y no funciona
 | ***Relaciones*** | INF- |
 | ***Actores:***  | <br> Operador adjudicatario |
 | ***Precondición:*** | <br>  El usuario debe estar logueado como operador adjudicatario |
-| ***Flujo Normal:*** | <br>  1. El operador rellena las credenciales del operador de transporte del que desea obtener los datos. <br> 2. El sistema devuelve la información del operador. |
+| ***Flujo Normal:*** | <br>  1. El operador rellena las credenciales del operador de transporte del que desea obtener los datos. <br> 2. El sistema devuelve la información del operador |
 |***Flujo Alternativo:*** | <br>  |
 | ***Poscondiciones:*** | <br>  |
 <br>
 
-| ***UC-53*** |  |
+| ***UC-*** |  |
 | --- | --- |
 | ***Nombre:***  | Registrar situaciones puntuales |
 | ***Autor:***  | FehriGilFernandezBesada |
@@ -969,12 +775,12 @@ En el siguiente apartado se desarrollan los requisitos funcionales y no funciona
 | ***Relaciones*** | INF- |
 | ***Actores:***  | <br> Operador adjudicatario |
 | ***Precondición:*** | <br>  El usuario debe estar logueado como operador adjudicatario |
-| ***Flujo Normal:*** | <br> 1. El operador adjudicatario accede al resgistro de situaciones puntuales <br> 2. El sistema muestra todo el contenido que se puede registrar. <br> 3. El operador adjudicatario selecciona un momento concreto. |
+| ***Flujo Normal:*** | <br>  1. El sistema muestra todo el contenido que se puede registrar. <br> 2. El operador adjudicatario selecciona un momento concreto. |
 |***Flujo Alternativo:*** | <br>  |
-| ***Poscondiciones :*** | <br> Una vez guardado el registro, se actuliza la base de datos con el nuevo registro. |
+| ***Poscondiciones :*** | <br>  |
 <br>
 
-| ***UC-54*** |  |
+| ***UC-*** |  |
 | --- | --- |
 | ***Nombre:***  | Registrar periodos contínuos |
 | ***Autor:***  | FehriGilFernandezBesada |
@@ -983,12 +789,12 @@ En el siguiente apartado se desarrollan los requisitos funcionales y no funciona
 | ***Relaciones*** | INF- |
 | ***Actores:***  | <br> Operador adjudicatario |
 | ***Precondición:*** | <br>  El usuario debe estar logueado como operador adjudicatario |
-| ***Flujo Normal:*** | <br> 1. El operador accede al registro de periodos contínuos <br> 2. El sistema muestra todo el contenido que se puede registrar. <br> 3. El operador adjudicatario selecciona un intervalo de tiempo. |
+| ***Flujo Normal:*** | <br>  1. El sistema muestra todo el contenido que se puede registrar. <br> 2. El operador adjudicatario selecciona un intervalo de tiempo. |
 |***Flujo Alternativo:*** | <br>  |
-| ***Poscondiciones :*** | <br> Una vez guardado el registro, se actualiza la base de datos con el nuevo registro. |
+| ***Poscondiciones :*** | <br>  |
 <br>
 
-| ***UC-55*** |  |
+| ***UC-*** |  |
 | --- | --- |
 | ***Nombre:***  | Examinar la explotación en tiempo real |
 | ***Autor:***  | FehriGilFernandezBesada |
@@ -1002,7 +808,7 @@ En el siguiente apartado se desarrollan los requisitos funcionales y no funciona
 | ***Poscondiciones :*** | <br>  |
 <br>
 
-| ***UC-56*** |  |
+| ***UC-*** |  |
 | --- | --- |
 | ***Nombre:***  | Puntuar operadores |
 | ***Autor:***  | FehriGilFernandezBesada |
@@ -1016,7 +822,7 @@ En el siguiente apartado se desarrollan los requisitos funcionales y no funciona
 | ***Poscondiciones :*** | <br> Se actualiza la media de la puntuación del operador u operadores. |
 <br>
 
-| ***UC-57*** |  |
+| ***UC-*** |  |
 | --- | --- |
 | ***Nombre:***  | Seleccionar operador |
 | ***Autor:***  | FehriGilFernandezBesada |
@@ -1030,7 +836,7 @@ En el siguiente apartado se desarrollan los requisitos funcionales y no funciona
 | ***Poscondiciones :*** | <br>  |
 <br>
 
-| ***UC-58*** |  |
+| ***UC-*** |  |
 | --- | --- |
 | ***Nombre:***  | Suministrar datos al sistema. |
 | ***Autor:***  | FehriGilFernandezBesada |
@@ -1044,7 +850,7 @@ En el siguiente apartado se desarrollan los requisitos funcionales y no funciona
 | ***Poscondiciones :*** | <br> Los cambios nuevos introducidos se cargan en e sistema y se actualizan para el resto de funcionalidades y usuarios. |
 <br>
 
-| ***UC-59*** |  |
+| ***UC-*** |  |
 | --- | --- |
 | ***Nombre:***  | Medir rendimiento de los operadores. |
 | ***Autor:***  | FehriGilFernandezBesada |
@@ -1058,7 +864,7 @@ En el siguiente apartado se desarrollan los requisitos funcionales y no funciona
 | ***Poscondiciones :*** | <br>  |
 <br>
 
-| ***UC-60*** |  |
+| ***UC-*** |  |
 | --- | --- |
 | ***Nombre:***  | Definir eventos. |
 | ***Autor:***  | FehriGilFernandezBesada |
@@ -1072,7 +878,7 @@ En el siguiente apartado se desarrollan los requisitos funcionales y no funciona
 | ***Poscondiciones :*** | <br>  |
 <br>
 
-| ***UC-61*** |  |
+| ***UC-*** |  |
 | --- | --- |
 | ***Nombre:***  | Introducir variable. |
 | ***Autor:***  | FehriGilFernandezBesada |
@@ -1086,7 +892,7 @@ En el siguiente apartado se desarrollan los requisitos funcionales y no funciona
 | ***Poscondiciones :*** | <br>  |
 <br>
 
-| ***UC-62*** |  |
+| ***UC-*** |  |
 | --- | --- |
 | ***Nombre:***  | Introducir condiciones. |
 | ***Autor:***  | FehriGilFernandezBesada |
@@ -1100,7 +906,7 @@ En el siguiente apartado se desarrollan los requisitos funcionales y no funciona
 | ***Poscondiciones :*** | <br>  |
 <br>
 
-| ***UC-63*** |  |
+| ***UC-*** |  |
 | --- | --- |
 | ***Nombre:***  | Generar avisos. |
 | ***Autor:***  | FehriGilFernandezBesada |
@@ -1114,7 +920,7 @@ En el siguiente apartado se desarrollan los requisitos funcionales y no funciona
 | ***Poscondiciones :*** | <br>  |
 <br>
 
-| ***UC-64*** |  |
+| ***UC-*** |  |
 | --- | --- |
 | ***Nombre:***  | Ver avisos. |
 | ***Autor:***  | FehriGilFernandezBesada |
@@ -1128,7 +934,7 @@ En el siguiente apartado se desarrollan los requisitos funcionales y no funciona
 | ***Poscondiciones :*** | <br>  |
 <br>
 
-| ***UC-65*** |  |
+| ***UC-*** |  |
 | --- | --- |
 | ***Nombre:***  | Disparar alarma. |
 | ***Autor:***  | FehriGilFernandezBesada |
@@ -1167,7 +973,7 @@ En el siguiente apartado se desarrollan los requisitos funcionales y no funciona
 | ***Datos específicos:*** |   <br>  1. Nombre completo: Cadena de máximo 30 caracteres. <br> 2.Teléfono de contacto: Cadena de máximo 10 caracteres.  <br> 3. Email: Cadena <br> Número de cuenta bancaria: Entero postivo. <br> 4. Podrá utilizar las diferentes herramientas web, ver tanto los foros, como los blogs, como el cloud tag. <br>  |
 | ***Importancia:*** | <br> Muy importante. |
 | ***Estado:*** | <br> Aceptado. |
-| ***Comentarios:*** | <br>  <br> |
+| ***Comentarios:*** | <br>  Los datos son imprescindibles para correcto funcionamiento del sistema. |
 
  ***INF-03*** | Información sobre Usuario invitado.  |
 | --- | --- |
@@ -1176,20 +982,20 @@ En el siguiente apartado se desarrollan los requisitos funcionales y no funciona
 | ***Referencias:*** | <br> Usuario invitado. |
 | ***Fuentes:***  | <br>   Servicios Continuos  |
 | ***Descripción:*** | <br> El sistema deberá almacenar la información correspondiente a las posibles acciones de un usuario invitado. |
-| ***Datos especificos:*** |   <br> 1. Podrá utilizar las diferentes herramientas web, ver tanto los foros, como los blogs, como el cloud tag. |
+| ***Datos especificos:*** |   <br>  Podrá utilizar las diferentes herramientas web, ver tanto los foros, como los blogs, como el cloud tag. |
 | ***Importancia:*** | <br> Importante. |
 | ***Estado:*** | <br> Aceptado. |
-| ***Comentarios:*** | <br> Los productos ofertados deben estar presentes en el sistema junto a sus condiciones para que el comprador las pueda considerar. |
+| ***Comentarios:*** | <br>  |
 <br>
 
 ***INF-04*** | Información sobre estadísticas.  |
 | --- | --- |
 | ***Version:***  | Diciembre-2022 |
 | ***Autor:***  | FehriGilFernandezBesada |
-| ***Referencias:*** | <br> BVisualizar estadísticas. |
+| ***Referencias:*** | <br> Visualizar estadísticas. |
 | ***Fuentes:***  | <br>   Servicios Continuos  |
 | ***Descripción:*** | <br> El sistema deberá almacenar la información correspondiente a las estadísticas de cada usuario logueado. |
-| ***Datos especificos:*** |   <br> 1. Identificador de las estadísticas: nombre de usuario. |
+| ***Datos especificos:*** |   <br>  Identificador de las estadísticas: nombre de usuario. |
 | ***Importancia:*** | <br> Muy importante. |
 | ***Estado:*** | <br> Aceptado. |
 | ***Comentarios:*** | <br> |
@@ -1240,7 +1046,7 @@ En el siguiente apartado se desarrollan los requisitos funcionales y no funciona
 | ***Referencias:*** | <br> Consultar histórico ventas. |
 | ***Fuentes:***  | <br>   Servicios Continuos  |
 | ***Descripción:*** | <br> El sistema deberá almacenar la información correspondiente a los foros. |
-| ***Datos especificos:*** |  <br>  |
+| ***Datos especificos:*** |  <br> gi |
 | ***Importancia:*** | <br> Muy importante. |
 | ***Estado:*** | <br> Aceptado. |
 | ***Comentarios:*** | <br> |
