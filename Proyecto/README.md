@@ -862,7 +862,7 @@ En el siguiente apartado se desarrollan los requisitos funcionales y no funciona
 #### Sistema de monitorización de la explotación del transporte
 <br>
 
-| ***UC-*** |  |
+| ***UC-46*** |  |
 | --- | --- |
 | ***Nombre:***  | Visualizar alarmas |
 | ***Autor:***  | FehriGilFernandezBesada |
@@ -876,7 +876,7 @@ En el siguiente apartado se desarrollan los requisitos funcionales y no funciona
 | ***Poscondiciones:*** | <br>  |
 <br>
 
-| ***UC-*** |  |
+| ***UC-47*** |  |
 | --- | --- |
 | ***Nombre:***  | Mostrar mensaje |
 | ***Autor:***  | FehriGilFernandezBesada |
@@ -890,7 +890,7 @@ En el siguiente apartado se desarrollan los requisitos funcionales y no funciona
 | ***Poscondiciones:*** | <br>  |
 <br>
 
-| ***UC-*** |  |
+| ***UC-48*** |  |
 | --- | --- |
 | ***Nombre:***  | Visualizar alarmas (O) |
 | ***Autor:***  | FehriGilFernandezBesada |
@@ -904,7 +904,7 @@ En el siguiente apartado se desarrollan los requisitos funcionales y no funciona
 | ***Poscondiciones:*** | <br>  |
 <br>
 
-| ***UC-*** |  |
+| ***UC-49*** |  |
 | --- | --- |
 | ***Nombre:***  | Visualizar alarmas (UL) |
 | ***Autor:***  | FehriGilFernandezBesada |
@@ -918,7 +918,7 @@ En el siguiente apartado se desarrollan los requisitos funcionales y no funciona
 | ***Poscondiciones:*** | <br>  |
 <br>
 
-| ***UC-*** |  |
+| ***UC-50*** |  |
 | --- | --- |
 | ***Nombre:***  | Visualizar alarmas (OA) |
 | ***Autor:***  | FehriGilFernandezBesada |
@@ -932,7 +932,7 @@ En el siguiente apartado se desarrollan los requisitos funcionales y no funciona
 | ***Poscondiciones:*** | <br>  |
 <br>
 
-| ***UC-*** |  |
+| ***UC-51*** |  |
 | --- | --- |
 | ***Nombre:***  | Visualizar la actividad de los operadores en la cartografía |
 | ***Autor:***  | FehriGilFernandezBesada |
@@ -946,7 +946,7 @@ En el siguiente apartado se desarrollan los requisitos funcionales y no funciona
 | ***Poscondiciones:*** | <br>  |
 <br>
 
-| ***UC-*** |  |
+| ***UC-52*** |  |
 | --- | --- |
 | ***Nombre:***  | Introducir operadores |
 | ***Autor:***  | FehriGilFernandezBesada |
@@ -960,7 +960,7 @@ En el siguiente apartado se desarrollan los requisitos funcionales y no funciona
 | ***Poscondiciones:*** | <br>  |
 <br>
 
-| ***UC-*** |  |
+| ***UC-53*** |  |
 | --- | --- |
 | ***Nombre:***  | Registrar situaciones puntuales |
 | ***Autor:***  | FehriGilFernandezBesada |
@@ -974,7 +974,7 @@ En el siguiente apartado se desarrollan los requisitos funcionales y no funciona
 | ***Poscondiciones :*** | <br> Una vez guardado el registro, se actuliza la base de datos con el nuevo registro. |
 <br>
 
-| ***UC-*** |  |
+| ***UC-54*** |  |
 | --- | --- |
 | ***Nombre:***  | Registrar periodos contínuos |
 | ***Autor:***  | FehriGilFernandezBesada |
@@ -988,7 +988,7 @@ En el siguiente apartado se desarrollan los requisitos funcionales y no funciona
 | ***Poscondiciones :*** | <br> Una vez guardado el registro, se actualiza la base de datos con el nuevo registro. |
 <br>
 
-| ***UC-*** |  |
+| ***UC-55*** |  |
 | --- | --- |
 | ***Nombre:***  | Examinar la explotación en tiempo real |
 | ***Autor:***  | FehriGilFernandezBesada |
@@ -1002,7 +1002,7 @@ En el siguiente apartado se desarrollan los requisitos funcionales y no funciona
 | ***Poscondiciones :*** | <br>  |
 <br>
 
-| ***UC-*** |  |
+| ***UC-56*** |  |
 | --- | --- |
 | ***Nombre:***  | Puntuar operadores |
 | ***Autor:***  | FehriGilFernandezBesada |
@@ -1016,7 +1016,7 @@ En el siguiente apartado se desarrollan los requisitos funcionales y no funciona
 | ***Poscondiciones :*** | <br> Se actualiza la media de la puntuación del operador u operadores. |
 <br>
 
-| ***UC-*** |  |
+| ***UC-57*** |  |
 | --- | --- |
 | ***Nombre:***  | Seleccionar operador |
 | ***Autor:***  | FehriGilFernandezBesada |
@@ -1030,7 +1030,7 @@ En el siguiente apartado se desarrollan los requisitos funcionales y no funciona
 | ***Poscondiciones :*** | <br>  |
 <br>
 
-| ***UC-*** |  |
+| ***UC-58*** |  |
 | --- | --- |
 | ***Nombre:***  | Suministrar datos al sistema. |
 | ***Autor:***  | FehriGilFernandezBesada |
@@ -1044,7 +1044,7 @@ En el siguiente apartado se desarrollan los requisitos funcionales y no funciona
 | ***Poscondiciones :*** | <br> Los cambios nuevos introducidos se cargan en e sistema y se actualizan para el resto de funcionalidades y usuarios. |
 <br>
 
-| ***UC-*** |  |
+| ***UC-59*** |  |
 | --- | --- |
 | ***Nombre:***  | Medir rendimiento de los operadores. |
 | ***Autor:***  | FehriGilFernandezBesada |
@@ -1058,7 +1058,7 @@ En el siguiente apartado se desarrollan los requisitos funcionales y no funciona
 | ***Poscondiciones :*** | <br>  |
 <br>
 
-| ***UC-*** |  |
+| ***UC-60*** |  |
 | --- | --- |
 | ***Nombre:***  | Definir eventos. |
 | ***Autor:***  | FehriGilFernandezBesada |
@@ -1072,7 +1072,7 @@ En el siguiente apartado se desarrollan los requisitos funcionales y no funciona
 | ***Poscondiciones :*** | <br>  |
 <br>
 
-| ***UC-*** |  |
+| ***UC-61*** |  |
 | --- | --- |
 | ***Nombre:***  | Introducir variable. |
 | ***Autor:***  | FehriGilFernandezBesada |
@@ -1086,7 +1086,7 @@ En el siguiente apartado se desarrollan los requisitos funcionales y no funciona
 | ***Poscondiciones :*** | <br>  |
 <br>
 
-| ***UC-*** |  |
+| ***UC-62*** |  |
 | --- | --- |
 | ***Nombre:***  | Introducir condiciones. |
 | ***Autor:***  | FehriGilFernandezBesada |
@@ -1100,7 +1100,7 @@ En el siguiente apartado se desarrollan los requisitos funcionales y no funciona
 | ***Poscondiciones :*** | <br>  |
 <br>
 
-| ***UC-*** |  |
+| ***UC-63*** |  |
 | --- | --- |
 | ***Nombre:***  | Generar avisos. |
 | ***Autor:***  | FehriGilFernandezBesada |
@@ -1114,7 +1114,7 @@ En el siguiente apartado se desarrollan los requisitos funcionales y no funciona
 | ***Poscondiciones :*** | <br>  |
 <br>
 
-| ***UC-*** |  |
+| ***UC-64*** |  |
 | --- | --- |
 | ***Nombre:***  | Ver avisos. |
 | ***Autor:***  | FehriGilFernandezBesada |
@@ -1128,7 +1128,7 @@ En el siguiente apartado se desarrollan los requisitos funcionales y no funciona
 | ***Poscondiciones :*** | <br>  |
 <br>
 
-| ***UC-*** |  |
+| ***UC-65*** |  |
 | --- | --- |
 | ***Nombre:***  | Disparar alarma. |
 | ***Autor:***  | FehriGilFernandezBesada |
