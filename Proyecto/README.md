@@ -169,7 +169,7 @@ En el siguiente apartado se desarrollan los requisitos funcionales y no funciona
 
 #### Portal
 
-| ***UC01*** |  |
+| ***UC-01*** |  |
 | --- | --- |
 | ***Nombre:***  | Usar espacios de trabajo compartido |
 | ***Autor:***  | FehriGilFernandezBesada |
@@ -183,7 +183,7 @@ En el siguiente apartado se desarrollan los requisitos funcionales y no funciona
 | ***Poscondiciones :*** | <br>  |
 <br>
 
-| ***UC02*** |  |
+| ***UC-02*** |  |
 | --- | --- |
 | ***Nombre:***  | Editar la Web |
 | ***Autor:***  | FehriGilFernandezBesada |
@@ -197,7 +197,7 @@ En el siguiente apartado se desarrollan los requisitos funcionales y no funciona
 | ***Poscondiciones :*** | <br>  |
 <br>
 
-| ***UC03*** |  |
+| ***UC-03*** |  |
 | --- | --- |
 | ***Nombre:***  | Empelar editor WYSIWYG |
 | ***Autor:***  | FehriGilFernandezBesada |
@@ -212,7 +212,7 @@ En el siguiente apartado se desarrollan los requisitos funcionales y no funciona
 <br>
 
 
-| ***UC04*** |  |
+| ***UC-04*** |  |
 | --- | --- |
 | ***Nombre:***  | Visualizar estadísticas de acceso |
 | ***Autor:***  | FehriGilFernandezBesada |
@@ -226,7 +226,7 @@ En el siguiente apartado se desarrollan los requisitos funcionales y no funciona
 | ***Poscondiciones :*** | <br>  |
 <br>
 
-| ***UC05*** |  |
+| ***UC-05*** |  |
 | --- | --- |
 | ***Nombre:***  | Visualizar estadísticas de acceso vista Administrador |
 | ***Autor:***  | FehriGilFernandezBesada |
@@ -240,7 +240,7 @@ En el siguiente apartado se desarrollan los requisitos funcionales y no funciona
 | ***Poscondiciones :*** | <br>  |
 <br>
 
-| ***UC06*** |  |
+| ***UC-06*** |  |
 | --- | --- |
 | ***Nombre:***  | Modificar diseño de la página. |
 | ***Autor:***  | FehriGilFernandezBesada |
@@ -254,7 +254,7 @@ En el siguiente apartado se desarrollan los requisitos funcionales y no funciona
 | ***Poscondiciones :*** | <br>  |
 <br>
 
-| ***UC07*** |  |
+| ***UC-07*** |  |
 | --- | --- |
 | ***Nombre:***  | Usar herramientas de explotación de Web. |
 | ***Autor:***  | FehriGilFernandezBesada |
@@ -268,7 +268,7 @@ En el siguiente apartado se desarrollan los requisitos funcionales y no funciona
 | ***Poscondiciones :*** | <br>  |
 <br>
 
-| ***UC08*** |  |
+| ***UC-08*** |  |
 | --- | --- |
 | ***Nombre:***  | Eliminar contenido. |
 | ***Autor:***  | FehriGilFernandezBesada |
@@ -282,7 +282,7 @@ En el siguiente apartado se desarrollan los requisitos funcionales y no funciona
 | ***Poscondiciones :*** | <br>  |
 <br>
 
-| ***UC09*** |  |
+| ***UC-09*** |  |
 | --- | --- |
 | ***Nombre:***  | Eliminar contenido. |
 | ***Autor:***  | FehriGilFernandezBesada |
@@ -296,7 +296,7 @@ En el siguiente apartado se desarrollan los requisitos funcionales y no funciona
 | ***Poscondiciones :*** | <br>  |
 <br>
 
-| ***UC10*** |  |
+| ***UC-10*** |  |
 | --- | --- |
 | ***Nombre:***  | Modificar contenido. |
 | ***Autor:***  | FehriGilFernandezBesada |
@@ -310,7 +310,7 @@ En el siguiente apartado se desarrollan los requisitos funcionales y no funciona
 | ***Poscondiciones :*** | <br>  |
 <br>
 
-| ***UC11*** |  |
+| ***UC-11*** |  |
 | --- | --- |
 | ***Nombre:***  | Publicar contenido. |
 | ***Autor:***  | FehriGilFernandezBesada |
@@ -324,7 +324,7 @@ En el siguiente apartado se desarrollan los requisitos funcionales y no funciona
 | ***Poscondiciones :*** | <br>  |
 <br>
 
-| ***UC12*** |  |
+| ***UC-12*** |  |
 | --- | --- |
 | ***Nombre:***  | Crear nueva página. |
 | ***Autor:***  | FehriGilFernandezBesada |
@@ -338,7 +338,7 @@ En el siguiente apartado se desarrollan los requisitos funcionales y no funciona
 | ***Poscondiciones :*** | <br>  |
 <br>
 
-| ***UC13*** |  |
+| ***UC-13*** |  |
 | --- | --- |
 | ***Nombre:***  | Previsualizar página. |
 | ***Autor:***  | FehriGilFernandezBesada |
@@ -352,7 +352,7 @@ En el siguiente apartado se desarrollan los requisitos funcionales y no funciona
 | ***Poscondiciones :*** | <br>  |
 <br>
 
-| ***UC14*** |  |
+| ***UC-14*** |  |
 | --- | --- |
 | ***Nombre:***  | Utilizar herramientas Web 2.0. |
 | ***Autor:***  | FehriGilFernandezBesada |
@@ -366,7 +366,7 @@ En el siguiente apartado se desarrollan los requisitos funcionales y no funciona
 | ***Poscondiciones :*** | <br>  |
 <br>
 
-| ***UC15*** |  |
+| ***UC-15*** |  |
 | --- | --- |
 | ***Nombre:***  | Cloud tag. |
 | ***Autor:***  | FehriGilFernandezBesada |
@@ -380,7 +380,7 @@ En el siguiente apartado se desarrollan los requisitos funcionales y no funciona
 | ***Poscondiciones :*** | <br>  |
 <br>
 
-| ***UC16*** |  |
+| ***UC-16*** |  |
 | --- | --- |
 | ***Nombre:***  | Blog. |
 | ***Autor:***  | FehriGilFernandezBesada |
@@ -394,7 +394,7 @@ En el siguiente apartado se desarrollan los requisitos funcionales y no funciona
 | ***Poscondiciones :*** | <br>  |
 <br>
 
-| ***UC17*** |  |
+| ***UC-17*** |  |
 | --- | --- |
 | ***Nombre:***  | Foros. |
 | ***Autor:***  | FehriGilFernandezBesada |
@@ -408,7 +408,7 @@ En el siguiente apartado se desarrollan los requisitos funcionales y no funciona
 | ***Poscondiciones :*** | <br>  |
 <br>
 
-| ***UC18*** |  |
+| ***UC-18*** |  |
 | --- | --- |
 | ***Nombre:***  | Buscar. |
 | ***Autor:***  | FehriGilFernandezBesada |
@@ -422,7 +422,7 @@ En el siguiente apartado se desarrollan los requisitos funcionales y no funciona
 | ***Poscondiciones :*** | <br>  |
 <br>
 
-| ***UC19*** |  |
+| ***UC-19*** |  |
 | --- | --- |
 | ***Nombre:***  | Elegir idioma. |
 | ***Autor:***  | FehriGilFernandezBesada |
@@ -436,7 +436,7 @@ En el siguiente apartado se desarrollan los requisitos funcionales y no funciona
 | ***Poscondiciones :*** | <br>  |
 <br>
 
-| ***UC20*** |  |
+| ***UC-20*** |  |
 | --- | --- |
 | ***Nombre:***  | Buscar por secciones. |
 | ***Autor:***  | FehriGilFernandezBesada |
