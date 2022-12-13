@@ -98,6 +98,7 @@ En el siguiente apartado se desarrollan los requisitos funcionales y no funciona
 | Estabilidad			|  |
 | Comentarios			|  |
 <br>
+
 | RF-02					| Creación de nuevas páginas |
 | :---					| :--  				    |
 | Versión				| 1.0				    |
@@ -112,6 +113,7 @@ En el siguiente apartado se desarrollan los requisitos funcionales y no funciona
 | Estabilidad			|  |
 | Comentarios			|  |
 <br>
+
 | RF-03					|  Modificación sencilla del diseño. |
 | :---					| :--  				    |
 | Versión				| 1.0				    |
@@ -126,6 +128,7 @@ En el siguiente apartado se desarrollan los requisitos funcionales y no funciona
 | Estabilidad			|  |
 | Comentarios			|  |
 <br>
+
 | RF-04					|  Herramientas de explotación. |
 | :---					| :--  				    |
 | Versión				| 1.0				    |
@@ -140,6 +143,7 @@ En el siguiente apartado se desarrollan los requisitos funcionales y no funciona
 | Estabilidad			|  |
 | Comentarios			|  |
 <br>
+
 | RF-05					|  Herramientas de seguimientos del portal. |
 | :---					| :--  				    |
 | Versión				| 1.0				    |
@@ -154,6 +158,7 @@ En el siguiente apartado se desarrollan los requisitos funcionales y no funciona
 | Estabilidad			|  |
 | Comentarios			|  |
 <br>
+
 | RF-06					|  Espacios de trabajo compartido. |
 | :---					| :--  				    |
 | Versión				| 1.0				    |
@@ -168,6 +173,7 @@ En el siguiente apartado se desarrollan los requisitos funcionales y no funciona
 | Estabilidad			|  |
 | Comentarios			|  |
 <br>
+
 | RF-07					|  Herramientas web 2.0. |
 | :---					| :--  				    |
 | Versión				| 1.0				    |
@@ -182,6 +188,7 @@ En el siguiente apartado se desarrollan los requisitos funcionales y no funciona
 | Estabilidad			|  |
 | Comentarios			|  |
 <br>
+
 | RF-08					|  Herramientas web 2.0. |
 | :---					| :--  				    |
 | Versión				| 1.0				    |
@@ -239,6 +246,7 @@ En el siguiente apartado se desarrollan los requisitos funcionales y no funciona
 | Estabilidad			|  |
 | Comentarios			|  |
 <br>
+
 | RF-					| Visualizar las alarmas de los distintos proyectos de la autoridad |
 | :---					| :--  				    |
 | Versión				| 1.0				    |
@@ -253,6 +261,7 @@ En el siguiente apartado se desarrollan los requisitos funcionales y no funciona
 | Estabilidad			|  |
 | Comentarios			|  |
 <br>
+
 | RF-					| Recibir avisos. |
 | :---					| :--  				    |
 | Versión				| 1.0				    |
@@ -267,6 +276,7 @@ En el siguiente apartado se desarrollan los requisitos funcionales y no funciona
 | Estabilidad			|  |
 | Comentarios			|  |
 <br>
+
 | RF-					| Examinar el estado de la explotación en tiempo real. |
 | :---					| :--  				    |
 | Versión				| 1.0				    |
@@ -281,6 +291,7 @@ En el siguiente apartado se desarrollan los requisitos funcionales y no funciona
 | Estabilidad			|  |
 | Comentarios			|  |
 <br>
+
 | RF-					| Visualización y monitorización del sistema. |
 | :---					| :--  				    |
 | Versión				| 1.0				    |
@@ -295,7 +306,8 @@ En el siguiente apartado se desarrollan los requisitos funcionales y no funciona
 | Estabilidad			|  |
 | Comentarios			|  |
 <br>
-| RF-					| Monitorización del rendimiento de los operadores. |
+
+| RF-				    | Monitorización del rendimiento de los operadores. |
 | :---					| :--  				    |
 | Versión				| 1.0				    |
 | Autores				| FehriGilFernandezBesada|
@@ -309,7 +321,8 @@ En el siguiente apartado se desarrollan los requisitos funcionales y no funciona
 | Estabilidad			|  |
 | Comentarios			|  |
 <br>
-| RNF-					| Claridad en contraste de la información. |
+
+| RNF-			        | Claridad en contraste de la información. |
 | :---					| :--  				    |
 | Versión				| 1.0				    |
 | Autores				| FehriGilFernandezBesada|
@@ -323,7 +336,8 @@ En el siguiente apartado se desarrollan los requisitos funcionales y no funciona
 | Estabilidad			|  |
 | Comentarios			|  |
 <br>
-| RNF-					| Visualización de alarmas (notificaciones) simultáneas |
+
+| RNF-		            | Visualización de alarmas (notificaciones) simultáneas |
 | :---					| :--  				    |
 | Versión				| 1.0				    |
 | Autores				| FehriGilFernandezBesada|
