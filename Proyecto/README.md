@@ -988,7 +988,7 @@ En el siguiente apartado se desarrollan los requisitos funcionales y no funciona
 | ***Comentarios:*** | <br>  |
 <br>
 
-***INF-04*** | Información sobre estadísticas.  |
+***INF-04*** | Información sobre Estadísticas.  |
 | --- | --- |
 | ***Version:***  | Diciembre-2022 |
 | ***Autor:***  | FehriGilFernandezBesada |
