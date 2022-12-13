@@ -908,12 +908,26 @@ En el siguiente apartado se desarrollan los requisitos funcionales y no funciona
 | ***Nombre:*** | Modificar |
 | ***Autor:***  | FehriGilFernandezBesada |
 | ***Fecha:***  | 12/12/22 |
-| ***Descripción:*** | El administrador tiene la capacidad de que cualquier momento puede modificar los datos. |
+| ***Descripción:*** | El administrador tiene la capacidad de que cualquier momento pueda modificar cualquier dato. |
 | ***Relaciones*** | UC-00 |
 | ***Actores:***  |  Administrador. |
 | ***Precondición:*** | <br> |
 | ***Flujo Normal:*** | 1. El Administrador selecciona el dato a modificar.<br> 2. El Sistema muestra un espacio donde el administrador puede introducir los nuevos datos.<br> 3. El administrador introduce el nuevo dato.<br> 4. El sistema comprueba que los datos introducidos son correctos |
 |***Flujo Alternativo:*** | - |
+| ***Poscondiciones:*** | Los datos han sido introducidos de forma correcta y por tanto han sido guardados |
+<br>
+
+| ***UC-15*** |  |
+| --- | --- |
+| ***Nombre:*** | Introduccion manual de datos |
+| ***Autor:***  | FehriGilFernandezBesada |
+| ***Fecha:***  | 12/12/22 |
+| ***Descripción:*** | El administrador tiene la capacidad de introducir nuevos datos de forma manual. |
+| ***Relaciones*** | UC-00 |
+| ***Actores:***  |  Administrador. |
+| ***Precondición:*** | <br> |
+| ***Flujo Normal:*** | 1. El Sistema muestra un espacio donde el administrador puede introducir los nuevos datos.<br> 2. El administrador introduce el nuevo dato.<br> 3. El sistema comprueba que los datos introducidos son correctos |
+|***Flujo Alternativo:*** | 3.A. Datos introducidos ya existentes.<br>3.B. Datos introducidos de forma incorrecta |
 | ***Poscondiciones:*** | Los datos han sido introducidos de forma correcta y por tanto han sido guardados |
 <br>
 

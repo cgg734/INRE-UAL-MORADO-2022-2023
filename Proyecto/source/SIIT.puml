@@ -95,28 +95,26 @@ usecase Solucion as "Visualizar recorrido solución
 extension points
 Visualizar Informacion Adicional"
 
-usecase (MostrarInfoList) as "Visualizar Informacion Adicional Listado"
-usecase MostrarInfoConsulta as "Visualizar Informacion Adicional Consulta
---
-extensions points
-Itinerario"
-
-usecase MostrarInfo as "Visualizar Informacion Adicional
+usecase MostrarInfoList as "Visualizar Informacion Adicional Listado
 --
 extension points
 Parada
 Linea"
+usecase MostrarInfoConsulta as "Visualizar Informacion Adicional Consulta
+--
+extensions points
+Itinerario"
 
 
 (Origen)...>(Solucion) : <<include>> 
 (Solucion)<..MostrarInfoConsulta : <<extends>>
 (Horarios)<.right.(MostrarInfoList) : <<extends>>
 
-(MostrarInfoList)--|>MostrarInfo
-(MostrarInfoConsulta)-right-|>MostrarInfo
 
-(MostrarInfo)<..(Parada) : <<extends>>
-(MostrarInfo)<..(Linea) : <<extends>>
+(MostrarInfoConsulta)-right-|>(MostrarInfoList)
+
+(MostrarInfoList)<..(Parada) : <<extends>>
+(MostrarInfoList)<..(Linea) : <<extends>>
 (MostrarInfoConsulta)<..(Itinerario) : <<extends>>
 
 
