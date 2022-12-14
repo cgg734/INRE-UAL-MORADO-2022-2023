@@ -1606,16 +1606,13 @@ En el siguiente apartado se desarrollan los requisitos funcionales y no funciona
 ## Diagramas de clase asociados a los requisitos de información.
 <br>
 
-### Diagrama de clase asociado a los requisitos de información del portal (A1)
-<br>
+### Diagrama de clase asociado a los requisitos de información del portal (A1)<br>
+![Texto alternativo](Diagrama%20clases%20A1.drawio.svg)<br>
 
-![Texto alternativo](Diagrama%20clases%20A1.drawio.svg)
-<br>
-
-### Diagrama de clase asociado a los requisitos del SIIT. <br>
+### Diagrama de clase asociado a los requisitos del SIIT (A2) <br>
 ![Texto alternativo](Diagrama%20clases%20A2.drawio.svg) <br>
 
-### Diagrama de clase asociado a los requisitos del SMET. <br>
+### Diagrama de clase asociado a los requisitos del SMET <br>
 ![Texto alternativo](Diagrama%20clases%20B.drawio.svg) <br>
 
 ## Requisitos de información
@@ -1737,6 +1734,87 @@ En el siguiente apartado se desarrollan los requisitos funcionales y no funciona
 | ***Estado:*** | <br> Aceptado. |
 | ***Comentarios:*** | <br> |
 
+#### Requisitos de información del  sistema interactivo de información del transporte. SIIT (A2)
+
+<br>
+
+
+
+| ***INF-01*** | Información sobre Administrador.  |
+| --- | --- |
+| ***Version:***  | Diciembre-2022 |
+| ***Autor:***  | FehriGilFernandezBesada |
+| ***Referencias:*** | <br> Administrador. |
+| ***Fuentes:***  | <br>   Servicios Continuos.  |
+| ***Descripción:*** | <br> El sistema deberá almacenar los datos y los diferentes roles que tiene el administrador. <br> |
+| ***Datos específicos:*** |  <br> 1. Nombre completo: Cadena de máximo 30 caracteres. <br> 2. Teléfono de contacto: Cadena de máximo 10 caracteres.  <br> 3. Email: Cadena <br> |
+| ***Importancia:*** | <br> Muy importante. |
+| ***Estado:*** | <br> Aceptado. |
+| ***Comentarios:*** | <br> Los datos son imprescindibles para correcto funcionamiento del sistema.Se encarga de manejar todos los datos relacionados con el transporte.|
+
+ ***INF-02*** | Información sobre Usuario logueado.  |
+| --- | --- |
+| ***Version:***  | Diciembre-2022 |
+| ***Autor:***  | FehriGilFernandezBesada |
+| ***Referencias:*** | <br> Usuario logueado, Usuario. |
+| ***Fuentes:***  | <br>   Servicios Continuos  |
+| ***Descripción:*** | <br> El sistema deberá almacenar los datos y todas las acciones que puede hacer el usuario. |
+| ***Datos específicos:*** |   <br>  1. Nombre completo: Cadena de máximo 30 caracteres. <br> 2. Teléfono de contacto: Cadena de máximo 10 caracteres.  <br> 3. Email: Cadena <br> 4. Número de cuenta bancaria: Entero postivo. <br> 5.  Puede consultar los datos acerca del transporte y tendrá posibilidad de recibir ayuda en línea. <br>  |
+| ***Importancia:*** | <br> Muy importante. |
+| ***Estado:*** | <br> Aceptado. |
+| ***Comentarios:*** | <br>  Los datos son imprescindibles para correcto funcionamiento del sistema.  |
+
+ ***INF-03*** | Información sobre Usuario invitado.  |
+| --- | --- |
+| ***Version:***  | Diciembre-2022 |
+| ***Autor:***  | FehriGilFernandezBesada |
+| ***Referencias:*** | <br> Usuario invitado, Usuario. |
+| ***Fuentes:***  | <br>   Servicios Continuos  |
+| ***Descripción:*** | <br> El sistema deberá almacenar los datos y todas las acciones que puede hacer el usuario. |
+| ***Datos especificos:*** |   <br>  Puede consultar los datos acerca del transporte y tendrá posibilidad de recibir ayuda en línea.  |
+| ***Importancia:*** | <br> Importante. |
+| ***Estado:*** | <br> Aceptado. |
+| ***Comentarios:*** | <br>  |
+<br>
+
+***INF-04*** | Información sobre Usuario.  |
+| --- | --- |
+| ***Version:***  | Diciembre-2022 |
+| ***Autor:***  | FehriGilFernandezBesada |
+| ***Referencias:*** | <br> Usuario. |
+| ***Fuentes:***  | <br>   Servicios Continuos  |
+| ***Descripción:*** | <br> El sistema deberá almacenar los datos y todas las acciones que puede hacer el usuario.  |
+| ***Datos especificos:*** |   <br> Puede consultar los datos acerca del transporte y tendrá posibilidad de recibir ayuda en línea. |
+| ***Importancia:*** | <br> Muy importante. |
+| ***Estado:*** | <br> Aceptado. |
+| ***Comentarios:*** | <br> |
+
+<br>
+
+***INF-05*** | Información sobre Datos de Transporte.  |
+| --- | --- |
+| ***Version:***  | Diciembre-2022 |
+| ***Autor:***  | FehriGilFernandezBesada |
+| ***Referencias:*** | <br> Datos. |
+| ***Fuentes:***  | <br>   Servicios Continuos  |
+| ***Descripción:*** | <br> El sistema deberá almacenar toda la información correspondiente a los datos de los mdeios de transporte. |
+| ***Datos especificos:*** |   <br> Guarda todos los horarios e itinerarios. Incluyendo esto cada parada desde un origen a otro destino y de todas las líneas. <br>|
+| ***Importancia:*** | <br> Muy importante. |
+| ***Estado:*** | <br> Aceptado. |
+| ***Comentarios:*** | <br> |
+<br>
+
+***INF-06*** | Información sobre Subcontratado Web.  |
+| --- | --- |
+| ***Version:***  | Diciembre-2022 |
+| ***Autor:***  | FehriGilFernandezBesada |
+| ***Referencias:*** | <br> Subcontratado. |
+| ***Fuentes:***  | <br>   Servicios Continuos  |
+| ***Descripción:*** | <br> El sistema deberá almacenar la información correpondiente a la ayuda en línea con un subcontratado. |
+| ***Datos especificos:*** |   <br> Se trata de una empresa aparte. |
+| ***Importancia:*** | <br> Muy importante. |
+| ***Estado:*** | <br> Aceptado. |
+| ***Comentarios:*** | <br> |
 
 
 ### Requisitos de información del sistema de monitorización de la explotación del transporte (SMET)

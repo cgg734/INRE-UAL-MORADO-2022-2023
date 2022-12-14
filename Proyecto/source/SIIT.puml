@@ -4,13 +4,14 @@ actor UL as "Usuario Logueado"
 actor Usuario
 actor Subcontratado
 actor Administrador
-
+actor Comun
 
 usecase (Modificar) as "Modificar datos"
 usecase (Introducir) as "Introduccion manual de datos"
 
 
-
+Usuario--|>Comun
+Administrador--|>Comun
 
 UI--|>Usuario
 UL--|>Usuario
@@ -70,7 +71,7 @@ usecase (Centrar) as "Centrar"
 
 Administrador--Modificar
 Administrador--Introducir
-Administrador--Horarios
+Comun--Horarios
 
 
 usecase Parametros as "Introducir Parámetros
@@ -79,7 +80,6 @@ extension points
 Parametros a potenciar
 "
 
-Usuario-right-Horarios
 Usuario--Consulta
 Usuario--Ayuda
 Subcontratado--Ayuda
