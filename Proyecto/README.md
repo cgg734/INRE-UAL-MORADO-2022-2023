@@ -213,31 +213,307 @@ En el siguiente apartado se desarrollan los requisitos funcionales y no funciona
 | Comentarios			|  |
 <br>
 
-### Requisitos del sistema de información (A2)
+### Requisitos del sistema de información (A2) <br>
 
-| ***Requisito*** | ***Descripción*** | ***Tipo*** |
-|---|---|---|
-| Obtención información Gestor de transporte. | Función la cual se podrá realizar mediante método magnético o soporte a papel, así como el trabajo de campo para la obtención de la información no recogida en otras fuentes. En el caso de que se necesiten medios la AUTGC los facilitará para el mejor desarrollo de las tareas. | Requisito funcional | <br>
-| Obtención información de las Guaguas. | Obtención de datos como las líneas de guaguas, sus recorridos, paradas, horarios planificados de los itinerarios según tipos de día y períodos definidos, las tarifas, restricciones de tráfico, incidencias notificadas, etc. El modelo de datos debe corresponderse con alguno de los estándares europeos definidos por el CEN (comité europeo de normalización). | Requisito funcional | <br>
-| Ayuda en línea. | Ayudas en línea para cada proceso | Requisito funcional | <br>
-| Calcular distancia entre paradas | Distancia entre dos paradas diferentes. | Requisito funcional | <br>
-| Cálculo de tiempos de recorrido | Tiempo que tarda el bus en recorrer desde la parada de inicio hasta la parada final | Requisito funcional | <br>
-| Definir transbordo | Indicar las líneas a realizar el transbordo | Requisito funcional | <br>
-| Identificación de zonas no transitables | Zonas donde la guagua no puede acceder | Requisito funcional | <br>
-| Definir barrios | Definición de cada uno de los barrios de la isla. | Requisito funcional | <br>
-| Definir zonas | Definición de cada una de las zonas de la isla. | Requisito funcional | <br>
-| Definir municipios | Definición de cada uno de los municipios de la isla. | Requisito funcional | <br>
-| Presentación del recorrido. | Mostrar el recorrido de las diferentes líneas. | Requisito funcional | <br>
-| Presentación del itinerario recomendación. | Se indicarán entre otros datos, los diferentes tramos que debería recorrer el usuario, el tiempo empleado en recorrer cada uno de ellos, la línea, su descripción y el destino de la línea en la que viajará y, finalmente, el tiempo total del trayecto hasta alcanzar el destino. | Requisito funcional | <br>
-| Mostrar paradas y datos asociados. | Conjunto de paradas que conforman la red de transporte incluido datos como localización… | Requisito funcional | <br>
-| Ubicar sitios de interés, eventos culturales y turísticos. | Ubicación de los sitios de interés, eventos que puedan haber durante el periodo establecido y sitios turísticos. | Requisito funcional | <br>
-| Información adicional paradas. | Se ampliará la información indicando las líneas que pasan por cada una de ellas, su dirección postal, la foto, etc. | Requisito funcional | <br>
-| Información adicional a una línea. | Se presentarán sus tarifas, horarios, empresa gestora, incidencias, etc | Requisito funcional | <br>
-| Información adicional a itinerario. | Por cada tramo se mostrará el inicio y el fin del mismo. | Requisito funcional | <br>
-| Selección de origen y destino. | Se puede obtener según la calle, paradas, barrio, zona, municipio, desde el mapa, evento cultural o sitio de interés turístico. | Requisito funcional | <br>
-| Operaciones del mapa. | Operaciones del mapa como acercar, alejar, desplazar, ir al mapa base y centrar. | Requisito no funcional | <br>
-| Calculo del itinerario. | Con los datos obtenidos se calcula el itinerario recomendado. | Requisito no funcional | <br>
+| RF-				    | Obtención información Gestor de transporte. |
+| :---					| :--  				    |
+| Versión				| 1.0				    |
+| Autores				| FehriGilFernandezBesada|
+| Fuentes				| Pliego de condiciones |
+| Objetivos asociados	|  |
+| Requisitos asociados	|  |
+| Descripción			| Función en la cual se podrá realizar mediante método magnético o soporte a papel, así como el trabajo de campo para la obtención de la información no recogida en otras fuentes. En el caso de que se necesiten medios la AUTGC los facilitará para el mejor desarrollo de las tareas. |
+| Importancia			| Alta |
+| Urgencia				|  |
+| Estado				|  |
+| Estabilidad			|  |
+| Comentarios			|  |
+<br>
 
+| RF-					|  Obtención información de las Guaguas. |
+| :---					| :--  				    |
+| Versión				| 1.0				    |
+| Autores				| FehriGilFernandezBesada|
+| Fuentes				| Pliego de condiciones |
+| Objetivos asociados	|  |
+| Requisitos asociados	|  |
+| Descripción			|  Obtención de datos como las líneas de guaguas, sus recorridos, paradas, horarios planificados de los itinerarios según tipos de día y períodos definidos, las tarifas, restricciones de tráfico, incidencias notificadas, etc. El modelo de datos debe corresponderse con alguno de los estándares europeos definidos por el CEN (comité europeo de normalización). |
+| Importancia			| Alta |
+| Urgencia				|  |
+| Estado				|  |
+| Estabilidad			|  |
+| Comentarios			|  |
+<br>
+
+| RF-					|  Ayuda en línea. |
+| :---					| :--  				    |
+| Versión				| 1.0				    |
+| Autores				| FehriGilFernandezBesada|
+| Fuentes				| Pliego de condiciones |
+| Objetivos asociados	|  |
+| Requisitos asociados	|  |
+| Descripción			|  Ayudas en línea para cada proceso. |
+| Importancia			| Alta |
+| Urgencia				|  |
+| Estado				|  |
+| Estabilidad			|  |
+| Comentarios			|  |
+<br>
+
+| RF-					|  Calcular distancia entre paradas. |
+| :---					| :--  				    |
+| Versión				| 1.0				    |
+| Autores				| FehriGilFernandezBesada|
+| Fuentes				| Pliego de condiciones |
+| Objetivos asociados	|  |
+| Requisitos asociados	|  |
+| Descripción			|  Distancia entre dos paradas diferentes. |
+| Importancia			| Alta |
+| Urgencia				|  |
+| Estado				|  |
+| Estabilidad			|  |
+| Comentarios			|  |
+<br>
+
+| RF-					| Cálculo de tiempos de recorrido. |
+| :---					| :--  				    |
+| Versión				| 1.0				    |
+| Autores				| FehriGilFernandezBesada|
+| Fuentes				| Pliego de condiciones |
+| Objetivos asociados	|  |
+| Requisitos asociados	|  |
+| Descripción			|  Tiempo que tarda el transporte en recorrer desde la parada de inicio hasta la parada final. |
+| Importancia			| Alta |
+| Urgencia				|  |
+| Estado				|  |
+| Estabilidad			|  |
+| Comentarios			|  |
+<br>
+
+| RF-					| Definir transbordo. |
+| :---					| :--  				    |
+| Versión				| 1.0				    |
+| Autores				| FehriGilFernandezBesada|
+| Fuentes				| Pliego de condiciones |
+| Objetivos asociados	|  |
+| Requisitos asociados	|  |
+| Descripción			| Indicar las líneas a realizar el transbordo |
+| Importancia			| Alta |
+| Urgencia				|  |
+| Estado				|  |
+| Estabilidad			|  |
+| Comentarios			|  |
+<br>
+
+| RF-					| Identificación de zonas no transitables. |
+| :---					| :--  				    |
+| Versión				| 1.0				    |
+| Autores				| FehriGilFernandezBesada|
+| Fuentes				| Pliego de condiciones |
+| Objetivos asociados	|  |
+| Requisitos asociados	|  |
+| Descripción			| Zonas donde la guagua no puede acceder |
+| Importancia			| Alta |
+| Urgencia				|  |
+| Estado				|  |
+| Estabilidad			|  |
+| Comentarios			|  |
+<br>
+
+| RF-					| Definir barrios. |
+| :---					| :--  				    |
+| Versión				| 1.0				    |
+| Autores				| FehriGilFernandezBesada|
+| Fuentes				| Pliego de condiciones |
+| Objetivos asociados	|  |
+| Requisitos asociados	|  |
+| Descripción			| Definición de cada uno de los barrios de la isla. |
+| Importancia			| Alta |
+| Urgencia				|  |
+| Estado				|  |
+| Estabilidad			|  |
+| Comentarios			|  |
+<br>
+
+| RF-					| Definir zonas. |
+| :---					| :--  				    |
+| Versión				| 1.0				    |
+| Autores				| FehriGilFernandezBesada|
+| Fuentes				| Pliego de condiciones |
+| Objetivos asociados	|  |
+| Requisitos asociados	|  |
+| Descripción			| Definición de cada una de las zonas de la isla. |
+| Importancia			| Alta |
+| Urgencia				|  |
+| Estado				|  |
+| Estabilidad			|  |
+| Comentarios			|  |
+<br>
+
+| RF-					| Definir municipios. |
+| :---					| :--  				    |
+| Versión				| 1.0				    |
+| Autores				| FehriGilFernandezBesada|
+| Fuentes				| Pliego de condiciones |
+| Objetivos asociados	|  |
+| Requisitos asociados	|  |
+| Descripción			|  Definición de cada uno de los municipios de la isla. |
+| Importancia			| Alta |
+| Urgencia				|  |
+| Estado				|  |
+| Estabilidad			|  |
+| Comentarios			|  |
+<br>
+
+| RF-					| Presentación del recorrido. |
+| :---					| :--  				    |
+| Versión				| 1.0				    |
+| Autores				| FehriGilFernandezBesada|
+| Fuentes				| Pliego de condiciones |
+| Objetivos asociados	|  |
+| Requisitos asociados	|  |
+| Descripción			| Zonas donde la guagua no puede acceder |
+| Importancia			| Alta |
+| Urgencia				|  |
+| Estado				|  |
+| Estabilidad			|  |
+| Comentarios			|  |
+<br>
+
+| RF-					| Presentación del itinerario recomendación. |
+| :---					| :--  				    |
+| Versión				| 1.0				    |
+| Autores				| FehriGilFernandezBesada|
+| Fuentes				| Pliego de condiciones |
+| Objetivos asociados	|  |
+| Requisitos asociados	|  |
+| Descripción			| Se indicarán entre otros datos, los diferentes tramos que debería recorrer el usuario, el tiempo empleado en recorrer cada uno de ellos, la línea, su descripción y el destino de la línea en la que viajará y, finalmente, el tiempo total del trayecto hasta alcanzar el destino. |
+| Importancia			| Alta |
+| Urgencia				|  |
+| Estado				|  |
+| Estabilidad			|  |
+| Comentarios			|  |
+<br>
+
+| RF-					|  Mostrar paradas y datos asociados. |
+| :---					| :--  				    |
+| Versión				| 1.0				    |
+| Autores				| FehriGilFernandezBesada|
+| Fuentes				| Pliego de condiciones |
+| Objetivos asociados	|  |
+| Requisitos asociados	|  |
+| Descripción			| Conjunto de paradas que conforman la red de transporte incluido datos como localización… |
+| Importancia			| Alta |
+| Urgencia				|  |
+| Estado				|  |
+| Estabilidad			|  |
+| Comentarios			|  |
+<br>
+
+| RF-					|  Ubicar sitios de interés, eventos culturales y turísticos. |
+| :---					| :--  				    |
+| Versión				| 1.0				    |
+| Autores				| FehriGilFernandezBesada|
+| Fuentes				| Pliego de condiciones |
+| Objetivos asociados	|  |
+| Requisitos asociados	|  |
+| Descripción			| Ubicación de los sitios de interés, eventos que puedan haber durante el periodo establecido y sitios turísticos. |
+| Importancia			| Alta |
+| Urgencia				|  |
+| Estado				|  |
+| Estabilidad			|  |
+| Comentarios			|  |
+<br>
+
+| RF-					|  Información adicional paradas. |
+| :---					| :--  				    |
+| Versión				| 1.0				    |
+| Autores				| FehriGilFernandezBesada|
+| Fuentes				| Pliego de condiciones |
+| Objetivos asociados	|  |
+| Requisitos asociados	|  |
+| Descripción			| Se ampliará la información indicando las líneas que pasan por cada una de ellas, su dirección postal, la foto, etc. |
+| Importancia			| Alta |
+| Urgencia				|  |
+| Estado				|  |
+| Estabilidad			|  |
+| Comentarios			|  |
+<br>
+
+| RF-					|  Información adicional a una línea. |
+| :---					| :--  				    |
+| Versión				| 1.0				    |
+| Autores				| FehriGilFernandezBesada|
+| Fuentes				| Pliego de condiciones |
+| Objetivos asociados	|  |
+| Requisitos asociados	|  |
+| Descripción			| Se presentarán sus tarifas, horarios, empresa gestora, incidencias, etc |
+| Importancia			| Alta |
+| Urgencia				|  |
+| Estado				|  |
+| Estabilidad			|  |
+| Comentarios			|  |
+<br>
+
+| RF-					| Información adicional a itinerario. |
+| :---					| :--  				    |
+| Versión				| 1.0				    |
+| Autores				| FehriGilFernandezBesada|
+| Fuentes				| Pliego de condiciones |
+| Objetivos asociados	|  |
+| Requisitos asociados	|  |
+| Descripción			| Por cada tramo se mostrará el inicio y el fin del mismo. |
+| Importancia			| Alta |
+| Urgencia				|  |
+| Estado				|  |
+| Estabilidad			|  |
+| Comentarios			|  |
+<br>
+
+| RF-					|Selección de origen y destino. |
+| :---					| :--  				    |
+| Versión				| 1.0				    |
+| Autores				| FehriGilFernandezBesada|
+| Fuentes				| Pliego de condiciones |
+| Objetivos asociados	|  |
+| Requisitos asociados	|  |
+| Descripción			| Se puede obtener según la calle, paradas, barrio, zona, municipio, desde el mapa, evento cultural o sitio de interés turístico. |
+| Importancia			| Alta |
+| Urgencia				|  |
+| Estado				|  |
+| Estabilidad			|  |
+| Comentarios			|  |
+<br>
+
+| RNF-					| Operaciones del mapa. |
+| :---					| :--  				    |
+| Versión				| 1.0				    |
+| Autores				| FehriGilFernandezBesada|
+| Fuentes				| Pliego de condiciones |
+| Objetivos asociados	|  |
+| Requisitos asociados	|  |
+| Descripción			| Operaciones del mapa como acercar, alejar, desplazar, ir al mapa base y centrar. |
+| Importancia			| Alta |
+| Urgencia				|  |
+| Estado				|  |
+| Estabilidad			|  |
+| Comentarios			|  |
+<br>
+
+| RNF-					| Cálculo del itinerario. |
+| :---					| :--  				    |
+| Versión				| 1.0				    |
+| Autores				| FehriGilFernandezBesada|
+| Fuentes				| Pliego de condiciones |
+| Objetivos asociados	|  |
+| Requisitos asociados	|  |
+| Descripción			| Con los datos obtenidos se calcula el itinerario recomendado. |
+| Importancia			| Alta |
+| Urgencia				|  |
+| Estado				|  |
+| Estabilidad			|  |
+| Comentarios			|  |
+<br>
 
 ### Requisitos del sistema del sistema de monitorización de la explotación del transporte (SMET)
 
