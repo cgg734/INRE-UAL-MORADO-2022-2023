@@ -80,11 +80,7 @@ En esta sección del documento se presentan los objetivos del proyecto a llevar 
 <br>
 
 ### Acta de incidencias.
-Un considerado esencial de la Autoridad única del transporte de Gran Canaria debe establecer contacto con un operador de transporte al final de su jornada para obtener el acta de incidencias que debe aportar a un operador adjudicatario. Este último comprueba que esté correcto y, en caso de no serlo, exige corrección.
-
-
-
-
+Un considerado esencial de la Autoridad única del transporte de Gran Canaria debe establecer contacto con un operador de transporte al final de su jornada para obtener el acta de incidencias que debe aportar a un operador adjudicatario. Este último comprueba que esté correcto y, en caso de no serlo, exige corrección. <br>
 
 # Requisitos del sistema a desarrollar.
 En el siguiente apartado se desarrollan los requisitos funcionales y no funcionales necesarios para llevar a cabo el cumpliento del pliego de condiciones del que se debe extraer toda la información necesario para el correcto funcionamiento del software a desarrollar. Además, se muestran también los diagramas de casos de uso, las tablas en detalle de los mismos y el listado de usuarios y casos de uso.
@@ -215,7 +211,7 @@ En el siguiente apartado se desarrollan los requisitos funcionales y no funciona
 
 ### Requisitos del sistema de información (A2) <br>
 
-| RF-				    | Obtención información Gestor de transporte. |
+| RF-09				    | Obtención información Gestor de transporte. |
 | :---					| :--  				    |
 | Versión				| 1.0				    |
 | Autores				| FehriGilFernandezBesada|
@@ -230,7 +226,7 @@ En el siguiente apartado se desarrollan los requisitos funcionales y no funciona
 | Comentarios			|  |
 <br>
 
-| RF-					|  Obtención información de las Guaguas. |
+| RF-10					|  Obtención información de las Guaguas. |
 | :---					| :--  				    |
 | Versión				| 1.0				    |
 | Autores				| FehriGilFernandezBesada|
@@ -245,7 +241,7 @@ En el siguiente apartado se desarrollan los requisitos funcionales y no funciona
 | Comentarios			|  |
 <br>
 
-| RF-					|  Ayuda en línea. |
+| RF-11					|  Ayuda en línea. |
 | :---					| :--  				    |
 | Versión				| 1.0				    |
 | Autores				| FehriGilFernandezBesada|
@@ -260,7 +256,7 @@ En el siguiente apartado se desarrollan los requisitos funcionales y no funciona
 | Comentarios			|  |
 <br>
 
-| RF-					|  Calcular distancia entre paradas. |
+| RF-12					|  Calcular distancia entre paradas. |
 | :---					| :--  				    |
 | Versión				| 1.0				    |
 | Autores				| FehriGilFernandezBesada|
@@ -275,7 +271,7 @@ En el siguiente apartado se desarrollan los requisitos funcionales y no funciona
 | Comentarios			|  |
 <br>
 
-| RF-					| Cálculo de tiempos de recorrido. |
+| RF-13					| Cálculo de tiempos de recorrido. |
 | :---					| :--  				    |
 | Versión				| 1.0				    |
 | Autores				| FehriGilFernandezBesada|
@@ -290,7 +286,7 @@ En el siguiente apartado se desarrollan los requisitos funcionales y no funciona
 | Comentarios			|  |
 <br>
 
-| RF-					| Definir transbordo. |
+| RF-14					| Definir transbordo. |
 | :---					| :--  				    |
 | Versión				| 1.0				    |
 | Autores				| FehriGilFernandezBesada|
@@ -305,7 +301,7 @@ En el siguiente apartado se desarrollan los requisitos funcionales y no funciona
 | Comentarios			|  |
 <br>
 
-| RF-					| Identificación de zonas no transitables. |
+| RF-15					| Identificación de zonas no transitables. |
 | :---					| :--  				    |
 | Versión				| 1.0				    |
 | Autores				| FehriGilFernandezBesada|
@@ -320,7 +316,7 @@ En el siguiente apartado se desarrollan los requisitos funcionales y no funciona
 | Comentarios			|  |
 <br>
 
-| RF-					| Definir barrios. |
+| RF-16					| Definir barrios. |
 | :---					| :--  				    |
 | Versión				| 1.0				    |
 | Autores				| FehriGilFernandezBesada|
@@ -335,7 +331,7 @@ En el siguiente apartado se desarrollan los requisitos funcionales y no funciona
 | Comentarios			|  |
 <br>
 
-| RF-					| Definir zonas. |
+| RF-17					| Definir zonas. |
 | :---					| :--  				    |
 | Versión				| 1.0				    |
 | Autores				| FehriGilFernandezBesada|
@@ -350,7 +346,7 @@ En el siguiente apartado se desarrollan los requisitos funcionales y no funciona
 | Comentarios			|  |
 <br>
 
-| RF-					| Definir municipios. |
+| RF-18					| Definir municipios. |
 | :---					| :--  				    |
 | Versión				| 1.0				    |
 | Autores				| FehriGilFernandezBesada|
@@ -365,7 +361,7 @@ En el siguiente apartado se desarrollan los requisitos funcionales y no funciona
 | Comentarios			|  |
 <br>
 
-| RF-					| Presentación del recorrido. |
+| RF-19					| Presentación del recorrido. |
 | :---					| :--  				    |
 | Versión				| 1.0				    |
 | Autores				| FehriGilFernandezBesada|
@@ -380,7 +376,7 @@ En el siguiente apartado se desarrollan los requisitos funcionales y no funciona
 | Comentarios			|  |
 <br>
 
-| RF-					| Presentación del itinerario recomendación. |
+| RF-20					| Presentación del itinerario recomendación. |
 | :---					| :--  				    |
 | Versión				| 1.0				    |
 | Autores				| FehriGilFernandezBesada|
@@ -395,7 +391,7 @@ En el siguiente apartado se desarrollan los requisitos funcionales y no funciona
 | Comentarios			|  |
 <br>
 
-| RF-					|  Mostrar paradas y datos asociados. |
+| RF-21					|  Mostrar paradas y datos asociados. |
 | :---					| :--  				    |
 | Versión				| 1.0				    |
 | Autores				| FehriGilFernandezBesada|
@@ -410,7 +406,7 @@ En el siguiente apartado se desarrollan los requisitos funcionales y no funciona
 | Comentarios			|  |
 <br>
 
-| RF-					|  Ubicar sitios de interés, eventos culturales y turísticos. |
+| RF-22					|  Ubicar sitios de interés, eventos culturales y turísticos. |
 | :---					| :--  				    |
 | Versión				| 1.0				    |
 | Autores				| FehriGilFernandezBesada|
@@ -425,7 +421,7 @@ En el siguiente apartado se desarrollan los requisitos funcionales y no funciona
 | Comentarios			|  |
 <br>
 
-| RF-					|  Información adicional paradas. |
+| RF-23					|  Información adicional paradas. |
 | :---					| :--  				    |
 | Versión				| 1.0				    |
 | Autores				| FehriGilFernandezBesada|
@@ -440,7 +436,7 @@ En el siguiente apartado se desarrollan los requisitos funcionales y no funciona
 | Comentarios			|  |
 <br>
 
-| RF-					|  Información adicional a una línea. |
+| RF-24					|  Información adicional a una línea. |
 | :---					| :--  				    |
 | Versión				| 1.0				    |
 | Autores				| FehriGilFernandezBesada|
@@ -455,7 +451,7 @@ En el siguiente apartado se desarrollan los requisitos funcionales y no funciona
 | Comentarios			|  |
 <br>
 
-| RF-					| Información adicional a itinerario. |
+| RF-25					| Información adicional a itinerario. |
 | :---					| :--  				    |
 | Versión				| 1.0				    |
 | Autores				| FehriGilFernandezBesada|
@@ -470,7 +466,7 @@ En el siguiente apartado se desarrollan los requisitos funcionales y no funciona
 | Comentarios			|  |
 <br>
 
-| RF-					|Selección de origen y destino. |
+| RF-26					|Selección de origen y destino. |
 | :---					| :--  				    |
 | Versión				| 1.0				    |
 | Autores				| FehriGilFernandezBesada|
@@ -485,7 +481,7 @@ En el siguiente apartado se desarrollan los requisitos funcionales y no funciona
 | Comentarios			|  |
 <br>
 
-| RNF-					| Operaciones del mapa. |
+| RNF-01				| Operaciones del mapa. |
 | :---					| :--  				    |
 | Versión				| 1.0				    |
 | Autores				| FehriGilFernandezBesada|
@@ -500,7 +496,7 @@ En el siguiente apartado se desarrollan los requisitos funcionales y no funciona
 | Comentarios			|  |
 <br>
 
-| RNF-					| Cálculo del itinerario. |
+| RNF-02				| Cálculo del itinerario. |
 | :---					| :--  				    |
 | Versión				| 1.0				    |
 | Autores				| FehriGilFernandezBesada|
@@ -517,7 +513,7 @@ En el siguiente apartado se desarrollan los requisitos funcionales y no funciona
 
 ### Requisitos del sistema del sistema de monitorización de la explotación del transporte (SMET)
 
-| RF-					| Mostrar sobre la cartografia en pantalla la actividad de los peradores |
+| RF-27					| Mostrar sobre la cartografia en pantalla la actividad de los peradores |
 | :---					| :--  				    |
 | Versión				| 1.0				    |
 | Autores				| FehriGilFernandezBesada|
@@ -532,7 +528,7 @@ En el siguiente apartado se desarrollan los requisitos funcionales y no funciona
 | Comentarios			|  |
 <br>
 
-| RF-					| Visualizar las alarmas de los distintos proyectos de la autoridad |
+| RF-28					| Visualizar las alarmas de los distintos proyectos de la autoridad |
 | :---					| :--  				    |
 | Versión				| 1.0				    |
 | Autores				| FehriGilFernandezBesada|
@@ -547,7 +543,7 @@ En el siguiente apartado se desarrollan los requisitos funcionales y no funciona
 | Comentarios			|  |
 <br>
 
-| RF-					| Recibir avisos. |
+| RF-29					| Recibir avisos. |
 | :---					| :--  				    |
 | Versión				| 1.0				    |
 | Autores				| FehriGilFernandezBesada|
@@ -562,7 +558,7 @@ En el siguiente apartado se desarrollan los requisitos funcionales y no funciona
 | Comentarios			|  |
 <br>
 
-| RF-					| Examinar el estado de la explotación en tiempo real. |
+| RF-30					| Examinar el estado de la explotación en tiempo real. |
 | :---					| :--  				    |
 | Versión				| 1.0				    |
 | Autores				| FehriGilFernandezBesada|
@@ -577,7 +573,7 @@ En el siguiente apartado se desarrollan los requisitos funcionales y no funciona
 | Comentarios			|  |
 <br>
 
-| RF-					| Visualización y monitorización del sistema. |
+| RF-31					| Visualización y monitorización del sistema. |
 | :---					| :--  				    |
 | Versión				| 1.0				    |
 | Autores				| FehriGilFernandezBesada|
@@ -592,7 +588,7 @@ En el siguiente apartado se desarrollan los requisitos funcionales y no funciona
 | Comentarios			|  |
 <br>
 
-| RF-				    | Monitorización del rendimiento de los operadores. |
+| RF-32				    | Monitorización del rendimiento de los operadores. |
 | :---					| :--  				    |
 | Versión				| 1.0				    |
 | Autores				| FehriGilFernandezBesada|
@@ -607,7 +603,7 @@ En el siguiente apartado se desarrollan los requisitos funcionales y no funciona
 | Comentarios			|  |
 <br>
 
-| RNF-			        | Claridad en contraste de la información. |
+| RNF-03		        | Claridad en contraste de la información. |
 | :---					| :--  				    |
 | Versión				| 1.0				    |
 | Autores				| FehriGilFernandezBesada|
@@ -622,7 +618,7 @@ En el siguiente apartado se desarrollan los requisitos funcionales y no funciona
 | Comentarios			|  |
 <br>
 
-| RNF-		            | Visualización de alarmas (notificaciones) simultáneas |
+| RNF-04	            | Visualización de alarmas (notificaciones) simultáneas |
 | :---					| :--  				    |
 | Versión				| 1.0				    |
 | Autores				| FehriGilFernandezBesada|
@@ -652,11 +648,6 @@ En el siguiente apartado se desarrollan los requisitos funcionales y no funciona
 | Consultas estadísticas. | El portal contará con un aplicativo de estadísticas que permita conocer cómo se utiliza el sistema por parte de los usuarios, con el fin de obtener información de interés desde el punto de vista del transporte (origen más solicitado, destino más solicitado, información más requerida, puntos de información más solicitados, etc.) y procurar su mejora continuada. | Requisito funcional | <br>
 | Actualización de contenidos. | El software se desarrollará de forma que permita una actualización o modificación sencilla y rápida de los datos del sistema, tanto de los relacionados con la prestación del servicio de transporte como de los vinculados a turismo y cultura. | Requisito funcional | <br>
 | Software modular y escalable. | El software deberá tener una arquitectura modular y escalable, de manera que se puedan poner en marcha las distintas funcionalidades a medidas que vayan siendo comprobadas y validadas, permitiendo además las futuras ampliaciones que fueran necesarias. Se considerarán muy positivamente las ofertas que aporten soluciones que no requieran el pago de licencias y/o el pago regular de mantenimiento de software propietario, actualizaciones y/o revisiones de software. | Requisito no funcional | <br>
-
-
-
-
-
 
 ## Casos de uso
 ### Diagramas de casos de uso
