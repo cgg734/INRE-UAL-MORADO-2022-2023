@@ -1694,7 +1694,7 @@ En el siguiente apartado se desarrollan los requisitos funcionales y no funciona
 | ***Autor:***  | FehriGilFernandezBesada |
 | ***Fecha:***  | 12/12/22 |
 | ***Descripción:*** | <br> Se muestra el estado y las actividades de los diferentes elementos existentes de la explotación del transporte. |
-| ***Relaciones*** | INF- |
+| ***Relaciones*** | INF-02 |
 | ***Actores:***  | <br> Usuario invitado, Usuario logueado |
 | ***Precondición:*** | <br>   |
 | ***Flujo Normal:*** | <br>  1. El usuario solicita al sistema la visualización de la explotación del transporte en tiempo real. <br> 2. El sistema obtiene la información de la explotación del transporte <br> 3. El sistema muestra la explotación del transporte en tiempo real. |
