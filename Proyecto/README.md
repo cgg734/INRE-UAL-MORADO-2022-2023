@@ -1377,7 +1377,7 @@ En el siguiente apartado se desarrollan los requisitos funcionales y no funciona
 | ***Autor:***  | FehriGilFernandezBesada |
 | ***Fecha:***  | 12/12/22 |
 | ***Descripción:*** | Realizar una consulta del trayecto a realizar. |
-| ***Relaciones*** | UC-00 |
+| ***Relaciones*** | UC-22, INF-05, INF-02 |
 | ***Actores:***  |  Usuario Logueado y Usuario Invitado. |
 | ***Precondicion:*** | <br> |
 | ***Flujo Normal:*** | 1. Acceso a la realización de la consulta. |
@@ -1391,7 +1391,7 @@ En el siguiente apartado se desarrollan los requisitos funcionales y no funciona
 | ***Autor:***  | FehriGilFernandezBesada |
 | ***Fecha:***  | 12/12/22 |
 | ***Descripción:*** | Introducir los parametros necesarios para que el sistema pueda ofrecer la ruta óptima. |
-| ***Relaciones*** | UC-00 |
+| ***Relaciones*** | UC-23, UC-34, INF-05 |
 | ***Actores:***  |  Usuario Logueado y Usuario Invitado. |
 | ***Precondición:*** | <br> |
 | ***Flujo Normal:*** | 1. Introducción de fecha y hora.<br> 2. Actor pulsa un botón para guardar los parámetros. |
@@ -1406,7 +1406,7 @@ En el siguiente apartado se desarrollan los requisitos funcionales y no funciona
 | ***Autor:***  | FehriGilFernandezBesada |
 | ***Fecha:***  | 12/12/22 |
 | ***Descripción:*** | Introducción del origen y del destino por medio de las diferentes opciones ofertadas: calle y número, detalle paradas, barrio, zona, municipio; desde el mapa o a partir de un evento cultural. |
-| ***Relaciones*** | UC-00 |
+| ***Relaciones*** | UC-24, UC-30, UC-31, UC-32, UC-33, UC-35, INF-05 |
 | ***Actores:***  |  Usuario Logueado y Usuario Invitado. |
 | ***Precondición:*** | <br> |
 | ***Flujo Normal:*** | 1. Elección del metodo de introducción de los datos. <br>2. Selección del origen y destino. |
@@ -1421,7 +1421,7 @@ En el siguiente apartado se desarrollan los requisitos funcionales y no funciona
 | ***Autor:***  | FehriGilFernandezBesada |
 | ***Fecha:***  | 12/12/22 |
 | ***Descripción:*** | Introducción del origen y del destino por medio del uso del mapa el usuario tendrá a su disposición un conjunto de herramientas de navegación del mapa |
-| ***Relaciones*** | UC-00 |
+| ***Relaciones*** | UC-25, UC-26, UC-27, UC-28, UC-29, INF-05 |
 | ***Actores:***  |  Usuario Logueado y Usuario Invitado. |
 | ***Precondición:*** | <br> |
 | ***Flujo Normal:*** | 1. El sistema muestra abre el mapa en una posición aleatoria de las islas. <br>2. El usuario navega por el mapa. <br>3. El usuario indica la posición de origen y destino. <br>4. El sistema comprueba que tanto el origen como el destino sean accesibles |
@@ -1449,7 +1449,7 @@ En el siguiente apartado se desarrollan los requisitos funcionales y no funciona
 | ***Autor:***  | FehriGilFernandezBesada |
 | ***Fecha:***  | 12/12/22 |
 | ***Descripción:*** | Herramienta de centrado del mapa. |
-| ***Relaciones*** | UC-00 |
+| ***Relaciones*** | INF-05 |
 | ***Actores:***  |  Usuario Logueado y Usuario Invitado. |
 | ***Precondición:*** | <br> |
 | ***Flujo Normal:*** | 1. El usuario pulsa en el boton de centrado <br> 2. El sistema centra el mapa. |
@@ -1463,7 +1463,7 @@ En el siguiente apartado se desarrollan los requisitos funcionales y no funciona
 | ***Autor:***  | FehriGilFernandezBesada |
 | ***Fecha:***  | 12/12/22 |
 | ***Descripción:*** | Herramienta de aumento del mapa. |
-| ***Relaciones*** | UC-00 |
+| ***Relaciones*** | INF-05 |
 | ***Actores:***  |  Usuario Logueado y Usuario Invitado. |
 | ***Precondición:*** | <br> |
 | ***Flujo Normal:*** | 1. El usuario pulsa en el boton de acercado <br> 2. El sistema acerca el mapa. |
@@ -1477,7 +1477,7 @@ En el siguiente apartado se desarrollan los requisitos funcionales y no funciona
 | ***Autor:***  | FehriGilFernandezBesada |
 | ***Fecha:***  | 12/12/22 |
 | ***Descripción:*** | Herramienta de vuelta al mapa base mostrado al principio. |
-| ***Relaciones*** | UC-00 |
+| ***Relaciones*** | INF-05 |
 | ***Actores:***  |  Usuario Logueado y Usuario Invitado. |
 | ***Precondición:*** | <br> |
 | ***Flujo Normal:*** | 1. El usuario pulsa en el boton de ir a mapa base <br> 2. El sistema muestra el mapa base. |
@@ -1492,7 +1492,7 @@ En el siguiente apartado se desarrollan los requisitos funcionales y no funciona
 | ***Autor:***  | FehriGilFernandezBesada |
 | ***Fecha:***  | 12/12/22 |
 | ***Descripción:*** | Herramienta de desplazamiento a traves del mapa. |
-| ***Relaciones*** | UC-00 |
+| ***Relaciones*** | INF-05 |
 | ***Actores:***  |  Usuario Logueado y Usuario Invitado. |
 | ***Precondición:*** | <br> |
 | ***Flujo Normal:*** | 1. El usuario pulsa la direccion del mapa la cual se quiere mover <br> 2. El sistema muestra dicha parte del mapa. |
@@ -1507,7 +1507,7 @@ En el siguiente apartado se desarrollan los requisitos funcionales y no funciona
 | ***Autor:***  | FehriGilFernandezBesada |
 | ***Fecha:***  | 12/12/22 |
 | ***Descripción:*** | Definir el origen y el destino por detalles de paradas. |
-| ***Relaciones*** | UC-00 |
+| ***Relaciones*** | INF-05 |
 | ***Actores:***  |  Usuario Logueado y Usuario Invitado. |
 | ***Precondición:*** | <br> |
 | ***Flujo Normal:*** | 1. Usuario introduce el detalle |
@@ -1521,7 +1521,7 @@ En el siguiente apartado se desarrollan los requisitos funcionales y no funciona
 | ***Autor:***  | FehriGilFernandezBesada |
 | ***Fecha:***  | 12/12/22 |
 | ***Descripción:*** | Definir el origen y el destino a partir de un evento cultural o sitio de interés turístico. |
-| ***Relaciones*** | UC-00 |
+| ***Relaciones*** | INF-05 |
 | ***Actores:***  |  Usuario Logueado y Usuario Invitado. |
 | ***Precondición:*** | <br> |
 | ***Flujo Normal:*** | 1. Usuario introduce el evento cultural o sitio de interes |
@@ -1535,7 +1535,7 @@ En el siguiente apartado se desarrollan los requisitos funcionales y no funciona
 | ***Autor:***  | FehriGilFernandezBesada |
 | ***Fecha:***  | 12/12/22 |
 | ***Descripción:*** | Definir el origen y el destino a partir de una dirección dada por la calle el número de portal por municipio. |
-| ***Relaciones*** | UC-00 |
+| ***Relaciones*** | INF-05 |
 | ***Actores:***  |  Usuario Logueado y Usuario Invitado. |
 | ***Precondición:*** | <br> |
 | ***Flujo Normal:*** | 1. Usuario introduce dirección <br> 2. El sistema comprueba la direccion introducida|
@@ -1549,7 +1549,7 @@ En el siguiente apartado se desarrollan los requisitos funcionales y no funciona
 | ***Autor:***  | FehriGilFernandezBesada |
 | ***Fecha:***  | 12/12/22 |
 | ***Descripción:*** | Definir el origen y el destino a partir de un barrio, zona o municipio |
-| ***Relaciones*** | UC-00 |
+| ***Relaciones*** | INF-05 |
 | ***Actores:***  |  Usuario Logueado y Usuario Invitado. |
 | ***Precondición:*** | <br> |
 | ***Flujo Normal:*** | 1. Usuario introduce el barrio o municipio <br> 2. El sistema comprueba la direccion introducida|
@@ -1563,7 +1563,7 @@ En el siguiente apartado se desarrollan los requisitos funcionales y no funciona
 | ***Autor:***  | FehriGilFernandezBesada |
 | ***Fecha:***  | 12/12/22 |
 | ***Descripción:*** | Seleccionar un aspecto que debe de ser potenciado para la optimizacion del itinerario conforme las necesidades del usuario. |
-| ***Relaciones*** | UC-00 |
+| ***Relaciones*** | INF-05 |
 | ***Actores:***  |  Usuario Logueado y Usuario Invitado. |
 | ***Precondición:*** | <br> |
 | ***Flujo Normal:*** | 1. Elección del elemento prioritario.<br>2. Eleccion de elementos segun orden de preferencia |
@@ -1577,7 +1577,7 @@ En el siguiente apartado se desarrollan los requisitos funcionales y no funciona
 | ***Autor:***  | FehriGilFernandezBesada |
 | ***Fecha:***  | 12/12/22 |
 | ***Descripción:*** | Se muestra el itinerario optimo, a partir del origen se muestra los diferentes tramos que deberia recorrer el usuario, tiempo empleado, lineas, descripcion, el destino de la linea a viajar y el tiempo total del trayecto |
-| ***Relaciones*** | UC-00 |
+| ***Relaciones*** | UC-36, INF-05 |
 | ***Actores:***  |  Usuario Logueado y Usuario Invitado. |
 | ***Precondición:*** | <br> |
 | ***Flujo Normal:*** | 1. Visualizacion en el mapa del itinerario.<br>2. El usuario pulsa sobre el mapa. <br> 3. El sistema muestra las indicaciones en forma de texto. |
@@ -1591,7 +1591,7 @@ En el siguiente apartado se desarrollan los requisitos funcionales y no funciona
 | ***Autor:***  | FehriGilFernandezBesada |
 | ***Fecha:***  | 12/12/22 |
 | ***Descripción:*** | Muestra informacion adicional con respecto a la solucion mostrada, como puede ser información de las paradas, de las lineas o del propio itinerario |
-| ***Relaciones*** | UC-00 |
+| ***Relaciones*** | UC-37, UC-38, INF-05 |
 | ***Actores:***  |  Usuario Logueado y Usuario Invitado. |
 | ***Precondición:*** | <br> |
 | ***Flujo Normal:*** | 1. El sistema muestra todas las opciones disponibles <br>2. El usuario pulsa en el elementos a ver información extra. |
@@ -1605,7 +1605,7 @@ En el siguiente apartado se desarrollan los requisitos funcionales y no funciona
 | ***Autor:***  | FehriGilFernandezBesada |
 | ***Fecha:***  | 12/12/22 |
 | ***Descripción:*** | Muestra informacion adicional con respecto al itinerario mostrado, por cada tramo se muestra la parada de inicio y fin |
-| ***Relaciones*** | UC-00 |
+| ***Relaciones*** | INF-05 |
 | ***Actores:***  |  Usuario Logueado y Usuario Invitado. |
 | ***Precondición:*** | <br> |
 | ***Flujo Normal:*** | 1. El sistema muestra información adicional al itinerario |
@@ -1618,8 +1618,8 @@ En el siguiente apartado se desarrollan los requisitos funcionales y no funciona
 | ***Nombre:*** | Visualizar Informacion Adicional |
 | ***Autor:***  | FehriGilFernandezBesada |
 | ***Fecha:***  | 12/12/22 |
-| ***Descripción:*** | Muestra informacion adicional con respecto a cada parada y cada linea de la AUTGC |
-| ***Relaciones*** | UC-00 |
+| ***Descripción:*** | Muestra informacion adicional con respecto a cada parada y cada linea de la AUTGC|
+| ***Relaciones*** | UC-39, UC-40, INF-05, INF-01 |
 | ***Actores:***  |  Usuario Logueado y Usuario Invitado. |
 | ***Precondición:*** | <br> |
 | ***Flujo Normal:*** | 1. El usuario indica si quiere visualizar la información de una parada o de una linea. <br> 2.El sistema muestra el conjunto de lineas o paradas,<br> 3. El usuario elige la linea o parada en la cual esta interesado. <br>4. El sistema muestra la informacion asociada |
@@ -1632,8 +1632,8 @@ En el siguiente apartado se desarrollan los requisitos funcionales y no funciona
 | ***Nombre:*** | Paradas |
 | ***Autor:***  | FehriGilFernandezBesada |
 | ***Fecha:***  | 12/12/22 |
-| ***Descripción:*** | Muestra informacion adicional con respecto a cada parada de la AUTGC |
-| ***Relaciones*** | UC-00 |
+| ***Descripción:*** | Muestra informacion adicional con respecto a cada parada de la AUTGC|
+| ***Relaciones*** | INF-05 |
 | ***Actores:***  |  Usuario Logueado y Usuario Invitado. |
 | ***Precondición:*** | <br> |
 | ***Flujo Normal:*** | 1. El usuario elige la parada en la cual esta interesado. <br>2. El sistema muestra la informacion asociada |
@@ -1646,8 +1646,8 @@ En el siguiente apartado se desarrollan los requisitos funcionales y no funciona
 | ***Nombre:*** | Línea |
 | ***Autor:***  | FehriGilFernandezBesada |
 | ***Fecha:***  | 12/12/22 |
-| ***Descripción:*** | Muestra informacion adicional con respecto a cada linea de la AUTGC |
-| ***Relaciones*** | UC-00 |
+| ***Descripción:*** | Muestra informacion adicional con respecto a cada linea de la AUTGC|
+| ***Relaciones*** | INF-05 |
 | ***Actores:***  |  Usuario Logueado y Usuario Invitado. |
 | ***Precondición:*** | <br> |
 | ***Flujo Normal:*** | 1. El usuario elige la linea en la cual esta interesado. <br>2. El sistema muestra la informacion asociada |
@@ -1660,8 +1660,8 @@ En el siguiente apartado se desarrollan los requisitos funcionales y no funciona
 | ***Nombre:*** | Obtener ayuda en línea |
 | ***Autor:***  | FehriGilFernandezBesada |
 | ***Fecha:***  | 12/12/22 |
-| ***Descripción:*** | Muestra informacion adicional con respecto a cada linea de la AUTGC |
-| ***Relaciones*** | UC-00 |
+| ***Descripción:*** | Muestra informacion adicional con respecto a cada linea de la AUTGC|
+| ***Relaciones*** | INF-06 |
 | ***Actores:***  |  Subcontratado, Usuario Logueado y Usuario Invitado. |
 | ***Precondición:*** | <br> |
 | ***Flujo Normal:*** | 1. El usuario indica el problema. <br>2. El subcontratado muestra una solución al usuario |
@@ -1676,7 +1676,7 @@ En el siguiente apartado se desarrollan los requisitos funcionales y no funciona
 | ***Autor:***  | FehriGilFernandezBesada |
 | ***Fecha:***  | 12/12/22 |
 | ***Descripción:*** | VIsualiza el conjunto de horarios y lineas actualmente disponibles |
-| ***Relaciones*** | UC-00 |
+| ***Relaciones*** | UC-38, INF-05 |
 | ***Actores:***  |  Administrador, Usuario Logueado y Usuario Invitado. |
 | ***Precondición:*** | <br> |
 | ***Flujo Normal:*** | 1. El sistema muestra el conjunto de lineas con sus horarios asociados. |
@@ -1691,7 +1691,7 @@ En el siguiente apartado se desarrollan los requisitos funcionales y no funciona
 | ***Autor:***  | FehriGilFernandezBesada |
 | ***Fecha:***  | 12/12/22 |
 | ***Descripción:*** | El administrador tiene la capacidad de que cualquier momento pueda modificar cualquier dato. |
-| ***Relaciones*** | UC-00 |
+| ***Relaciones*** | INF-05, INF-01 |
 | ***Actores:***  |  Administrador. |
 | ***Precondición:*** | <br> |
 | ***Flujo Normal:*** | 1. El Administrador selecciona el dato a modificar.<br> 2. El Sistema muestra un espacio donde el administrador puede introducir los nuevos datos.<br> 3. El administrador introduce el nuevo dato.<br> 4. El sistema comprueba que los datos introducidos son correctos |
@@ -1705,7 +1705,7 @@ En el siguiente apartado se desarrollan los requisitos funcionales y no funciona
 | ***Autor:***  | FehriGilFernandezBesada |
 | ***Fecha:***  | 12/12/22 |
 | ***Descripción:*** | El administrador tiene la capacidad de introducir nuevos datos de forma manual. |
-| ***Relaciones*** | UC-00 |
+| ***Relaciones*** | INF-05, INF-01 |
 | ***Actores:***  |  Administrador. |
 | ***Precondición:*** | <br> |
 | ***Flujo Normal:*** | 1. El Sistema muestra un espacio donde el administrador puede introducir los nuevos datos.<br> 2. El administrador introduce el nuevo dato.<br> 3. El sistema comprueba que los datos introducidos son correctos |
