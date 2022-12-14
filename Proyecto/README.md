@@ -81,6 +81,9 @@ En esta sección del documento se presentan los objetivos del proyecto a llevar 
 ### Obtención de itinerario. <br>
 ![Texto alternativo](SIIT.svg) <br>
 
+### Entrega de medio magnético. <br>
+![Texto alternativo](DispositivoMagnetico.drawio.svg) <br>
+
 ## Tareas.
 <br>
 
@@ -89,6 +92,11 @@ Un considerado esencial de la Autoridad única del transporte de Gran Canaria de
 
 ### Obtención de itinerario. <br>
 El proceso de negocio que se ha elegido se trata de la consulta del usuario al sistema de un itinerario, a partir de una serie de parámetros que debe de introducir, estos parámetros se pueden dividir en tres grupos, los parámetros obligatorios tales como el horario, dia, mes..., los parámetros a potenciar los cuales puede introducir el usuario en caso de que este quiera dar cierta prioridad a un elemento, y por último la elección del origen y el destino, de carácter obligatorio, los cuales serán verificados por el sistema, en el caso de que estos pertenezcan a una región no recogida por la AUTGC los parámetros serán rechazados y por tanto el usuario se verá obligado a introducir nuevos parámetros. <br> Una vez que el sistema acepte los parámetros introducidos, calcula el itinerario óptimo y se lo ofrece al usuario, este puede visualizar dicho itinerario y obtener información extra sobre el mismo.
+
+<br>
+
+### Entrega de medio magnético.
+El operador, al final de su jornada, hará entrega del medio magnético del almacenamiento (disco duro), con los datos producidos durante el desempeño de su actividad a un considerado esencial de la AUTGC. Este, realiza la documentación de los datos recibidos (información del operador que ha hecho entrega del dispositivo, método de transporte, ruta y fecha) para entregarla en un puesto de la AUTG, con el objetivo de procesar tanto la documentación como los datos recibidos (generar un informe en un formato correcto) para entregarlos a un operador adjudicatario y devolver el dispositivo. Este, introducirá los datos en el sistema de monitorización de la explotación (SMET), e informará a la AUTGC de que lo ha hecho.
 
 # Requisitos del sistema a desarrollar.
 En el siguiente apartado se desarrollan los requisitos funcionales y no funcionales necesarios para llevar a cabo el cumpliento del pliego de condiciones del que se debe extraer toda la información necesario para el correcto funcionamiento del software a desarrollar. Además, se muestran también los diagramas de casos de uso, las tablas en detalle de los mismos y el listado de usuarios y casos de uso.
