@@ -43,7 +43,10 @@ Además, se aporta información de la Autoridad de Transporte Público de Gran C
 | 03/12/2022 | 1.0 | Eventos | Monumentos, ocio, competencias deportivas, acontecimientos culturales autonónimos y nacionales. | FehriGilFernandezBesada | <br> 
 | 03/12/2022 | 1.0 | Medios de transporte | Atobuses, taxis, barcos y carros tirados por caballos. | FehriGilFernandezBesada | <br> 
 | 03/12/2022 | 1.0 | Tiempo de saltos | El tiempo que una incidencia hace que se retrase nuestro medio de transporte,el retrasado generado. | FehriGilFernandezBesada | <br> 
-| 03/12/2022 | 1.0 | Medio magnético | Un registro en un disco duro. | FehriGilFernandezBesada | <br> 
+| 03/12/2022 | 1.0 | Medio magnético | Un registro en un disco duro. | FehriGilFernandezBesada | <br>
+| 14/12/2022 | 1.0 | AUTGC | Autoridad única del transporte de Gran Canarias. | FehriGilFernandezBesada | <br> 
+| 14/12/2022 | 1.0 | SIIT | Sistema interactivo de la información del transporte. | FehriGilFernandezBesada | <br> 
+| 14/12/2022 | 1.0 | SMET | Sistema de monitorización de la explotación del transporte. | FehriGilFernandezBesada | <br> 
 
 
 # Necesidades del negocio.
