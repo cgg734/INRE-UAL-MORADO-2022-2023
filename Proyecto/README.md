@@ -633,13 +633,15 @@ En el siguiente apartado se desarrollan los requisitos funcionales y no funciona
 | Comentarios			|  |
 <br>
 
-### Requisitos de los Servicios Continuos <br>
+### Requisitos de los Servicios Continuos
 
-| RF-33				    | Información geo-referenciada. |
+<br>
+
+| RF-33		            | Información geo-referenciada. |
 | :---					| :--  				    |
 | Versión				| 1.0				    |
 | Autores				| FehriGilFernandezBesada|
-| Fuentes				| Pliego de condiciones |
+| Fuentes				| Pliego de condiciones. |
 | Objetivos asociados	|  |
 | Requisitos asociados	|  |
 | Descripción			| Se debe introducir la información que deberá incluir la posición geográfica (latitud, longitud y altura) de los nodos de dicha red, los recorridos de los vehículos, carreteras de la isla y planos de núcleos urbanos, fotografías de sitios de interés turístico, ocio, cultura, paradas y estaciones, etc. |
@@ -650,11 +652,27 @@ En el siguiente apartado se desarrollan los requisitos funcionales y no funciona
 | Comentarios			|  |
 <br>
 
-| RF-34				    | Accesibilidad al sistema de información para el SIIT. |
+
+| RF-34		            | Mostrar en la interfaz. |
 | :---					| :--  				    |
 | Versión				| 1.0				    |
 | Autores				| FehriGilFernandezBesada|
-| Fuentes				| Pliego de condiciones |
+| Fuentes				| Pliego de condiciones. |
+| Objetivos asociados	|  |
+| Requisitos asociados	|  |
+| Descripción			| Las páginas podrán contener elementos multimedia y mostrar resultados de consultas a Bases de Datos, para mostrar resultados de forma dinámica. | Requisito funcional |
+| Importancia			| Alta |
+| Urgencia				|  |
+| Estado				|  |
+| Estabilidad			|  |
+| Comentarios			|  |
+<br>
+
+| RF-35		            | Accesibilidad al sistema de información para el SIIT. |
+| :---					| :--  				    |
+| Versión				| 1.0				    |
+| Autores				| FehriGilFernandezBesada|
+| Fuentes				| Pliego de condiciones. |
 | Objetivos asociados	|  |
 | Requisitos asociados	|  |
 | Descripción			| Los contenidos y servicios orientados al usuario deben ser accesibles desde los puntos habilitados de la Autoridad Única del Transporte (estaciones, intercambiadores, paradas preferentes), así como desde cualquier punto en donde los usuarios dispongan de acceso a Internet haciendo uso tanto de dispositivos móviles (ordenadores portátiles, teléfonos móviles, PDAs, etc.) |
@@ -665,26 +683,11 @@ En el siguiente apartado se desarrollan los requisitos funcionales y no funciona
 | Comentarios			|  |
 <br>
 
-| RF-35				    | Mostrar en la interfaz. |
+| RF-36		            | Consultas origen-destino. |
 | :---					| :--  				    |
 | Versión				| 1.0				    |
 | Autores				| FehriGilFernandezBesada|
-| Fuentes				| Pliego de condiciones |
-| Objetivos asociados	|  |
-| Requisitos asociados	|  |
-| Descripción			| Las páginas podrán contener elementos multimedia y mostrar resultados de consultas a Bases de Datos, para mostrar resultados de forma dinámica. |
-| Importancia			| Alta |
-| Urgencia				|  |
-| Estado				|  |
-| Estabilidad			|  |
-| Comentarios			|  |
-<br>
-
-| RF-36				    | Consultas origen-destino. |
-| :---					| :--  				    |
-| Versión				| 1.0				    |
-| Autores				| FehriGilFernandezBesada|
-| Fuentes				| Pliego de condiciones |
+| Fuentes				| Pliego de condiciones. |
 | Objetivos asociados	|  |
 | Requisitos asociados	|  |
 | Descripción			| El sistema deberá informar de cómo ir de un punto origen de la red de transporte a otro destino de la red de transporte. Para ello, el usuario introducirá en el sistema el origen y el destino del viaje que quiere realizar, pudiendo para ello seleccionarlos a través de distintas búsquedas (por municipios, barrio o zona, paradas, etc). |
@@ -695,11 +698,11 @@ En el siguiente apartado se desarrollan los requisitos funcionales y no funciona
 | Comentarios			|  |
 <br>
 
-| RF-37				    | Información de interés turístico. |
+| RF-37		            | Información de interés turístico. |
 | :---					| :--  				    |
 | Versión				| 1.0				    |
 | Autores				| FehriGilFernandezBesada|
-| Fuentes				| Pliego de condiciones |
+| Fuentes				| Pliego de condiciones. |
 | Objetivos asociados	|  |
 | Requisitos asociados	|  |
 | Descripción			| Se mostrará la información de interés turístico, como por ejemplo, información sobre los distintos municipios (localización, qué visitar, etc.), las principales playas, naturaleza (miradores, paisajes relevantes, etc.), fiestas populares (fechas, lugar de celebración), gastronomía, puntos de información turísticas y patrimonio artístico, arquitectónico y arqueológico. Además, se informará de rutas con interés turístico con posibilidad de ser realizadas en transporte regular de viajeros. |
@@ -710,11 +713,11 @@ En el siguiente apartado se desarrollan los requisitos funcionales y no funciona
 | Comentarios			|  |
 <br>
 
-| RF-38				    | Información de lugares de interés general. |
+| RF-38		            | Información de lugares de interés general. |
 | :---					| :--  				    |
 | Versión				| 1.0				    |
 | Autores				| FehriGilFernandezBesada|
-| Fuentes				| Pliego de condiciones |
+| Fuentes				| Pliego de condiciones. |
 | Objetivos asociados	|  |
 | Requisitos asociados	|  |
 | Descripción			| El sistema proporcionará información sobre lugares de interés general de toda la Isla, como por ejemplo: centros sanitarios, centros de seguridad y emergencias, centros de la administración pública, centros culturales, lugares de ocio, etc. Además, se informará de los servicios de transporte público que pueden utilizarse para llegar a ellos. La AUTGC facilitará el acuerdo de cesión de esta información por parte de otros organismos de la administración, siendo el licitante el responsable de recabar coordinar y adecuarla a la imagen y alcance del proyecto. |
@@ -725,14 +728,14 @@ En el siguiente apartado se desarrollan los requisitos funcionales y no funciona
 | Comentarios			|  |
 <br>
 
-| RF-39				    | Agenda cultural y de ocio. |
+| RF-39		            | Agenda cultural y de ocio. |
 | :---					| :--  				    |
 | Versión				| 1.0				    |
 | Autores				| FehriGilFernandezBesada|
-| Fuentes				| Pliego de condiciones |
+| Fuentes				| Pliego de condiciones. |
 | Objetivos asociados	|  |
 | Requisitos asociados	|  |
-| Descripción			| Se mostrará información sobre la agenda cultural y de ocio de los principales teatros, auditorios, salas de exposiciones, así como de los eventos que se celebren en la Isla 21/24 relacionados con la cultura y el ocio. |
+| Descripción			| Se mostrará información sobre la agenda cultural y de ocio de los principales teatros, auditorios, salas de exposiciones, así como de los eventos que se celebren en la Isla 21/24 relacionados con la cultura y el ocio.|
 | Importancia			| Alta |
 | Urgencia				|  |
 | Estado				|  |
@@ -740,14 +743,14 @@ En el siguiente apartado se desarrollan los requisitos funcionales y no funciona
 | Comentarios			|  |
 <br>
 
-| RF-40				    | Pagos de servicios de transporte. |
+| RF-40		            | Pagos de servicios de transporte. |
 | :---					| :--  				    |
 | Versión				| 1.0				    |
 | Autores				| FehriGilFernandezBesada|
-| Fuentes				| Pliego de condiciones |
+| Fuentes				| Pliego de condiciones. |
 | Objetivos asociados	|  |
 | Requisitos asociados	|  |
-| Descripción			| El sistema posibilitará de manera segura la recarga de la tarjeta única de pago de la AUTGC, mediante pasarela multibanco. |
+| Descripción			| El sistema posibilitará de manera segura la recarga de la tarjeta única de pago de la AUTGC, mediante pasarela multibanco.|
 | Importancia			| Alta |
 | Urgencia				|  |
 | Estado				|  |
@@ -755,14 +758,14 @@ En el siguiente apartado se desarrollan los requisitos funcionales y no funciona
 | Comentarios			|  |
 <br>
 
-| RF-41				    | Descarga de archivos. |
+| RF-41		            | Descarga de archivos. |
 | :---					| :--  				    |
 | Versión				| 1.0				    |
 | Autores				| FehriGilFernandezBesada|
-| Fuentes				| Pliego de condiciones |
+| Fuentes				| Pliego de condiciones. |
 | Objetivos asociados	|  |
 | Requisitos asociados	|  |
-| Descripción			| El sistema deberá proporcionar la funcionalidad de descargar archivos que contengan aplicaciones y datos asociados a servicios que la AUT pudiera proporcionar. |
+| Descripción			| El sistema deberá proporcionar la funcionalidad de descargar archivos que contengan aplicaciones y datos asociados a servicios que la AUT pudiera proporcionar.|
 | Importancia			| Alta |
 | Urgencia				|  |
 | Estado				|  |
@@ -770,14 +773,14 @@ En el siguiente apartado se desarrollan los requisitos funcionales y no funciona
 | Comentarios			|  |
 <br>
 
-| RF-42				    | Descarga de archivos. |
+| RF-42		            | Consultas estadísticas. |
 | :---					| :--  				    |
 | Versión				| 1.0				    |
 | Autores				| FehriGilFernandezBesada|
-| Fuentes				| Pliego de condiciones |
+| Fuentes				| Pliego de condiciones. |
 | Objetivos asociados	|  |
 | Requisitos asociados	|  |
-| Descripción			| El sistema deberá proporcionar la funcionalidad de descargar archivos que contengan aplicaciones y datos asociados a servicios que la AUT pudiera proporcionar.  |
+| Descripción			| El portal contará con un aplicativo de estadísticas que permita conocer cómo se utiliza el sistema por parte de los usuarios, con el fin de obtener información de interés desde el punto de vista del transporte (origen más solicitado, destino más solicitado, información más requerida, puntos de información más solicitados, etc.) y procurar su mejora continuada. |
 | Importancia			| Alta |
 | Urgencia				|  |
 | Estado				|  |
@@ -785,14 +788,14 @@ En el siguiente apartado se desarrollan los requisitos funcionales y no funciona
 | Comentarios			|  |
 <br>
 
-| RF-43				    | Consultas estadísticas. |
+| RF-43 	            | Actualización de contenidos. |
 | :---					| :--  				    |
 | Versión				| 1.0				    |
 | Autores				| FehriGilFernandezBesada|
-| Fuentes				| Pliego de condiciones |
+| Fuentes				| Pliego de condiciones. |
 | Objetivos asociados	|  |
 | Requisitos asociados	|  |
-| Descripción			| El portal contará con un aplicativo de estadísticas que permita conocer cómo se utiliza el sistema por parte de los usuarios, con el fin de obtener información de interés desde el punto de vista del transporte (origen más solicitado, destino más solicitado, información más requerida, puntos de información más solicitados, etc.) y procurar su mejora continuada.  |
+| Descripción			| El software se desarrollará de forma que permita una actualización o modificación sencilla y rápida de los datos del sistema, tanto de los relacionados con la prestación del servicio de transporte como de los vinculados a turismo y cultura.|
 | Importancia			| Alta |
 | Urgencia				|  |
 | Estado				|  |
@@ -800,14 +803,14 @@ En el siguiente apartado se desarrollan los requisitos funcionales y no funciona
 | Comentarios			|  |
 <br>
 
-| RF-44				    | Actualización de contenidos. |
+| RNF-05 	            | Software modular y escalable. |
 | :---					| :--  				    |
 | Versión				| 1.0				    |
 | Autores				| FehriGilFernandezBesada|
-| Fuentes				| Pliego de condiciones |
+| Fuentes				| Pliego de condiciones. |
 | Objetivos asociados	|  |
 | Requisitos asociados	|  |
-| Descripción			| El software se desarrollará de forma que permita una actualización o modificación sencilla y rápida de los datos del sistema, tanto de los relacionados con la prestación del servicio de transporte como de los vinculados a turismo y cultura.  |
+| Descripción			| El software deberá tener una arquitectura modular y escalable, de manera que se puedan poner en marcha las distintas funcionalidades a medidas que vayan siendo comprobadas y validadas, permitiendo además las futuras ampliaciones que fueran necesarias. Se considerarán muy positivamente las ofertas que aporten soluciones que no requieran el pago de licencias y/o el pago regular de mantenimiento de software propietario, actualizaciones y/o revisiones de software. |
 | Importancia			| Alta |
 | Urgencia				|  |
 | Estado				|  |
@@ -815,20 +818,175 @@ En el siguiente apartado se desarrollan los requisitos funcionales y no funciona
 | Comentarios			|  |
 <br>
 
-| RNF-05			    | Software modular y escalable. |
+| RF-34		            | Mostrar en la interfaz. |
 | :---					| :--  				    |
 | Versión				| 1.0				    |
 | Autores				| FehriGilFernandezBesada|
-| Fuentes				| Pliego de condiciones |
+| Fuentes				| Pliego de condiciones. |
 | Objetivos asociados	|  |
 | Requisitos asociados	|  |
-| Descripción			| EEl software deberá tener una arquitectura modular y escalable, de manera que se puedan poner en marcha las distintas funcionalidades a medidas que vayan siendo comprobadas y validadas, permitiendo además las futuras ampliaciones que fueran necesarias. Se considerarán muy positivamente las ofertas que aporten soluciones que no requieran el pago de licencias y/o el pago regular de mantenimiento de software propietario, actualizaciones y/o revisiones de software. |
+| Descripción			| Las páginas podrán contener elementos multimedia y mostrar resultados de consultas a Bases de Datos, para mostrar resultados de forma dinámica. | Requisito funcional |
 | Importancia			| Alta |
 | Urgencia				|  |
 | Estado				|  |
 | Estabilidad			|  |
 | Comentarios			|  |
 <br>
+
+| RF-35		            | Accesibilidad al sistema de información para el SIIT. |
+| :---					| :--  				    |
+| Versión				| 1.0				    |
+| Autores				| FehriGilFernandezBesada|
+| Fuentes				| Pliego de condiciones. |
+| Objetivos asociados	|  |
+| Requisitos asociados	|  |
+| Descripción			| Los contenidos y servicios orientados al usuario deben ser accesibles desde los puntos habilitados de la Autoridad Única del Transporte (estaciones, intercambiadores, paradas preferentes), así como desde cualquier punto en donde los usuarios dispongan de acceso a Internet haciendo uso tanto de dispositivos móviles (ordenadores portátiles, teléfonos móviles, PDAs, etc.) |
+| Importancia			| Alta |
+| Urgencia				|  |
+| Estado				|  |
+| Estabilidad			|  |
+| Comentarios			|  |
+<br>
+
+| RF-36		            | Consultas origen-destino. |
+| :---					| :--  				    |
+| Versión				| 1.0				    |
+| Autores				| FehriGilFernandezBesada|
+| Fuentes				| Pliego de condiciones. |
+| Objetivos asociados	|  |
+| Requisitos asociados	|  |
+| Descripción			| El sistema deberá informar de cómo ir de un punto origen de la red de transporte a otro destino de la red de transporte. Para ello, el usuario introducirá en el sistema el origen y el destino del viaje que quiere realizar, pudiendo para ello seleccionarlos a través de distintas búsquedas (por municipios, barrio o zona, paradas, etc). |
+| Importancia			| Alta |
+| Urgencia				|  |
+| Estado				|  |
+| Estabilidad			|  |
+| Comentarios			|  |
+<br>
+
+| RF-37		            | Información de interés turístico. |
+| :---					| :--  				    |
+| Versión				| 1.0				    |
+| Autores				| FehriGilFernandezBesada|
+| Fuentes				| Pliego de condiciones. |
+| Objetivos asociados	|  |
+| Requisitos asociados	|  |
+| Descripción			| Se mostrará la información de interés turístico, como por ejemplo, información sobre los distintos municipios (localización, qué visitar, etc.), las principales playas, naturaleza (miradores, paisajes relevantes, etc.), fiestas populares (fechas, lugar de celebración), gastronomía, puntos de información turísticas y patrimonio artístico, arquitectónico y arqueológico. Además, se informará de rutas con interés turístico con posibilidad de ser realizadas en transporte regular de viajeros. |
+| Importancia			| Alta |
+| Urgencia				|  |
+| Estado				|  |
+| Estabilidad			|  |
+| Comentarios			|  |
+<br>
+
+| RF-38		            | Información de lugares de interés general. |
+| :---					| :--  				    |
+| Versión				| 1.0				    |
+| Autores				| FehriGilFernandezBesada|
+| Fuentes				| Pliego de condiciones. |
+| Objetivos asociados	|  |
+| Requisitos asociados	|  |
+| Descripción			| El sistema proporcionará información sobre lugares de interés general de toda la Isla, como por ejemplo: centros sanitarios, centros de seguridad y emergencias, centros de la administración pública, centros culturales, lugares de ocio, etc. Además, se informará de los servicios de transporte público que pueden utilizarse para llegar a ellos. La AUTGC facilitará el acuerdo de cesión de esta información por parte de otros organismos de la administración, siendo el licitante el responsable de recabar coordinar y adecuarla a la imagen y alcance del proyecto. |
+| Importancia			| Alta |
+| Urgencia				|  |
+| Estado				|  |
+| Estabilidad			|  |
+| Comentarios			|  |
+<br>
+
+| RF-39		            | Agenda cultural y de ocio. |
+| :---					| :--  				    |
+| Versión				| 1.0				    |
+| Autores				| FehriGilFernandezBesada|
+| Fuentes				| Pliego de condiciones. |
+| Objetivos asociados	|  |
+| Requisitos asociados	|  |
+| Descripción			| Se mostrará información sobre la agenda cultural y de ocio de los principales teatros, auditorios, salas de exposiciones, así como de los eventos que se celebren en la Isla 21/24 relacionados con la cultura y el ocio.|
+| Importancia			| Alta |
+| Urgencia				|  |
+| Estado				|  |
+| Estabilidad			|  |
+| Comentarios			|  |
+<br>
+
+| RF-40		            | Pagos de servicios de transporte. |
+| :---					| :--  				    |
+| Versión				| 1.0				    |
+| Autores				| FehriGilFernandezBesada|
+| Fuentes				| Pliego de condiciones. |
+| Objetivos asociados	|  |
+| Requisitos asociados	|  |
+| Descripción			| El sistema posibilitará de manera segura la recarga de la tarjeta única de pago de la AUTGC, mediante pasarela multibanco.|
+| Importancia			| Alta |
+| Urgencia				|  |
+| Estado				|  |
+| Estabilidad			|  |
+| Comentarios			|  |
+<br>
+
+| RF-41		            | Descarga de archivos. |
+| :---					| :--  				    |
+| Versión				| 1.0				    |
+| Autores				| FehriGilFernandezBesada|
+| Fuentes				| Pliego de condiciones. |
+| Objetivos asociados	|  |
+| Requisitos asociados	|  |
+| Descripción			| El sistema deberá proporcionar la funcionalidad de descargar archivos que contengan aplicaciones y datos asociados a servicios que la AUT pudiera proporcionar.|
+| Importancia			| Alta |
+| Urgencia				|  |
+| Estado				|  |
+| Estabilidad			|  |
+| Comentarios			|  |
+<br>
+
+| RF-42		            | Consultas estadísticas. |
+| :---					| :--  				    |
+| Versión				| 1.0				    |
+| Autores				| FehriGilFernandezBesada|
+| Fuentes				| Pliego de condiciones. |
+| Objetivos asociados	|  |
+| Requisitos asociados	|  |
+| Descripción			| El portal contará con un aplicativo de estadísticas que permita conocer cómo se utiliza el sistema por parte de los usuarios, con el fin de obtener información de interés desde el punto de vista del transporte (origen más solicitado, destino más solicitado, información más requerida, puntos de información más solicitados, etc.) y procurar su mejora continuada. |
+| Importancia			| Alta |
+| Urgencia				|  |
+| Estado				|  |
+| Estabilidad			|  |
+| Comentarios			|  |
+<br>
+
+| RF-43 	            | Actualización de contenidos. |
+| :---					| :--  				    |
+| Versión				| 1.0				    |
+| Autores				| FehriGilFernandezBesada|
+| Fuentes				| Pliego de condiciones. |
+| Objetivos asociados	|  |
+| Requisitos asociados	|  |
+| Descripción			| El software se desarrollará de forma que permita una actualización o modificación sencilla y rápida de los datos del sistema, tanto de los relacionados con la prestación del servicio de transporte como de los vinculados a turismo y cultura.|
+| Importancia			| Alta |
+| Urgencia				|  |
+| Estado				|  |
+| Estabilidad			|  |
+| Comentarios			|  |
+<br>
+
+| RNF-05 	            | Software modular y escalable. |
+| :---					| :--  				    |
+| Versión				| 1.0				    |
+| Autores				| FehriGilFernandezBesada|
+| Fuentes				| Pliego de condiciones. |
+| Objetivos asociados	|  |
+| Requisitos asociados	|  |
+| Descripción			| El software deberá tener una arquitectura modular y escalable, de manera que se puedan poner en marcha las distintas funcionalidades a medidas que vayan siendo comprobadas y validadas, permitiendo además las futuras ampliaciones que fueran necesarias. Se considerarán muy positivamente las ofertas que aporten soluciones que no requieran el pago de licencias y/o el pago regular de mantenimiento de software propietario, actualizaciones y/o revisiones de software. |
+| Importancia			| Alta |
+| Urgencia				|  |
+| Estado				|  |
+| Estabilidad			|  |
+| Comentarios			|  |
+<br>
+
+
+
+
+
 
 ## Casos de uso
 ### Diagramas de casos de uso <br>
@@ -1568,7 +1726,7 @@ En el siguiente apartado se desarrollan los requisitos funcionales y no funciona
 | ***Autor:***  | FehriGilFernandezBesada |
 | ***Fecha:***  | 12/12/22 |
 | ***Descripción:*** | <br> Los usuarios del sistema pueden visualizar alarmas. |
-| ***Relaciones*** | INF- |
+| ***Relaciones*** | INF-1 |
 | ***Actores:***  | <br>  Usuario invitado, Usuario logueado, Operador adjudicatario, Operador de transporte |
 | ***Precondición:*** | <br>   |
 | ***Flujo Normal:*** | <br>  1. El usuario accede a la sección de alarmas del sistema. <br> 2. El sistema procesa la información del usuario que accede a la sección de alarmas <br> 3. El sistema muestra las alarmas del usuario. <br>   |
@@ -1694,7 +1852,7 @@ En el siguiente apartado se desarrollan los requisitos funcionales y no funciona
 | ***Autor:***  | FehriGilFernandezBesada |
 | ***Fecha:***  | 12/12/22 |
 | ***Descripción:*** | <br> Se muestra el estado y las actividades de los diferentes elementos existentes de la explotación del transporte. |
-| ***Relaciones*** | INF- |
+| ***Relaciones*** | INF-02 |
 | ***Actores:***  | <br> Usuario invitado, Usuario logueado |
 | ***Precondición:*** | <br>   |
 | ***Flujo Normal:*** | <br>  1. El usuario solicita al sistema la visualización de la explotación del transporte en tiempo real. <br> 2. El sistema obtiene la información de la explotación del transporte <br> 3. El sistema muestra la explotación del transporte en tiempo real. |
@@ -1855,6 +2013,7 @@ En el siguiente apartado se desarrollan los requisitos funcionales y no funciona
 ![Texto alternativo](Diagrama%20clases%20B.drawio.svg) <br>
 
 ## Requisitos de información
+
 ### Requisitos de información del portal (A1)
 
 <br>
@@ -1866,7 +2025,7 @@ En el siguiente apartado se desarrollan los requisitos funcionales y no funciona
 | ***Version:***  | Diciembre-2022 |
 | ***Autor:***  | FehriGilFernandezBesada |
 | ***Referencias:*** | <br> Administrador, Usuario logueado, Usuario invitado. |
-| ***Fuentes:***  | <br>   Servicios Continuos.  |
+| ***Fuentes:***  | <br>   Pliego de condiciones.  |
 | ***Descripción:*** | <br> El sistema deberá almacenar los datos y los diferentes roles que tiene el administrador. <br> |
 | ***Datos específicos:*** |  <br> 1. Nombre completo: Cadena de máximo 30 caracteres. <br> 2. Teléfono de contacto: Cadena de máximo 10 caracteres.  <br> 3. Email: Cadena <br> Número de cuenta bancaria: Entero postivo. <br> 4. Podrá utilizar las diferentes herramientas web, ver tanto los foros, como los blogs, como el cloud tag. <br> |
 | ***Importancia:*** | <br> Muy importante. |
@@ -1878,7 +2037,7 @@ En el siguiente apartado se desarrollan los requisitos funcionales y no funciona
 | ***Version:***  | Diciembre-2022 |
 | ***Autor:***  | FehriGilFernandezBesada |
 | ***Referencias:*** | <br> Usuario logueado, Usuario inivtado. |
-| ***Fuentes:***  | <br>   Servicios Continuos  |
+| ***Fuentes:***  | <br>   Pliego de condiciones.  |
 | ***Descripción:*** | <br> El sistema deberá almacenar los datos y todas las acciones que puede hacer el usuario logueado. |
 | ***Datos específicos:*** |   <br>  1. Nombre completo: Cadena de máximo 30 caracteres. <br> 2. Teléfono de contacto: Cadena de máximo 10 caracteres.  <br> 3. Email: Cadena <br> Número de cuenta bancaria: Entero postivo. <br> 4. Podrá utilizar las diferentes herramientas web, ver tanto los foros, como los blogs, como el cloud tag. <br>  |
 | ***Importancia:*** | <br> Muy importante. |
@@ -1890,7 +2049,7 @@ En el siguiente apartado se desarrollan los requisitos funcionales y no funciona
 | ***Version:***  | Diciembre-2022 |
 | ***Autor:***  | FehriGilFernandezBesada |
 | ***Referencias:*** | <br> Usuario invitado. |
-| ***Fuentes:***  | <br>   Servicios Continuos  |
+| ***Fuentes:***  | <br>   Pliego de condiciones.  |
 | ***Descripción:*** | <br> El sistema deberá almacenar la información correspondiente a las posibles acciones de un usuario invitado. |
 | ***Datos especificos:*** |   <br>  Podrá utilizar las diferentes herramientas web, ver tanto los foros, como los blogs, como el cloud tag. |
 | ***Importancia:*** | <br> Importante. |
@@ -1903,7 +2062,7 @@ En el siguiente apartado se desarrollan los requisitos funcionales y no funciona
 | ***Version:***  | Diciembre-2022 |
 | ***Autor:***  | FehriGilFernandezBesada |
 | ***Referencias:*** | <br> Visualizar estadísticas. |
-| ***Fuentes:***  | <br>   Servicios Continuos  |
+| ***Fuentes:***  | <br>   Pliego de condiciones.  |
 | ***Descripción:*** | <br> El sistema deberá almacenar la información correspondiente a las estadísticas de cada usuario logueado. |
 | ***Datos especificos:*** |   <br>  Identificador de las estadísticas: Nombre de usuario. |
 | ***Importancia:*** | <br> Muy importante. |
@@ -1917,7 +2076,7 @@ En el siguiente apartado se desarrollan los requisitos funcionales y no funciona
 | ***Version:***  | Diciembre-2022 |
 | ***Autor:***  | FehriGilFernandezBesada |
 | ***Referencias:*** | <br> Consultar contenido. |
-| ***Fuentes:***  | <br>   Servicios Continuos  |
+| ***Fuentes:***  | <br>   Pliego de condiciones.  |
 | ***Descripción:*** | <br> El sistema deberá almacenar la información correspondiente al contenido de la página. |
 | ***Datos especificos:*** |   <br>  |
 | ***Importancia:*** | <br> Muy importante. |
@@ -1930,7 +2089,7 @@ En el siguiente apartado se desarrollan los requisitos funcionales y no funciona
 | ***Version:***  | Diciembre-2022 |
 | ***Autor:***  | FehriGilFernandezBesada |
 | ***Referencias:*** | <br> Utilizar Herramientas Web. |
-| ***Fuentes:***  | <br>   Servicios Continuos  |
+| ***Fuentes:***  | <br>   Pliego de condiciones.  |
 | ***Descripción:*** | <br> El sistema deberá almacenar la información de las diferentes herramientas web, ver tanto los foros, como los blogs, como el cloud tag. |
 | ***Datos especificos:*** |   <br> |
 | ***Importancia:*** | <br> Muy importante. |
@@ -1942,7 +2101,7 @@ En el siguiente apartado se desarrollan los requisitos funcionales y no funciona
 | ***Version:***  | Diciembre-2022 |
 | ***Autor:***  | FehriGilFernandezBesada |
 | ***Referencias:*** | <br> Finalizar compra. |
-| ***Fuentes:***  | <br>   Servicios Continuos  |
+| ***Fuentes:***  | <br>   Pliego de condiciones.  |
 | ***Descripción:*** | <br> El sistema deberá almacenar la información correspondiente al cloud tag. |
 | ***Datos especificos:*** |  <br>  |
 | ***Importancia:*** | <br> Muy importante. |
@@ -1954,7 +2113,7 @@ En el siguiente apartado se desarrollan los requisitos funcionales y no funciona
 | ***Version:***  | Diciembre-2022 |
 | ***Autor:***  | FehriGilFernandezBesada |
 | ***Referencias:*** | <br> Consultar histórico ventas. |
-| ***Fuentes:***  | <br>   Servicios Continuos  |
+| ***Fuentes:***  | <br>   Pliego de condiciones.  |
 | ***Descripción:*** | <br> El sistema deberá almacenar la información correspondiente a los foros. |
 | ***Datos especificos:*** |  <br>  |
 | ***Importancia:*** | <br> Muy importante. |
@@ -1966,7 +2125,7 @@ En el siguiente apartado se desarrollan los requisitos funcionales y no funciona
 | ***Version:***  | Diciembre-2022 |
 | ***Autor:***  | FehriGilFernandezBesada |
 | ***Referencias:*** | <br> Consultar histórico ventas. |
-| ***Fuentes:***  | <br>   Servicios Continuos  |
+| ***Fuentes:***  | <br>   Pliego de condiciones.  |
 | ***Descripción:*** | <br> El sistema deberá almacenar la información correspondiente a los blogs. |
 | ***Datos especificos:*** |  <br> |
 | ***Importancia:*** | <br> Muy importante. |
@@ -1984,7 +2143,7 @@ En el siguiente apartado se desarrollan los requisitos funcionales y no funciona
 | ***Version:***  | Diciembre-2022 |
 | ***Autor:***  | FehriGilFernandezBesada |
 | ***Referencias:*** | <br> Administrador. |
-| ***Fuentes:***  | <br>   Servicios Continuos.  |
+| ***Fuentes:***  | <br>   Pliego de condiciones.  |
 | ***Descripción:*** | <br> El sistema deberá almacenar los datos y los diferentes roles que tiene el administrador. <br> |
 | ***Datos específicos:*** |  <br> 1. Nombre completo: Cadena de máximo 30 caracteres. <br> 2. Teléfono de contacto: Cadena de máximo 10 caracteres.  <br> 3. Email: Cadena <br> |
 | ***Importancia:*** | <br> Muy importante. |
@@ -1996,7 +2155,7 @@ En el siguiente apartado se desarrollan los requisitos funcionales y no funciona
 | ***Version:***  | Diciembre-2022 |
 | ***Autor:***  | FehriGilFernandezBesada |
 | ***Referencias:*** | <br> Usuario logueado, Usuario. |
-| ***Fuentes:***  | <br>   Servicios Continuos  |
+| ***Fuentes:***  | <br>   Pliego de condiciones.  |
 | ***Descripción:*** | <br> El sistema deberá almacenar los datos y todas las acciones que puede hacer el usuario. |
 | ***Datos específicos:*** |   <br>  1. Nombre completo: Cadena de máximo 30 caracteres. <br> 2. Teléfono de contacto: Cadena de máximo 10 caracteres.  <br> 3. Email: Cadena <br> 4. Número de cuenta bancaria: Entero postivo. <br> 5.  Puede consultar los datos acerca del transporte y tendrá posibilidad de recibir ayuda en línea. <br>  |
 | ***Importancia:*** | <br> Muy importante. |
@@ -2008,7 +2167,7 @@ En el siguiente apartado se desarrollan los requisitos funcionales y no funciona
 | ***Version:***  | Diciembre-2022 |
 | ***Autor:***  | FehriGilFernandezBesada |
 | ***Referencias:*** | <br> Usuario invitado, Usuario. |
-| ***Fuentes:***  | <br>   Servicios Continuos  |
+| ***Fuentes:***  | <br>   Pliego de condiciones.  |
 | ***Descripción:*** | <br> El sistema deberá almacenar los datos y todas las acciones que puede hacer el usuario. |
 | ***Datos especificos:*** |   <br>  Puede consultar los datos acerca del transporte y tendrá posibilidad de recibir ayuda en línea.  |
 | ***Importancia:*** | <br> Importante. |
@@ -2021,7 +2180,7 @@ En el siguiente apartado se desarrollan los requisitos funcionales y no funciona
 | ***Version:***  | Diciembre-2022 |
 | ***Autor:***  | FehriGilFernandezBesada |
 | ***Referencias:*** | <br> Usuario. |
-| ***Fuentes:***  | <br>   Servicios Continuos  |
+| ***Fuentes:***  | <br>   Pliego de condiciones.  |
 | ***Descripción:*** | <br> El sistema deberá almacenar los datos y todas las acciones que puede hacer el usuario.  |
 | ***Datos especificos:*** |   <br> Puede consultar los datos acerca del transporte y tendrá posibilidad de recibir ayuda en línea. |
 | ***Importancia:*** | <br> Muy importante. |
@@ -2035,7 +2194,7 @@ En el siguiente apartado se desarrollan los requisitos funcionales y no funciona
 | ***Version:***  | Diciembre-2022 |
 | ***Autor:***  | FehriGilFernandezBesada |
 | ***Referencias:*** | <br> Datos. |
-| ***Fuentes:***  | <br>   Servicios Continuos  |
+| ***Fuentes:***  | <br>   Pliego de condiciones.  |
 | ***Descripción:*** | <br> El sistema deberá almacenar toda la información correspondiente a los datos de los mdeios de transporte. |
 | ***Datos especificos:*** |   <br> Guarda todos los horarios e itinerarios. Incluyendo esto cada parada desde un origen a otro destino y de todas las líneas. <br>|
 | ***Importancia:*** | <br> Muy importante. |
@@ -2048,7 +2207,7 @@ En el siguiente apartado se desarrollan los requisitos funcionales y no funciona
 | ***Version:***  | Diciembre-2022 |
 | ***Autor:***  | FehriGilFernandezBesada |
 | ***Referencias:*** | <br> Subcontratado. |
-| ***Fuentes:***  | <br>   Servicios Continuos  |
+| ***Fuentes:***  | <br>   Pliego de condiciones.  |
 | ***Descripción:*** | <br> El sistema deberá almacenar la información correpondiente a la ayuda en línea con un subcontratado. |
 | ***Datos especificos:*** |   <br> Se trata de una empresa aparte. |
 | ***Importancia:*** | <br> Muy importante. |
@@ -2067,7 +2226,7 @@ En el siguiente apartado se desarrollan los requisitos funcionales y no funciona
 | ***Version:***  | Diciembre-2022 |
 | ***Autor:***  | FehriGilFernandezBesada |
 | ***Referencias:*** | <br> Operador. |
-| ***Fuentes:***  | <br>   Servicios Continuos.  |
+| ***Fuentes:***  | <br>   Pliego de condiciones.  |
 | ***Descripción:*** | <br> El sistema deberá almacenar los datos y los diferentes roles que tiene el operador. <br> |
 | ***Datos específicos:*** |  <br> Visualiza alarmas y avisos. <br> |
 | ***Importancia:*** | <br> Muy importante. |
@@ -2079,7 +2238,7 @@ En el siguiente apartado se desarrollan los requisitos funcionales y no funciona
 | ***Version:***  | Diciembre-2022 |
 | ***Autor:***  | FehriGilFernandezBesada |
 | ***Referencias:*** | <br> Usuario logueado, Usuario invitado. |
-| ***Fuentes:***  | <br>   Servicios Continuos  |
+| ***Fuentes:***  | <br>   Pliego de condiciones.  |
 | ***Descripción:*** | <br> El sistema deberá almacenar los datos y todas las acciones que puede hacer el usuario logueado. |
 | ***Datos específicos:*** |   <br>  1. Nombre completo: Cadena de máximo 30 caracteres. <br> 2. Teléfono de contacto: Cadena de máximo 10 caracteres.  <br> 3. Email: Cadena <br> Número de cuenta bancaria: Entero postivo. <br> 4. Visualiza alarmas. <br>  |
 | ***Importancia:*** | <br> Muy importante. |
@@ -2091,7 +2250,7 @@ En el siguiente apartado se desarrollan los requisitos funcionales y no funciona
 | ***Version:***  | Diciembre-2022 |
 | ***Autor:***  | FehriGilFernandezBesada |
 | ***Referencias:*** | <br> Usuario invitado. |
-| ***Fuentes:***  | <br>   Servicios Continuos  |
+| ***Fuentes:***  | <br>   Pliego de condiciones.  |
 | ***Descripción:*** | <br> El sistema deberá almacenar la información correspondiente a las posibles acciones de un usuario invitado. |
 | ***Datos especificos:*** |   <br>  Visualiza alarmas. |
 | ***Importancia:*** | <br> Importante. |
@@ -2104,7 +2263,7 @@ En el siguiente apartado se desarrollan los requisitos funcionales y no funciona
 | ***Version:***  | Diciembre-2022 |
 | ***Autor:***  | FehriGilFernandezBesada |
 | ***Referencias:*** | <br> Operador adjudicatario. |
-| ***Fuentes:***  | <br>   Servicios Continuos  |
+| ***Fuentes:***  | <br>   Pliego de condiciones.  |
 | ***Descripción:*** | <br> El sistema deberá almacenar la información correspondiente al Operador adjudicatario y sus roles. |
 | ***Datos especificos:*** |   <br> Genera avisos, visualiza alarmas y suministra datos al sistema. |
 | ***Importancia:*** | <br> Muy importante. |
@@ -2118,7 +2277,7 @@ En el siguiente apartado se desarrollan los requisitos funcionales y no funciona
 | ***Version:***  | Diciembre-2022 |
 | ***Autor:***  | FehriGilFernandezBesada |
 | ***Referencias:*** | <br> Sistema. |
-| ***Fuentes:***  | <br>   Servicios Continuos  |
+| ***Fuentes:***  | <br>   Pliego de condiciones.  |
 | ***Descripción:*** | <br> El sistema deberá almacenar la información correspondiente al sistema. |
 | ***Datos especificos:*** |   <br> Dispara alarmas.  <br>  |
 | ***Importancia:*** | <br> Muy importante. |
@@ -2131,7 +2290,7 @@ En el siguiente apartado se desarrollan los requisitos funcionales y no funciona
 | ***Version:***  | Diciembre-2022 |
 | ***Autor:***  | FehriGilFernandezBesada |
 | ***Referencias:*** | <br> Datos del sistema. |
-| ***Fuentes:***  | <br>   Servicios Continuos  |
+| ***Fuentes:***  | <br>   Pliego de condiciones.  |
 | ***Descripción:*** | <br> El sistema deberá almacenar los datos recibidos por el operdor adjudicatorio. |
 | ***Datos especificos:*** |   <br> |
 | ***Importancia:*** | <br> Muy importante. |
@@ -2143,7 +2302,7 @@ En el siguiente apartado se desarrollan los requisitos funcionales y no funciona
 | ***Version:***  | Diciembre-2022 |
 | ***Autor:***  | FehriGilFernandezBesada |
 | ***Referencias:*** | <br> Alarma. |
-| ***Fuentes:***  | <br>   Servicios Continuos  |
+| ***Fuentes:***  | <br>   Pliego de condiciones.  |
 | ***Descripción:*** | <br> El sistema deberá almacenar la información correspondiente a las diferentes alarmas disparadas por el sistema. |
 | ***Datos especificos:*** |  <br>  |
 | ***Importancia:*** | <br> Muy importante. |
@@ -2155,7 +2314,7 @@ En el siguiente apartado se desarrollan los requisitos funcionales y no funciona
 | ***Version:***  | Diciembre-2022 |
 | ***Autor:***  | FehriGilFernandezBesada |
 | ***Referencias:*** | <br> Evento. |
-| ***Fuentes:***  | <br>   Servicios Continuos  |
+| ***Fuentes:***  | <br>   Pliego de condiciones.  |
 | ***Descripción:*** | <br> El operador adjudicatorio define los eventos. |
 | ***Datos especificos:*** |  <br>  |
 | ***Importancia:*** | <br> Muy importante. |
@@ -2167,7 +2326,7 @@ En el siguiente apartado se desarrollan los requisitos funcionales y no funciona
 | ***Version:***  | Diciembre-2022 |
 | ***Autor:***  | FehriGilFernandezBesada |
 | ***Referencias:*** | <br> Avisos. |
-| ***Fuentes:***  | <br>   Servicios Continuos  |
+| ***Fuentes:***  | <br>   Pliego de condiciones.  |
 | ***Descripción:*** | <br> El operador adjudicatorio genera avisos. |
 | ***Datos especificos:*** |  <br> Los operadores ven los avisos. <br>|
 | ***Importancia:*** | <br> Muy importante. |
