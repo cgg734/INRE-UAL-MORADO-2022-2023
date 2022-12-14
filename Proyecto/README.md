@@ -635,6 +635,7 @@ En el siguiente apartado se desarrollan los requisitos funcionales y no funciona
 
 ### Requisitos de los Servicios Continuos
 
+<br>
 | RF-33		            | Información geo-referenciada. |
 | :---					| :--  				    |
 | Versión				| 1.0				    |
@@ -649,6 +650,7 @@ En el siguiente apartado se desarrollan los requisitos funcionales y no funciona
 | Estabilidad			|  |
 | Comentarios			|  |
 <br>
+
 | RF-34		            | Mostrar en la interfaz. |
 | :---					| :--  				    |
 | Versión				| 1.0				    |
@@ -663,6 +665,7 @@ En el siguiente apartado se desarrollan los requisitos funcionales y no funciona
 | Estabilidad			|  |
 | Comentarios			|  |
 <br>
+
 | RF-35		            | Accesibilidad al sistema de información para el SIIT. |
 | :---					| :--  				    |
 | Versión				| 1.0				    |
@@ -677,6 +680,7 @@ En el siguiente apartado se desarrollan los requisitos funcionales y no funciona
 | Estabilidad			|  |
 | Comentarios			|  |
 <br>
+
 | RF-36		            | Consultas origen-destino. |
 | :---					| :--  				    |
 | Versión				| 1.0				    |
@@ -691,6 +695,7 @@ En el siguiente apartado se desarrollan los requisitos funcionales y no funciona
 | Estabilidad			|  |
 | Comentarios			|  |
 <br>
+
 | RF-37		            | Información de interés turístico. |
 | :---					| :--  				    |
 | Versión				| 1.0				    |
@@ -705,6 +710,7 @@ En el siguiente apartado se desarrollan los requisitos funcionales y no funciona
 | Estabilidad			|  |
 | Comentarios			|  |
 <br>
+
 | RF-38		            | Información de lugares de interés general. |
 | :---					| :--  				    |
 | Versión				| 1.0				    |
@@ -719,6 +725,7 @@ En el siguiente apartado se desarrollan los requisitos funcionales y no funciona
 | Estabilidad			|  |
 | Comentarios			|  |
 <br>
+
 | RF-39		            | Agenda cultural y de ocio. |
 | :---					| :--  				    |
 | Versión				| 1.0				    |
@@ -733,6 +740,7 @@ En el siguiente apartado se desarrollan los requisitos funcionales y no funciona
 | Estabilidad			|  |
 | Comentarios			|  |
 <br>
+
 | RF-40		            | Pagos de servicios de transporte. |
 | :---					| :--  				    |
 | Versión				| 1.0				    |
@@ -747,6 +755,7 @@ En el siguiente apartado se desarrollan los requisitos funcionales y no funciona
 | Estabilidad			|  |
 | Comentarios			|  |
 <br>
+
 | RF-41		            | Descarga de archivos. |
 | :---					| :--  				    |
 | Versión				| 1.0				    |
@@ -761,6 +770,7 @@ En el siguiente apartado se desarrollan los requisitos funcionales y no funciona
 | Estabilidad			|  |
 | Comentarios			|  |
 <br>
+
 | RF-42		            | Consultas estadísticas. |
 | :---					| :--  				    |
 | Versión				| 1.0				    |
@@ -775,6 +785,7 @@ En el siguiente apartado se desarrollan los requisitos funcionales y no funciona
 | Estabilidad			|  |
 | Comentarios			|  |
 <br>
+
 | RF-43 	            | Actualización de contenidos. |
 | :---					| :--  				    |
 | Versión				| 1.0				    |
@@ -789,6 +800,7 @@ En el siguiente apartado se desarrollan los requisitos funcionales y no funciona
 | Estabilidad			|  |
 | Comentarios			|  |
 <br>
+
 | RNF-05 	            | Software modular y escalable. |
 | :---					| :--  				    |
 | Versión				| 1.0				    |
