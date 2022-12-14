@@ -846,62 +846,61 @@ En el siguiente apartado se desarrollan los requisitos funcionales y no funciona
 | UC-06 | Modificar diseño de la página. | El administrador puede modificar el diseño de la página de manera sencilla. | <br>
 | UC-07 |  Usar herramientas de explotación de Web. | El administrador puede hacer uso de herramientas de explotación para editar contenidos. | <br>
 | UC-08 |  Eliminar contenido. | El administrador puede eliminar contenido de la Web | <br>
-| UC-09 | Información sobre Avisos. | El administrador puede eliminar contenido de la Web | <br>
-| UC-10 | Modificar contenido. | El administrador puede modificar contenido de la Web | <br>
-| UC-11 | Publicar contenido. | El administrador puede plubicar contenido de la Web | <br>
-| UC-12 | Crear nueva página. |El usuario puede crear una nueva página de manera sencilla. | <br>
-| UC-13 | Previsualizar página. | El usuario podrá previsualizar la página creada. | <br>
-| UC-14 | Utilizar herramientas Web 2.0. | El usuario podrá interactuar mediante el uso de herramientas Web 2.0. | <br>
-| UC-15 | Cloud tag. | El usuario podrá interactuar mediante el uso cloud tag. | <br>
-| UC-16 | Blog. | El usuario podrá interactuar mediante el uso de blogs. | <br>
-| UC-17 | Foros. |El usuario podrá interactuar con otros usuarios mediante el uso de foros. | <br>
-| UC-18 | Buscar. | El usuario podrá buscar en el sistema mediante un buscador. | <br>
-| UC-19 | Elegir idioma. | El usuario podrá elegir un idioma para filtrar la búsqueda. | <br>
-| UC-20 |  Buscar por secciones. | El usuario podrá elegir uuna sección del sistema para filtrar la búsqueda. | <br>
-| UC-21 | Realizar Consulta | Realizar una consulta del trayecto a realizar. | <br>
-| UC-22 | Introducir Parámetros | Introducir los parametros necesarios para que el sistema pueda ofrecer la ruta óptima. | <br>
-| UC-23 | Introducir origen y destino | Introducción del origen y del destino por medio de las diferentes opciones ofertadas: calle y número, detalle paradas, barrio, zona, municipio; desde el mapa o a partir de un evento cultural. | <br>
-| UC-24 | Utilizar mapa | Introducción del origen y del destino por medio del uso del mapa el usuario tendrá a su disposición un conjunto de herramientas de navegación del mapa. | <br>
-| UC-25 |  Alejar | Herramienta de alejado del mapa. | <br>
-| UC-26 | Centrar | Herramienta de centrado del mapa. | <br>
-| UC-27 | Acercar | Herramienta de aumento del mapa. | <br>
-| UC-28 | Ir al mapa base | Herramienta de vuelta al mapa base mostrado al principio. | <br>
-| UC-29 | Desplazar | Herramienta de desplazamiento a traves del mapa. | <br>
-| UC-30 |Detalle paradas | Definir el origen y el destino por detalles de paradas. | <br>
-| UC-31 | Evento Cultural | Definir el origen y el destino a partir de un evento cultural o sitio de interés turístico. | <br>
-| UC-32 | Dirección | Definir el origen y el destino a partir de una dirección dada por la calle el número de portal por municipio. | <br>
-| UC-33 | Barrio | Definir el origen y el destino a partir de un barrio, zona o municipio | <br>
-| UC-34 | Introducir parametros a pontenciar | Seleccionar un aspecto que debe de ser potenciado para la optimizacion del itinerario conforme las necesidades del usuario. | <br>
-| UC-35 | Visualizar recorrido solución | Se muestra el itinerario optimo, a partir del origen se muestra los diferentes tramos que deberia recorrer el usuario, tiempo empleado, lineas, descripcion, el destino de la linea a viajar y el tiempo total del trayecto | <br>
-| UC-36 | Visualizar Información Adicional Consulta | Muestra informacion adicional con respecto a la solucion mostrada, como puede ser información de las paradas, de las lineas o del propio itinerario | <br>
-| UC-37 | Itinerario |  Muestra informacion adicional con respecto al itinerario mostrado, por cada tramo se muestra la parada de inicio y fin | <br>
-| UC-38 | Visualizar Informacion Adicional |  Muestra informacion adicional con respecto a cada parada y cada linea de la AUTGC | <br>
-| UC-39 | Paradas | Muestra informacion adicional con respecto a cada parada de la AUTGC | <br>
-| UC-40 | Línea | Muestra informacion adicional con respecto a cada linea de la AUTGC | <br>
-| UC-41 | Obtener ayuda en línea | Muestra informacion adicional con respecto a cada linea de la AUTGC. | <br>
-| UC-42 | Visualizar Listado de horarios y lineas | VIsualiza el conjunto de horarios y lineas actualmente disponibles. | <br>
-| UC-43 | Modificar datos | El administrador tiene la capacidad de que cualquier momento pueda modificar cualquier dato. | <br>
-| UC-44 | Introduccion manual de datos | El administrador tiene la capacidad de introducir nuevos datos de forma manual. | <br>
-| UC-45 | Visualizar alarmas | Los usuarios del sistema pueden visualizar alarmas. | <br>
-| UC-46 | Mostrar mensaje | Cuando no se encuentran alarmas para un usuario se muestra un mensaje. | <br>
-| UC-47 | Visualizar alarmas (O) | El operador de transporte puede visualizar alarmas obteniendo tambíen alarmas únicas de operador de transporte. | <br>
-| UC-48 | Visualizar alarmas (UL) | El usuario logueado puede visualizar alarmas obteniendo tambíen alarmas únicas de usuario logueado. | <br>
-| UC-49 | Visualizar alarmas (OA) | El operador adjudicatario puede visualizar alarmas obteniendo tambíen alarmas únicas de operador adjudicatario. | <br>
-| UC-50 | Visualizar la actividad de los operadores en la cartografía | El operador adjudicatario puede visualizar la actividad de los operadores sobre la cartografía. | <br>
-| UC-51 | Introducir operadores | Se rellenan campos necesarios sobre las credenciales de un operador de transporte para obtener su actividad sobre la cartografia. | <br>
-| UC-52 | Registrar situaciones puntuales | Se seleccionan momentos concretos (capturas de pantalla) que se guardan como situaciones puntuales. | <br>
-| UC-53 |  Registrar periodos contínuos | Se seleccionan intervalos de tiempo (se mantiene como video) que se guarda como situaciones de periodo contínuo. | <br>
-| UC-54 | Examinar la explotación en tiempo real | Se muestra el estado y las actividades de los diferentes elementos existentes de la explotación del transporte. | <br>
-| UC-55 | Puntuar operadores | El usuario logueado puede puntuar el desempeño de un operador. | <br>
-| UC-56 | Seleccionar operador | El usuario logueado selecciona uno o varios operadores en el proceso de puntuación de los mismos. | <br>
-| UC-57 | Suministrar datos al sistema. | El operador introduce en el sistema nuevos datos. | <br>
-| UC-58 | Medir rendimiento de los operadores. | El operador adjudicatario puede medir el desempeño de los operadores basándose en el resultado de sus puntuaciones. | <br>
-| UC-59 | Definir eventos. | El operador adjudicatario puede definir nuevos eventos en el sistema que serán visibles para el resto de usuarios. | <br>
-| UC-60 | Introducir variable. | El operador adjudicatario introduce variables de un evento en el proceso de creación del mismo. | <br>
-| UC-61 | Introducir condiciones. | El operador adjudicatario introduce condiciones para un evento durante el proceso de creación del mismo. | <br>
-| UC-62 | Generar avisos. | El operador adjudicatario puede generar un aviso para un evento durante el desarrollo del mismo, que reciben todos los operadores de transporte en activo. | <br>
-| UC-63 |  Ver avisos. | El operador de transporte puede recibir un aviso sobre un evento. | <br>
-| UC-64 | Disparar alarma. | El sistema envía alarmas a todos sus receptores. | <br>
+| UC-09 | Modificar contenido. | El administrador puede modificar contenido de la Web | <br>
+| UC-10 | Publicar contenido. | El administrador puede plubicar contenido de la Web | <br>
+| UC-11 | Crear nueva página. |El usuario puede crear una nueva página de manera sencilla. | <br>
+| UC-12 | Previsualizar página. | El usuario podrá previsualizar la página creada. | <br>
+| UC-13 | Utilizar herramientas Web 2.0. | El usuario podrá interactuar mediante el uso de herramientas Web 2.0. | <br>
+| UC-14 | Cloud tag. | El usuario podrá interactuar mediante el uso cloud tag. | <br>
+| UC-15 | Blog. | El usuario podrá interactuar mediante el uso de blogs. | <br>
+| UC-16 | Foros. |El usuario podrá interactuar con otros usuarios mediante el uso de foros. | <br>
+| UC-17 | Buscar. | El usuario podrá buscar en el sistema mediante un buscador. | <br>
+| UC-18 | Elegir idioma. | El usuario podrá elegir un idioma para filtrar la búsqueda. | <br>
+| UC-19 |  Buscar por secciones. | El usuario podrá elegir uuna sección del sistema para filtrar la búsqueda. | <br>
+| UC-20 | Realizar Consulta | Realizar una consulta del trayecto a realizar. | <br>
+| UC-21 | Introducir Parámetros | Introducir los parametros necesarios para que el sistema pueda ofrecer la ruta óptima. | <br>
+| UC-22 | Introducir origen y destino | Introducción del origen y del destino por medio de las diferentes opciones ofertadas: calle y número, detalle paradas, barrio, zona, municipio; desde el mapa o a partir de un evento cultural. | <br>
+| UC-23 | Utilizar mapa | Introducción del origen y del destino por medio del uso del mapa el usuario tendrá a su disposición un conjunto de herramientas de navegación del mapa. | <br>
+| UC-24 |  Alejar | Herramienta de alejado del mapa. | <br>
+| UC-25 | Centrar | Herramienta de centrado del mapa. | <br>
+| UC-26 | Acercar | Herramienta de aumento del mapa. | <br>
+| UC-27 | Ir al mapa base | Herramienta de vuelta al mapa base mostrado al principio. | <br>
+| UC-28 | Desplazar | Herramienta de desplazamiento a traves del mapa. | <br>
+| UC-29 |Detalle paradas | Definir el origen y el destino por detalles de paradas. | <br>
+| UC-30 | Evento Cultural | Definir el origen y el destino a partir de un evento cultural o sitio de interés turístico. | <br>
+| UC-31 | Dirección | Definir el origen y el destino a partir de una dirección dada por la calle el número de portal por municipio. | <br>
+| UC-32 | Barrio | Definir el origen y el destino a partir de un barrio, zona o municipio | <br>
+| UC-33 | Introducir parametros a pontenciar | Seleccionar un aspecto que debe de ser potenciado para la optimizacion del itinerario conforme las necesidades del usuario. | <br>
+| UC-34 | Visualizar recorrido solución | Se muestra el itinerario optimo, a partir del origen se muestra los diferentes tramos que deberia recorrer el usuario, tiempo empleado, lineas, descripcion, el destino de la linea a viajar y el tiempo total del trayecto | <br>
+| UC-35 | Visualizar Información Adicional Consulta | Muestra informacion adicional con respecto a la solucion mostrada, como puede ser información de las paradas, de las lineas o del propio itinerario | <br>
+| UC-36 | Itinerario |  Muestra informacion adicional con respecto al itinerario mostrado, por cada tramo se muestra la parada de inicio y fin | <br>
+| UC-37 | Visualizar Informacion Adicional |  Muestra informacion adicional con respecto a cada parada y cada linea de la AUTGC | <br>
+| UC-38 | Paradas | Muestra informacion adicional con respecto a cada parada de la AUTGC | <br>
+| UC-39 | Línea | Muestra informacion adicional con respecto a cada linea de la AUTGC | <br>
+| UC-40 | Obtener ayuda en línea | Muestra informacion adicional con respecto a cada linea de la AUTGC. | <br>
+| UC-41 | Visualizar Listado de horarios y lineas | VIsualiza el conjunto de horarios y lineas actualmente disponibles. | <br>
+| UC-42 | Modificar datos | El administrador tiene la capacidad de que cualquier momento pueda modificar cualquier dato. | <br>
+| UC-43 | Introduccion manual de datos | El administrador tiene la capacidad de introducir nuevos datos de forma manual. | <br>
+| UC-44 | Visualizar alarmas | Los usuarios del sistema pueden visualizar alarmas. | <br>
+| UC-45 | Mostrar mensaje | Cuando no se encuentran alarmas para un usuario se muestra un mensaje. | <br>
+| UC-46 | Visualizar alarmas (O) | El operador de transporte puede visualizar alarmas obteniendo tambíen alarmas únicas de operador de transporte. | <br>
+| UC-47 | Visualizar alarmas (UL) | El usuario logueado puede visualizar alarmas obteniendo tambíen alarmas únicas de usuario logueado. | <br>
+| UC-48 | Visualizar alarmas (OA) | El operador adjudicatario puede visualizar alarmas obteniendo tambíen alarmas únicas de operador adjudicatario. | <br>
+| UC-49 | Visualizar la actividad de los operadores en la cartografía | El operador adjudicatario puede visualizar la actividad de los operadores sobre la cartografía. | <br>
+| UC-50 | Introducir operadores | Se rellenan campos necesarios sobre las credenciales de un operador de transporte para obtener su actividad sobre la cartografia. | <br>
+| UC-51 | Registrar situaciones puntuales | Se seleccionan momentos concretos (capturas de pantalla) que se guardan como situaciones puntuales. | <br>
+| UC-52 |  Registrar periodos contínuos | Se seleccionan intervalos de tiempo (se mantiene como video) que se guarda como situaciones de periodo contínuo. | <br>
+| UC-53 | Examinar la explotación en tiempo real | Se muestra el estado y las actividades de los diferentes elementos existentes de la explotación del transporte. | <br>
+| UC-54 | Puntuar operadores | El usuario logueado puede puntuar el desempeño de un operador. | <br>
+| UC-55 | Seleccionar operador | El usuario logueado selecciona uno o varios operadores en el proceso de puntuación de los mismos. | <br>
+| UC-56 | Suministrar datos al sistema. | El operador introduce en el sistema nuevos datos. | <br>
+| UC-57 | Medir rendimiento de los operadores. | El operador adjudicatario puede medir el desempeño de los operadores basándose en el resultado de sus puntuaciones. | <br>
+| UC-58 | Definir eventos. | El operador adjudicatario puede definir nuevos eventos en el sistema que serán visibles para el resto de usuarios. | <br>
+| UC-59 | Introducir variable. | El operador adjudicatario introduce variables de un evento en el proceso de creación del mismo. | <br>
+| UC-60 | Introducir condiciones. | El operador adjudicatario introduce condiciones para un evento durante el proceso de creación del mismo. | <br>
+| UC-61 | Generar avisos. | El operador adjudicatario puede generar un aviso para un evento durante el desarrollo del mismo, que reciben todos los operadores de transporte en activo. | <br>
+| UC-62 |  Ver avisos. | El operador de transporte puede recibir un aviso sobre un evento. | <br>
+| UC-63 | Disparar alarma. | El sistema envía alarmas a todos sus receptores. | <br>
 <br>
 
 | ***Código*** | ***Actor*** | ***Descripción*** |
@@ -1035,21 +1034,8 @@ En el siguiente apartado se desarrollan los requisitos funcionales y no funciona
 | ***Poscondiciones :*** | <br>  |
 <br>
 
-| ***UC-09*** |  |
-| --- | --- |
-| ***Nombre:***  | Eliminar contenido. |
-| ***Autor:***  | FehriGilFernandezBesada |
-| ***Fecha:***  | 12/12/22 |
-| ***Descripcion:*** | <br> El administrador puede eliminar contenido de la Web |
-| ***Relaciones*** | INF- |
-| ***Actores:***  | <br>  Administrador |
-| ***Precondicion:*** | <br>  El administrador debe estar logueado |
-| ***Flujo Normal:*** | <br>  1. El administrador selecciona el contenido que desea eliminar. <br> 2. El sistema lo elimina y el proceso termina.  |
-|***Flujo Alternativo:*** | <br> |
-| ***Poscondiciones :*** | <br>  |
-<br>
 
-| ***UC-10*** |  |
+| ***UC-09*** |  |
 | --- | --- |
 | ***Nombre:***  | Modificar contenido. |
 | ***Autor:***  | FehriGilFernandezBesada |
@@ -1063,7 +1049,7 @@ En el siguiente apartado se desarrollan los requisitos funcionales y no funciona
 | ***Poscondiciones :*** | <br>  |
 <br>
 
-| ***UC-11*** |  |
+| ***UC-10*** |  |
 | --- | --- |
 | ***Nombre:***  | Publicar contenido. |
 | ***Autor:***  | FehriGilFernandezBesada |
@@ -1077,7 +1063,7 @@ En el siguiente apartado se desarrollan los requisitos funcionales y no funciona
 | ***Poscondiciones :*** | <br>  |
 <br>
 
-| ***UC-12*** |  |
+| ***UC-11*** |  |
 | --- | --- |
 | ***Nombre:***  | Crear nueva página. |
 | ***Autor:***  | FehriGilFernandezBesada |
@@ -1091,7 +1077,7 @@ En el siguiente apartado se desarrollan los requisitos funcionales y no funciona
 | ***Poscondiciones :*** | <br>  |
 <br>
 
-| ***UC-13*** |  |
+| ***UC-12*** |  |
 | --- | --- |
 | ***Nombre:***  | Previsualizar página. |
 | ***Autor:***  | FehriGilFernandezBesada |
@@ -1105,7 +1091,7 @@ En el siguiente apartado se desarrollan los requisitos funcionales y no funciona
 | ***Poscondiciones :*** | <br>  |
 <br>
 
-| ***UC-14*** |  |
+| ***UC-13*** |  |
 | --- | --- |
 | ***Nombre:***  | Utilizar herramientas Web 2.0. |
 | ***Autor:***  | FehriGilFernandezBesada |
@@ -1119,7 +1105,7 @@ En el siguiente apartado se desarrollan los requisitos funcionales y no funciona
 | ***Poscondiciones :*** | <br>  |
 <br>
 
-| ***UC-15*** |  |
+| ***UC-14*** |  |
 | --- | --- |
 | ***Nombre:***  | Cloud tag. |
 | ***Autor:***  | FehriGilFernandezBesada |
@@ -1133,7 +1119,7 @@ En el siguiente apartado se desarrollan los requisitos funcionales y no funciona
 | ***Poscondiciones :*** | <br>  |
 <br>
 
-| ***UC-16*** |  |
+| ***UC-15*** |  |
 | --- | --- |
 | ***Nombre:***  | Blog. |
 | ***Autor:***  | FehriGilFernandezBesada |
@@ -1147,7 +1133,7 @@ En el siguiente apartado se desarrollan los requisitos funcionales y no funciona
 | ***Poscondiciones :*** | <br>  |
 <br>
 
-| ***UC-17*** |  |
+| ***UC-16*** |  |
 | --- | --- |
 | ***Nombre:***  | Foros. |
 | ***Autor:***  | FehriGilFernandezBesada |
@@ -1161,7 +1147,7 @@ En el siguiente apartado se desarrollan los requisitos funcionales y no funciona
 | ***Poscondiciones :*** | <br>  |
 <br>
 
-| ***UC-18*** |  |
+| ***UC-17*** |  |
 | --- | --- |
 | ***Nombre:***  | Buscar. |
 | ***Autor:***  | FehriGilFernandezBesada |
@@ -1175,7 +1161,7 @@ En el siguiente apartado se desarrollan los requisitos funcionales y no funciona
 | ***Poscondiciones :*** | <br>  |
 <br>
 
-| ***UC-19*** |  |
+| ***UC-18*** |  |
 | --- | --- |
 | ***Nombre:***  | Elegir idioma. |
 | ***Autor:***  | FehriGilFernandezBesada |
@@ -1189,7 +1175,7 @@ En el siguiente apartado se desarrollan los requisitos funcionales y no funciona
 | ***Poscondiciones :*** | <br>  |
 <br>
 
-| ***UC-20*** |  |
+| ***UC-19*** |  |
 | --- | --- |
 | ***Nombre:***  | Buscar por secciones. |
 | ***Autor:***  | FehriGilFernandezBesada |
@@ -1207,7 +1193,7 @@ En el siguiente apartado se desarrollan los requisitos funcionales y no funciona
 
 <br>
 
-| ***UC-21*** |  |
+| ***UC-20*** |  |
 | --- | --- |
 | ***Nombre:***  | Realizar Consulta |
 | ***Autor:***  | FehriGilFernandezBesada |
@@ -1221,7 +1207,7 @@ En el siguiente apartado se desarrollan los requisitos funcionales y no funciona
 | ***Poscondiciones:*** | <br>  |
 <br>
 
-| ***UC-22*** | |
+| ***UC-21*** | |
 | --- | --- |
 | ***Nombre:*** | Introducir Parámetros |
 | ***Autor:***  | FehriGilFernandezBesada |
@@ -1236,7 +1222,7 @@ En el siguiente apartado se desarrollan los requisitos funcionales y no funciona
 <br>
 
 
-| ***UC-23*** |  |
+| ***UC-22*** |  |
 | --- | --- |
 | ***Nombre:*** | Introducir origen y destino |
 | ***Autor:***  | FehriGilFernandezBesada |
@@ -1251,7 +1237,7 @@ En el siguiente apartado se desarrollan los requisitos funcionales y no funciona
 <br>
 
 
-| ***UC-24*** |  |
+| ***UC-23*** |  |
 | --- | --- |
 | ***Nombre:*** | Utilizar mapa |
 | ***Autor:***  | FehriGilFernandezBesada |
@@ -1265,7 +1251,7 @@ En el siguiente apartado se desarrollan los requisitos funcionales y no funciona
 | ***Poscondiciones:*** | <br> |
 <br>
 
-| ***UC-25*** |  |
+| ***UC-24*** |  |
 | --- | --- |
 | ***Nombre:*** | Alejar |
 | ***Autor:***  | FehriGilFernandezBesada |
@@ -1279,7 +1265,7 @@ En el siguiente apartado se desarrollan los requisitos funcionales y no funciona
 | ***Poscondiciones:*** | <br> |
 <br>
 
-| ***UC-26*** |  |
+| ***UC-25*** |  |
 | --- | --- |
 | ***Nombre:*** | Centrar |
 | ***Autor:***  | FehriGilFernandezBesada |
@@ -1293,7 +1279,7 @@ En el siguiente apartado se desarrollan los requisitos funcionales y no funciona
 | ***Poscondiciones:*** | <br> |
 <br>
 
-| ***UC-27*** |  |
+| ***UC-26*** |  |
 | --- | --- |
 | ***Nombre:*** | Acercar |
 | ***Autor:***  | FehriGilFernandezBesada |
@@ -1307,7 +1293,7 @@ En el siguiente apartado se desarrollan los requisitos funcionales y no funciona
 | ***Poscondiciones:*** | <br> |
 <br>
 
-| ***UC-28*** |  |
+| ***UC-27*** |  |
 | --- | --- |
 | ***Nombre:*** | Ir al mapa base |
 | ***Autor:***  | FehriGilFernandezBesada |
@@ -1322,7 +1308,7 @@ En el siguiente apartado se desarrollan los requisitos funcionales y no funciona
 <br>
 
 
-| ***UC-29*** |  |
+| ***UC-28*** |  |
 | --- | --- |
 | ***Nombre:*** | Desplazar |
 | ***Autor:***  | FehriGilFernandezBesada |
@@ -1337,7 +1323,7 @@ En el siguiente apartado se desarrollan los requisitos funcionales y no funciona
 <br>
 
 
-| ***UC-30*** |  |
+| ***UC-29*** |  |
 | --- | --- |
 | ***Nombre:*** | Detalle paradas |
 | ***Autor:***  | FehriGilFernandezBesada |
@@ -1351,7 +1337,7 @@ En el siguiente apartado se desarrollan los requisitos funcionales y no funciona
 | ***Poscondiciones:*** | <br> |
 <br>
 
-| ***UC-31*** |  |
+| ***UC-30*** |  |
 | --- | --- |
 | ***Nombre:*** | Evento Cultural |
 | ***Autor:***  | FehriGilFernandezBesada |
@@ -1365,7 +1351,7 @@ En el siguiente apartado se desarrollan los requisitos funcionales y no funciona
 | ***Poscondiciones:*** | <br> |
 <br>
 
-| ***UC-32*** |  |
+| ***UC-31*** |  |
 | --- | --- |
 | ***Nombre:*** | Dirección |
 | ***Autor:***  | FehriGilFernandezBesada |
@@ -1379,7 +1365,7 @@ En el siguiente apartado se desarrollan los requisitos funcionales y no funciona
 | ***Poscondiciones:*** | <br> |
 <br>
 
-| ***UC-33*** |  |
+| ***UC-32*** |  |
 | --- | --- |
 | ***Nombre:*** | Barrio |
 | ***Autor:***  | FehriGilFernandezBesada |
@@ -1393,7 +1379,7 @@ En el siguiente apartado se desarrollan los requisitos funcionales y no funciona
 | ***Poscondiciones:*** | <br> |
 <br>
 
-| ***UC-34*** |  |
+| ***UC-33*** |  |
 | --- | --- |
 | ***Nombre:*** | Introducir parametros a pontenciar |
 | ***Autor:***  | FehriGilFernandezBesada |
@@ -1407,7 +1393,7 @@ En el siguiente apartado se desarrollan los requisitos funcionales y no funciona
 | ***Poscondiciones:*** | <br> |
 <br>
 
-| ***UC-35*** |  |
+| ***UC-34*** |  |
 | --- | --- |
 | ***Nombre:*** | Visualizar recorrido solución |
 | ***Autor:***  | FehriGilFernandezBesada |
@@ -1421,7 +1407,7 @@ En el siguiente apartado se desarrollan los requisitos funcionales y no funciona
 | ***Poscondiciones:*** | <br> |
 <br>
 
-| ***UC-36*** |  |
+| ***UC-35*** |  |
 | --- | --- |
 | ***Nombre:*** | Visualizar Información Adicional Consulta |
 | ***Autor:***  | FehriGilFernandezBesada |
@@ -1435,7 +1421,7 @@ En el siguiente apartado se desarrollan los requisitos funcionales y no funciona
 | ***Poscondiciones:*** | <br> |
 <br>
 
-| ***UC-37*** |  |
+| ***UC-36*** |  |
 | --- | --- |
 | ***Nombre:*** | Itinerario |
 | ***Autor:***  | FehriGilFernandezBesada |
@@ -1449,7 +1435,7 @@ En el siguiente apartado se desarrollan los requisitos funcionales y no funciona
 | ***Poscondiciones:*** | <br> |
 <br>
 
-| ***UC-38*** |  |
+| ***UC-37*** |  |
 | --- | --- |
 | ***Nombre:*** | Visualizar Informacion Adicional |
 | ***Autor:***  | FehriGilFernandezBesada |
@@ -1463,7 +1449,7 @@ En el siguiente apartado se desarrollan los requisitos funcionales y no funciona
 | ***Poscondiciones:*** | <br> |
 <br>
 
-| ***UC-39*** |  |
+| ***UC-38*** |  |
 | --- | --- |
 | ***Nombre:*** | Paradas |
 | ***Autor:***  | FehriGilFernandezBesada |
@@ -1477,7 +1463,7 @@ En el siguiente apartado se desarrollan los requisitos funcionales y no funciona
 | ***Poscondiciones:*** | <br> |
 <br>
 
-| ***UC-40*** |  |
+| ***UC-39*** |  |
 | --- | --- |
 | ***Nombre:*** | Línea |
 | ***Autor:***  | FehriGilFernandezBesada |
@@ -1491,7 +1477,7 @@ En el siguiente apartado se desarrollan los requisitos funcionales y no funciona
 | ***Poscondiciones:*** | <br> |
 <br>
 
-| ***UC-41*** |  |
+| ***UC-40*** |  |
 | --- | --- |
 | ***Nombre:*** | Obtener ayuda en línea |
 | ***Autor:***  | FehriGilFernandezBesada |
@@ -1506,7 +1492,7 @@ En el siguiente apartado se desarrollan los requisitos funcionales y no funciona
 <br>
 
 
-| ***UC-42*** |  |
+| ***UC-41*** |  |
 | --- | --- |
 | ***Nombre:*** | Visualizar Listado de horarios y lineas |
 | ***Autor:***  | FehriGilFernandezBesada |
@@ -1521,7 +1507,7 @@ En el siguiente apartado se desarrollan los requisitos funcionales y no funciona
 <br>
 
 
-| ***UC-43*** |  |
+| ***UC-42*** |  |
 | --- | --- |
 | ***Nombre:*** | Modificar datos |
 | ***Autor:***  | FehriGilFernandezBesada |
@@ -1535,7 +1521,7 @@ En el siguiente apartado se desarrollan los requisitos funcionales y no funciona
 | ***Poscondiciones:*** | Los datos han sido introducidos de forma correcta y por tanto han sido guardados |
 <br>
 
-| ***UC-44*** |  |
+| ***UC-43*** |  |
 | --- | --- |
 | ***Nombre:*** | Introduccion manual de datos |
 | ***Autor:***  | FehriGilFernandezBesada |
@@ -1556,7 +1542,7 @@ En el siguiente apartado se desarrollan los requisitos funcionales y no funciona
 #### Sistema de monitorización de la explotación del transporte
 <br>
 
-| ***UC-45*** |  |
+| ***UC-44*** |  |
 | --- | --- |
 | ***Nombre:***  | Visualizar alarmas |
 | ***Autor:***  | FehriGilFernandezBesada |
@@ -1570,7 +1556,7 @@ En el siguiente apartado se desarrollan los requisitos funcionales y no funciona
 | ***Poscondiciones:*** | <br>  |
 <br>
 
-| ***UC-46*** |  |
+| ***UC-44*** |  |
 | --- | --- |
 | ***Nombre:***  | Mostrar mensaje |
 | ***Autor:***  | FehriGilFernandezBesada |
@@ -1584,7 +1570,7 @@ En el siguiente apartado se desarrollan los requisitos funcionales y no funciona
 | ***Poscondiciones:*** | <br>  |
 <br>
 
-| ***UC-47*** |  |
+| ***UC-46*** |  |
 | --- | --- |
 | ***Nombre:***  | Visualizar alarmas (O) |
 | ***Autor:***  | FehriGilFernandezBesada |
@@ -1598,7 +1584,7 @@ En el siguiente apartado se desarrollan los requisitos funcionales y no funciona
 | ***Poscondiciones:*** | <br>  |
 <br>
 
-| ***UC-48*** |  |
+| ***UC-47*** |  |
 | --- | --- |
 | ***Nombre:***  | Visualizar alarmas (UL) |
 | ***Autor:***  | FehriGilFernandezBesada |
@@ -1612,7 +1598,7 @@ En el siguiente apartado se desarrollan los requisitos funcionales y no funciona
 | ***Poscondiciones:*** | <br>  |
 <br>
 
-| ***UC-49*** |  |
+| ***UC-48*** |  |
 | --- | --- |
 | ***Nombre:***  | Visualizar alarmas (OA) |
 | ***Autor:***  | FehriGilFernandezBesada |
@@ -1626,7 +1612,7 @@ En el siguiente apartado se desarrollan los requisitos funcionales y no funciona
 | ***Poscondiciones:*** | <br>  |
 <br>
 
-| ***UC-50*** |  |
+| ***UC-49*** |  |
 | --- | --- |
 | ***Nombre:***  | Visualizar la actividad de los operadores en la cartografía |
 | ***Autor:***  | FehriGilFernandezBesada |
@@ -1640,7 +1626,7 @@ En el siguiente apartado se desarrollan los requisitos funcionales y no funciona
 | ***Poscondiciones:*** | <br>  |
 <br>
 
-| ***UC-51*** |  |
+| ***UC-50*** |  |
 | --- | --- |
 | ***Nombre:***  | Introducir operadores |
 | ***Autor:***  | FehriGilFernandezBesada |
@@ -1654,7 +1640,7 @@ En el siguiente apartado se desarrollan los requisitos funcionales y no funciona
 | ***Poscondiciones:*** | <br>  |
 <br>
 
-| ***UC-52*** |  |
+| ***UC-51*** |  |
 | --- | --- |
 | ***Nombre:***  | Registrar situaciones puntuales |
 | ***Autor:***  | FehriGilFernandezBesada |
@@ -1668,7 +1654,7 @@ En el siguiente apartado se desarrollan los requisitos funcionales y no funciona
 | ***Poscondiciones :*** | <br> El nuevo registro debe ser añadido a la base de datos |
 <br>
 
-| ***UC-53*** |  |
+| ***UC-52*** |  |
 | --- | --- |
 | ***Nombre:***  | Registrar periodos contínuos |
 | ***Autor:***  | FehriGilFernandezBesada |
@@ -1682,7 +1668,7 @@ En el siguiente apartado se desarrollan los requisitos funcionales y no funciona
 | ***Poscondiciones :*** | <br> El nuevo registro debe ser añadido a la base de datos |
 <br>
 
-| ***UC-54*** |  |
+| ***UC-53*** |  |
 | --- | --- |
 | ***Nombre:***  | Examinar la explotación en tiempo real |
 | ***Autor:***  | FehriGilFernandezBesada |
@@ -1696,7 +1682,7 @@ En el siguiente apartado se desarrollan los requisitos funcionales y no funciona
 | ***Poscondiciones :*** | <br>  |
 <br>
 
-| ***UC-55*** |  |
+| ***UC-54*** |  |
 | --- | --- |
 | ***Nombre:***  | Puntuar operadores |
 | ***Autor:***  | FehriGilFernandezBesada |
@@ -1710,7 +1696,7 @@ En el siguiente apartado se desarrollan los requisitos funcionales y no funciona
 | ***Poscondiciones :*** | <br> Se actualiza la media de la puntuación del operador u operadores. |
 <br>
 
-| ***UC-56*** |  |
+| ***UC-55*** |  |
 | --- | --- |
 | ***Nombre:***  | Seleccionar operador |
 | ***Autor:***  | FehriGilFernandezBesada |
@@ -1724,7 +1710,7 @@ En el siguiente apartado se desarrollan los requisitos funcionales y no funciona
 | ***Poscondiciones :*** | <br>  |
 <br>
 
-| ***UC-57*** |  |
+| ***UC-56*** |  |
 | --- | --- |
 | ***Nombre:***  | Suministrar datos al sistema. |
 | ***Autor:***  | FehriGilFernandezBesada |
@@ -1738,7 +1724,7 @@ En el siguiente apartado se desarrollan los requisitos funcionales y no funciona
 | ***Poscondiciones :*** | <br> Los cambios nuevos introducidos se cargan en e sistema y se actualizan para el resto de funcionalidades y usuarios. |
 <br>
 
-| ***UC-58*** |  |
+| ***UC-57*** |  |
 | --- | --- |
 | ***Nombre:*** | Medir rendimiento de los operadores. |
 | ***Autor:***  | FehriGilFernandezBesada |
@@ -1752,7 +1738,7 @@ En el siguiente apartado se desarrollan los requisitos funcionales y no funciona
 | ***Poscondiciones :*** | <br>  |
 <br>
 
-| ***UC-59*** |  |
+| ***UC-58*** |  |
 | --- | --- |
 | ***Nombre:***  | Definir eventos. |
 | ***Autor:***  | FehriGilFernandezBesada |
@@ -1766,7 +1752,7 @@ En el siguiente apartado se desarrollan los requisitos funcionales y no funciona
 | ***Poscondiciones :*** | <br>  |
 <br>
 
-| ***UC-60*** |  |
+| ***UC-59*** |  |
 | --- | --- |
 | ***Nombre:***  | Introducir variable. |
 | ***Autor:***  | FehriGilFernandezBesada |
@@ -1780,7 +1766,7 @@ En el siguiente apartado se desarrollan los requisitos funcionales y no funciona
 | ***Poscondiciones :*** | <br>  |
 <br>
 
-| ***UC-61*** |  |
+| ***UC-60*** |  |
 | --- | --- |
 | ***Nombre:***  | Introducir condiciones. |
 | ***Autor:***  | FehriGilFernandezBesada |
@@ -1794,7 +1780,7 @@ En el siguiente apartado se desarrollan los requisitos funcionales y no funciona
 | ***Poscondiciones :*** | <br>  |
 <br>
 
-| ***UC-62*** |  |
+| ***UC-61*** |  |
 | --- | --- |
 | ***Nombre:***  | Generar avisos. |
 | ***Autor:***  | FehriGilFernandezBesada |
@@ -1808,7 +1794,7 @@ En el siguiente apartado se desarrollan los requisitos funcionales y no funciona
 | ***Poscondiciones :*** | <br>  |
 <br>
 
-| ***UC-63*** |  |
+| ***UC-62*** |  |
 | --- | --- |
 | ***Nombre:***  | Ver avisos. |
 | ***Autor:***  | FehriGilFernandezBesada |
@@ -1822,7 +1808,7 @@ En el siguiente apartado se desarrollan los requisitos funcionales y no funciona
 | ***Poscondiciones :*** | <br>  |
 <br>
 
-| ***UC-64*** |  |
+| ***UC-63*** |  |
 | --- | --- |
 | ***Nombre:***  | Disparar alarma. |
 | ***Autor:***  | FehriGilFernandezBesada |
