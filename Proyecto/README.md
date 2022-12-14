@@ -636,6 +636,7 @@ En el siguiente apartado se desarrollan los requisitos funcionales y no funciona
 ### Requisitos de los Servicios Continuos
 
 <br>
+
 | RF-33		            | Información geo-referenciada. |
 | :---					| :--  				    |
 | Versión				| 1.0				    |
