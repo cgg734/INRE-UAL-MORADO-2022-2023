@@ -73,14 +73,22 @@ En esta sección del documento se presentan los objetivos del proyecto a llevar 
 | ***Descripción*** | Respecto al Sistema de Información de Monitorización de la Explotación de la Autoridad Única del Transporte de Gran Canaria, se trata de Analizar, Diseñar, Implementar y poner en marcha un sistema de información central sobre la explotación, para la Autoridad Única del Transportes cuya misión fundamental sea la de monitorizar en tiempo real el estado de la red de transporte público por carretera en la Isla de Gran Canaria en los siguientes aspectos: <br> • el cumplimiento de los servicios adjudicados a los operadores y considerados esenciales, <br> • servicios considerados como ampliaciones o mejoras prestados por parte de los operadores adjudicatarios <br> • la simulación de la situación real y su comprobación mediante el empleo de los sistemasde comunicaciones disponibles en los vehículos de los operadores. |
 <br>
 
-## Modelado de procesos del negocio.
-![Texto alternativo](Acta%20de%20incidencias.drawio.svg)
+## Modelado de procesos del negocio. <br>
+
+### Acta de incidencias. <br>
+![Texto alternativo](Acta%20de%20incidencias.drawio.svg) <br>
+
+### Obtención de itinerario. <br>
+![Texto alternativo](SIIT.svg) <br>
 
 ## Tareas.
 <br>
 
-### Acta de incidencias.
+### Acta de incidencias. <br>
 Un considerado esencial de la Autoridad única del transporte de Gran Canaria debe establecer contacto con un operador de transporte al final de su jornada para obtener el acta de incidencias que debe aportar a un operador adjudicatario. Este último comprueba que esté correcto y, en caso de no serlo, exige corrección. <br>
+
+### Obtención de itinerario. <br>
+El proceso de negocio que se ha elegido se trata de la consulta del usuario al sistema de un itinerario, a partir de una serie de parámetros que debe de introducir, estos parámetros se pueden dividir en tres grupos, los parámetros obligatorios tales como el horario, dia, mes..., los parámetros a potenciar los cuales puede introducir el usuario en caso de que este quiera dar cierta prioridad a un elemento, y por último la elección del origen y el destino, de carácter obligatorio, los cuales serán verificados por el sistema, en el caso de que estos pertenezcan a una región no recogida por la AUTGC los parámetros serán rechazados y por tanto el usuario se verá obligado a introducir nuevos parámetros. <br> Una vez que el sistema acepte los parámetros introducidos, calcula el itinerario óptimo y se lo ofrece al usuario, este puede visualizar dicho itinerario y obtener información extra sobre el mismo.
 
 # Requisitos del sistema a desarrollar.
 En el siguiente apartado se desarrollan los requisitos funcionales y no funcionales necesarios para llevar a cabo el cumpliento del pliego de condiciones del que se debe extraer toda la información necesario para el correcto funcionamiento del software a desarrollar. Además, se muestran también los diagramas de casos de uso, las tablas en detalle de los mismos y el listado de usuarios y casos de uso.
@@ -1197,8 +1205,8 @@ En el siguiente apartado se desarrollan los requisitos funcionales y no funciona
 | ***Relaciones*** | UC-22, INF-05, INF-02 |
 | ***Actores:***  |  Usuario Logueado y Usuario Invitado. |
 | ***Precondicion:*** | <br> |
-| ***Flujo Normal:*** | 1. Acceso a la realización de la consulta. |
-|***Flujo Alternativo:*** | <br> |
+| ***Flujo Normal:*** | 1. Acceso a la realización de la consulta. <br> 2. Se rellenan los parámetros de la consulta. |
+|***Flujo Alternativo:*** | <br> 2.A Si se produce algún error, el sistema pide volver a introducir los parámetros. |
 | ***Poscondiciones:*** | <br>  |
 <br>
 
