@@ -1615,16 +1615,13 @@ En el siguiente apartado se desarrollan los requisitos funcionales y no funciona
 ## Diagramas de clase asociados a los requisitos de información.
 <br>
 
-### Diagrama de clase asociado a los requisitos de información del portal (A1)
-<br>
+### Diagrama de clase asociado a los requisitos de información del portal (A1)<br>
+![Texto alternativo](Diagrama%20clases%20A1.drawio.svg)<br>
 
-![Texto alternativo](Diagrama%20clases%20A1.drawio.svg)
-<br>
-
-### Diagrama de clase asociado a los requisitos del SIIT. <br>
+### Diagrama de clase asociado a los requisitos del SIIT (A2) <br>
 ![Texto alternativo](Diagrama%20clases%20A2.drawio.svg) <br>
 
-### Diagrama de clase asociado a los requisitos del SMET. <br>
+### Diagrama de clase asociado a los requisitos del SMET <br>
 ![Texto alternativo](Diagrama%20clases%20B.drawio.svg) <br>
 
 ## Requisitos de información
