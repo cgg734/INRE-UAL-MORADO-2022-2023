@@ -1568,7 +1568,7 @@ En el siguiente apartado se desarrollan los requisitos funcionales y no funciona
 | ***Autor:***  | FehriGilFernandezBesada |
 | ***Fecha:***  | 12/12/22 |
 | ***Descripción:*** | <br> Los usuarios del sistema pueden visualizar alarmas. |
-| ***Relaciones*** | INF- |
+| ***Relaciones*** | INF-1 |
 | ***Actores:***  | <br>  Usuario invitado, Usuario logueado, Operador adjudicatario, Operador de transporte |
 | ***Precondición:*** | <br>   |
 | ***Flujo Normal:*** | <br>  1. El usuario accede a la sección de alarmas del sistema. <br> 2. El sistema procesa la información del usuario que accede a la sección de alarmas <br> 3. El sistema muestra las alarmas del usuario. <br>   |
