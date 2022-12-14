@@ -1726,7 +1726,7 @@ En el siguiente apartado se desarrollan los requisitos funcionales y no funciona
 | ***Autor:***  | FehriGilFernandezBesada |
 | ***Fecha:***  | 12/12/22 |
 | ***Descripción:*** | <br> Los usuarios del sistema pueden visualizar alarmas. |
-| ***Relaciones*** | INF-1 |
+| ***Relaciones*** | INF-01, INF-02, INF-03, INF-04, UC-46 |
 | ***Actores:***  | <br>  Usuario invitado, Usuario logueado, Operador adjudicatario, Operador de transporte |
 | ***Precondición:*** | <br>   |
 | ***Flujo Normal:*** | <br>  1. El usuario accede a la sección de alarmas del sistema. <br> 2. El sistema procesa la información del usuario que accede a la sección de alarmas <br> 3. El sistema muestra las alarmas del usuario. <br>   |
@@ -1740,7 +1740,7 @@ En el siguiente apartado se desarrollan los requisitos funcionales y no funciona
 | ***Autor:***  | FehriGilFernandezBesada |
 | ***Fecha:***  | 12/12/22 |
 | ***Descripción:*** | <br> Cuando no se encuentran alarmas para un usuario se muestra un mensaje. |
-| ***Relaciones*** | INF- |
+| ***Relaciones*** | UC-45 |
 | ***Actores:***  | <br>  Usuario invitado, Usuario logueado, Operador adjudicatario, Operador de transporte. |
 | ***Precondición:*** | <br> No se encuentran resultados de alarma para un usuario. |
 | ***Flujo Normal:*** | <br> 1. El sistema muestra un mensaje indicando que no se obtienen alarmas. |
@@ -1754,7 +1754,7 @@ En el siguiente apartado se desarrollan los requisitos funcionales y no funciona
 | ***Autor:***  | FehriGilFernandezBesada |
 | ***Fecha:***  | 12/12/22 |
 | ***Descripción:*** | <br> El operador de transporte puede visualizar alarmas obteniendo tambíen alarmas únicas de operador de transporte. |
-| ***Relaciones*** | INF- |
+| ***Relaciones*** | INF-01, UC-45, UC-46 |
 | ***Actores:***  | <br>  Operador de transporte |
 | ***Precondición:*** | <br>  El usuario debe estar logueado como operador de transporte. |
 | ***Flujo Normal:*** | <br>  1. El usuario accede a la sección de alarmas del sistema. <br> 2. El sistema procesa la información del usuario que accede a la sección de alarmas <br> 3. El sistema muestra las alarmas del usuario <br> 4. Se muestran alarmas únicas del operador de transporte |
@@ -1768,7 +1768,7 @@ En el siguiente apartado se desarrollan los requisitos funcionales y no funciona
 | ***Autor:***  | FehriGilFernandezBesada |
 | ***Fecha:***  | 12/12/22 |
 | ***Descripción:*** | <br> El usuario logueado puede visualizar alarmas obteniendo tambíen alarmas únicas de usuario logueado. |
-| ***Relaciones*** | INF- |
+| ***Relaciones*** | INF-02, UC-45, UC-46 |
 | ***Actores:***  | <br>  Usuario logueado |
 | ***Precondición:*** | <br>  El usuario debe estar logueado. |
 | ***Flujo Normal:*** | <br>  1. El usuario accede a la sección de alarmas del sistema. <br> 2. El sistema procesa la información del usuario que accede a la sección de alarmas <br> 3. El sistema muestra las alarmas del usuario <br> 4. Se muestran alarmas únicas del usuario logueado. |
@@ -1782,7 +1782,7 @@ En el siguiente apartado se desarrollan los requisitos funcionales y no funciona
 | ***Autor:***  | FehriGilFernandezBesada |
 | ***Fecha:***  | 12/12/22 |
 | ***Descripción:*** | <br> El operador adjudicatario puede visualizar alarmas obteniendo tambíen alarmas únicas de operador adjudicatario. |
-| ***Relaciones*** | INF- |
+| ***Relaciones*** | INF-04, UC-45, UC-46 |
 | ***Actores:***  | <br>  Operador adjudicatario |
 | ***Precondición:*** | <br>  El usuario debe estar logueado como operador adjudicatario. |
 | ***Flujo Normal:*** | <br>  1. El usuario accede a la sección de alarmas del sistema. <br> 2. El sistema procesa la información del usuario que accede a la sección de alarmas <br> 3. El sistema muestra las alarmas del usuario <br> 4. Se muestran alarmas únicas del operador adjudicatario |
@@ -1796,12 +1796,12 @@ En el siguiente apartado se desarrollan los requisitos funcionales y no funciona
 | ***Autor:***  | FehriGilFernandezBesada |
 | ***Fecha:***  | 12/12/22 |
 | ***Descripción:*** | <br> El operador adjudicatario puede visualizar la actividad de los operadores sobre la cartografía. |
-| ***Relaciones*** | INF- |
+| ***Relaciones*** | INF-01, UC-51, UC-54 |
 | ***Actores:***  | <br>  Operador adjudicatario |
 | ***Precondición:*** | <br>  El usuario debe estar logueado como operador adjudicatario |
-| ***Flujo Normal:*** | <br> 1. El usuario solicita al sistema la visualización de la explotación del transporte en tiempo real. <br> 2. El sistema obtiene la información de la explotación del transporte. <br> 3. El sistema muestra la explotación del transporte en tiempo real. <br> 4. El usuario accede a la sección de visualización de operadores. <br> 5. El operador adjudicatario introduce un operador de transporte <br> 6. El sistema muestra sobre la cartografía la actividad del operador introducido <br> 7. El operador registra situaciones puntuales y periodos continuos de la actividad del operador. |
-|***Flujo Alternativo:*** | <br>  |
-| ***Poscondiciones:*** | <br> 1. Los nuevos registros de situaciones puntuales y periodos continuos se guardan en el sistema |
+| ***Flujo Normal:*** | <br> 1. El usuario solicita al sistema la visualización de la explotación del transporte en tiempo real. <br> 2. El sistema obtiene la información de la explotación del transporte. <br> 3. El sistema muestra la explotación del transporte en tiempo real. <br> 4. El usuario accede a la sección de visualización de operadores. |
+|***Flujo Alternativo:*** | <br> 5. El operador adjudicatario introduce un operador de transporte <br> 6. El sistema muestra sobre la cartografía la actividad del operador introducido <br> |
+| ***Poscondiciones:*** | <br>  |
 <br>
 
 | ***UC-51*** |  |
@@ -1810,7 +1810,7 @@ En el siguiente apartado se desarrollan los requisitos funcionales y no funciona
 | ***Autor:***  | FehriGilFernandezBesada |
 | ***Fecha:***  | 12/12/22 |
 | ***Descripción:*** | <br> Se rellenan campos necesarios sobre las credenciales de un operador de transporte para obtener su actividad sobre la cartografia. |
-| ***Relaciones*** | INF- |
+| ***Relaciones*** | INF-01, UC-50 |
 | ***Actores:***  | <br> Operador adjudicatario |
 | ***Precondición:*** | <br>  El usuario debe estar logueado como operador adjudicatario |
 | ***Flujo Normal:*** | <br>  1. El operador rellena las credenciales del operador de transporte del que desea obtener los datos. <br> 2. El sistema devuelve la información del operador |
@@ -1824,12 +1824,12 @@ En el siguiente apartado se desarrollan los requisitos funcionales y no funciona
 | ***Autor:***  | FehriGilFernandezBesada |
 | ***Fecha:***  | 12/12/22 |
 | ***Descripción:*** | <br> Se seleccionan momentos concretos (capturas de pantalla) que se guardan como situaciones puntuales. |
-| ***Relaciones*** | INF- |
+| ***Relaciones*** | INF-06 |
 | ***Actores:***  | <br> Operador adjudicatario |
 | ***Precondición:*** | <br>  El usuario debe estar logueado como operador adjudicatario |
 | ***Flujo Normal:*** | <br>  1. El sistema muestra todo el contenido que se puede registrar. <br> 2. El operador adjudicatario selecciona un momento concreto. |
 |***Flujo Alternativo:*** | <br>  |
-| ***Poscondiciones :*** | <br>  |
+| ***Poscondiciones :*** | <br> El nuevo registro debe ser añadido a la base de datos |
 <br>
 
 | ***UC-53*** |  |
@@ -1838,12 +1838,12 @@ En el siguiente apartado se desarrollan los requisitos funcionales y no funciona
 | ***Autor:***  | FehriGilFernandezBesada |
 | ***Fecha:***  | 12/12/22 |
 | ***Descripción:*** | <br> Se seleccionan intervalos de tiempo (se mantiene como video) que se guarda como situaciones de periodo contínuo. |
-| ***Relaciones*** | INF- |
+| ***Relaciones*** | INF-06 |
 | ***Actores:***  | <br> Operador adjudicatario |
 | ***Precondición:*** | <br>  El usuario debe estar logueado como operador adjudicatario |
 | ***Flujo Normal:*** | <br>  1. El sistema muestra todo el contenido que se puede registrar. <br> 2. El operador adjudicatario selecciona un intervalo de tiempo. |
 |***Flujo Alternativo:*** | <br>  |
-| ***Poscondiciones :*** | <br>  |
+| ***Poscondiciones :*** | <br> El nuevo registro debe ser añadido a la base de datos |
 <br>
 
 | ***UC-54*** |  |
@@ -1852,7 +1852,7 @@ En el siguiente apartado se desarrollan los requisitos funcionales y no funciona
 | ***Autor:***  | FehriGilFernandezBesada |
 | ***Fecha:***  | 12/12/22 |
 | ***Descripción:*** | <br> Se muestra el estado y las actividades de los diferentes elementos existentes de la explotación del transporte. |
-| ***Relaciones*** | INF-02 |
+| ***Relaciones*** | INF-01, INF-06, INF-08, UC-50 |
 | ***Actores:***  | <br> Usuario invitado, Usuario logueado |
 | ***Precondición:*** | <br>   |
 | ***Flujo Normal:*** | <br>  1. El usuario solicita al sistema la visualización de la explotación del transporte en tiempo real. <br> 2. El sistema obtiene la información de la explotación del transporte <br> 3. El sistema muestra la explotación del transporte en tiempo real. |
@@ -1866,7 +1866,7 @@ En el siguiente apartado se desarrollan los requisitos funcionales y no funciona
 | ***Autor:***  | FehriGilFernandezBesada |
 | ***Fecha:***  | 12/12/22 |
 | ***Descripción:*** | <br> El usuario logueado puede puntuar el desempeño de un operador. |
-| ***Relaciones*** | INF- |
+| ***Relaciones*** | INF-01, UC-56 |
 | ***Actores:***  | <br> Usuario logueado |
 | ***Precondición:*** | <br>   |
 | ***Flujo Normal:*** | <br>  1. El usuario solicita al sistema puntuar operadores. <br> 2. El usuario selecciona a un operador/operadores <br> 3. El usuario introduce su puntuación. |
@@ -1880,7 +1880,7 @@ En el siguiente apartado se desarrollan los requisitos funcionales y no funciona
 | ***Autor:***  | FehriGilFernandezBesada |
 | ***Fecha:***  | 12/12/22 |
 | ***Descripción:*** | <br> El usuario logueado selecciona uno o varios operadores en el proceso de puntuación de los mismos. |
-| ***Relaciones*** | INF- |
+| ***Relaciones*** | INF-01, UC-55 |
 | ***Actores:***  | <br> Usuario logueado |
 | ***Precondición:*** | <br>   |
 | ***Flujo Normal:*** | <br>  1. El sistema obtiene una lista de los operadores responsables del transporte del usuario en sus últimos viajes. <br> 2. El usuario escoge el operador u operadores que desea seleccionar. <br> 3. El usuario pasa los operadores escogidos a la lista de seleccionados. |
@@ -1894,7 +1894,7 @@ En el siguiente apartado se desarrollan los requisitos funcionales y no funciona
 | ***Autor:***  | FehriGilFernandezBesada |
 | ***Fecha:***  | 12/12/22 |
 | ***Descripcion:*** | <br> El operador introduce en el sistema nuevos datos. |
-| ***Relaciones*** | INF- |
+| ***Relaciones*** | INF-06 |
 | ***Actores:***  | <br> Operador adjudicatario |
 | ***Precondicion:*** | <br>   |
 | ***Flujo Normal:*** | <br>  1. El operador solicita introducir datos nuevos. <br> 2. El operador introducen los datos completando varios campos. |
@@ -1904,11 +1904,11 @@ En el siguiente apartado se desarrollan los requisitos funcionales y no funciona
 
 | ***UC-58*** |  |
 | --- | --- |
-| ***Nombre:***  | Medir rendimiento de los operadores. |
+| ***Nombre:*** | Medir rendimiento de los operadores. |
 | ***Autor:***  | FehriGilFernandezBesada |
 | ***Fecha:***  | 12/12/22 |
 | ***Descripcion:*** | <br> El operador adjudicatario puede medir el desempeño de los operadores basándose en el resultado de sus puntuaciones. |
-| ***Relaciones*** | INF- |
+| ***Relaciones*** | INF-01 |
 | ***Actores:***  | <br> Operador adjudicatario |
 | ***Precondicion:*** | <br>   |
 | ***Flujo Normal:*** | <br>  1. El operador solicita medir el rendimiento de los operadores de transporte. <br> 2. El sistema muestra todos los operadores en activo. <br> 3. El operador adjudicatario selecciona al operador de transporte del que desea obtener su desempeño |
@@ -1922,7 +1922,7 @@ En el siguiente apartado se desarrollan los requisitos funcionales y no funciona
 | ***Autor:***  | FehriGilFernandezBesada |
 | ***Fecha:***  | 12/12/22 |
 | ***Descripcion:*** | <br> El operador adjudicatario puede definir nuevos eventos en el sistema que serán visibles para el resto de usuarios. |
-| ***Relaciones*** | INF- |
+| ***Relaciones*** | INF-08, INF-09, UC-60, UC-61 |
 | ***Actores:***  | <br> Operador adjudicatario |
 | ***Precondicion:*** | <br>   |
 | ***Flujo Normal:*** | <br>  1. El operador solicita definir un nuevo evento. <br> 2. El operador introduce una pequeña descripción del evento <br> 3. El operador introduce variables del evento. <br> 4. El operador introduce las condiciones del evento |
@@ -1936,7 +1936,7 @@ En el siguiente apartado se desarrollan los requisitos funcionales y no funciona
 | ***Autor:***  | FehriGilFernandezBesada |
 | ***Fecha:***  | 12/12/22 |
 | ***Descripcion:*** | <br> El operador adjudicatario introduce variables de un evento en el proceso de creación del mismo. |
-| ***Relaciones*** | INF- |
+| ***Relaciones*** | INF-08, UC-59 |
 | ***Actores:***  | <br> Operador adjudicatario |
 | ***Precondicion:*** | <br>   |
 | ***Flujo Normal:*** | <br>  1. El operador introduce el número de variables que desea introducir. <br> 2. El operador asigna un nombre a cada variable. <br> 3. El operador completa los campos para cada variable. |
@@ -1950,7 +1950,7 @@ En el siguiente apartado se desarrollan los requisitos funcionales y no funciona
 | ***Autor:***  | FehriGilFernandezBesada |
 | ***Fecha:***  | 12/12/22 |
 | ***Descripcion:*** | <br> El operador adjudicatario introduce condiciones para un evento durante el proceso de creación del mismo. |
-| ***Relaciones*** | INF- |
+| ***Relaciones*** | INF-08, UC-59 |
 | ***Actores:***  | <br> Operador adjudicatario |
 | ***Precondicion:*** | <br>   |
 | ***Flujo Normal:*** | <br>  1. El operador introduce el número de condiciones que desea introducir. <br> 2. El operador asigna un nombre a cada condición. <br> 3. El operador introduce los datos de cada condición. |
@@ -1964,7 +1964,7 @@ En el siguiente apartado se desarrollan los requisitos funcionales y no funciona
 | ***Autor:***  | FehriGilFernandezBesada |
 | ***Fecha:***  | 12/12/22 |
 | ***Descripcion:*** | <br> El operador adjudicatario puede generar un aviso para un evento durante el desarrollo del mismo, que reciben todos los operadores de transporte en activo. |
-| ***Relaciones*** | INF- |
+| ***Relaciones*** | INF-09, UC-59 |
 | ***Actores:***  | <br> Operador adjudicatario |
 | ***Precondicion:*** | <br>   |
 | ***Flujo Normal:*** | <br>  1. El operador solicita generar un aviso. <br> 2. El sistema genera un mensaje de texto con los detalles del evento <br> 3. El sistema envía el aviso a los operadores. |
@@ -1978,7 +1978,7 @@ En el siguiente apartado se desarrollan los requisitos funcionales y no funciona
 | ***Autor:***  | FehriGilFernandezBesada |
 | ***Fecha:***  | 12/12/22 |
 | ***Descripcion:*** | <br> El operador de transporte puede recibir un aviso sobre un evento. |
-| ***Relaciones*** | INF- |
+| ***Relaciones*** | INF-09 |
 | ***Actores:***  | <br> Operador adjudicatario |
 | ***Precondicion:*** | <br> Se debe haber generado un aviso nuevo  |
 | ***Flujo Normal:*** | <br>  1. El operador solicita ver un nuevo aviso. |
@@ -1992,7 +1992,7 @@ En el siguiente apartado se desarrollan los requisitos funcionales y no funciona
 | ***Autor:***  | FehriGilFernandezBesada |
 | ***Fecha:***  | 12/12/22 |
 | ***Descripcion:*** | <br> El sistema envía alarmas a todos sus receptores. |
-| ***Relaciones*** | INF- |
+| ***Relaciones*** | INF-05, INF-07 |
 | ***Actores:***  | <br> Sistema |
 | ***Precondicion:*** | <br>  |
 | ***Flujo Normal:*** | <br>  1. El sistema envía cada alarma a su destinatario. |
