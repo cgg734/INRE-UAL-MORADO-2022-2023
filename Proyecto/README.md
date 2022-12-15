@@ -64,7 +64,7 @@ En esta sección del documento se presentan los objetivos del proyecto a llevar 
 | ***OBJ-02*** | ***SIIT*** |
 | --- | --- |
 | ***Versión*** | 1.0 |
-| ***Descripción*** | Se debe implementar un sistema integrado de información de la red de transporte público de todos los municipios de Gran Canaria que proporcione herramientas de análisis,consulta, localización y gestión, con el objeto de que el usuario del transporte público pueda consultar de forma dinámica la información del servicio permitiéndole conocer y programar con antelación su viaje. |
+| ***Descripción*** | Se debe implementar un sistema integrado de información de la red de transporte público de todos los municipios de Gran Canaria que proporcione herramientas de análisis, consulta, localización y gestión, con el objeto de que el usuario del transporte público pueda consultar de forma dinámica la información del servicio permitiéndole conocer y programar con antelación su viaje. |
 <br>
 
 | ***OBJ-03*** | ***SMET*** |
