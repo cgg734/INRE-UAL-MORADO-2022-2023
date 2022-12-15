@@ -18,7 +18,7 @@ Sarai Besada Pino. <br>
 <br>
 
 ## Introducción
-En el siguiente documento se especifica los procesos llevados a cabo para el desarrollo de un proyecto software centrado en la implementación de un sistema de información y un portal web para una aplicación sobre el transporte público regular de viajeros para la isla de Gran Canaria. <br>
+En el siguiente documento se especifica los procesos llevados a cabo para el desarrollo de un proyecto software centrado en la implementación de un sistema de información, un sistema de monitorización y un portal web para una aplicación sobre el transporte público regular de viajeros para la isla de Gran Canaria. <br>
 Además, se aporta información de la Autoridad de Transporte Público de Gran Canaria para facilitar el diseño del portal y sus funcionalidades.Por otra parte, se añaden los requisitos, diagramas, casos de uso e información necesaria para la implementación de todas las partes de la aplicación.
 
 <br>
