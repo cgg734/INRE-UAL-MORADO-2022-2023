@@ -927,7 +927,7 @@ En el siguiente apartado se desarrollan los requisitos funcionales y no funciona
 | ***Autor:***  | FehriGilFernandezBesada |
 | ***Fecha:***  | 12/12/22 |
 | ***Descripcion:*** | <br> Los administradores podrán interactuar en espacios de trabajo compartido. |
-| ***Relaciones*** | INF- |
+| ***Relaciones*** | INF-01 |
 | ***Actores:***  | <br>  Administrador |
 | ***Precondicion:*** | <br>   El administrador debe estar autentificado |
 | ***Flujo Normal:*** | <br>  1. El administrador accede a la sección de trabajo compartido. <br> 2. El sistema muestra un chat para interactuar con el resto de administradores. <br>   |
@@ -941,7 +941,7 @@ En el siguiente apartado se desarrollan los requisitos funcionales y no funciona
 | ***Autor:***  | FehriGilFernandezBesada |
 | ***Fecha:***  | 12/12/22 |
 | ***Descripcion:*** | <br> El administrador puede editar aspectos de la Web. |
-| ***Relaciones*** | INF- |
+| ***Relaciones*** | INF-01, INF-05, UC-03 |
 | ***Actores:***  | <br>  Administrador |
 | ***Precondicion:*** | <br>   |
 | ***Flujo Normal:*** | <br>  1. El administrador solicita al sistema acceder al editor. <br> 2. El sistema da acceso al editor que debe ser WYSIWYG.  |
@@ -955,7 +955,7 @@ En el siguiente apartado se desarrollan los requisitos funcionales y no funciona
 | ***Autor:***  | FehriGilFernandezBesada |
 | ***Fecha:***  | 12/12/22 |
 | ***Descripcion:*** | <br> El administrador edita aspectos de la Web mediante un editro WYSIWYG. |
-| ***Relaciones*** | INF- |
+| ***Relaciones*** | INF-01, INF-05, UC-02 |
 | ***Actores:***  | <br>  Administrador |
 | ***Precondicion:*** | <br>   |
 | ***Flujo Normal:*** | <br>  1. El administrador emplea el editor WYSIWYG para editar la Web.  |
@@ -970,7 +970,7 @@ En el siguiente apartado se desarrollan los requisitos funcionales y no funciona
 | ***Autor:***  | FehriGilFernandezBesada |
 | ***Fecha:***  | 12/12/22 |
 | ***Descripcion:*** | <br> Los usuarios del sistema pueden visualizar las estadísticas de acceso. |
-| ***Relaciones*** | INF- |
+| ***Relaciones*** | INF-01, INF-02, INF-04 |
 | ***Actores:***  | <br>  Administrador, Usuario logueado |
 | ***Precondicion:*** | <br>  El usuario del sistema debe estar logueado |
 | ***Flujo Normal:*** | <br>  1. El usuario del sistema solicita la visualización de las estadísticas de acceso. <br> 2. El sistema muestra las estadísticas mostrando el numero de accesos totales y las fechas en las que se produjeron.  |
@@ -984,7 +984,7 @@ En el siguiente apartado se desarrollan los requisitos funcionales y no funciona
 | ***Autor:***  | FehriGilFernandezBesada |
 | ***Fecha:***  | 12/12/22 |
 | ***Descripcion:*** | <br> Los usuarios del sistema pueden visualizar las estadísticas de acceso. |
-| ***Relaciones*** | INF- |
+| ***Relaciones*** | INF-01, INF-04 |
 | ***Actores:***  | <br>  Administrador |
 | ***Precondicion:*** | <br>  El usuario del sistema debe estar logueado |
 | ***Flujo Normal:*** | <br>  1. El usuario del sistema solicita la visualización de las estadísticas de acceso. <br> 2. El sistema muestra las estadísticas mostrando el numero de accesos totales y las fechas en las que se produjeron. <br> 3. El administrador selecciona el usuario del que quiere ver las estádisticas <br> 4. El sistema muestra los accesos del usuario seleccionado y el proceso termina. |
@@ -998,7 +998,7 @@ En el siguiente apartado se desarrollan los requisitos funcionales y no funciona
 | ***Autor:***  | FehriGilFernandezBesada |
 | ***Fecha:***  | 12/12/22 |
 | ***Descripcion:*** | <br> El administrador puede modificar el diseño de la página de manera sencilla. |
-| ***Relaciones*** | INF- |
+| ***Relaciones*** | INF-01, INF-05 |
 | ***Actores:***  | <br>  Administrador |
 | ***Precondicion:*** | <br>  El administrador debe estar logueado |
 | ***Flujo Normal:*** | <br>  1. El Administrador solicita editar la página. <br> 2. El sistema muestra un editor simple para modificar ciertos aspectos de la página. <br> 3. Al terminar aceptan los cambios y el proceso termina. |
@@ -1012,7 +1012,7 @@ En el siguiente apartado se desarrollan los requisitos funcionales y no funciona
 | ***Autor:***  | FehriGilFernandezBesada |
 | ***Fecha:***  | 12/12/22 |
 | ***Descripcion:*** | <br> El administrador puede hacer uso de herramientas de explotación para editar contenidos. |
-| ***Relaciones*** | INF- |
+| ***Relaciones*** | INF-01, INF-05, UC-08, UC-09, UC-10 |
 | ***Actores:***  | <br>  Administrador |
 | ***Precondicion:*** | <br>  El administrador debe estar logueado |
 | ***Flujo Normal:*** | <br>  1. El Administrador solicita al sistema editar contenidos de la Web. <br> 2. El sistema muestra un menu con diferentes opciones de edición.  |
@@ -1026,7 +1026,7 @@ En el siguiente apartado se desarrollan los requisitos funcionales y no funciona
 | ***Autor:***  | FehriGilFernandezBesada |
 | ***Fecha:***  | 12/12/22 |
 | ***Descripcion:*** | <br> El administrador puede eliminar contenido de la Web |
-| ***Relaciones*** | INF- |
+| ***Relaciones*** | INF-01, INF-05, UC-O7 |
 | ***Actores:***  | <br>  Administrador |
 | ***Precondicion:*** | <br>  El administrador debe estar logueado |
 | ***Flujo Normal:*** | <br>  1. El administrador selecciona el contenido que desea eliminar. <br> 2. El sistema lo elimina y el proceso termina.  |
@@ -1041,7 +1041,7 @@ En el siguiente apartado se desarrollan los requisitos funcionales y no funciona
 | ***Autor:***  | FehriGilFernandezBesada |
 | ***Fecha:***  | 12/12/22 |
 | ***Descripcion:*** | <br> El administrador puede modificar contenido de la Web |
-| ***Relaciones*** | INF- |
+| ***Relaciones*** | INF-01, INF-05, UC-O7 |
 | ***Actores:***  | <br>  Administrador |
 | ***Precondicion:*** | <br>  El administrador debe estar logueado |
 | ***Flujo Normal:*** | <br>  1. El administrador selecciona el contenido que desea modificar. <br> 2. El sistema muestra un nuevo menu para poder modificar el contenido. <br> 3. Al realizar las modificaciones el administrador confirma los cambios y el proceso termina.  |
@@ -1055,7 +1055,7 @@ En el siguiente apartado se desarrollan los requisitos funcionales y no funciona
 | ***Autor:***  | FehriGilFernandezBesada |
 | ***Fecha:***  | 12/12/22 |
 | ***Descripcion:*** | <br> El administrador puede plubicar contenido de la Web |
-| ***Relaciones*** | INF- |
+| ***Relaciones*** | INF-01, INF-05, UC-O7 |
 | ***Actores:***  | <br>  Administrador |
 | ***Precondicion:*** | <br>  El administrador debe estar logueado |
 | ***Flujo Normal:*** | <br>  1. El administrador inserta al sistema el contenido que desea publicar. <br> 2. El administrador confirma los cambios y el proceso termina.  |
@@ -1069,7 +1069,7 @@ En el siguiente apartado se desarrollan los requisitos funcionales y no funciona
 | ***Autor:***  | FehriGilFernandezBesada |
 | ***Fecha:***  | 12/12/22 |
 | ***Descripcion:*** | <br> El usuario puede crear una nueva página de manera sencilla. |
-| ***Relaciones*** | INF- |
+| ***Relaciones*** | INF-01, INF-02, INF-05, UC-12 |
 | ***Actores:***  | <br>  Usuario logueado, Administrador  |
 | ***Precondicion:*** | <br>   |
 | ***Flujo Normal:*** | <br>  1. El  usuario logueado solicita al sistema crear una  nueva página. <br> 2. El sistema muestra un menú minimalista para editar la página. <br> 3. El usuario crea la página, confirma los cambios y el proceso termina.  |
@@ -1083,7 +1083,7 @@ En el siguiente apartado se desarrollan los requisitos funcionales y no funciona
 | ***Autor:***  | FehriGilFernandezBesada |
 | ***Fecha:***  | 12/12/22 |
 | ***Descripcion:*** | <br> El usuario podrá previsualizar la página creada. |
-| ***Relaciones*** | INF- |
+| ***Relaciones*** | INF-01, INF-02, INF-05, UC-011  |
 | ***Actores:***  | <br>  Usuario logueado, Administrador |
 | ***Precondicion:*** | <br>   |
 | ***Flujo Normal:*** | <br>  1. El  usuario selecciona la opción de previsualización <br> 2. El sistema muestra la previsualización y el proceso termina. <br>  |
@@ -1097,7 +1097,7 @@ En el siguiente apartado se desarrollan los requisitos funcionales y no funciona
 | ***Autor:***  | FehriGilFernandezBesada |
 | ***Fecha:***  | 12/12/22 |
 | ***Descripcion:*** | <br> El usuario podrá interactuar mediante el uso de herramientas Web 2.0. |
-| ***Relaciones*** | INF- |
+| ***Relaciones*** | INF-01, INF-02, INF-03, INF-06 |
 | ***Actores:***  | <br>  Usuario logueado, Administrador, Usuario invitado |
 | ***Precondicion:*** | <br>   |
 | ***Flujo Normal:*** | <br>  1. El  usuario solicita al sistema emplear las herramientas Web 2.0. <br> 2. El sistema muestra las diferentes herramientas y el usuario selecciona uno. <br> |
@@ -1111,7 +1111,7 @@ En el siguiente apartado se desarrollan los requisitos funcionales y no funciona
 | ***Autor:***  | FehriGilFernandezBesada |
 | ***Fecha:***  | 12/12/22 |
 | ***Descripcion:*** | <br> El usuario podrá interactuar mediante el uso cloud tag. |
-| ***Relaciones*** | INF- |
+| ***Relaciones*** | INF-01, INF-02, INF-03, INF-07, UC-13 |
 | ***Actores:***  | <br>  Usuario logueado, Administrador, Usuario invitado |
 | ***Precondicion:*** | <br>   |
 | ***Flujo Normal:*** | <br>  1. El  usuario solicita al sistema emplear las herramientas Web 2.0. <br> 2. El sistema muestra las diferentes herramientas y el usuario selecciona uno. <br> 3. Al seleccionar cloud tag, el sistema muestra la interfaz para poder interactuar. <br> 4. El usuario confirma los cambios al terminar. |
@@ -1125,7 +1125,7 @@ En el siguiente apartado se desarrollan los requisitos funcionales y no funciona
 | ***Autor:***  | FehriGilFernandezBesada |
 | ***Fecha:***  | 12/12/22 |
 | ***Descripcion:*** | <br> El usuario podrá interactuar mediante el uso de blogs. |
-| ***Relaciones*** | INF- |
+| ***Relaciones*** | INF-01, INF-02, INF-03, INF-09, UC-13 |
 | ***Actores:***  | <br>  Usuario logueado, Administrador, Usuario invitado |
 | ***Precondicion:*** | <br>   |
 | ***Flujo Normal:*** | <br>  1. El  usuario solicita al sistema emplear las herramientas Web 2.0. <br> 2. El sistema muestra las diferentes herramientas y el usuario selecciona uno. <br> 3. Al seleccionar el blog se el sistema muestra la interfaz para crear el blog. <br> 4. El usuario confirma los cambios al terminar. |
@@ -1139,7 +1139,7 @@ En el siguiente apartado se desarrollan los requisitos funcionales y no funciona
 | ***Autor:***  | FehriGilFernandezBesada |
 | ***Fecha:***  | 12/12/22 |
 | ***Descripcion:*** | <br> El usuario podrá interactuar con otros usuarios mediante el uso de foros. |
-| ***Relaciones*** | INF- |
+| ***Relaciones*** | INF-01, INF-02, INF-03, INF-08, UC-13 |
 | ***Actores:***  | <br>  Usuario logueado, Administrador, Usuario invitado |
 | ***Precondicion:*** | <br>   |
 | ***Flujo Normal:*** | <br>  1. El  usuario solicita al sistema emplear las herramientas Web 2.0. <br> 2. El sistema muestra las diferentes herramientas y el usuario selecciona uno. <br> 3. Al seleccionar el foro el sistema muestra un chat para interactuar con otros usuarios.  |
@@ -1153,7 +1153,7 @@ En el siguiente apartado se desarrollan los requisitos funcionales y no funciona
 | ***Autor:***  | FehriGilFernandezBesada |
 | ***Fecha:***  | 12/12/22 |
 | ***Descripcion:*** | <br> El usuario podrá buscar en el sistema mediante un buscador. |
-| ***Relaciones*** | INF- |
+| ***Relaciones*** | INF-01, INF-02, INF-03, UC-18, UC-19 |
 | ***Actores:***  | <br>  Usuario logueado, Administrador, Usuario invitado |
 | ***Precondicion:*** | <br>   |
 | ***Flujo Normal:*** | <br>  1. El  usuario busca en el buscador. <br> 2. El sistema muestra todos los contenidos que contienen relativos a lo buscado.  |
@@ -1167,7 +1167,7 @@ En el siguiente apartado se desarrollan los requisitos funcionales y no funciona
 | ***Autor:***  | FehriGilFernandezBesada |
 | ***Fecha:***  | 12/12/22 |
 | ***Descripcion:*** | <br> El usuario podrá elegir un idioma para filtrar la búsqueda. |
-| ***Relaciones*** | INF- |
+| ***Relaciones*** | INF-01, INF-02, INF-03, UC-17 |
 | ***Actores:***  | <br>  Usuario logueado, Administrador, Usuario invitado |
 | ***Precondicion:*** | <br>   |
 | ***Flujo Normal:*** | <br>  1. El  usuario solicita elegir un idioma. <br> 2. El sistema muestra todos los idiomas y el usuario escoge uno.   |
@@ -1181,7 +1181,7 @@ En el siguiente apartado se desarrollan los requisitos funcionales y no funciona
 | ***Autor:***  | FehriGilFernandezBesada |
 | ***Fecha:***  | 12/12/22 |
 | ***Descripcion:*** | <br> El usuario podrá elegir uuna sección del sistema para filtrar la búsqueda. |
-| ***Relaciones*** | INF- |
+| ***Relaciones*** | INF-01, INF-02, INF-03, UC-17 |
 | ***Actores:***  | <br>  Usuario logueado, Administrador, Usuario invitado |
 | ***Precondicion:*** | <br>   |
 | ***Flujo Normal:*** | <br>  1. El  usuario solicita elegir una sección. <br> 2. El sistema muestra todas las secciones y el usuario escoge uno.   |
@@ -1942,7 +1942,7 @@ En el siguiente apartado se desarrollan los requisitos funcionales y no funciona
 | ***Estado:*** | <br> Aceptado. |
 | ***Comentarios:*** | <br> |
 
-***INF-08*** | Información sobre Blog.  |
+***INF-09*** | Información sobre Blog.  |
 | --- | --- |
 | ***Version:***  | Diciembre-2022 |
 | ***Autor:***  | FehriGilFernandezBesada |
