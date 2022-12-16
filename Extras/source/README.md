@@ -20,6 +20,8 @@ Año=[- | +] + {CaracNum} <br>
 CaracNum= “0”-“9”
 
 # Describir Fecha Pedro
+![](../../Extras/source/DiagramaFechaPedro.jpeg)
+
 
 
 # Bpmn
