@@ -18,7 +18,7 @@ Sarai Besada Pino. <br>
 <br>
 
 ## Introducción
-En el siguiente documento se especifica los procesos llevados a cabo para el desarrollo de un proyecto software centrado en la implementación de un sistema de información y un portal web para una aplicación sobre el transporte público regular de viajeros para la isla de Gran Canaria. <br>
+En el siguiente documento se especifica los procesos llevados a cabo para el desarrollo de un proyecto software centrado en la implementación de un sistema de información, un sistema de monitorización y un portal web para una aplicación sobre el transporte público regular de viajeros para la isla de Gran Canaria. <br>
 Además, se aporta información de la Autoridad de Transporte Público de Gran Canaria para facilitar el diseño del portal y sus funcionalidades.Por otra parte, se añaden los requisitos, diagramas, casos de uso e información necesaria para la implementación de todas las partes de la aplicación.
 
 <br>
@@ -67,17 +67,18 @@ En esta sección del documento se presentan los objetivos del proyecto a llevar 
 | ***OBJ-02*** | ***SIIT*** |
 | --- | --- |
 | ***Versión*** | 1.0 |
-| ***Descripción*** | Se debe implementar un sistema integrado de información de la red de transporte público de todos los municipios de Gran Canaria que proporcione herramientas de análisis,consulta, localización y gestión, con el objeto de que el usuario del transporte público pueda consultar de forma dinámica la información del servicio permitiéndole conocer y programar con antelación su viaje. |
+| ***Descripción*** | Se debe implementar un sistema integrado de información de la red de transporte público de todos los municipios de Gran Canaria que proporcione herramientas de análisis, consulta, localización y gestión, con el objeto de que el usuario del transporte público pueda consultar de forma dinámica la información del servicio permitiéndole conocer y programar con antelación su viaje. |
 <br>
 
 | ***OBJ-03*** | ***SMET*** |
 | --- | --- |
 | ***Versión*** | 1.0 |
-| ***Descripción*** | Respecto al Sistema de Información de Monitorización de la Explotación de la Autoridad Única del Transporte de Gran Canaria, se trata de Analizar, Diseñar, Implementar y poner en marcha un sistema de información central sobre la explotación, para la Autoridad Única del Transportes cuya misión fundamental sea la de monitorizar en tiempo real el estado de la red de transporte público por carretera en la Isla de Gran Canaria en los siguientes aspectos: <br> • el cumplimiento de los servicios adjudicados a los operadores y considerados esenciales, <br> • servicios considerados como ampliaciones o mejoras prestados por parte de los operadores adjudicatarios <br> • la simulación de la situación real y su comprobación mediante el empleo de los sistemasde comunicaciones disponibles en los vehículos de los operadores. |
+| ***Descripción*** | Respecto al Sistema de Información de Monitorización de la Explotación de la Autoridad Única del Transporte de Gran Canaria, se trata de Analizar, Diseñar, Implementar y poner en marcha un sistema de información central sobre la explotación, para la Autoridad Única del Transportes cuya misión fundamental sea la de monitorizar en tiempo real el estado de la red de transporte público por carretera en la Isla de Gran Canaria en los siguientes aspectos: <br> • El cumplimiento de los servicios adjudicados a los operadores y considerados esenciales. <br> • Servicios considerados como ampliaciones o mejoras prestados por parte de los operadores adjudicatarios. <br> • La simulación de la situación real y su comprobación mediante el empleo de los sistemasde comunicaciones disponibles en los vehículos de los operadores. |
 <br>
 
-## Modelado de procesos del negocio. <br>
+## Modelos de Procesos de Negocio.  <br>
 
+## Sub-procesos.
 ### Acta de incidencias. <br>
 ![Texto alternativo](Acta%20de%20incidencias.drawio.svg) <br>
 
